@@ -1,0 +1,14 @@
+/target
+/springweb/target
+/springweb/src/main/web/node
+/springweb/src/main/web/node_modules
+/springserver/.settings
+/.settings
+/*.classpath
+/springserver/.project
+/springserver/.classpath
+/springserver/target
+/.project
+/springweb/.settings
+/springweb/.classpath
+/springweb/.project
