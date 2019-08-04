@@ -68,7 +68,7 @@ public class CustomUsernamePasswordAuthenticationFilter extends UsernamePassword
             //////// validating request before creating object:
             CustomUser user = userService.loadUserByUsername(uname);
             if (user == null || (!user.getUsername().equalsIgnoreCase(uname)) || (!pwd.equals(user.getPassword()))) {
-            	response.sendRedirect("/springsecurityimpl/onFailureCustomLogin.html");
+            	response.sendRedirect("/springserver/onFailureCustomLogin.html");
             }
             token = new UsernamePasswordAuthenticationToken(uname, pwd);
             // Allow subclasses to set the "details" property

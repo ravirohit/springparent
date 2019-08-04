@@ -45,7 +45,7 @@ public class MyController {
 			System.out.println("save user resources get called, requestbody:"+requestBody);
 			System.out.println(requestBody.toString());
 			customUserService.registerUser(requestBody);
-			response.sendRedirect("/springsecurityimpl/customLogin.html");
+			response.sendRedirect("/springserver/customLogin.html");
 		}	
 		catch(Exception e){
 			System.out.println("Exception occur: "+e);
@@ -55,7 +55,7 @@ public class MyController {
 	public void loginRedirect(HttpServletResponse response){
 		try {
 			System.out.println("login method get called");
-			response.sendRedirect("/springsecurityimpl/customLogin.html");
+			response.sendRedirect("/springserver/customLogin.html");
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -68,7 +68,7 @@ public class MyController {
            new SecurityContextLogoutHandler().logout(request, response, auth);  
         }  
          //return "redirect:/";
-        response.sendRedirect("/springsecurityimpl/customLogin.html");
+        response.sendRedirect("/springserver/customLogin.html");
      }  
 	@GetMapping(value= { "/public" }, produces = "application/json")    
     public String publicSite(){

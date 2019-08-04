@@ -24,6 +24,6 @@ public class CustomAccessDeniedHandler implements AccessDeniedHandler {
           = SecurityContextHolder.getContext().getAuthentication();*/
         
       System.out.println("custom access denied handler get called");
-      response.sendRedirect("/springsecurityimpl/accessdenied.html");
+      response.sendRedirect("/springserver/accessdenied.html");
     }
 }
