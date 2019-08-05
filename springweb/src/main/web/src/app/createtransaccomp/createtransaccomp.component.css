@@ -1,0 +1,21 @@
+.product-entry {
+    float:left;
+    margin-top:20px;
+    margin-left:10px;
+}
+#name {
+    width:300px;
+}
+#quantity {
+    width:150px;
+}
+#rate {
+    width:150px;
+}
+#cost {
+    width:150px;
+}
+#addButton {
+    background:lightgray;
+    width:100px;
+}

@@ -1,0 +1,46 @@
+<div>
+  <div class="input-group mb-3 product-entry" id ="name">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="basic-addon1">Name:</span>
+      </div>
+      <input type="text" class="form-control"  aria-label="name" aria-describedby="basic-addon1"  [(ngModel)]="name" id="nameinput">
+    </div>
+  <div class="input-group mb-3 product-entry" id ="quantity">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="basic-addon1">Quantity:</span>
+      </div>
+      <input type="text" class="form-control"  aria-label="quantity" aria-describedby="basic-addon1"  [(ngModel)]="quantity">
+  </div>
+  <div class="input-group mb-3 product-entry" id ="rate">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="basic-addon1">Rate:</span>
+      </div>
+      <input type="text" class="form-control"  aria-label="rate" aria-describedby="basic-addon1"  [(ngModel)]="rate">
+  </div>
+  <div class="input-group mb-3 product-entry" id ="cost">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="basic-addon1">Cost:</span>
+      </div>
+      <input type="text" class="form-control"  aria-label="cost" aria-describedby="basic-addon1"  [(ngModel)]="cost">
+  </div>
+  <button type="button" class="btn btn-primary product-entry" id="addButton" (click)="addItem('name')">Add</button>  
+</div>
+<div>
+    <table class="table table-hover table-fixed">
+      <thead>
+        <tr>
+          <th *ngFor="let head of itemheader" scope="col">{{head}} </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr  *ngFor="let item of itemList">
+          <th scope="row">{{item.id}}</th>
+          <td>{{item.name}}</td>
+          <td>{{item.quantity}}</td>
+          <td>{{item.rate}}</td>
+          <td>{{item.cost}}</td>
+          <td (click)="removeItem(item.id)">{{item.remove}}</td>
+        </tr>
+      </tbody>
+    </table>
+</div>

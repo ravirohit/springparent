@@ -50,7 +50,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
 	  http.authorizeRequests()
-	    .antMatchers("/api/public","/api/uploadFile","api/register","/api/login","/api/logout").permitAll()  // api will be accessible without authentication
+	    .antMatchers("/api/public","/api/uploadFile","api/register","/api/login","/api/logout","/index.html").permitAll()  // api will be accessible without authentication
 	    .antMatchers("/api/allinternalusers","/userhomepage.html").access("hasRole('ROLE_USER') or hasRole('ROLE_ADMIN') or hasRole('ROLE_DBA')")
 	    .antMatchers("/api/dba","/dbapage.html").access("hasRole('ROLE_ADMIN') or hasRole('ROLE_DBA')") // accessible if use is having either role.
 		.antMatchers("/api/admin","/adminpage.html").access("hasRole('ROLE_ADMIN')")    // api will be accessible if user is having access and this role 

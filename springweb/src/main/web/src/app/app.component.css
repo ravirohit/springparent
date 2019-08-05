@@ -1,0 +1,23 @@
+.layout{
+	float:left;
+}
+#t-side {
+  height:10vh;
+  background:lightgoldenrodyellow;
+}
+#l-side {
+	width:15%;
+	height: 88vh;
+	background: rgb(196, 233, 248);
+	
+}
+#m-side {
+	width:65%;
+	height: 88vh;
+	background: rgb(245, 228, 243);
+}
+#r-side {
+	width:20%;
+	height: 88vh;
+	background: rgb(232, 247, 238);	
+}

@@ -65,6 +65,26 @@
 		        </execution>
 		    </executions>
 		</plugin>
+		<plugin>
+	    <artifactId>maven-resources-plugin</artifactId>
+	    <executions>
+	        <execution>
+	            <id>copy-resources</id>
+	            <phase>validate</phase>
+	            <goals>
+	                <goal>copy-resources</goal>
+	            </goals>
+	            <configuration>
+	                <outputDirectory>${project.parent.basedir}/springweb/src/main/webapp/</outputDirectory>  <!-- classes/resources/ -->
+	                <resources>
+	                    <resource>
+	                        <directory>${project.parent.basedir}/springweb/src/main/web/dist/webapp/</directory>
+	                    </resource>
+	                </resources>
+	            </configuration>
+	        </execution>
+	    </executions>
+	  </plugin>
 	</plugins>
   </build>
 </project>
