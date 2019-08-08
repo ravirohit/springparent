@@ -1,3 +1,39 @@
-<p>
-  admincomp works!
-</p>
+<div>
+  <form class="example-form divpos">
+    <mat-form-field class="example-full-width">
+      <input id="nameinput"type="text" placeholder="Enter item name" aria-label="Assignee"  matInput [formControl]="myControl" [matAutocomplete]="auto"/>
+      <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn">
+        <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+          {{option.name}}
+        </mat-option>
+      </mat-autocomplete>
+    </mat-form-field>
+  </form>   
+  <div class="wrapper divpos" id ="rate">
+    <input class="input" placeholder="Enter rate" type="text" id="newItemInput" [(ngModel)]="rate">
+    <span class="underline"></span>
+  </div>
+  
+  <button type="button" class="btn btn-primary divpos" id="addButton" (click)="addItem()">Add</button>  
+</div>
+<div class="table-wrapper-scroll-y my-custom-scrollbar">
+  <table class="table table-bordered table-striped mb-0" id="tablecontent">
+    <thead>
+      <tr>
+        <th *ngFor="let head of headerList" scope="col">{{head}} </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr  *ngFor="let item of itemList">
+              <th scope="row">{{item.id}}</th>
+              <td>{{item.name}}</td>
+              <td>{{item.rate}}</td>
+              <td (click)="removeItem(item.id)">{{item.remove}}</td>
+      </tr>
+    </tbody>
+    
+  </table>
+</div>
+<div id="totalSumDiv" *ngIf="id > 0">
+  <button type="button" class="btn btn-primary product-entry" id="addButton" (click)="saveItem()">save</button> 
+</div>

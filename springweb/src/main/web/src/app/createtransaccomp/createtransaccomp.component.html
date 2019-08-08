@@ -1,46 +1,52 @@
 <div>
-  <div class="input-group mb-3 product-entry" id ="name">
-      <div class="input-group-prepend">
-        <span class="input-group-text" id="basic-addon1">Name:</span>
-      </div>
-      <input type="text" class="form-control"  aria-label="name" aria-describedby="basic-addon1"  [(ngModel)]="name" id="nameinput">
-    </div>
-  <div class="input-group mb-3 product-entry" id ="quantity">
-      <div class="input-group-prepend">
-        <span class="input-group-text" id="basic-addon1">Quantity:</span>
-      </div>
-      <input type="text" class="form-control"  aria-label="quantity" aria-describedby="basic-addon1"  [(ngModel)]="quantity">
+    <form class="example-form divpos">
+      <mat-form-field class="example-full-width">
+        <input value='' id="nameinput"type="text" placeholder="Enter item name" aria-label="Assignee"  matInput [formControl]="myControl" [matAutocomplete]="auto" (ngModelChange)="onItemChange()"/>
+        <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn">
+          <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+            {{option.name}}
+          </mat-option>
+        </mat-autocomplete>
+      </mat-form-field>
+    </form>   
+
+  <div class="wrapper divpos" id ="quantity">
+    <input class="input" placeholder="Enter qunatity" type="text" id="quantity" [(ngModel)]="quantity" (blur)="onQuantityChange()"/>
+    <span class="underline"></span>
   </div>
-  <div class="input-group mb-3 product-entry" id ="rate">
-      <div class="input-group-prepend">
-        <span class="input-group-text" id="basic-addon1">Rate:</span>
-      </div>
-      <input type="text" class="form-control"  aria-label="rate" aria-describedby="basic-addon1"  [(ngModel)]="rate">
+  <div class="wrapper divpos" id ="rate">
+    <input class="input" placeholder="Rate of Item" type="text" id="rate" [(ngModel)]="rate" [attr.disabled]="true"/>
+    <span class="underline"></span>
   </div>
-  <div class="input-group mb-3 product-entry" id ="cost">
-      <div class="input-group-prepend">
-        <span class="input-group-text" id="basic-addon1">Cost:</span>
-      </div>
-      <input type="text" class="form-control"  aria-label="cost" aria-describedby="basic-addon1"  [(ngModel)]="cost">
+
+  <div class="wrapper divpos" id ="cost">
+    <input class="input" placeholder="Items cost" type="text" id="cost" [(ngModel)]="cost" [attr.disabled]="true"/>
+    <span class="underline"></span>
   </div>
-  <button type="button" class="btn btn-primary product-entry" id="addButton" (click)="addItem('name')">Add</button>  
+
+  <button type="button" class="btn btn-primary divpos" id="addButton" (click)="addItem()">Add</button>  
 </div>
 <div>
-    <table class="table table-hover table-fixed">
+<div class="table-wrapper-scroll-y my-custom-scrollbar">
+    <table class="table table-bordered table-striped mb-0" id="tablecontent">
       <thead>
         <tr>
-          <th *ngFor="let head of itemheader" scope="col">{{head}} </th>
+          <th *ngFor="let head of headerList" scope="col">{{head}} </th>
         </tr>
       </thead>
       <tbody>
         <tr  *ngFor="let item of itemList">
-          <th scope="row">{{item.id}}</th>
-          <td>{{item.name}}</td>
-          <td>{{item.quantity}}</td>
-          <td>{{item.rate}}</td>
-          <td>{{item.cost}}</td>
-          <td (click)="removeItem(item.id)">{{item.remove}}</td>
+                <th scope="row">{{item.id}}</th>
+                <td>{{item.name}}</td>
+                <td>{{item.quantity}}</td>
+                <td>{{item.rate}}</td>
+                <td>{{item.cost}}</td>
+                <td (click)="removeItem(item.id)">{{item.remove}}</td>
         </tr>
       </tbody>
     </table>
+</div>
+</div>
+<div id="totalSumDiv" *ngIf="totalSum > 0">
+  <span class="badge" id = "totalSumLavel">Total Cost: {{totalSum}}</span>
 </div>
