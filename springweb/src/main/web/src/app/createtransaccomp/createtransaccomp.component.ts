@@ -2,7 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import {FormControl} from '@angular/forms';
 import {Observable} from 'rxjs';
 import {map, startWith} from 'rxjs/operators';
-
+import {UrlinfoserviceService} from '../service/urlinfoservice.service';
+import {HttpserviceService} from '../service/httpservice.service';
 
 export interface User {
   name: string;
@@ -23,44 +24,40 @@ export class CreatetransaccompComponent implements OnInit {
   totalSum:number = 0;
   headerList = ['Sr.','Name','Quantity','Rate', 'Cost','Delete'];
   myControl = new FormControl();
-  options: User[] = [
-    {name: 'Bihar'},
-    {name: 'NagaLand'},
-    {name: 'UP'},
-    {name: 'ASAM'},
-    {name: 'Delhi'},
-    {name: 'Haryana'},
-    {name: 'Panjab'},
-    {name: 'Jammu'},
-    {name: 'MP'}
-  ];
-  filteredOptions: Observable<User[]>;
+  options: string[];
+  filteredOptions: Observable<string[]>;
 
-  constructor() { }
+  constructor(private urlinfoservice: UrlinfoserviceService, private httpservice: HttpserviceService) { }
 
-  ngOnInit() {
-    this.myControl.reset();
+  callBackOnApi(items) {
+    console.log("callback data");
+    console.log(items);
+    this.options = items;
     this.filteredOptions = this.myControl.valueChanges
       .pipe(
         startWith(''),
-        map(value => typeof value === 'string' ? value : value.name),
+        //map(value => typeof value === 'string' ? value : value.name),  // in case of value is json object
         map(name => name ? this._filter(name) : this.options.slice())
       );
-    document.getElementById("nameinput").focus();
   }
-  displayFn(user?: User): string | undefined {
-    return user ? user.name : undefined;
+  ngOnInit() {
+    this.httpservice.getApiCall(this.urlinfoservice.ITEM_GET_INFO_URL,'a',this);
+    //document.getElementById("nameinput").focus();
   }
-  private _filter(name: string): User[] {
+  displayFn(user?: string): string | undefined {
+    return user ? user : undefined;
+  }
+  private _filter(name: string): string[] {
     const filterValue = name.toLowerCase();
 
-    return this.options.filter(option => option.name.toLowerCase().indexOf(filterValue) === 0);
+    return this.options.filter(option => option.toLowerCase().indexOf(filterValue) === 0);
   }
   addItem(){
     if((this.name == undefined) && (this.quantity == undefined)){
+      document.getElementById("nameinput").focus();
       return;
     }
-    this.name=this.myControl.value.name;;
+    this.name=this.myControl.value;
     this.item={id:this.id+1,name:this.name,quantity:this.quantity,rate:this.rate,cost:this.cost,remove:'Remove'};
     this.itemList.push(this.item);
     this.id = this.id +1;

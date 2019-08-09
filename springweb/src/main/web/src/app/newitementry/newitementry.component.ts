@@ -6,11 +6,6 @@ import {map, startWith} from 'rxjs/operators';
 import {UrlinfoserviceService} from '../service/urlinfoservice.service';
 import {HttpserviceService} from '../service/httpservice.service';
 
-
-export interface User {
-  name: string;
-}
-
 @Component({
   selector: 'app-newitementry',
   templateUrl: './newitementry.component.html',
@@ -24,50 +19,50 @@ export class NewitementryComponent implements OnInit {
   newName: string;
   id: number = 0;
   itemList=[];
-  options: User[] = [
-    {name: 'Bihar'},
-    {name: 'NagaLand'},
-    {name: 'UP'},
-    {name: 'ASAM'},
-    {name: 'Delhi'},
-    {name: 'Haryana'},
-    {name: 'Panjab'},
-    {name: 'Jammu'},
-    {name: 'MP'}
-  ];
-  filteredOptions: Observable<User[]>;
+  options:string[];
+  filteredOptions: Observable<string[]>;
 
-  ngOnInit() {
-    this.myControl.reset();
+  constructor(private urlinfoservice: UrlinfoserviceService, private httpservice: HttpserviceService){
+      console.log(urlinfoservice);
+      console.log(httpservice);
+  }
+  callBackOnApi(items) {
+    console.log("callback data");
+    console.log(items);
+    this.options = items;
     this.filteredOptions = this.myControl.valueChanges
       .pipe(
         startWith(''),
-        map(value => typeof value === 'string' ? value : value.name),
+        //map(value => typeof value === 'string' ? value : value.name),  // in case of value is json object
         map(name => name ? this._filter(name) : this.options.slice())
       );
-      document.getElementById("olditeminput").focus();
   }
-  displayFn(user?: User): string | undefined {
-    return user ? user.name : undefined;
+
+  ngOnInit() {
+    this.httpservice.getApiCall(this.urlinfoservice.ITEM_GET_INFO_URL,'a',this);
   }
-  private _filter(name: string): User[] {
+  displayFn(user?: string): string | undefined {
+    return user ? user : undefined;
+  }
+  private _filter(name: string): string[] {
     const filterValue = name.toLowerCase();
 
-    return this.options.filter(option => option.name.toLowerCase().indexOf(filterValue) === 0);
+    return this.options.filter(option => option.toLowerCase().indexOf(filterValue) === 0);
   }
   addItem(){
     if((this.oldName == undefined) && (this.newName == undefined)){
+      document.getElementById("olditeminput").focus();
       return;
     }
     //console.log(this.myControl.value.name);
-    this.oldName = this.myControl.value.name;
+    this.oldName = this.myControl.value;
     this.id = this.id + 1;
     let item = {id:this.id,oldName:this.oldName,newName:this.newName,remove:'Remove'};
     this.itemList.push(item);
     this.oldName=undefined;
     this.newName=undefined;
     this.myControl.reset('');   // to make the input box "" 
-    document.getElementById("olditeminput").focus();
+    document.getElementById("newItemInput").focus();
     //document.getElementById("nameinput").focus();
 
   }
@@ -87,9 +82,23 @@ export class NewitementryComponent implements OnInit {
   }
   saveItem(){
     console.log('Item saved to db');
+    let itemListStr = JSON.stringify(this.itemList);
+    console.log(itemListStr);
+    let itemListJson = JSON.parse(itemListStr);
+    itemListJson.map(el => {
+        delete el.id;
+        delete el.remove;
+    });
+    let response = this.httpservice.postApiCall(this.urlinfoservice.ITEM_ENTRY_UPDATE_URL, itemListJson);
+    console.log('---- response in comp -----');
+    console.log(response);
+     
     this.itemList = [];
     this.id = 0;
-    document.getElementById("olditeminput").focus();
+    document.getElementById("newItemInput").focus();
+  }
+  getItemInfolist(){
+
   }
 }
  

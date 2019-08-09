@@ -9,11 +9,7 @@ import { map} from 'rxjs/operators';
 })
 export class HttpserviceService {
   endpoint = 'http://localhost:3000/api/v1/';
-  httpOptions = {
-    headers: new HttpHeaders({
-      'Content-Type':  'application/json'
-    })
-  };
+  httpOptions = {};
 
   constructor(private http: HttpClient) { }
 
@@ -22,12 +18,57 @@ export class HttpserviceService {
       .pipe(map((response) => response.json()))
       .subscribe((data) => console.log(data)); 
   }  */
-  getProducts(endpoint:string,searchkey:string): Observable<any> {
-    return this.http.get(endpoint + searchkey,this.httpOptions).pipe(
-      map(this.extractData));
+  getGetHeader(){
+    this.httpOptions ={
+      headers: new HttpHeaders({
+        'Content-Type':  'application/json'
+      })
+    };
+  }
+  getApiCall(endpoint:string,searchkey:string,ref){  //: Observable<any> 
+    this.getGetHeader();
+    return this.http.get(endpoint + searchkey,this.httpOptions).subscribe(
+      data  => {
+          console.log("Get Item info Request is successful ", data);
+          ref.callBackOnApi(data);
+          
+      },
+      error  => {
+      console.log("Error", error);
+      });
   }
   private extractData(res: Response) {
+    console.log('callback function');
+    console.log(res);
     let body = res;
     return body || { };
   }
+  getPostHeader(){
+    this.httpOptions = {
+      headers: new HttpHeaders({
+        'Content-Type':  'application/json',
+        'Access-Control-Allow-Origin':'*'
+      })
+    };
+  }
+  postApiCall(endpoint:string,payload) {
+    this.getPostHeader();
+    console.log('Post method get called');
+    console.log(payload);
+    /* return this.http.post(endpoint, JSON.stringify(payload), this.httpOptions)
+    .pipe(
+      map(this.extractData)); */
+      this.http.post(endpoint,JSON.stringify(payload),this.httpOptions)
+      .subscribe(
+      data  => {
+          console.log("POST Request is successful ", data);
+      },
+      error  => {
+      console.log("Error", error);
+      }
+      );
+  }
+  
+
+
 }

@@ -4,14 +4,14 @@
         <input value='' id="nameinput"type="text" placeholder="Enter item name" aria-label="Assignee"  matInput [formControl]="myControl" [matAutocomplete]="auto" (ngModelChange)="onItemChange()"/>
         <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn">
           <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
-            {{option.name}}
+            {{option}}
           </mat-option>
         </mat-autocomplete>
       </mat-form-field>
     </form>   
 
   <div class="wrapper divpos" id ="quantity">
-    <input class="input" placeholder="Enter qunatity" type="text" id="quantity" [(ngModel)]="quantity" (blur)="onQuantityChange()"/>
+    <input class="input" placeholder="Enter quantity" type="text" id="quantity" [(ngModel)]="quantity" (blur)="onQuantityChange()"/>
     <span class="underline"></span>
   </div>
   <div class="wrapper divpos" id ="rate">

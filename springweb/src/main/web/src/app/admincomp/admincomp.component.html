@@ -4,7 +4,7 @@
       <input id="nameinput"type="text" placeholder="Enter item name" aria-label="Assignee"  matInput [formControl]="myControl" [matAutocomplete]="auto"/>
       <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn">
         <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
-          {{option.name}}
+          {{option}}
         </mat-option>
       </mat-autocomplete>
     </mat-form-field>

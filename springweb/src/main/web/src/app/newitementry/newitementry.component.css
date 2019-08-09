@@ -7,7 +7,7 @@
   .example-full-width {
     width: 100%;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 150px;
   }
   .mat-form-field-flex {
     width: 100%;
@@ -38,7 +38,7 @@
     /*font-family: 'Arvo';*/
     /*font-size: 18px;*/
     /* height: 50px; */
-    left: 50%;
+    left: 30%;
     /*margin: -25px 0 0 -100px; */
     /* padding: 10px 0px;*/
     position: relative;

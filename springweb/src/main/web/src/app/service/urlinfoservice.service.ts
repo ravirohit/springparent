@@ -4,9 +4,8 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class UrlinfoserviceService {
-  GET_ITEM_INFO_URL:string='http://localhost:8080/springserver/api/getitem/';
-  ENTRY_ITEM_URL:string='';
-  UPDATE_ITEM_URL:string='';
+  ITEM_GET_INFO_URL:string='http://localhost:8080/springserver/api/getitem/';
+  ITEM_ENTRY_UPDATE_URL:string='http://localhost:8080/springserver/api/postitem/';
 
   constructor() { }
 }
