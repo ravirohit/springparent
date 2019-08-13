@@ -1,12 +1,14 @@
 package com.learn.service;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.learn.model.CustomerShoppingSummary;
 import com.learn.model.ItemEntity;
 import com.learn.model.ItemEntryReq;
 import com.learn.repository.ProductRepository;
@@ -63,6 +65,30 @@ public class ProductService {
 	public List<ItemEntity> getProductList(){
 		List<ItemEntity> productList = productRepository.getProductList();
 		return productList;
+	}
+	public boolean saveCustomerShoppingSummary(CustomerShoppingSummary customerShoppingSummary){
+		
+		try{
+			String str = mapper.writeValueAsString(customerShoppingSummary);
+			System.out.println("customerShoppingSummary:"+str);
+			String customerId = customerShoppingSummary.getCustomerId();
+			if((customerId == null)||(customerId.equals("")))
+				customerShoppingSummary.setCustomerId("UnRegisterUser");
+			customerShoppingSummary.setShoppingTime(new Date());
+			productRepository.saveCustomerShoppingSummary(customerShoppingSummary);
+			return true;
+		}catch(Exception e){
+		    return false;
+		}
+	}
+	public List<CustomerShoppingSummary> getShoppingSummary(){
+		List<CustomerShoppingSummary> summaryList = null;
+		try{
+			summaryList = productRepository.getShoppingSummary();
+			return summaryList;
+		}catch(Exception e){
+		    return summaryList;
+		}
 	}
 }
 

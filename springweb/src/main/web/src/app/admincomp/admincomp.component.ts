@@ -30,19 +30,19 @@ export class AdmincompComponent implements OnInit {
 
   constructor(private urlinfoservice: UrlinfoserviceService, private httpservice: HttpserviceService) { }
   ngOnInit() {
-    this.httpservice.getApiCall(this.urlinfoservice.ITEM_GET_INFO_URL,'a',this);
+    this.httpservice.getApiCall(this.urlinfoservice.CUSTOMER_SHOPPING_SUMMARY_GET_URL,this);
 //    document.getElementById("nameinput").focus();
   }
   callBackOnApi(items) {
     console.log("callback data");
     console.log(items);
-    this.options = items;
+    /* this.options = items;
     this.filteredOptions = this.myControl.valueChanges
       .pipe(
         startWith(''),
         map(value => typeof value === 'string' ? value : value.name),  // in case of value is json object
         map(name => name ? this._filter(name) : this.options.slice())
-      );
+      ); */
   }
   
   private _filter(name: string): Item[] {

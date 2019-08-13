@@ -60,6 +60,7 @@
       <span class="badge" id = "totalSumLavel">Total Cost: {{totalSum}}</span>
     </div>
     <div  class="printTotalCost" *ngIf="totalSum > 0">
-      <button printSectionId="print-section" printTitle="Invoice Details"   ngxPrint id="printdiv" type="button" class="btn btn-primary" (click)="printItem()">Print</button>  
+      <!-- <button printSectionId="print-section" printTitle="Invoice Details"   ngxPrint id="printdiv" type="button" class="btn btn-primary" (click)="printItem()">Print</button> --> 
+      <button printSectionId="print-section" printTitle="Invoice Details"  id="printdiv" type="button" class="btn btn-primary" (click)="printItem()">New</button> 
     </div>
 </div>

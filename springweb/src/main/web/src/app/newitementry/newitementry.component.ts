@@ -33,18 +33,22 @@ export class NewitementryComponent implements OnInit {
       console.log(httpservice);
   }
   ngOnInit() {
-    this.httpservice.getApiCall(this.urlinfoservice.ITEM_GET_INFO_URL,'',this);
+    this.httpservice.getApiCall(this.urlinfoservice.ITEM_GET_INFO_URL,this);
   }
-  callBackOnApi(items) {
-    console.log("callback data");
-    console.log(items);
-    this.options = items;
-    this.filteredOptions = this.myControl.valueChanges
-      .pipe(
-        startWith(''),
-        map(value => typeof value === 'string' ? value : value.name),  // in case of value is json object
-        map(name => name ? this._filter(name) : this.options.slice())
-      );
+  
+  callBackOnApi(items, isgetApiCallCallBack) {
+    if(isgetApiCallCallBack) {
+      this.options = items;
+      this.filteredOptions = this.myControl.valueChanges
+        .pipe(
+          startWith(''),
+          map(value => typeof value === 'string' ? value : value.name),  // in case of value is json object
+          map(name => name ? this._filter(name) : this.options.slice())
+        );
+    }
+    else{
+      this.httpservice.getApiCall(this.urlinfoservice.ITEM_GET_INFO_URL,this);
+    }
   }
   private _filter(name: string): Item[] {
     const filterValue = name.toLowerCase();

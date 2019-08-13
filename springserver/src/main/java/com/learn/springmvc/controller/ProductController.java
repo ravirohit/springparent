@@ -15,10 +15,13 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.learn.model.CustomerShoppingSummary;
 import com.learn.model.ItemEntity;
 import com.learn.model.ItemEntryReq;
 import com.learn.service.ProductService;
 
+
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 @RestController
 public class ProductController {
 	
@@ -29,7 +32,7 @@ public class ProductController {
 	@Autowired
 	private ProductService productService;
 	
-	@CrossOrigin(origins = "*", allowedHeaders = "*")
+	//@CrossOrigin(origins = "*", allowedHeaders = "*")
 	@PostMapping(path="saveorupdatetitem" ,consumes = MediaType.APPLICATION_JSON_VALUE)
 	public String postItem(@RequestBody List<ItemEntryReq> itemListReq) {
 		System.out.println("post Item called:"+itemListReq);
@@ -45,12 +48,27 @@ public class ProductController {
 		return "{\"status\":\"success\"}";
 	}
 	
-	@CrossOrigin(origins = "*", allowedHeaders = "*")
-	@GetMapping(path="getiteminfo/{searchKey}")
-	public List<ItemEntity> getItem(@PathVariable("searchKey") String searchKey) {
-		System.out.println("get Item called:"+searchKey);
+	//@CrossOrigin(origins = "*", allowedHeaders = "*")
+	@GetMapping(path="getiteminfo")
+	public List<ItemEntity> getItem() {
+		System.out.println("get Item called:");
 		
 		return productService.getProductList();
+	}
+	//@CrossOrigin(origins="*", allowedHeaders="*")
+	@PostMapping(path="saveshoppingsummary")
+	public String saveCustomerShoppingSummary(@RequestBody CustomerShoppingSummary customerShoppingSummary){
+		if(productService.saveCustomerShoppingSummary(customerShoppingSummary)){
+			return "{\"status\":\"success\"}";	
+		}else{
+			return "{\"status\":\"failure\"}";
+		}
+	}
+	@GetMapping(path="getshoppingsummary")
+	public List<CustomerShoppingSummary> getShoppingSummary(){
+		List<CustomerShoppingSummary> shoppingSummary = null;
+		shoppingSummary = productService.getShoppingSummary();
+		return shoppingSummary;	
 	}
 
 }

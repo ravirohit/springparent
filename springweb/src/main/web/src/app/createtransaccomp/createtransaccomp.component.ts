@@ -15,6 +15,7 @@ export interface Item{
   styleUrls: ['./createtransaccomp.component.css']
 })
 export class CreatetransaccompComponent implements OnInit {
+  customerID:string;
   name:string; 
   quantity:number;
   rate:number;
@@ -30,19 +31,24 @@ export class CreatetransaccompComponent implements OnInit {
 
   constructor(private urlinfoservice: UrlinfoserviceService, private httpservice: HttpserviceService) { }
 
-  callBackOnApi(items) {
-    console.log("callback data");
-    console.log(items);
-    this.options = items;
-    this.filteredOptions = this.myControl.valueChanges
-    .pipe(
-      startWith(''),
-      map(value => typeof value === 'string' ? value : value.name),  // in case of value is json object
-      map(name => name ? this._filter(name) : this.options.slice())
-    );
+  callBackOnApi(items, isgetApiCallCallBack) {
+    if(isgetApiCallCallBack) {
+      this.options = items;
+      this.filteredOptions = this.myControl.valueChanges
+        .pipe(
+          startWith(''),
+          map(value => typeof value === 'string' ? value : value.name),  // in case of value is json object
+          map(name => name ? this._filter(name) : this.options.slice())
+        );
+    }
+    else{
+     // for pring post api call 
+      this.itemList=[];
+      this.totalSum=0;
+    }
   }
   ngOnInit() {
-    this.httpservice.getApiCall(this.urlinfoservice.ITEM_GET_INFO_URL,'a',this);
+    this.httpservice.getApiCall(this.urlinfoservice.ITEM_GET_INFO_URL,this);
     //document.getElementById("nameinput").focus();
   }
   displayFn(item?: Item): string | undefined {
@@ -91,8 +97,9 @@ export class CreatetransaccompComponent implements OnInit {
     tempItem = [];
   }
   onItemChange(){
-    this.rate = this.rate = this.myControl.value.rate;;
-    this.cost =  undefined;
+    this.rate = this.myControl.value.rate;;
+    this.quantity = 1;
+    this.cost =  this.rate;
     
   }
   onQuantityChange(){
@@ -102,6 +109,9 @@ export class CreatetransaccompComponent implements OnInit {
     console.log("========================");
     document.getElementById("tfoot").style.display = '';
     document.getElementById("tfoot").style.visibility = 'visible';
+    let transactionSummary = {customerId:this.customerID, shoppingSummary:this.totalSum};
+    let response = this.httpservice.postApiCall(this.urlinfoservice.CUSTOMER_SHOPPING_SUMMARY_SAVE_URL, transactionSummary,this);
     
   }
+  
 }

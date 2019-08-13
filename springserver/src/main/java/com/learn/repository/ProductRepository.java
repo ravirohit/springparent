@@ -1,5 +1,6 @@
 package com.learn.repository;
 
+import java.util.Date;
 import java.util.List;
 
 import org.hibernate.Criteria;
@@ -11,6 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
+import com.learn.model.CustomerShoppingSummary;
 import com.learn.model.ItemEntity;
 import com.learn.model.ItemEntryReq;
 
@@ -73,5 +75,28 @@ public class ProductRepository {
 			return null;
 		}
 		return itemList;
+	}
+	public boolean saveCustomerShoppingSummary(CustomerShoppingSummary customerShoppingSummary){
+		try{
+			Session session = sessionFactory.getCurrentSession();
+			session.save(customerShoppingSummary);
+		}catch(Exception e){
+			return false;
+		}
+		return true;
+	}
+	public List<CustomerShoppingSummary> getShoppingSummary(){
+		List<CustomerShoppingSummary> summaryList = null;
+		try{
+			Session session = sessionFactory.getCurrentSession();
+			Query query = session.createQuery(" from CustomerShoppingSummary where CustomerShoppingSummary.shoppingTime > :date");
+			query.setParameter("date", new Date(System.currentTimeMillis() - 24*60*60*1000));
+			summaryList = query.list();
+			System.out.println("record fetch:"+summaryList);
+		}catch(Exception e){
+			System.out.println("Exception while fethcing last 24 hour record");
+			return summaryList;
+		}
+		return summaryList;
 	}
 }

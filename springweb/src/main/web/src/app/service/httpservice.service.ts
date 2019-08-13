@@ -25,12 +25,12 @@ export class HttpserviceService {
       })
     };
   }
-  getApiCall(endpoint:string,searchkey:string,ref){  //: Observable<any> 
+  getApiCall(endpoint:string, ref){  //: Observable<any> 
     this.getGetHeader();
-    return this.http.get(endpoint + searchkey,this.httpOptions).subscribe(
+    return this.http.get(endpoint, this.httpOptions).subscribe(
       data  => {
           console.log("Get Item info Request is successful ", data);
-          ref.callBackOnApi(data);
+          ref.callBackOnApi(data,true);
           
       },
       error  => {
@@ -62,7 +62,7 @@ export class HttpserviceService {
       .subscribe(
       data  => {
           console.log("POST Request is successful ", data);
-          ref.ngOnInit();
+          ref.callBackOnApi(data,false);   // same callbackback function is getting called for two api.. to identify the api..boolean is used
       },
       error  => {
       console.log("Error", error);
