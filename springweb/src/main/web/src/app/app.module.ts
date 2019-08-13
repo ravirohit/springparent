@@ -6,6 +6,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 import {MatAutocompleteModule,MatInputModule} from '@angular/material';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {NgxPrintModule} from 'ngx-print';
 //import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
@@ -38,6 +39,7 @@ import {HttpserviceService} from './service/httpservice.service';
     MatAutocompleteModule,
     MatInputModule,
     BrowserAnimationsModule,
+    NgxPrintModule,
    // AppRoutingModule
    RouterModule.forRoot([
         {

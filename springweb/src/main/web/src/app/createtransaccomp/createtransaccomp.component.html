@@ -1,15 +1,18 @@
-<div>
+<div class="wrapper" id ="customerIdDiv">
+  <input class="input" placeholder="Enter Customer Id" type="text" id="customerID" [(ngModel)]="customerID"/>
+  <span class="underline"></span>
+</div>
+<div id="itemInfoDiv">
     <form class="example-form divpos">
       <mat-form-field class="example-full-width">
         <input value='' id="nameinput"type="text" placeholder="Enter item name" aria-label="Assignee"  matInput [formControl]="myControl" [matAutocomplete]="auto" (ngModelChange)="onItemChange()"/>
         <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn">
           <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
-            {{option}}
+            {{option.name}}
           </mat-option>
         </mat-autocomplete>
       </mat-form-field>
     </form>   
-
   <div class="wrapper divpos" id ="quantity">
     <input class="input" placeholder="Enter quantity" type="text" id="quantity" [(ngModel)]="quantity" (blur)="onQuantityChange()"/>
     <span class="underline"></span>
@@ -26,7 +29,7 @@
 
   <button type="button" class="btn btn-primary divpos" id="addButton" (click)="addItem()">Add</button>  
 </div>
-<div>
+<div  id="print-section">
 <div class="table-wrapper-scroll-y my-custom-scrollbar">
     <table class="table table-bordered table-striped mb-0" id="tablecontent">
       <thead>
@@ -44,9 +47,19 @@
                 <td (click)="removeItem(item.id)">{{item.remove}}</td>
         </tr>
       </tbody>
+      <tfoot id="tfoot"> 
+                <tr> 
+                    <td align="right" colspan="5">Total Cost: {{totalSum}}</td> 
+                </tr> 
+      </tfoot> 
     </table>
 </div>
 </div>
-<div id="totalSumDiv" *ngIf="totalSum > 0">
-  <span class="badge" id = "totalSumLavel">Total Cost: {{totalSum}}</span>
+<div id="printCostDiv">
+    <div id="totalSumDiv" class="printTotalCost" *ngIf="totalSum > 0">
+      <span class="badge" id = "totalSumLavel">Total Cost: {{totalSum}}</span>
+    </div>
+    <div  class="printTotalCost" *ngIf="totalSum > 0">
+      <button printSectionId="print-section" printTitle="Invoice Details"   ngxPrint id="printdiv" type="button" class="btn btn-primary" (click)="printItem()">Print</button>  
+    </div>
 </div>

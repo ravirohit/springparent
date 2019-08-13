@@ -15,6 +15,9 @@
 .divpos {
     float:left;
 }
+#rate{
+  left:100px;
+}
 .wrapper {
     border-radius: 2px;
     /* box-shadow: 0px 2px 1px 0px #DDD; */
@@ -81,6 +84,10 @@
     clear:both;
 }
 #totalSumDiv {
-    margin-left: 70%;
-    margin-top: 1%;
+  margin-left: 78.5%;
+  margin-top: 15px;
+}
+#saveButton{
+  width:100px;
+  background:lightgray;
 }

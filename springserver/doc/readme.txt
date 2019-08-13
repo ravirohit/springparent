@@ -1,3 +1,17 @@
+----------------- How to run it -----------------------
+Way 1: deploy the springserver war file on the wildfly 10 server and angular app seprately if both are in the same machine.. this will work fine as this
+       application is configured using localhost changes.
+    -> deploying the war file on the widlfly server is easy just like any other application. no much changes.
+    -> open the web folder of springweb submodule in the visual basic studio and run below command as per need:
+      command to install any plugin: #npm install @angular/http
+	  build app:                     #npm run build 
+	  start the angular:             #npm start
+	  url to access: http://localhost:4200/               // open the homepage of GUI.
+	  command to create compoent: ng g component <comp_name>
+way 2: on maven build itself it will embedd GUI in springserver war file using pom.xml. it has been implemented but not yet tested. once it is tested
+     then i will put steps here too.
+	  
+---------------------
 <script type="text/javascript" src="springserver/runtime.js"></script>
 	<script type="text/javascript" src="springserver/polyfills.js"></script>
 	<script type="text/javascript" src="springserver/styles.js"></script>

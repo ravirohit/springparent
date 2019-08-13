@@ -16,6 +16,7 @@ import org.springframework.orm.hibernate5.HibernateTransactionManager;
 import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
+import com.learn.model.ItemEntity;
 //import com.learn.repository.User;
 import com.learn.springsecurity.config.CustomUser;
 import com.learn.springsecurity.config.Role;
@@ -53,9 +54,10 @@ public class DbConfiguration {
       Properties props=new Properties();
       props.put("hibernate.show_sql", env.getProperty("hibernate.show_sql"));
       props.put("hibernate.hbm2ddl.auto", env.getProperty("hibernate.hbm2ddl.auto"));
+      props.put("hibernate.jdbc.batch_size", env.getProperty("hibernate.jdbc.batch_size"));
 
       factoryBean.setHibernateProperties(props);
-      factoryBean.setAnnotatedClasses(CustomUser.class,Role.class);
+      factoryBean.setAnnotatedClasses(CustomUser.class,Role.class,ItemEntity.class);
       //factoryBean.setAnnotatedPackages("com.learn");
       return factoryBean;
    }
@@ -67,3 +69,5 @@ public class DbConfiguration {
       return transactionManager;
    }
 }
+
+

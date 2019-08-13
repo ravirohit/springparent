@@ -5,8 +5,9 @@ import {map, startWith} from 'rxjs/operators';
 import {UrlinfoserviceService} from '../service/urlinfoservice.service';
 import {HttpserviceService} from '../service/httpservice.service';
 
-export interface User {
+export interface Item{
   name: string;
+  rate:number;
 }
 @Component({
   selector: 'app-createtransaccomp',
@@ -24,8 +25,8 @@ export class CreatetransaccompComponent implements OnInit {
   totalSum:number = 0;
   headerList = ['Sr.','Name','Quantity','Rate', 'Cost','Delete'];
   myControl = new FormControl();
-  options: string[];
-  filteredOptions: Observable<string[]>;
+  options: Item[];
+  filteredOptions: Observable<Item[]>;
 
   constructor(private urlinfoservice: UrlinfoserviceService, private httpservice: HttpserviceService) { }
 
@@ -34,30 +35,32 @@ export class CreatetransaccompComponent implements OnInit {
     console.log(items);
     this.options = items;
     this.filteredOptions = this.myControl.valueChanges
-      .pipe(
-        startWith(''),
-        //map(value => typeof value === 'string' ? value : value.name),  // in case of value is json object
-        map(name => name ? this._filter(name) : this.options.slice())
-      );
+    .pipe(
+      startWith(''),
+      map(value => typeof value === 'string' ? value : value.name),  // in case of value is json object
+      map(name => name ? this._filter(name) : this.options.slice())
+    );
   }
   ngOnInit() {
     this.httpservice.getApiCall(this.urlinfoservice.ITEM_GET_INFO_URL,'a',this);
     //document.getElementById("nameinput").focus();
   }
-  displayFn(user?: string): string | undefined {
-    return user ? user : undefined;
+  displayFn(item?: Item): string | undefined {
+    return item ? item.name : undefined;
   }
-  private _filter(name: string): string[] {
+  private _filter(name: string): Item[] {
     const filterValue = name.toLowerCase();
 
-    return this.options.filter(option => option.toLowerCase().indexOf(filterValue) === 0);
+    return this.options.filter(option => option.name.toLowerCase().indexOf(filterValue) === 0);
   }
   addItem(){
+    console.log("========================");
     if((this.name == undefined) && (this.quantity == undefined)){
       document.getElementById("nameinput").focus();
       return;
     }
-    this.name=this.myControl.value;
+    this.name=this.myControl.value.name;
+    this.rate=this.myControl.value.rate;
     this.item={id:this.id+1,name:this.name,quantity:this.quantity,rate:this.rate,cost:this.cost,remove:'Remove'};
     this.itemList.push(this.item);
     this.id = this.id +1;
@@ -88,12 +91,17 @@ export class CreatetransaccompComponent implements OnInit {
     tempItem = [];
   }
   onItemChange(){
-    this.rate = Math.round((Math.random()*20));
+    this.rate = this.rate = this.myControl.value.rate;;
     this.cost =  undefined;
     
   }
   onQuantityChange(){
     this.cost = this.rate * this.quantity;
   }
-
+  printItem(){
+    console.log("========================");
+    document.getElementById("tfoot").style.display = '';
+    document.getElementById("tfoot").style.visibility = 'visible';
+    
+  }
 }

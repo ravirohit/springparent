@@ -30,7 +30,7 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".product-entry {\r\n    float:left;\r\n    margin-top:20px;\r\n    margin-left:10px;\r\n}\r\n#name {\r\n    width:300px;\r\n}\r\n#rate {\r\n    width:150px;\r\n}\r\n#addButton {\r\n    background:lightgray;\r\n    width:100px;\r\n}\r\n#tablecontent {\r\n    background: lightgray;\r\n}\r\n.my-custom-scrollbar {\r\n    max-height: 400px;\r\n    overflow-y: auto;\r\n    clear:both;\r\n}\r\n#totalSumDiv {\r\n    margin-left: 70%;\r\n    margin-top: 1%;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYWRtaW5jb21wL2FkbWluY29tcC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksV0FBVztJQUNYLGdCQUFnQjtJQUNoQixpQkFBaUI7Q0FDcEI7QUFDRDtJQUNJLFlBQVk7Q0FDZjtBQUNEO0lBQ0ksWUFBWTtDQUNmO0FBQ0Q7SUFDSSxxQkFBcUI7SUFDckIsWUFBWTtDQUNmO0FBQ0Q7SUFDSSxzQkFBc0I7Q0FDekI7QUFDRDtJQUNJLGtCQUFrQjtJQUNsQixpQkFBaUI7SUFDakIsV0FBVztDQUNkO0FBQ0Q7SUFDSSxpQkFBaUI7SUFDakIsZUFBZTtDQUNsQiIsImZpbGUiOiJzcmMvYXBwL2FkbWluY29tcC9hZG1pbmNvbXAuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5wcm9kdWN0LWVudHJ5IHtcclxuICAgIGZsb2F0OmxlZnQ7XHJcbiAgICBtYXJnaW4tdG9wOjIwcHg7XHJcbiAgICBtYXJnaW4tbGVmdDoxMHB4O1xyXG59XHJcbiNuYW1lIHtcclxuICAgIHdpZHRoOjMwMHB4O1xyXG59XHJcbiNyYXRlIHtcclxuICAgIHdpZHRoOjE1MHB4O1xyXG59XHJcbiNhZGRCdXR0b24ge1xyXG4gICAgYmFja2dyb3VuZDpsaWdodGdyYXk7XHJcbiAgICB3aWR0aDoxMDBweDtcclxufVxyXG4jdGFibGVjb250ZW50IHtcclxuICAgIGJhY2tncm91bmQ6IGxpZ2h0Z3JheTtcclxufVxyXG4ubXktY3VzdG9tLXNjcm9sbGJhciB7XHJcbiAgICBtYXgtaGVpZ2h0OiA0MDBweDtcclxuICAgIG92ZXJmbG93LXk6IGF1dG87XHJcbiAgICBjbGVhcjpib3RoO1xyXG59XHJcbiN0b3RhbFN1bURpdiB7XHJcbiAgICBtYXJnaW4tbGVmdDogNzAlO1xyXG4gICAgbWFyZ2luLXRvcDogMSU7XHJcbn1cclxuIl19 */"
+module.exports = ".example-form {\r\n    /* min-width: 150px;\r\n     max-width: 500px; */\r\n     width: 20%;\r\n   }\r\n   \r\n   .example-full-width {\r\n     width: 100%;\r\n     margin-top: 20px;\r\n     margin-left: 20px;\r\n   }\r\n   \r\n   .mat-form-field-flex {\r\n     width: 100%;\r\n }\r\n   \r\n   .divpos {\r\n     float:left;\r\n }\r\n   \r\n   .wrapper {\r\n     border-radius: 2px;\r\n     /* box-shadow: 0px 2px 1px 0px #DDD; */\r\n     box-sizing: border-box;\r\n     /* height: 300px; */\r\n     /* left: 50%; */\r\n     /* margin: -150px 0 0 -150px; */\r\n    /* position: absolute; */\r\n     /* top: 50%; */\r\n     width: 200px;\r\n    /* margin-top: 20px;\r\n     margin-left: 20px; */\r\n   }\r\n   \r\n   .input {\r\n     background-color: transparent;\r\n     border: none;\r\n     border-bottom: 1px solid grey;\r\n     color: #555;\r\n     box-sizing: border-box;\r\n     /*font-family: 'Arvo';*/\r\n     /*font-size: 18px;*/\r\n     /* height: 50px; */\r\n     left: 50%;\r\n     /*margin: -25px 0 0 -100px; */\r\n     /* padding: 10px 0px;*/\r\n     position: relative;\r\n     /*top: 50%;*/\r\n     width: 200px;\r\n     margin-top: 37px;\r\n    \r\n   }\r\n   \r\n   #newItemInput:focus {\r\n     outline: none;  \r\n     border-bottom: 2px solid BLUE;\r\n   }\r\n   \r\n   .underline {\r\n     background-color: dodgerblue;\r\n     display: inline-block;\r\n     height: 2px;\r\n     left: 50px;\r\n     margin-top: -4px;\r\n     position: absolute;\r\n     top: 185px;\r\n     transform: scale(0, 1);\r\n     transition: all 0.5s linear;\r\n     width: 202px;\r\n   }\r\n   \r\n   #addButton {\r\n    background:lightgray;\r\n    width:100px;\r\n    margin-top: 30px;\r\n    margin-left: 180px;\r\n}\r\n   \r\n   #tablecontent {\r\n    background: lightgray;\r\n}\r\n   \r\n   .my-custom-scrollbar {\r\n    max-height: 400px;\r\n    overflow-y: auto;\r\n    clear:both;\r\n}\r\n   \r\n   #totalSumDiv {\r\n    margin-left: 70%;\r\n    margin-top: 1%;\r\n}\r\n   \r\n   #totalSumDiv {\r\n    margin-left: 70%;\r\n    margin-top: 1%;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYWRtaW5jb21wL2FkbWluY29tcC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0k7eUJBQ3FCO0tBQ3BCLFdBQVc7SUFDWjs7R0FFRDtLQUNFLFlBQVk7S0FDWixpQkFBaUI7S0FDakIsa0JBQWtCO0lBQ25COztHQUNEO0tBQ0UsWUFBWTtFQUNmOztHQUNEO0tBQ0ksV0FBVztFQUNkOztHQUNEO0tBQ0ksbUJBQW1CO0tBQ25CLHVDQUF1QztLQUN2Qyx1QkFBdUI7S0FDdkIsb0JBQW9CO0tBQ3BCLGdCQUFnQjtLQUNoQixnQ0FBZ0M7SUFDakMseUJBQXlCO0tBQ3hCLGVBQWU7S0FDZixhQUFhO0lBQ2Q7MEJBQ3NCO0lBQ3RCOztHQUVEO0tBQ0UsOEJBQThCO0tBQzlCLGFBQWE7S0FDYiw4QkFBOEI7S0FDOUIsWUFBWTtLQUNaLHVCQUF1QjtLQUN2Qix3QkFBd0I7S0FDeEIsb0JBQW9CO0tBQ3BCLG1CQUFtQjtLQUNuQixVQUFVO0tBQ1YsOEJBQThCO0tBQzlCLHVCQUF1QjtLQUN2QixtQkFBbUI7S0FDbkIsYUFBYTtLQUNiLGFBQWE7S0FDYixpQkFBaUI7O0lBRWxCOztHQUNEO0tBQ0UsY0FBYztLQUNkLDhCQUE4QjtJQUMvQjs7R0FDSDtLQUNJLDZCQUE2QjtLQUM3QixzQkFBc0I7S0FDdEIsWUFBWTtLQUNaLFdBQVc7S0FDWCxpQkFBaUI7S0FDakIsbUJBQW1CO0tBQ25CLFdBQVc7S0FFWCx1QkFBdUI7S0FFdkIsNEJBQTRCO0tBQzVCLGFBQWE7SUFDZDs7R0FDRDtJQUNDLHFCQUFxQjtJQUNyQixZQUFZO0lBQ1osaUJBQWlCO0lBQ2pCLG1CQUFtQjtDQUN0Qjs7R0FDRDtJQUNJLHNCQUFzQjtDQUN6Qjs7R0FDRDtJQUNJLGtCQUFrQjtJQUNsQixpQkFBaUI7SUFDakIsV0FBVztDQUNkOztHQUNEO0lBQ0ksaUJBQWlCO0lBQ2pCLGVBQWU7Q0FDbEI7O0dBRUQ7SUFDSSxpQkFBaUI7SUFDakIsZUFBZTtDQUNsQiIsImZpbGUiOiJzcmMvYXBwL2FkbWluY29tcC9hZG1pbmNvbXAuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5leGFtcGxlLWZvcm0ge1xyXG4gICAgLyogbWluLXdpZHRoOiAxNTBweDtcclxuICAgICBtYXgtd2lkdGg6IDUwMHB4OyAqL1xyXG4gICAgIHdpZHRoOiAyMCU7XHJcbiAgIH1cclxuICAgXHJcbiAgIC5leGFtcGxlLWZ1bGwtd2lkdGgge1xyXG4gICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgIG1hcmdpbi10b3A6IDIwcHg7XHJcbiAgICAgbWFyZ2luLWxlZnQ6IDIwcHg7XHJcbiAgIH1cclxuICAgLm1hdC1mb3JtLWZpZWxkLWZsZXgge1xyXG4gICAgIHdpZHRoOiAxMDAlO1xyXG4gfVxyXG4gLmRpdnBvcyB7XHJcbiAgICAgZmxvYXQ6bGVmdDtcclxuIH1cclxuIC53cmFwcGVyIHtcclxuICAgICBib3JkZXItcmFkaXVzOiAycHg7XHJcbiAgICAgLyogYm94LXNoYWRvdzogMHB4IDJweCAxcHggMHB4ICNEREQ7ICovXHJcbiAgICAgYm94LXNpemluZzogYm9yZGVyLWJveDtcclxuICAgICAvKiBoZWlnaHQ6IDMwMHB4OyAqL1xyXG4gICAgIC8qIGxlZnQ6IDUwJTsgKi9cclxuICAgICAvKiBtYXJnaW46IC0xNTBweCAwIDAgLTE1MHB4OyAqL1xyXG4gICAgLyogcG9zaXRpb246IGFic29sdXRlOyAqL1xyXG4gICAgIC8qIHRvcDogNTAlOyAqL1xyXG4gICAgIHdpZHRoOiAyMDBweDtcclxuICAgIC8qIG1hcmdpbi10b3A6IDIwcHg7XHJcbiAgICAgbWFyZ2luLWxlZnQ6IDIwcHg7ICovXHJcbiAgIH1cclxuICAgXHJcbiAgIC5pbnB1dCB7XHJcbiAgICAgYmFja2dyb3VuZC1jb2xvcjogdHJhbnNwYXJlbnQ7XHJcbiAgICAgYm9yZGVyOiBub25lO1xyXG4gICAgIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCBncmV5O1xyXG4gICAgIGNvbG9yOiAjNTU1O1xyXG4gICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XHJcbiAgICAgLypmb250LWZhbWlseTogJ0Fydm8nOyovXHJcbiAgICAgLypmb250LXNpemU6IDE4cHg7Ki9cclxuICAgICAvKiBoZWlnaHQ6IDUwcHg7ICovXHJcbiAgICAgbGVmdDogNTAlO1xyXG4gICAgIC8qbWFyZ2luOiAtMjVweCAwIDAgLTEwMHB4OyAqL1xyXG4gICAgIC8qIHBhZGRpbmc6IDEwcHggMHB4OyovXHJcbiAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gICAgIC8qdG9wOiA1MCU7Ki9cclxuICAgICB3aWR0aDogMjAwcHg7XHJcbiAgICAgbWFyZ2luLXRvcDogMzdweDtcclxuICAgIFxyXG4gICB9ICBcclxuICAgI25ld0l0ZW1JbnB1dDpmb2N1cyB7XHJcbiAgICAgb3V0bGluZTogbm9uZTsgIFxyXG4gICAgIGJvcmRlci1ib3R0b206IDJweCBzb2xpZCBCTFVFO1xyXG4gICB9XHJcbiAudW5kZXJsaW5lIHtcclxuICAgICBiYWNrZ3JvdW5kLWNvbG9yOiBkb2RnZXJibHVlO1xyXG4gICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICAgICBoZWlnaHQ6IDJweDtcclxuICAgICBsZWZ0OiA1MHB4O1xyXG4gICAgIG1hcmdpbi10b3A6IC00cHg7XHJcbiAgICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgIHRvcDogMTg1cHg7XHJcbiAgICAgLXdlYmtpdC10cmFuc2Zvcm06IHNjYWxlKDAsIDEpO1xyXG4gICAgIHRyYW5zZm9ybTogc2NhbGUoMCwgMSk7XHJcbiAgICAgLXdlYmtpdC10cmFuc2l0aW9uOiBhbGwgMC41cyBsaW5lYXI7XHJcbiAgICAgdHJhbnNpdGlvbjogYWxsIDAuNXMgbGluZWFyO1xyXG4gICAgIHdpZHRoOiAyMDJweDtcclxuICAgfVxyXG4gICAjYWRkQnV0dG9uIHtcclxuICAgIGJhY2tncm91bmQ6bGlnaHRncmF5O1xyXG4gICAgd2lkdGg6MTAwcHg7XHJcbiAgICBtYXJnaW4tdG9wOiAzMHB4O1xyXG4gICAgbWFyZ2luLWxlZnQ6IDE4MHB4O1xyXG59XHJcbiN0YWJsZWNvbnRlbnQge1xyXG4gICAgYmFja2dyb3VuZDogbGlnaHRncmF5O1xyXG59XHJcbi5teS1jdXN0b20tc2Nyb2xsYmFyIHtcclxuICAgIG1heC1oZWlnaHQ6IDQwMHB4O1xyXG4gICAgb3ZlcmZsb3cteTogYXV0bztcclxuICAgIGNsZWFyOmJvdGg7XHJcbn1cclxuI3RvdGFsU3VtRGl2IHtcclxuICAgIG1hcmdpbi1sZWZ0OiA3MCU7XHJcbiAgICBtYXJnaW4tdG9wOiAxJTtcclxufVxyXG5cclxuI3RvdGFsU3VtRGl2IHtcclxuICAgIG1hcmdpbi1sZWZ0OiA3MCU7XHJcbiAgICBtYXJnaW4tdG9wOiAxJTtcclxufVxyXG4iXX0= */"
 
 /***/ }),
 
@@ -41,7 +41,7 @@ module.exports = ".product-entry {\r\n    float:left;\r\n    margin-top:20px;\r\
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div>\n  <div class=\"input-group mb-3 product-entry\" id =\"name\">\n      <div class=\"input-group-prepend\">\n        <span class=\"input-group-text\" id=\"basic-addon1\">Name:</span>\n      </div>\n      <input type=\"text\" class=\"form-control\"  aria-label=\"name\" aria-describedby=\"basic-addon1\"  [(ngModel)]=\"name\" id=\"nameinput\">\n    </div>\n  \n  <div class=\"input-group mb-3 product-entry\" id =\"rate\">\n      <div class=\"input-group-prepend\">\n        <span class=\"input-group-text\" id=\"basic-addon1\">Rate:</span>\n      </div>\n      <input type=\"text\" class=\"form-control\"  aria-label=\"rate\" aria-describedby=\"basic-addon1\"  [(ngModel)]=\"rate\">\n  </div>\n  <button type=\"button\" class=\"btn btn-primary product-entry\" id=\"addButton\" (click)=\"addItem()\">Add</button>  \n</div>\n<div class=\"table-wrapper-scroll-y my-custom-scrollbar\">\n  <table class=\"table table-bordered table-striped mb-0\" id=\"tablecontent\">\n    <thead>\n      <tr>\n        <th *ngFor=\"let head of headerList\" scope=\"col\">{{head}} </th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr  *ngFor=\"let item of itemList\">\n              <th scope=\"row\">{{item.id}}</th>\n              <td>{{item.name}}</td>\n              <td>{{item.rate}}</td>\n              <td (click)=\"removeItem(item.id)\">{{item.remove}}</td>\n      </tr>\n    </tbody>\n    \n  </table>\n</div>\n<div id=\"totalSumDiv\" *ngIf=\"id > 0\">\n  <button type=\"button\" class=\"btn btn-primary product-entry\" id=\"addButton\" (click)=\"saveItem()\">save</button> \n</div>\n"
+module.exports = "<div>\n  <form class=\"example-form divpos\">\n    <mat-form-field class=\"example-full-width\">\n      <input id=\"nameinput\"type=\"text\" placeholder=\"Enter item name\" aria-label=\"Assignee\"  matInput [formControl]=\"myControl\" [matAutocomplete]=\"auto\"/>\n      <mat-autocomplete #auto=\"matAutocomplete\" [displayWith]=\"displayFn\">\n        <mat-option *ngFor=\"let option of filteredOptions | async\" [value]=\"option\">\n          {{option.name}}\n        </mat-option>\n      </mat-autocomplete>\n    </mat-form-field>\n  </form>   \n  <div class=\"wrapper divpos\" id =\"rate\">\n    <input class=\"input\" placeholder=\"Enter rate\" type=\"text\" id=\"newItemInput\" [(ngModel)]=\"rate\">\n    <span class=\"underline\"></span>\n  </div>\n  \n  <button type=\"button\" class=\"btn btn-primary divpos\" id=\"addButton\" (click)=\"addItem()\">Add</button>  \n</div>\n<div class=\"table-wrapper-scroll-y my-custom-scrollbar\">\n  <table class=\"table table-bordered table-striped mb-0\" id=\"tablecontent\">\n    <thead>\n      <tr>\n        <th *ngFor=\"let head of headerList\" scope=\"col\">{{head}} </th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr  *ngFor=\"let item of itemList\">\n              <th scope=\"row\">{{item.id}}</th>\n              <td>{{item.name}}</td>\n              <td>{{item.rate}}</td>\n              <td (click)=\"removeItem(item.id)\">{{item.remove}}</td>\n      </tr>\n    </tbody>\n    \n  </table>\n</div>\n<div id=\"totalSumDiv\" *ngIf=\"id > 0\">\n  <button type=\"button\" class=\"btn btn-primary product-entry\" id=\"addButton\" (click)=\"saveItem()\">save</button> \n</div>\n"
 
 /***/ }),
 
@@ -57,6 +57,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AdmincompComponent", function() { return AdmincompComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
+
+
 
 
 var AdmincompComponent = /** @class */ (function () {
@@ -64,18 +68,45 @@ var AdmincompComponent = /** @class */ (function () {
         this.id = 0;
         this.itemList = [];
         this.headerList = ['Sr.', 'Item name', 'Rate', 'Delete'];
+        this.myControl = new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"]();
+        this.options = [
+            { name: 'Bihar' },
+            { name: 'NagaLand' },
+            { name: 'UP' },
+            { name: 'ASAM' },
+            { name: 'Delhi' },
+            { name: 'Haryana' },
+            { name: 'Panjab' },
+            { name: 'Jammu' },
+            { name: 'MP' }
+        ];
     }
     AdmincompComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.myControl.reset();
+        this.filteredOptions = this.myControl.valueChanges
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["startWith"])(''), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (value) { return typeof value === 'string' ? value : value.name; }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (name) { return name ? _this._filter(name) : _this.options.slice(); }));
+        //    document.getElementById("nameinput").focus();
+    };
+    AdmincompComponent.prototype.displayFn = function (user) {
+        return user ? user.name : undefined;
+    };
+    AdmincompComponent.prototype._filter = function (name) {
+        var filterValue = name.toLowerCase();
+        return this.options.filter(function (option) { return option.name.toLowerCase().indexOf(filterValue) === 0; });
     };
     AdmincompComponent.prototype.addItem = function () {
         if ((this.name == undefined) && (this.rate == undefined)) {
+            document.getElementById("nameinput").focus();
             return;
         }
         this.id = this.id + 1;
+        this.name = this.myControl.value.name;
         var item = { id: this.id, name: this.name, rate: this.rate, remove: 'Remove' };
         this.itemList.push(item);
         this.name = undefined;
         this.rate = undefined;
+        this.myControl.reset('');
         document.getElementById("nameinput").focus();
     };
     AdmincompComponent.prototype.removeItem = function (id) {
@@ -98,6 +129,7 @@ var AdmincompComponent = /** @class */ (function () {
         console.log('Item saved to db');
         this.itemList = [];
         this.id = 0;
+        document.getElementById("nameinput").focus();
     };
     AdmincompComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
@@ -184,20 +216,25 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
 /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-/* harmony import */ var _sidenavbar_sidenavbar_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./sidenavbar/sidenavbar.component */ "./src/app/sidenavbar/sidenavbar.component.ts");
-/* harmony import */ var _maincontent_maincontent_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./maincontent/maincontent.component */ "./src/app/maincontent/maincontent.component.ts");
-/* harmony import */ var _pageheader_pageheader_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./pageheader/pageheader.component */ "./src/app/pageheader/pageheader.component.ts");
-/* harmony import */ var _admincomp_admincomp_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./admincomp/admincomp.component */ "./src/app/admincomp/admincomp.component.ts");
-/* harmony import */ var _createtransaccomp_createtransaccomp_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./createtransaccomp/createtransaccomp.component */ "./src/app/createtransaccomp/createtransaccomp.component.ts");
-/* harmony import */ var _newitementry_newitementry_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./newitementry/newitementry.component */ "./src/app/newitementry/newitementry.component.ts");
-/* harmony import */ var _service_urlinfoservice_service__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./service/urlinfoservice.service */ "./src/app/service/urlinfoservice.service.ts");
-/* harmony import */ var _service_httpservice_service__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./service/httpservice.service */ "./src/app/service/httpservice.service.ts");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
+/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/platform-browser/animations */ "./node_modules/@angular/platform-browser/fesm5/animations.js");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _sidenavbar_sidenavbar_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./sidenavbar/sidenavbar.component */ "./src/app/sidenavbar/sidenavbar.component.ts");
+/* harmony import */ var _maincontent_maincontent_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./maincontent/maincontent.component */ "./src/app/maincontent/maincontent.component.ts");
+/* harmony import */ var _pageheader_pageheader_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./pageheader/pageheader.component */ "./src/app/pageheader/pageheader.component.ts");
+/* harmony import */ var _admincomp_admincomp_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./admincomp/admincomp.component */ "./src/app/admincomp/admincomp.component.ts");
+/* harmony import */ var _createtransaccomp_createtransaccomp_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./createtransaccomp/createtransaccomp.component */ "./src/app/createtransaccomp/createtransaccomp.component.ts");
+/* harmony import */ var _newitementry_newitementry_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./newitementry/newitementry.component */ "./src/app/newitementry/newitementry.component.ts");
+/* harmony import */ var _service_urlinfoservice_service__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./service/urlinfoservice.service */ "./src/app/service/urlinfoservice.service.ts");
+/* harmony import */ var _service_httpservice_service__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./service/httpservice.service */ "./src/app/service/httpservice.service.ts");
 
 
 
 
  // used for [(ngModel)] two way binding
+
+
+
 
 
 
@@ -214,34 +251,38 @@ var AppModule = /** @class */ (function () {
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
             declarations: [
-                _app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"],
-                _sidenavbar_sidenavbar_component__WEBPACK_IMPORTED_MODULE_7__["SidenavbarComponent"],
-                _maincontent_maincontent_component__WEBPACK_IMPORTED_MODULE_8__["MaincontentComponent"],
-                _pageheader_pageheader_component__WEBPACK_IMPORTED_MODULE_9__["PageheaderComponent"],
-                _admincomp_admincomp_component__WEBPACK_IMPORTED_MODULE_10__["AdmincompComponent"],
-                _createtransaccomp_createtransaccomp_component__WEBPACK_IMPORTED_MODULE_11__["CreatetransaccompComponent"],
-                _newitementry_newitementry_component__WEBPACK_IMPORTED_MODULE_12__["NewitementryComponent"]
+                _app_component__WEBPACK_IMPORTED_MODULE_8__["AppComponent"],
+                _sidenavbar_sidenavbar_component__WEBPACK_IMPORTED_MODULE_9__["SidenavbarComponent"],
+                _maincontent_maincontent_component__WEBPACK_IMPORTED_MODULE_10__["MaincontentComponent"],
+                _pageheader_pageheader_component__WEBPACK_IMPORTED_MODULE_11__["PageheaderComponent"],
+                _admincomp_admincomp_component__WEBPACK_IMPORTED_MODULE_12__["AdmincompComponent"],
+                _createtransaccomp_createtransaccomp_component__WEBPACK_IMPORTED_MODULE_13__["CreatetransaccompComponent"],
+                _newitementry_newitementry_component__WEBPACK_IMPORTED_MODULE_14__["NewitementryComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
                 _angular_forms__WEBPACK_IMPORTED_MODULE_4__["FormsModule"],
                 _angular_common_http__WEBPACK_IMPORTED_MODULE_5__["HttpClientModule"],
+                _angular_forms__WEBPACK_IMPORTED_MODULE_4__["ReactiveFormsModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatAutocompleteModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatInputModule"],
+                _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_7__["BrowserAnimationsModule"],
                 // AppRoutingModule
                 _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"].forRoot([
                     {
                         path: 'createtransaction',
-                        component: _createtransaccomp_createtransaccomp_component__WEBPACK_IMPORTED_MODULE_11__["CreatetransaccompComponent"]
+                        component: _createtransaccomp_createtransaccomp_component__WEBPACK_IMPORTED_MODULE_13__["CreatetransaccompComponent"]
                     }, {
                         path: 'admin',
-                        component: _admincomp_admincomp_component__WEBPACK_IMPORTED_MODULE_10__["AdmincompComponent"]
+                        component: _admincomp_admincomp_component__WEBPACK_IMPORTED_MODULE_12__["AdmincompComponent"]
                     }, {
                         path: 'itementry',
-                        component: _newitementry_newitementry_component__WEBPACK_IMPORTED_MODULE_12__["NewitementryComponent"]
+                        component: _newitementry_newitementry_component__WEBPACK_IMPORTED_MODULE_14__["NewitementryComponent"]
                     }
                 ])
             ],
-            providers: [_service_urlinfoservice_service__WEBPACK_IMPORTED_MODULE_13__["UrlinfoserviceService"], _service_httpservice_service__WEBPACK_IMPORTED_MODULE_14__["HttpserviceService"]],
-            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"]]
+            providers: [_service_urlinfoservice_service__WEBPACK_IMPORTED_MODULE_15__["UrlinfoserviceService"], _service_httpservice_service__WEBPACK_IMPORTED_MODULE_16__["HttpserviceService"]],
+            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_8__["AppComponent"]]
         })
     ], AppModule);
     return AppModule;
@@ -258,7 +299,7 @@ var AppModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".product-entry {\r\n    float:left;\r\n    margin-top:20px;\r\n    margin-left:10px;\r\n}\r\n#name {\r\n    width:300px;\r\n}\r\n#quantity {\r\n    width:150px;\r\n}\r\n#rate {\r\n    width:150px;\r\n}\r\n#cost {\r\n    width:150px;\r\n}\r\n#addButton {\r\n    background:lightgray;\r\n    width:100px;\r\n}\r\n#tablecontent {\r\n    background: lightgray;\r\n}\r\n.my-custom-scrollbar {\r\n    max-height: 400px;\r\n    overflow-y: auto;\r\n    clear:both;\r\n}\r\n#totalSumDiv {\r\n    margin-left: 70%;\r\n    margin-top: 1%;\r\n}\r\n#totalSumLavel {\r\n    font-size: medium;\r\n    color: darkslategrey;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY3JlYXRldHJhbnNhY2NvbXAvY3JlYXRldHJhbnNhY2NvbXAuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLFdBQVc7SUFDWCxnQkFBZ0I7SUFDaEIsaUJBQWlCO0NBQ3BCO0FBQ0Q7SUFDSSxZQUFZO0NBQ2Y7QUFDRDtJQUNJLFlBQVk7Q0FDZjtBQUNEO0lBQ0ksWUFBWTtDQUNmO0FBQ0Q7SUFDSSxZQUFZO0NBQ2Y7QUFDRDtJQUNJLHFCQUFxQjtJQUNyQixZQUFZO0NBQ2Y7QUFDRDtJQUNJLHNCQUFzQjtDQUN6QjtBQUNEO0lBQ0ksa0JBQWtCO0lBQ2xCLGlCQUFpQjtJQUNqQixXQUFXO0NBQ2Q7QUFDRDtJQUNJLGlCQUFpQjtJQUNqQixlQUFlO0NBQ2xCO0FBQ0Q7SUFDSSxrQkFBa0I7SUFDbEIscUJBQXFCO0NBQ3hCIiwiZmlsZSI6InNyYy9hcHAvY3JlYXRldHJhbnNhY2NvbXAvY3JlYXRldHJhbnNhY2NvbXAuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5wcm9kdWN0LWVudHJ5IHtcclxuICAgIGZsb2F0OmxlZnQ7XHJcbiAgICBtYXJnaW4tdG9wOjIwcHg7XHJcbiAgICBtYXJnaW4tbGVmdDoxMHB4O1xyXG59XHJcbiNuYW1lIHtcclxuICAgIHdpZHRoOjMwMHB4O1xyXG59XHJcbiNxdWFudGl0eSB7XHJcbiAgICB3aWR0aDoxNTBweDtcclxufVxyXG4jcmF0ZSB7XHJcbiAgICB3aWR0aDoxNTBweDtcclxufVxyXG4jY29zdCB7XHJcbiAgICB3aWR0aDoxNTBweDtcclxufVxyXG4jYWRkQnV0dG9uIHtcclxuICAgIGJhY2tncm91bmQ6bGlnaHRncmF5O1xyXG4gICAgd2lkdGg6MTAwcHg7XHJcbn1cclxuI3RhYmxlY29udGVudCB7XHJcbiAgICBiYWNrZ3JvdW5kOiBsaWdodGdyYXk7XHJcbn1cclxuLm15LWN1c3RvbS1zY3JvbGxiYXIge1xyXG4gICAgbWF4LWhlaWdodDogNDAwcHg7XHJcbiAgICBvdmVyZmxvdy15OiBhdXRvO1xyXG4gICAgY2xlYXI6Ym90aDtcclxufVxyXG4jdG90YWxTdW1EaXYge1xyXG4gICAgbWFyZ2luLWxlZnQ6IDcwJTtcclxuICAgIG1hcmdpbi10b3A6IDElO1xyXG59XHJcbiN0b3RhbFN1bUxhdmVsIHtcclxuICAgIGZvbnQtc2l6ZTogbWVkaXVtO1xyXG4gICAgY29sb3I6IGRhcmtzbGF0ZWdyZXk7XHJcbn1cclxuIl19 */"
+module.exports = ".example-form {\r\n     width: 20%;\r\n   }\r\n   \r\n   .example-full-width {\r\n     width: 100%;\r\n     margin-top: 20px;\r\n     margin-left: 20px;\r\n   }\r\n   \r\n   .mat-form-field-flex {\r\n     width: 100%;\r\n }\r\n   \r\n   .divpos {\r\n     float:left;\r\n }\r\n   \r\n   .wrapper {\r\n     border-radius: 2px;\r\n     box-sizing: border-box;\r\n     width: 200px;\r\n   }\r\n   \r\n   .input {\r\n     background-color: transparent;\r\n     border: none;\r\n     border-bottom: 1px solid grey;\r\n     color: #555;\r\n     box-sizing: border-box;\r\n     left: 50%;\r\n     position: relative;\r\n     width: 120px;\r\n     margin-top: 37px;\r\n    \r\n   }\r\n   \r\n   .input:focus {\r\n     outline: none;  \r\n     border-bottom: 2px solid BLUE;\r\n   }\r\n   \r\n   .underline {\r\n     background-color: dodgerblue;\r\n     display: inline-block;\r\n     height: 2px;\r\n     left: 50px;\r\n     margin-top: -4px;\r\n     position: absolute;\r\n     top: 185px;\r\n     transform: scale(0, 1);\r\n     transition: all 0.5s linear;\r\n     width: 202px;\r\n   }\r\n   \r\n   #addButton {\r\n    background:lightgray;\r\n    width:100px;\r\n    margin-top: 30px;\r\n    margin-left: 50px;\r\n}\r\n   \r\n   #tablecontent {\r\n    background: lightgray;\r\n}\r\n   \r\n   .my-custom-scrollbar {\r\n    max-height: 400px;\r\n    overflow-y: auto;\r\n    clear:both;\r\n}\r\n   \r\n   #totalSumDiv {\r\n    margin-left: 70%;\r\n    margin-top: 1%;\r\n}\r\n   \r\n   #totalSumDiv {\r\n    margin-left: 70%;\r\n    margin-top: 1%;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY3JlYXRldHJhbnNhY2NvbXAvY3JlYXRldHJhbnNhY2NvbXAuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtLQUNLLFdBQVc7SUFDWjs7R0FFRDtLQUNFLFlBQVk7S0FDWixpQkFBaUI7S0FDakIsa0JBQWtCO0lBQ25COztHQUNEO0tBQ0UsWUFBWTtFQUNmOztHQUNEO0tBQ0ksV0FBVztFQUNkOztHQUNEO0tBQ0ksbUJBQW1CO0tBQ25CLHVCQUF1QjtLQUN2QixhQUFhO0lBQ2Q7O0dBRUQ7S0FDRSw4QkFBOEI7S0FDOUIsYUFBYTtLQUNiLDhCQUE4QjtLQUM5QixZQUFZO0tBQ1osdUJBQXVCO0tBQ3ZCLFVBQVU7S0FDVixtQkFBbUI7S0FDbkIsYUFBYTtLQUNiLGlCQUFpQjs7SUFFbEI7O0dBQ0Q7S0FDRSxjQUFjO0tBQ2QsOEJBQThCO0lBQy9COztHQUNIO0tBQ0ksNkJBQTZCO0tBQzdCLHNCQUFzQjtLQUN0QixZQUFZO0tBQ1osV0FBVztLQUNYLGlCQUFpQjtLQUNqQixtQkFBbUI7S0FDbkIsV0FBVztLQUVYLHVCQUF1QjtLQUV2Qiw0QkFBNEI7S0FDNUIsYUFBYTtJQUNkOztHQUNEO0lBQ0MscUJBQXFCO0lBQ3JCLFlBQVk7SUFDWixpQkFBaUI7SUFDakIsa0JBQWtCO0NBQ3JCOztHQUNEO0lBQ0ksc0JBQXNCO0NBQ3pCOztHQUNEO0lBQ0ksa0JBQWtCO0lBQ2xCLGlCQUFpQjtJQUNqQixXQUFXO0NBQ2Q7O0dBQ0Q7SUFDSSxpQkFBaUI7SUFDakIsZUFBZTtDQUNsQjs7R0FFRDtJQUNJLGlCQUFpQjtJQUNqQixlQUFlO0NBQ2xCIiwiZmlsZSI6InNyYy9hcHAvY3JlYXRldHJhbnNhY2NvbXAvY3JlYXRldHJhbnNhY2NvbXAuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5leGFtcGxlLWZvcm0ge1xyXG4gICAgIHdpZHRoOiAyMCU7XHJcbiAgIH1cclxuICAgXHJcbiAgIC5leGFtcGxlLWZ1bGwtd2lkdGgge1xyXG4gICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgIG1hcmdpbi10b3A6IDIwcHg7XHJcbiAgICAgbWFyZ2luLWxlZnQ6IDIwcHg7XHJcbiAgIH1cclxuICAgLm1hdC1mb3JtLWZpZWxkLWZsZXgge1xyXG4gICAgIHdpZHRoOiAxMDAlO1xyXG4gfVxyXG4gLmRpdnBvcyB7XHJcbiAgICAgZmxvYXQ6bGVmdDtcclxuIH1cclxuIC53cmFwcGVyIHtcclxuICAgICBib3JkZXItcmFkaXVzOiAycHg7XHJcbiAgICAgYm94LXNpemluZzogYm9yZGVyLWJveDtcclxuICAgICB3aWR0aDogMjAwcHg7XHJcbiAgIH1cclxuICAgXHJcbiAgIC5pbnB1dCB7XHJcbiAgICAgYmFja2dyb3VuZC1jb2xvcjogdHJhbnNwYXJlbnQ7XHJcbiAgICAgYm9yZGVyOiBub25lO1xyXG4gICAgIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCBncmV5O1xyXG4gICAgIGNvbG9yOiAjNTU1O1xyXG4gICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XHJcbiAgICAgbGVmdDogNTAlO1xyXG4gICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICAgICB3aWR0aDogMTIwcHg7XHJcbiAgICAgbWFyZ2luLXRvcDogMzdweDtcclxuICAgIFxyXG4gICB9ICBcclxuICAgLmlucHV0OmZvY3VzIHtcclxuICAgICBvdXRsaW5lOiBub25lOyAgXHJcbiAgICAgYm9yZGVyLWJvdHRvbTogMnB4IHNvbGlkIEJMVUU7XHJcbiAgIH1cclxuIC51bmRlcmxpbmUge1xyXG4gICAgIGJhY2tncm91bmQtY29sb3I6IGRvZGdlcmJsdWU7XHJcbiAgICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gICAgIGhlaWdodDogMnB4O1xyXG4gICAgIGxlZnQ6IDUwcHg7XHJcbiAgICAgbWFyZ2luLXRvcDogLTRweDtcclxuICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICAgdG9wOiAxODVweDtcclxuICAgICAtd2Via2l0LXRyYW5zZm9ybTogc2NhbGUoMCwgMSk7XHJcbiAgICAgdHJhbnNmb3JtOiBzY2FsZSgwLCAxKTtcclxuICAgICAtd2Via2l0LXRyYW5zaXRpb246IGFsbCAwLjVzIGxpbmVhcjtcclxuICAgICB0cmFuc2l0aW9uOiBhbGwgMC41cyBsaW5lYXI7XHJcbiAgICAgd2lkdGg6IDIwMnB4O1xyXG4gICB9XHJcbiAgICNhZGRCdXR0b24ge1xyXG4gICAgYmFja2dyb3VuZDpsaWdodGdyYXk7XHJcbiAgICB3aWR0aDoxMDBweDtcclxuICAgIG1hcmdpbi10b3A6IDMwcHg7XHJcbiAgICBtYXJnaW4tbGVmdDogNTBweDtcclxufVxyXG4jdGFibGVjb250ZW50IHtcclxuICAgIGJhY2tncm91bmQ6IGxpZ2h0Z3JheTtcclxufVxyXG4ubXktY3VzdG9tLXNjcm9sbGJhciB7XHJcbiAgICBtYXgtaGVpZ2h0OiA0MDBweDtcclxuICAgIG92ZXJmbG93LXk6IGF1dG87XHJcbiAgICBjbGVhcjpib3RoO1xyXG59XHJcbiN0b3RhbFN1bURpdiB7XHJcbiAgICBtYXJnaW4tbGVmdDogNzAlO1xyXG4gICAgbWFyZ2luLXRvcDogMSU7XHJcbn1cclxuXHJcbiN0b3RhbFN1bURpdiB7XHJcbiAgICBtYXJnaW4tbGVmdDogNzAlO1xyXG4gICAgbWFyZ2luLXRvcDogMSU7XHJcbn0iXX0= */"
 
 /***/ }),
 
@@ -269,7 +310,7 @@ module.exports = ".product-entry {\r\n    float:left;\r\n    margin-top:20px;\r\
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div>\n  <div class=\"input-group mb-3 product-entry\" id =\"name\">\n      <div class=\"input-group-prepend\">\n        <span class=\"input-group-text\" id=\"basic-addon1\">Name:</span>\n      </div>\n      <input type=\"text\" class=\"form-control\"  aria-label=\"name\" aria-describedby=\"basic-addon1\"  [(ngModel)]=\"name\" id=\"nameinput\" (blur)=\"onItemChange()\">\n    </div>\n  <div class=\"input-group mb-3 product-entry\" id =\"quantity\">\n      <div class=\"input-group-prepend\">\n        <span class=\"input-group-text\" id=\"basic-addon1\">Quantity:</span>\n      </div>\n      <input type=\"text\" class=\"form-control\"  aria-label=\"quantity\" aria-describedby=\"basic-addon1\"  [(ngModel)]=\"quantity\" (blur)=\"onQuantityChange()\">\n  </div>\n  <div class=\"input-group mb-3 product-entry\" id =\"rate\">\n      <div class=\"input-group-prepend\">\n        <span class=\"input-group-text\" id=\"basic-addon1\">Rate:</span>\n      </div>\n      <input type=\"text\" class=\"form-control\"  aria-label=\"rate\" aria-describedby=\"basic-addon1\"  [(ngModel)]=\"rate\" [attr.disabled]=\"true\">\n  </div>\n  <div class=\"input-group mb-3 product-entry\" id =\"cost\">\n      <div class=\"input-group-prepend\">\n        <span class=\"input-group-text\" id=\"basic-addon1\">Cost:</span>\n      </div>\n      <input type=\"text\" class=\"form-control\"  aria-label=\"cost\" aria-describedby=\"basic-addon1\"  [(ngModel)]=\"cost\" [attr.disabled]=\"true\">\n  </div>\n  <button type=\"button\" class=\"btn btn-primary product-entry\" id=\"addButton\" (click)=\"addItem()\">Add</button>  \n</div>\n<div>\n<div class=\"table-wrapper-scroll-y my-custom-scrollbar\">\n    <table class=\"table table-bordered table-striped mb-0\" id=\"tablecontent\">\n      <thead>\n        <tr>\n          <th *ngFor=\"let head of headerList\" scope=\"col\">{{head}} </th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr  *ngFor=\"let item of itemList\">\n                <th scope=\"row\">{{item.id}}</th>\n                <td>{{item.name}}</td>\n                <td>{{item.quantity}}</td>\n                <td>{{item.rate}}</td>\n                <td>{{item.cost}}</td>\n                <td (click)=\"removeItem(item.id)\">{{item.remove}}</td>\n        </tr>\n      </tbody>\n    </table>\n</div>\n</div>\n<div id=\"totalSumDiv\" *ngIf=\"totalSum > 0\">\n  <span class=\"badge\" id = \"totalSumLavel\">Total Cost: {{totalSum}}</span>\n</div>"
+module.exports = "<div>\n    <form class=\"example-form divpos\">\n      <mat-form-field class=\"example-full-width\">\n        <input value='' id=\"nameinput\"type=\"text\" placeholder=\"Enter item name\" aria-label=\"Assignee\"  matInput [formControl]=\"myControl\" [matAutocomplete]=\"auto\" (ngModelChange)=\"onItemChange()\"/>\n        <mat-autocomplete #auto=\"matAutocomplete\" [displayWith]=\"displayFn\">\n          <mat-option *ngFor=\"let option of filteredOptions | async\" [value]=\"option\">\n            {{option.name}}\n          </mat-option>\n        </mat-autocomplete>\n      </mat-form-field>\n    </form>   \n\n  <div class=\"wrapper divpos\" id =\"quantity\">\n    <input class=\"input\" placeholder=\"Enter quantity\" type=\"text\" id=\"quantity\" [(ngModel)]=\"quantity\" (blur)=\"onQuantityChange()\"/>\n    <span class=\"underline\"></span>\n  </div>\n  <div class=\"wrapper divpos\" id =\"rate\">\n    <input class=\"input\" placeholder=\"Rate of Item\" type=\"text\" id=\"rate\" [(ngModel)]=\"rate\" [attr.disabled]=\"true\"/>\n    <span class=\"underline\"></span>\n  </div>\n\n  <div class=\"wrapper divpos\" id =\"cost\">\n    <input class=\"input\" placeholder=\"Items cost\" type=\"text\" id=\"cost\" [(ngModel)]=\"cost\" [attr.disabled]=\"true\"/>\n    <span class=\"underline\"></span>\n  </div>\n\n  <button type=\"button\" class=\"btn btn-primary divpos\" id=\"addButton\" (click)=\"addItem()\">Add</button>  \n</div>\n<div>\n<div class=\"table-wrapper-scroll-y my-custom-scrollbar\">\n    <table class=\"table table-bordered table-striped mb-0\" id=\"tablecontent\">\n      <thead>\n        <tr>\n          <th *ngFor=\"let head of headerList\" scope=\"col\">{{head}} </th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr  *ngFor=\"let item of itemList\">\n                <th scope=\"row\">{{item.id}}</th>\n                <td>{{item.name}}</td>\n                <td>{{item.quantity}}</td>\n                <td>{{item.rate}}</td>\n                <td>{{item.cost}}</td>\n                <td (click)=\"removeItem(item.id)\">{{item.remove}}</td>\n        </tr>\n      </tbody>\n    </table>\n</div>\n</div>\n<div id=\"totalSumDiv\" *ngIf=\"totalSum > 0\">\n  <span class=\"badge\" id = \"totalSumLavel\">Total Cost: {{totalSum}}</span>\n</div>"
 
 /***/ }),
 
@@ -285,6 +326,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CreatetransaccompComponent", function() { return CreatetransaccompComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
+
+
 
 
 var CreatetransaccompComponent = /** @class */ (function () {
@@ -294,13 +339,40 @@ var CreatetransaccompComponent = /** @class */ (function () {
         this.itemList = [];
         this.totalSum = 0;
         this.headerList = ['Sr.', 'Name', 'Quantity', 'Rate', 'Cost', 'Delete'];
+        this.myControl = new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"]();
+        this.options = [
+            { name: 'Bihar' },
+            { name: 'NagaLand' },
+            { name: 'UP' },
+            { name: 'ASAM' },
+            { name: 'Delhi' },
+            { name: 'Haryana' },
+            { name: 'Panjab' },
+            { name: 'Jammu' },
+            { name: 'MP' }
+        ];
     }
     CreatetransaccompComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.myControl.reset();
+        this.filteredOptions = this.myControl.valueChanges
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["startWith"])(''), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (value) { return typeof value === 'string' ? value : value.name; }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (name) { return name ? _this._filter(name) : _this.options.slice(); }));
+        //document.getElementById("nameinput").focus();
+    };
+    CreatetransaccompComponent.prototype.displayFn = function (user) {
+        return user ? user.name : undefined;
+    };
+    CreatetransaccompComponent.prototype._filter = function (name) {
+        var filterValue = name.toLowerCase();
+        return this.options.filter(function (option) { return option.name.toLowerCase().indexOf(filterValue) === 0; });
     };
     CreatetransaccompComponent.prototype.addItem = function () {
         if ((this.name == undefined) && (this.quantity == undefined)) {
+            document.getElementById("nameinput").focus();
             return;
         }
+        this.name = this.myControl.value.name;
+        ;
         this.item = { id: this.id + 1, name: this.name, quantity: this.quantity, rate: this.rate, cost: this.cost, remove: 'Remove' };
         this.itemList.push(this.item);
         this.id = this.id + 1;
@@ -309,6 +381,7 @@ var CreatetransaccompComponent = /** @class */ (function () {
         this.quantity = undefined;
         this.rate = undefined;
         this.cost = undefined;
+        this.myControl.reset('');
         document.getElementById("nameinput").focus();
     };
     CreatetransaccompComponent.prototype.removeItem = function (id) {
@@ -415,7 +488,7 @@ var MaincontentComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".product-entry {\r\n    float:left;\r\n    margin-top:20px;\r\n    margin-left:10px;\r\n}\r\n#oldName {\r\n    width:300px;\r\n}\r\n#newName {\r\n    width:300px;\r\n}\r\n#addButton {\r\n    background:lightgray;\r\n    width:100px;\r\n}\r\n#tablecontent {\r\n    background: lightgray;\r\n}\r\n.my-custom-scrollbar {\r\n    max-height: 400px;\r\n    overflow-y: auto;\r\n    clear:both;\r\n}\r\n#totalSumDiv {\r\n    margin-left: 70%;\r\n    margin-top: 1%;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbmV3aXRlbWVudHJ5L25ld2l0ZW1lbnRyeS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksV0FBVztJQUNYLGdCQUFnQjtJQUNoQixpQkFBaUI7Q0FDcEI7QUFDRDtJQUNJLFlBQVk7Q0FDZjtBQUNEO0lBQ0ksWUFBWTtDQUNmO0FBRUQ7SUFDSSxxQkFBcUI7SUFDckIsWUFBWTtDQUNmO0FBQ0Q7SUFDSSxzQkFBc0I7Q0FDekI7QUFDRDtJQUNJLGtCQUFrQjtJQUNsQixpQkFBaUI7SUFDakIsV0FBVztDQUNkO0FBQ0Q7SUFDSSxpQkFBaUI7SUFDakIsZUFBZTtDQUNsQiIsImZpbGUiOiJzcmMvYXBwL25ld2l0ZW1lbnRyeS9uZXdpdGVtZW50cnkuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5wcm9kdWN0LWVudHJ5IHtcclxuICAgIGZsb2F0OmxlZnQ7XHJcbiAgICBtYXJnaW4tdG9wOjIwcHg7XHJcbiAgICBtYXJnaW4tbGVmdDoxMHB4O1xyXG59XHJcbiNvbGROYW1lIHtcclxuICAgIHdpZHRoOjMwMHB4O1xyXG59XHJcbiNuZXdOYW1lIHtcclxuICAgIHdpZHRoOjMwMHB4O1xyXG59XHJcblxyXG4jYWRkQnV0dG9uIHtcclxuICAgIGJhY2tncm91bmQ6bGlnaHRncmF5O1xyXG4gICAgd2lkdGg6MTAwcHg7XHJcbn1cclxuI3RhYmxlY29udGVudCB7XHJcbiAgICBiYWNrZ3JvdW5kOiBsaWdodGdyYXk7XHJcbn1cclxuLm15LWN1c3RvbS1zY3JvbGxiYXIge1xyXG4gICAgbWF4LWhlaWdodDogNDAwcHg7XHJcbiAgICBvdmVyZmxvdy15OiBhdXRvO1xyXG4gICAgY2xlYXI6Ym90aDtcclxufVxyXG4jdG90YWxTdW1EaXYge1xyXG4gICAgbWFyZ2luLWxlZnQ6IDcwJTtcclxuICAgIG1hcmdpbi10b3A6IDElO1xyXG59XHJcbiJdfQ== */"
+module.exports = ".example-form {\r\n   /* min-width: 150px;\r\n    max-width: 500px; */\r\n    width: 20%;\r\n  }\r\n  \r\n  .example-full-width {\r\n    width: 100%;\r\n    margin-top: 20px;\r\n    margin-left: 150px;\r\n  }\r\n  \r\n  .mat-form-field-flex {\r\n    width: 100%;\r\n}\r\n  \r\n  .divpos {\r\n    float:left;\r\n}\r\n  \r\n  .wrapper {\r\n    border-radius: 2px;\r\n    /* box-shadow: 0px 2px 1px 0px #DDD; */\r\n    box-sizing: border-box;\r\n    /* height: 300px; */\r\n    /* left: 50%; */\r\n    /* margin: -150px 0 0 -150px; */\r\n   /* position: absolute; */\r\n    /* top: 50%; */\r\n    width: 200px;\r\n   /* margin-top: 20px;\r\n    margin-left: 20px; */\r\n  }\r\n  \r\n  .input {\r\n    background-color: transparent;\r\n    border: none;\r\n    border-bottom: 1px solid grey;\r\n    color: #555;\r\n    box-sizing: border-box;\r\n    /*font-family: 'Arvo';*/\r\n    /*font-size: 18px;*/\r\n    /* height: 50px; */\r\n    left: 30%;\r\n    /*margin: -25px 0 0 -100px; */\r\n    /* padding: 10px 0px;*/\r\n    position: relative;\r\n    /*top: 50%;*/\r\n    width: 200px;\r\n    margin-top: 37px;\r\n   \r\n  }\r\n  \r\n  #newItemInput:focus {\r\n    outline: none;  \r\n    border-bottom: 2px solid BLUE;\r\n  }\r\n  \r\n  .underline {\r\n    background-color: dodgerblue;\r\n    display: inline-block;\r\n    height: 2px;\r\n    left: 50px;\r\n    margin-top: -4px;\r\n    position: absolute;\r\n    top: 185px;\r\n    transform: scale(0, 1);\r\n    transition: all 0.5s linear;\r\n    width: 202px;\r\n  }\r\n  \r\n  #addButton {\r\n    background:lightgray;\r\n    width:100px;\r\n    margin-top: 30px;\r\n    margin-left: 180px;\r\n}\r\n  \r\n  #tablecontent {\r\n    background: lightgray;\r\n}\r\n  \r\n  .my-custom-scrollbar {\r\n    max-height: 400px;\r\n    overflow-y: auto;\r\n    clear:both;\r\n}\r\n  \r\n  #totalSumDiv {\r\n    margin-left: 70%;\r\n    margin-top: 1%;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbmV3aXRlbWVudHJ5L25ld2l0ZW1lbnRyeS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0dBQ0c7d0JBQ3FCO0lBQ3BCLFdBQVc7R0FDWjs7RUFFRDtJQUNFLFlBQVk7SUFDWixpQkFBaUI7SUFDakIsbUJBQW1CO0dBQ3BCOztFQUNEO0lBQ0UsWUFBWTtDQUNmOztFQUNEO0lBQ0ksV0FBVztDQUNkOztFQUNEO0lBQ0ksbUJBQW1CO0lBQ25CLHVDQUF1QztJQUN2Qyx1QkFBdUI7SUFDdkIsb0JBQW9CO0lBQ3BCLGdCQUFnQjtJQUNoQixnQ0FBZ0M7R0FDakMseUJBQXlCO0lBQ3hCLGVBQWU7SUFDZixhQUFhO0dBQ2Q7eUJBQ3NCO0dBQ3RCOztFQUVEO0lBQ0UsOEJBQThCO0lBQzlCLGFBQWE7SUFDYiw4QkFBOEI7SUFDOUIsWUFBWTtJQUNaLHVCQUF1QjtJQUN2Qix3QkFBd0I7SUFDeEIsb0JBQW9CO0lBQ3BCLG1CQUFtQjtJQUNuQixVQUFVO0lBQ1YsOEJBQThCO0lBQzlCLHVCQUF1QjtJQUN2QixtQkFBbUI7SUFDbkIsYUFBYTtJQUNiLGFBQWE7SUFDYixpQkFBaUI7O0dBRWxCOztFQUNEO0lBQ0UsY0FBYztJQUNkLDhCQUE4QjtHQUMvQjs7RUFDSDtJQUNJLDZCQUE2QjtJQUM3QixzQkFBc0I7SUFDdEIsWUFBWTtJQUNaLFdBQVc7SUFDWCxpQkFBaUI7SUFDakIsbUJBQW1CO0lBQ25CLFdBQVc7SUFFWCx1QkFBdUI7SUFFdkIsNEJBQTRCO0lBQzVCLGFBQWE7R0FDZDs7RUFFSDtJQUNJLHFCQUFxQjtJQUNyQixZQUFZO0lBQ1osaUJBQWlCO0lBQ2pCLG1CQUFtQjtDQUN0Qjs7RUFDRDtJQUNJLHNCQUFzQjtDQUN6Qjs7RUFDRDtJQUNJLGtCQUFrQjtJQUNsQixpQkFBaUI7SUFDakIsV0FBVztDQUNkOztFQUNEO0lBQ0ksaUJBQWlCO0lBQ2pCLGVBQWU7Q0FDbEIiLCJmaWxlIjoic3JjL2FwcC9uZXdpdGVtZW50cnkvbmV3aXRlbWVudHJ5LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuZXhhbXBsZS1mb3JtIHtcclxuICAgLyogbWluLXdpZHRoOiAxNTBweDtcclxuICAgIG1heC13aWR0aDogNTAwcHg7ICovXHJcbiAgICB3aWR0aDogMjAlO1xyXG4gIH1cclxuICBcclxuICAuZXhhbXBsZS1mdWxsLXdpZHRoIHtcclxuICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgbWFyZ2luLXRvcDogMjBweDtcclxuICAgIG1hcmdpbi1sZWZ0OiAxNTBweDtcclxuICB9XHJcbiAgLm1hdC1mb3JtLWZpZWxkLWZsZXgge1xyXG4gICAgd2lkdGg6IDEwMCU7XHJcbn1cclxuLmRpdnBvcyB7XHJcbiAgICBmbG9hdDpsZWZ0O1xyXG59XHJcbi53cmFwcGVyIHtcclxuICAgIGJvcmRlci1yYWRpdXM6IDJweDtcclxuICAgIC8qIGJveC1zaGFkb3c6IDBweCAycHggMXB4IDBweCAjREREOyAqL1xyXG4gICAgYm94LXNpemluZzogYm9yZGVyLWJveDtcclxuICAgIC8qIGhlaWdodDogMzAwcHg7ICovXHJcbiAgICAvKiBsZWZ0OiA1MCU7ICovXHJcbiAgICAvKiBtYXJnaW46IC0xNTBweCAwIDAgLTE1MHB4OyAqL1xyXG4gICAvKiBwb3NpdGlvbjogYWJzb2x1dGU7ICovXHJcbiAgICAvKiB0b3A6IDUwJTsgKi9cclxuICAgIHdpZHRoOiAyMDBweDtcclxuICAgLyogbWFyZ2luLXRvcDogMjBweDtcclxuICAgIG1hcmdpbi1sZWZ0OiAyMHB4OyAqL1xyXG4gIH1cclxuICBcclxuICAuaW5wdXQge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogdHJhbnNwYXJlbnQ7XHJcbiAgICBib3JkZXI6IG5vbmU7XHJcbiAgICBib3JkZXItYm90dG9tOiAxcHggc29saWQgZ3JleTtcclxuICAgIGNvbG9yOiAjNTU1O1xyXG4gICAgYm94LXNpemluZzogYm9yZGVyLWJveDtcclxuICAgIC8qZm9udC1mYW1pbHk6ICdBcnZvJzsqL1xyXG4gICAgLypmb250LXNpemU6IDE4cHg7Ki9cclxuICAgIC8qIGhlaWdodDogNTBweDsgKi9cclxuICAgIGxlZnQ6IDMwJTtcclxuICAgIC8qbWFyZ2luOiAtMjVweCAwIDAgLTEwMHB4OyAqL1xyXG4gICAgLyogcGFkZGluZzogMTBweCAwcHg7Ki9cclxuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICAgIC8qdG9wOiA1MCU7Ki9cclxuICAgIHdpZHRoOiAyMDBweDtcclxuICAgIG1hcmdpbi10b3A6IDM3cHg7XHJcbiAgIFxyXG4gIH0gIFxyXG4gICNuZXdJdGVtSW5wdXQ6Zm9jdXMge1xyXG4gICAgb3V0bGluZTogbm9uZTsgIFxyXG4gICAgYm9yZGVyLWJvdHRvbTogMnB4IHNvbGlkIEJMVUU7XHJcbiAgfVxyXG4udW5kZXJsaW5lIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IGRvZGdlcmJsdWU7XHJcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgICBoZWlnaHQ6IDJweDtcclxuICAgIGxlZnQ6IDUwcHg7XHJcbiAgICBtYXJnaW4tdG9wOiAtNHB4O1xyXG4gICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgdG9wOiAxODVweDtcclxuICAgIC13ZWJraXQtdHJhbnNmb3JtOiBzY2FsZSgwLCAxKTtcclxuICAgIHRyYW5zZm9ybTogc2NhbGUoMCwgMSk7XHJcbiAgICAtd2Via2l0LXRyYW5zaXRpb246IGFsbCAwLjVzIGxpbmVhcjtcclxuICAgIHRyYW5zaXRpb246IGFsbCAwLjVzIGxpbmVhcjtcclxuICAgIHdpZHRoOiAyMDJweDtcclxuICB9XHJcblxyXG4jYWRkQnV0dG9uIHtcclxuICAgIGJhY2tncm91bmQ6bGlnaHRncmF5O1xyXG4gICAgd2lkdGg6MTAwcHg7XHJcbiAgICBtYXJnaW4tdG9wOiAzMHB4O1xyXG4gICAgbWFyZ2luLWxlZnQ6IDE4MHB4O1xyXG59XHJcbiN0YWJsZWNvbnRlbnQge1xyXG4gICAgYmFja2dyb3VuZDogbGlnaHRncmF5O1xyXG59XHJcbi5teS1jdXN0b20tc2Nyb2xsYmFyIHtcclxuICAgIG1heC1oZWlnaHQ6IDQwMHB4O1xyXG4gICAgb3ZlcmZsb3cteTogYXV0bztcclxuICAgIGNsZWFyOmJvdGg7XHJcbn1cclxuI3RvdGFsU3VtRGl2IHtcclxuICAgIG1hcmdpbi1sZWZ0OiA3MCU7XHJcbiAgICBtYXJnaW4tdG9wOiAxJTtcclxufVxyXG4iXX0= */"
 
 /***/ }),
 
@@ -426,7 +499,7 @@ module.exports = ".product-entry {\r\n    float:left;\r\n    margin-top:20px;\r\
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div>\n  <div class=\"input-group mb-3 product-entry\" id =\"oldName\">\n      <div class=\"input-group-prepend\">\n        <span class=\"input-group-text\" id=\"basic-addon1\">Old Name:</span>\n      </div>\n      <input type=\"text\" class=\"form-control\"  aria-label=\"oldname\" aria-describedby=\"basic-addon1\"  [(ngModel)]=\"oldName\" id=\"oldNameInput\">\n    </div>\n  \n  <div class=\"input-group mb-3 product-entry\" id =\"newName\">\n      <div class=\"input-group-prepend\">\n        <span class=\"input-group-text\" id=\"basic-addon1\">New Name:</span>\n      </div>\n      <input type=\"text\" class=\"form-control\"  aria-label=\"newName\" aria-describedby=\"basic-addon1\"  [(ngModel)]=\"newName\">\n  </div>\n  <button type=\"button\" class=\"btn btn-primary product-entry\" id=\"addButton\" (click)=\"addItem()\">Add</button>  \n</div>\n<div class=\"table-wrapper-scroll-y my-custom-scrollbar\">\n  <table class=\"table table-bordered table-striped mb-0\" id=\"tablecontent\">\n    <thead>\n      <tr>\n        <th *ngFor=\"let head of headerList\" scope=\"col\">{{head}} </th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr  *ngFor=\"let item of itemUpdateList\">\n              <th scope=\"row\">{{item.id}}</th>\n              <td>{{item.oldName}}</td>\n              <td>{{item.newName}}</td>\n              <td (click)=\"removeItem(item.id)\">{{item.remove}}</td>\n      </tr>\n    </tbody>\n    \n  </table>\n</div>\n<div id=\"totalSumDiv\" *ngIf=\"id > 0\">\n  <button type=\"button\" class=\"btn btn-primary product-entry\" id=\"addButton\" (click)=\"saveOrUpdateItem()\">save</button> \n</div>\n"
+module.exports = "<div class=\"wrapper divpos\">\r\n  <input class=\"input\" placeholder=\"Enter new item name\" type=\"text\" id=\"newItemInput\" [(ngModel)]=\"newName\">\r\n  <span class=\"underline\"></span>\r\n</div>\r\n\r\n<form class=\"example-form divpos\">\r\n    <mat-form-field class=\"example-full-width\">\r\n      <input id=\"olditeminput\"type=\"text\" placeholder=\"Enter old item name\" aria-label=\"Assignee\"  matInput [formControl]=\"myControl\" [matAutocomplete]=\"auto\"/>\r\n      <mat-autocomplete #auto=\"matAutocomplete\" [displayWith]=\"displayFn\">\r\n        <mat-option *ngFor=\"let option of filteredOptions | async\" [value]=\"option\">\r\n          {{option.name}}\r\n        </mat-option>\r\n      </mat-autocomplete>\r\n    </mat-form-field>\r\n  </form>   \r\n\r\n<button type=\"button\" class=\"btn btn-primary product-entry divpos\" id=\"addButton\" (click)=\"addItem()\">Add</button>  \r\n<div class=\"table-wrapper-scroll-y my-custom-scrollbar\">\r\n    <table class=\"table table-bordered table-striped mb-0\" id=\"tablecontent\">\r\n      <thead>\r\n        <tr>\r\n          <th *ngFor=\"let head of headerList\" scope=\"col\">{{head}} </th>\r\n        </tr>\r\n      </thead>\r\n      <tbody>\r\n        <tr  *ngFor=\"let item of itemList\">\r\n                <th scope=\"row\">{{item.id}}</th>\r\n                <td>{{item.newName}}</td>\r\n                <td>{{item.oldName}}</td>\r\n                <td (click)=\"removeItem(item.id)\">{{item.remove}}</td>\r\n        </tr>\r\n      </tbody>\r\n      \r\n    </table>\r\n  </div>\r\n  <div id=\"totalSumDiv\" *ngIf=\"id > 0\">\r\n    <button type=\"button\" class=\"btn btn-primary product-entry\" id=\"addButton\" (click)=\"saveItem()\">save</button> \r\n  </div>"
 
 /***/ }),
 
@@ -442,8 +515,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NewitementryComponent", function() { return NewitementryComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _service_urlinfoservice_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../service/urlinfoservice.service */ "./src/app/service/urlinfoservice.service.ts");
-/* harmony import */ var _service_httpservice_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../service/httpservice.service */ "./src/app/service/httpservice.service.ts");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
+/* harmony import */ var _service_urlinfoservice_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../service/urlinfoservice.service */ "./src/app/service/urlinfoservice.service.ts");
+/* harmony import */ var _service_httpservice_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../service/httpservice.service */ "./src/app/service/httpservice.service.ts");
+
+
 
 
 
@@ -452,31 +529,56 @@ var NewitementryComponent = /** @class */ (function () {
     function NewitementryComponent(urlinfoservice, httpservice) {
         this.urlinfoservice = urlinfoservice;
         this.httpservice = httpservice;
+        this.myControl = new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"]();
+        this.headerList = ['Sr.', 'Item Old Name', 'Item New Name', 'Delete'];
         this.id = 0;
-        this.headerList = ['Sr.', 'Old Name', 'New Name', 'Delete'];
-        this.itemUpdateList = [];
+        this.itemList = [];
+        this.options = [
+            { name: 'Bihar' },
+            { name: 'NagaLand' },
+            { name: 'UP' },
+            { name: 'ASAM' },
+            { name: 'Delhi' },
+            { name: 'Haryana' },
+            { name: 'Panjab' },
+            { name: 'Jammu' },
+            { name: 'MP' }
+        ];
+        console.log(urlinfoservice);
+        console.log(httpservice);
     }
     NewitementryComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.myControl.reset();
+        this.filteredOptions = this.myControl.valueChanges
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["startWith"])(''), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (value) { return typeof value === 'string' ? value : value.name; }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (name) { return name ? _this._filter(name) : _this.options.slice(); }));
     };
-    NewitementryComponent.prototype.getItemInfo = function () {
-        var itemList = this.httpservice.getProducts(this.urlinfoservice.GET_ITEM_INFO_URL, 'acd');
-        console.log(itemList);
+    NewitementryComponent.prototype.displayFn = function (user) {
+        return user ? user.name : undefined;
+    };
+    NewitementryComponent.prototype._filter = function (name) {
+        var filterValue = name.toLowerCase();
+        return this.options.filter(function (option) { return option.name.toLowerCase().indexOf(filterValue) === 0; });
     };
     NewitementryComponent.prototype.addItem = function () {
         if ((this.oldName == undefined) && (this.newName == undefined)) {
+            document.getElementById("olditeminput").focus();
             return;
         }
+        //console.log(this.myControl.value.name);
+        this.oldName = this.myControl.value.name;
         this.id = this.id + 1;
         var item = { id: this.id, oldName: this.oldName, newName: this.newName, remove: 'Remove' };
-        this.itemUpdateList.push(item);
+        this.itemList.push(item);
         this.oldName = undefined;
         this.newName = undefined;
-        document.getElementById("oldNameInput").focus();
+        this.myControl.reset(''); // to make the input box "" 
+        document.getElementById("newItemInput").focus();
+        //document.getElementById("nameinput").focus();
     };
     NewitementryComponent.prototype.removeItem = function (id) {
-        console.log('item to be removed:' + id);
         var tempItem = [];
-        for (var _i = 0, _a = this.itemUpdateList; _i < _a.length; _i++) {
+        for (var _i = 0, _a = this.itemList; _i < _a.length; _i++) {
             var el = _a[_i];
             if (el.id != id) {
                 tempItem.push(el);
@@ -485,14 +587,25 @@ var NewitementryComponent = /** @class */ (function () {
                 el.id = el.id - 1;
             }
         }
-        this.itemUpdateList = tempItem;
+        this.itemList = tempItem;
         this.id = this.id - 1;
         tempItem = [];
     };
-    NewitementryComponent.prototype.saveOrUpdateItem = function () {
-        console.log('Item updated to db');
-        this.itemUpdateList = [];
+    NewitementryComponent.prototype.saveItem = function () {
+        console.log('Item saved to db');
+        var itemListStr = JSON.stringify(this.itemList);
+        console.log(itemListStr);
+        var itemListJson = JSON.parse(itemListStr);
+        itemListJson.map(function (el) {
+            delete el.id;
+            delete el.remove;
+        });
+        var response = this.httpservice.postApiCall(this.urlinfoservice.ITEM_ENTRY_UPDATE_URL, itemListJson);
+        console.log('---- response in comp -----');
+        console.log(response);
+        this.itemList = [];
         this.id = 0;
+        document.getElementById("newItemInput").focus();
     };
     NewitementryComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
@@ -500,7 +613,7 @@ var NewitementryComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./newitementry.component.html */ "./src/app/newitementry/newitementry.component.html"),
             styles: [__webpack_require__(/*! ./newitementry.component.css */ "./src/app/newitementry/newitementry.component.css")]
         }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_service_urlinfoservice_service__WEBPACK_IMPORTED_MODULE_2__["UrlinfoserviceService"], _service_httpservice_service__WEBPACK_IMPORTED_MODULE_3__["HttpserviceService"]])
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_service_urlinfoservice_service__WEBPACK_IMPORTED_MODULE_4__["UrlinfoserviceService"], _service_httpservice_service__WEBPACK_IMPORTED_MODULE_5__["HttpserviceService"]])
     ], NewitementryComponent);
     return NewitementryComponent;
 }());
@@ -598,12 +711,20 @@ var HttpserviceService = /** @class */ (function () {
         .pipe(map((response) => response.json()))
         .subscribe((data) => console.log(data));
     }  */
-    HttpserviceService.prototype.getProducts = function (endpoint, searchkey) {
-        return this.http.get(endpoint + searchkey).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(this.extractData));
+    HttpserviceService.prototype.getApiCall = function (endpoint, searchkey) {
+        return this.http.get(endpoint + searchkey, this.httpOptions).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(this.extractData));
     };
     HttpserviceService.prototype.extractData = function (res) {
+        console.log('callback function');
+        console.log(res);
         var body = res;
         return body || {};
+    };
+    HttpserviceService.prototype.postApiCall = function (endpoint, payload) {
+        console.log('Post method get called');
+        console.log(payload);
+        return this.http.post(endpoint, JSON.stringify(payload), this.httpOptions)
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(this.extractData));
     };
     HttpserviceService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
@@ -634,10 +755,10 @@ __webpack_require__.r(__webpack_exports__);
 
 var UrlinfoserviceService = /** @class */ (function () {
     function UrlinfoserviceService() {
-        this.GET_ITEM_INFO_URL = '';
-        this.ENTRY_ITEM_URL = '';
-        this.UPDATE_ITEM_URL = '';
+        this.ITEM_GET_INFO_URL = 'http://localhost:8080/springserver/api/getitem/';
+        this.ITEM_ENTRY_UPDATE_URL = 'http://localhost:8080/springserver/api/postitem/';
     }
+    ;
     UrlinfoserviceService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
             providedIn: 'root'

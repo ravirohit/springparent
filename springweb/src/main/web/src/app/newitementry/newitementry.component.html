@@ -2,13 +2,17 @@
   <input class="input" placeholder="Enter new item name" type="text" id="newItemInput" [(ngModel)]="newName">
   <span class="underline"></span>
 </div>
+<div class="wrapper divpos" id ="ratediv">
+  <input class="input" placeholder="Enter rate" type="text" id="rate" [(ngModel)]="rate">
+  <span class="underline"></span>
+</div>
 
 <form class="example-form divpos">
     <mat-form-field class="example-full-width">
-      <input id="olditeminput"type="text" placeholder="Enter old item name" aria-label="Assignee"  matInput [formControl]="myControl" [matAutocomplete]="auto"/>
+      <input id="olditeminput"type="text" placeholder="Enter old item name" aria-label="Assignee"  matInput [formControl]="myControl" [matAutocomplete]="auto" (ngModelChange)="onItemChange()"/>
       <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn">
         <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
-          {{option}}
+          {{option.name}}
         </mat-option>
       </mat-autocomplete>
     </mat-form-field>
@@ -26,6 +30,7 @@
         <tr  *ngFor="let item of itemList">
                 <th scope="row">{{item.id}}</th>
                 <td>{{item.newName}}</td>
+                <td>{{item.rate}}</td>
                 <td>{{item.oldName}}</td>
                 <td (click)="removeItem(item.id)">{{item.remove}}</td>
         </tr>
@@ -34,5 +39,5 @@
     </table>
   </div>
   <div id="totalSumDiv" *ngIf="id > 0">
-    <button type="button" class="btn btn-primary product-entry" id="addButton" (click)="saveItem()">save</button> 
+    <button type="button" class="btn btn-primary product-entry" id="saveButton" (click)="saveItem()">save</button> 
   </div>

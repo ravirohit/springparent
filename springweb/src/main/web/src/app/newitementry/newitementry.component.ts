@@ -6,6 +6,11 @@ import {map, startWith} from 'rxjs/operators';
 import {UrlinfoserviceService} from '../service/urlinfoservice.service';
 import {HttpserviceService} from '../service/httpservice.service';
 
+export interface Item{
+   name: string;
+   rate:number;
+}
+
 @Component({
   selector: 'app-newitementry',
   templateUrl: './newitementry.component.html',
@@ -14,17 +19,21 @@ import {HttpserviceService} from '../service/httpservice.service';
 export class NewitementryComponent implements OnInit {
 
   myControl = new FormControl();
-  headerList:string[]=['Sr.','Item Old Name','Item New Name','Delete'];
-  oldName: string;
+  headerList:string[]=['Sr.','Item New Name','rate','Item Old Name','Delete'];
   newName: string;
+  rate: number;
+  oldName: string;
   id: number = 0;
   itemList=[];
-  options:string[];
-  filteredOptions: Observable<string[]>;
+  options:Item[];
+  filteredOptions: Observable<Item[]>;
 
   constructor(private urlinfoservice: UrlinfoserviceService, private httpservice: HttpserviceService){
       console.log(urlinfoservice);
       console.log(httpservice);
+  }
+  ngOnInit() {
+    this.httpservice.getApiCall(this.urlinfoservice.ITEM_GET_INFO_URL,'',this);
   }
   callBackOnApi(items) {
     console.log("callback data");
@@ -33,35 +42,39 @@ export class NewitementryComponent implements OnInit {
     this.filteredOptions = this.myControl.valueChanges
       .pipe(
         startWith(''),
-        //map(value => typeof value === 'string' ? value : value.name),  // in case of value is json object
+        map(value => typeof value === 'string' ? value : value.name),  // in case of value is json object
         map(name => name ? this._filter(name) : this.options.slice())
       );
   }
-
-  ngOnInit() {
-    this.httpservice.getApiCall(this.urlinfoservice.ITEM_GET_INFO_URL,'a',this);
-  }
-  displayFn(user?: string): string | undefined {
-    return user ? user : undefined;
-  }
-  private _filter(name: string): string[] {
+  private _filter(name: string): Item[] {
     const filterValue = name.toLowerCase();
 
-    return this.options.filter(option => option.toLowerCase().indexOf(filterValue) === 0);
+    return this.options.filter(option => option.name.toLowerCase().indexOf(filterValue) === 0);
   }
+  displayFn(item?: Item): string | undefined {
+    return item ? item.name : undefined;
+  }
+  onItemChange(){
+    this.rate = this.myControl.value.rate;
+    
+  }
+  
+  
   addItem(){
     if((this.oldName == undefined) && (this.newName == undefined)){
       document.getElementById("olditeminput").focus();
       return;
     }
-    //console.log(this.myControl.value.name);
-    this.oldName = this.myControl.value;
+    this.oldName = this.myControl.value ? this.myControl.value.name: this.myControl.value;
+    console.log('this.myControl.value.name:',this.myControl.value);
+    console.log('this.oldName:'+this.oldName);
     this.id = this.id + 1;
-    let item = {id:this.id,oldName:this.oldName,newName:this.newName,remove:'Remove'};
+    let item = {id:this.id,newName:this.newName,rate:this.rate,oldName:this.oldName,remove:'Remove'};
     this.itemList.push(item);
-    this.oldName=undefined;
     this.newName=undefined;
-    this.myControl.reset('');   // to make the input box "" 
+    this.rate=undefined;
+    this.oldName=undefined;
+    this.myControl.reset('');   // to make the input box with function autocomplete "" 
     document.getElementById("newItemInput").focus();
     //document.getElementById("nameinput").focus();
 
@@ -89,7 +102,7 @@ export class NewitementryComponent implements OnInit {
         delete el.id;
         delete el.remove;
     });
-    let response = this.httpservice.postApiCall(this.urlinfoservice.ITEM_ENTRY_UPDATE_URL, itemListJson);
+    let response = this.httpservice.postApiCall(this.urlinfoservice.ITEM_ENTRY_UPDATE_URL, itemListJson,this);
     console.log('---- response in comp -----');
     console.log(response);
      

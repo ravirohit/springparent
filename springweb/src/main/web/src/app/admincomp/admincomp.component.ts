@@ -5,9 +5,11 @@ import {map, startWith} from 'rxjs/operators';
 import {UrlinfoserviceService} from '../service/urlinfoservice.service';
 import {HttpserviceService} from '../service/httpservice.service';
 
-export interface User {
+export interface Item{
   name: string;
+  rate:number;
 }
+
 
 @Component({
   selector: 'app-admincomp',
@@ -23,11 +25,14 @@ export class AdmincompComponent implements OnInit {
   headerList=['Sr.','Item name','Rate','Delete'];
 
   myControl = new FormControl();
-  options: string[];
-  filteredOptions: Observable<string[]>;
+  options: Item[];
+  filteredOptions: Observable<Item[]>;
 
   constructor(private urlinfoservice: UrlinfoserviceService, private httpservice: HttpserviceService) { }
-
+  ngOnInit() {
+    this.httpservice.getApiCall(this.urlinfoservice.ITEM_GET_INFO_URL,'a',this);
+//    document.getElementById("nameinput").focus();
+  }
   callBackOnApi(items) {
     console.log("callback data");
     console.log(items);
@@ -35,20 +40,18 @@ export class AdmincompComponent implements OnInit {
     this.filteredOptions = this.myControl.valueChanges
       .pipe(
         startWith(''),
-        //map(value => typeof value === 'string' ? value : value.name),  // in case of value is json object
+        map(value => typeof value === 'string' ? value : value.name),  // in case of value is json object
         map(name => name ? this._filter(name) : this.options.slice())
       );
   }
-  ngOnInit() {
-    this.httpservice.getApiCall(this.urlinfoservice.ITEM_GET_INFO_URL,'a',this);
-//    document.getElementById("nameinput").focus();
-  }
-  displayFn(item?: string): string | undefined {
-    return item ? item : undefined;
-  }
-  private _filter(name: string): string[] {
+  
+  private _filter(name: string): Item[] {
     const filterValue = name.toLowerCase();
-    return this.options.filter(option => option.toLowerCase().indexOf(filterValue) === 0);
+
+    return this.options.filter(option => option.name.toLowerCase().indexOf(filterValue) === 0);
+  }
+  displayFn(item?: Item): string | undefined {
+    return item ? item.name : undefined;
   }
   addItem(){
     if((this.name == undefined) && (this.rate == undefined)){
@@ -56,7 +59,7 @@ export class AdmincompComponent implements OnInit {
       return;
     }
     this.id = this.id + 1;
-    this.name=this.myControl.value;
+    this.name=this.myControl.value.name;
     let item = {id:this.id,name:this.name,rate:this.rate,remove:'Remove'};
     this.itemList.push(item);
     this.name=undefined;

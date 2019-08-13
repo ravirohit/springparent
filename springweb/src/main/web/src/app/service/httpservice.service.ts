@@ -51,7 +51,7 @@ export class HttpserviceService {
       })
     };
   }
-  postApiCall(endpoint:string,payload) {
+  postApiCall(endpoint:string,payload,ref) {
     this.getPostHeader();
     console.log('Post method get called');
     console.log(payload);
@@ -62,6 +62,7 @@ export class HttpserviceService {
       .subscribe(
       data  => {
           console.log("POST Request is successful ", data);
+          ref.ngOnInit();
       },
       error  => {
       console.log("Error", error);

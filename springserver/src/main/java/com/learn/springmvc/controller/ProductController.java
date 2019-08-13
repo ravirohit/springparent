@@ -1,44 +1,56 @@
 package com.learn.springmvc.controller;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.learn.model.ItemEntry;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.learn.model.ItemEntity;
+import com.learn.model.ItemEntryReq;
+import com.learn.service.ProductService;
 
 @RestController
 public class ProductController {
 	
+	private List<ItemEntity> itemList = new ArrayList<>();
+	private Map<String, ItemEntity> itemMap = new HashMap<>();
+	
+	private ObjectMapper mapper = new ObjectMapper();
+	@Autowired
+	private ProductService productService;
 	
 	@CrossOrigin(origins = "*", allowedHeaders = "*")
-	@PostMapping(path="postitem", consumes = MediaType.APPLICATION_JSON_VALUE)
-	public String getItem(@RequestBody List<ItemEntry> item) {
-		System.out.println("post Item called:");
+	@PostMapping(path="saveorupdatetitem" ,consumes = MediaType.APPLICATION_JSON_VALUE)
+	public String postItem(@RequestBody List<ItemEntryReq> itemListReq) {
+		System.out.println("post Item called:"+itemListReq);
+		
+		try{
+			productService.saveOrUpdateItem(itemListReq);
+		}catch(Exception e) {
+			System.out.println("exception occur while saving Product info request:"+e);
+			return "{\"status\":\"failure\"}";
+		}
+		
+		
 		return "{\"status\":\"success\"}";
 	}
 	
 	@CrossOrigin(origins = "*", allowedHeaders = "*")
-	@GetMapping(path="getitem/{searchKey}")
-	public List<String> getItem(@PathVariable("searchKey") String searchKey) {
+	@GetMapping(path="getiteminfo/{searchKey}")
+	public List<ItemEntity> getItem(@PathVariable("searchKey") String searchKey) {
 		System.out.println("get Item called:"+searchKey);
-		List<String> itemList = new ArrayList<>();
-		itemList.add("Assam");
-		itemList.add("Bihar");
-		itemList.add("Delhi");
-		itemList.add("Goa");
-		itemList.add("Haryana");
-		itemList.add("Jammu");
-		itemList.add("Kerla");
-		itemList.add("MP");
-		return itemList;
+		
+		return productService.getProductList();
 	}
 
 }

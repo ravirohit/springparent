@@ -1,59 +1,69 @@
+#customerIdDiv{
+  margin-left: -8%;
+  margin-top: -2%;
+}
+#customerIdDiv > .input{
+  width: 200px;
+}
+#itemInfoDiv {
+  margin-top: -1%;
+}
 .example-form {
      width: 20%;
    }
    
-   .example-full-width {
+.example-full-width {
      width: 100%;
      margin-top: 20px;
      margin-left: 20px;
-   }
-   .mat-form-field-flex {
+}
+.mat-form-field-flex {
      width: 100%;
- }
- .divpos {
+}
+.divpos {
      float:left;
- }
- .wrapper {
-     border-radius: 2px;
-     box-sizing: border-box;
-     width: 200px;
-   }
+}
+.wrapper {
+  border-radius: 2px;
+  box-sizing: border-box;
+  width: 200px;
+}
    
-   .input {
-     background-color: transparent;
-     border: none;
-     border-bottom: 1px solid grey;
-     color: #555;
-     box-sizing: border-box;
-     left: 50%;
-     position: relative;
-     width: 120px;
-     margin-top: 37px;
-    
-   }  
-   .input:focus {
-     outline: none;  
-     border-bottom: 2px solid BLUE;
-   }
- .underline {
-     background-color: dodgerblue;
-     display: inline-block;
-     height: 2px;
-     left: 50px;
-     margin-top: -4px;
-     position: absolute;
-     top: 185px;
-     -webkit-transform: scale(0, 1);
-     transform: scale(0, 1);
-     -webkit-transition: all 0.5s linear;
-     transition: all 0.5s linear;
-     width: 202px;
-   }
-   #addButton {
-    background:lightgray;
-    width:100px;
-    margin-top: 30px;
-    margin-left: 50px;
+.input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid grey;
+  color: #555;
+  box-sizing: border-box;
+  left: 50%;
+  position: relative;
+  width: 120px;
+  margin-top: 37px;
+
+}  
+.input:focus {
+  outline: none;  
+  border-bottom: 2px solid BLUE;
+}
+.underline {
+  background-color: dodgerblue;
+  display: inline-block;
+  height: 2px;
+  left: 50px;
+  margin-top: -4px;
+  position: absolute;
+  top: 185px;
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1);
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  width: 202px;
+}
+#addButton {
+background:lightgray;
+width:100px;
+margin-top: 30px;
+margin-left: 50px;
 }
 #tablecontent {
     background: lightgray;
@@ -63,12 +73,23 @@
     overflow-y: auto;
     clear:both;
 }
-#totalSumDiv {
-    margin-left: 70%;
-    margin-top: 1%;
-}
+#printCostDiv{
+  margin-left: 73%;
+  margin-top: 1.5%;
 
-#totalSumDiv {
-    margin-left: 70%;
-    margin-top: 1%;
+}
+.printTotalCost{
+    float: left;
+}
+#totalSumLavel{
+  margin-top: 10px;
+  font-size: 100%;
+}
+#printdiv{
+  width: 100px;
+  margin-left: 8px;
+  background: lightgray;
+}
+#tfoot{
+  display:none;
 }
