@@ -22,7 +22,7 @@ export class AdmincompComponent implements OnInit {
   rate:number;
   id:number=0;
   itemList=[];
-  headerList=['Sr.','Item name','Rate','Delete'];
+  headerList=['Sr.','CustomerId','Shopping Amount'];
 
   myControl = new FormControl();
   options: Item[];
@@ -34,8 +34,7 @@ export class AdmincompComponent implements OnInit {
 //    document.getElementById("nameinput").focus();
   }
   callBackOnApi(items) {
-    console.log("callback data");
-    console.log(items);
+    this.itemList = items;
     /* this.options = items;
     this.filteredOptions = this.myControl.valueChanges
       .pipe(
@@ -69,7 +68,6 @@ export class AdmincompComponent implements OnInit {
 
   }
   removeItem(id:number){
-    console.log('item to be removed:'+id);
     let tempItem=[];
     for(let el of this.itemList){
       if(el.id != id){
@@ -84,7 +82,6 @@ export class AdmincompComponent implements OnInit {
     tempItem = [];
   }
   saveItem(){
-    console.log('Item saved to db');
     this.itemList = [];
     this.id = 0;
     document.getElementById("nameinput").focus();

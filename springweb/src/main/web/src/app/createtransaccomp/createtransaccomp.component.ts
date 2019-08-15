@@ -20,6 +20,7 @@ export class CreatetransaccompComponent implements OnInit {
   quantity:number;
   rate:number;
   cost:number;
+  disableFlag:boolean = true;
   id:number = 0;
   item={};
   itemList = [];
@@ -60,13 +61,12 @@ export class CreatetransaccompComponent implements OnInit {
     return this.options.filter(option => option.name.toLowerCase().indexOf(filterValue) === 0);
   }
   addItem(){
-    console.log("========================");
     if((this.name == undefined) && (this.quantity == undefined)){
       document.getElementById("nameinput").focus();
       return;
     }
     this.name=this.myControl.value.name;
-    this.rate=this.myControl.value.rate;
+    //this.rate=this.myControl.value.rate;
     this.item={id:this.id+1,name:this.name,quantity:this.quantity,rate:this.rate,cost:this.cost,remove:'Remove'};
     this.itemList.push(this.item);
     this.id = this.id +1;
@@ -79,7 +79,6 @@ export class CreatetransaccompComponent implements OnInit {
     document.getElementById("nameinput").focus();
   }
   removeItem(id){
-    console.log('item to be removed:'+id);
     let tempItem=[];
     for(let el of this.itemList){
       if(el.id == id){
@@ -100,13 +99,20 @@ export class CreatetransaccompComponent implements OnInit {
     this.rate = this.myControl.value.rate;;
     this.quantity = 1;
     this.cost =  this.rate;
-    
+    if(this.rate == null) {
+      this.disableFlag = false;
+    }
+    else{
+      this.disableFlag = true;
+    } 
+  }
+  onEnterRate(){
+    this.cost = this.rate * this.quantity;
   }
   onQuantityChange(){
     this.cost = this.rate * this.quantity;
   }
   printItem(){
-    console.log("========================");
     document.getElementById("tfoot").style.display = '';
     document.getElementById("tfoot").style.visibility = 'visible';
     let transactionSummary = {customerId:this.customerID, shoppingSummary:this.totalSum};

@@ -18,12 +18,12 @@
     <span class="underline"></span>
   </div>
   <div class="wrapper divpos" id ="rate">
-    <input class="input" placeholder="Rate of Item" type="text" id="rate" [(ngModel)]="rate" [attr.disabled]="true"/>
+    <input class="input" placeholder="Rate of Item" type="text" id="rate" [(ngModel)]="rate" [disabled]="disableFlag" (blur)="onEnterRate()"/>
     <span class="underline"></span>
   </div>
 
   <div class="wrapper divpos" id ="cost">
-    <input class="input" placeholder="Items cost" type="text" id="cost" [(ngModel)]="cost" [attr.disabled]="true"/>
+    <input class="input" placeholder="Items cost" type="text" id="cost" [(ngModel)]="cost" [disabled]="disableFlag"/>
     <span class="underline"></span>
   </div>
 

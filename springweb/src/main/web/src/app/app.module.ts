@@ -46,7 +46,7 @@ import {HttpserviceService} from './service/httpservice.service';
           path: 'createtransaction',
           component: CreatetransaccompComponent
         },{
-          path: 'admin',
+          path: 'transactionhistory',
           component: AdmincompComponent
        },{
           path: 'itementry',

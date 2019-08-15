@@ -15,6 +15,7 @@ import org.springframework.transaction.annotation.Transactional;
 import com.learn.model.CustomerShoppingSummary;
 import com.learn.model.ItemEntity;
 import com.learn.model.ItemEntryReq;
+import com.learn.util.DateUtil;
 
 @Repository
 @Transactional
@@ -43,7 +44,9 @@ public class ProductRepository {
 				Criteria c2 = session.createCriteria(ItemEntity.class);
 				c2.add(Restrictions.eq("name", itemReq.getOldName()));
 				ItemEntity itemEntity = (ItemEntity) c2.list().get(0);
-				itemEntity.setName(itemReq.getNewName());
+				if((itemReq.getNewName() != null) && (itemReq.getNewName() != "")){
+					itemEntity.setName(itemReq.getNewName());
+				}
 				itemEntity.setRate(itemReq.getRate());
 				batchSize++;
 				if(batchSize == 20){
@@ -87,14 +90,15 @@ public class ProductRepository {
 	}
 	public List<CustomerShoppingSummary> getShoppingSummary(){
 		List<CustomerShoppingSummary> summaryList = null;
+		String date = DateUtil.getDateInStringFormat();
+		String str = "SELECT * FROM customershoppingsummary a where a.shoppingTime > '"+date+"'  order by shoppingTime";
 		try{
 			Session session = sessionFactory.getCurrentSession();
-			Query query = session.createQuery(" from CustomerShoppingSummary where CustomerShoppingSummary.shoppingTime > :date");
-			query.setParameter("date", new Date(System.currentTimeMillis() - 24*60*60*1000));
+			Query query = session.createSQLQuery(str);
 			summaryList = query.list();
 			System.out.println("record fetch:"+summaryList);
 		}catch(Exception e){
-			System.out.println("Exception while fethcing last 24 hour record");
+			System.out.println("Exception while fethcing last 24 hour record:"+e);
 			return summaryList;
 		}
 		return summaryList;

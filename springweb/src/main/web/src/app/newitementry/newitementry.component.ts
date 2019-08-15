@@ -29,8 +29,6 @@ export class NewitementryComponent implements OnInit {
   filteredOptions: Observable<Item[]>;
 
   constructor(private urlinfoservice: UrlinfoserviceService, private httpservice: HttpserviceService){
-      console.log(urlinfoservice);
-      console.log(httpservice);
   }
   ngOnInit() {
     this.httpservice.getApiCall(this.urlinfoservice.ITEM_GET_INFO_URL,this);
@@ -65,13 +63,15 @@ export class NewitementryComponent implements OnInit {
   
   
   addItem(){
-    if((this.oldName == undefined) && (this.newName == undefined)){
+
+    console.log('testing ');
+    console.log(this.myControl.value);
+    if((this.myControl.value == undefined) && (this.newName == undefined) && (this.rate == undefined)){
       document.getElementById("olditeminput").focus();
       return;
     }
+    console.log('testing ----');
     this.oldName = this.myControl.value ? this.myControl.value.name: this.myControl.value;
-    console.log('this.myControl.value.name:',this.myControl.value);
-    console.log('this.oldName:'+this.oldName);
     this.id = this.id + 1;
     let item = {id:this.id,newName:this.newName,rate:this.rate,oldName:this.oldName,remove:'Remove'};
     this.itemList.push(item);
@@ -98,18 +98,14 @@ export class NewitementryComponent implements OnInit {
     tempItem = [];
   }
   saveItem(){
-    console.log('Item saved to db');
     let itemListStr = JSON.stringify(this.itemList);
-    console.log(itemListStr);
     let itemListJson = JSON.parse(itemListStr);
+    console.log("======="+itemListStr);
     itemListJson.map(el => {
         delete el.id;
         delete el.remove;
     });
-    let response = this.httpservice.postApiCall(this.urlinfoservice.ITEM_ENTRY_UPDATE_URL, itemListJson,this);
-    console.log('---- response in comp -----');
-    console.log(response);
-     
+    let response = this.httpservice.postApiCall(this.urlinfoservice.ITEM_ENTRY_UPDATE_URL, itemListJson,this); 
     this.itemList = [];
     this.id = 0;
     document.getElementById("newItemInput").focus();
