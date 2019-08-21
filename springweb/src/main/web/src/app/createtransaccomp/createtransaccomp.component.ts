@@ -4,7 +4,12 @@ import {Observable} from 'rxjs';
 import {map, startWith} from 'rxjs/operators';
 import {UrlinfoserviceService} from '../service/urlinfoservice.service';
 import {HttpserviceService} from '../service/httpservice.service';
+import {SharedInfoContainerService} from '../service/shared-info-container.service';
 
+
+declare function printfunc(arg1:Object, arg2:string, arg3:number): any;
+declare function removeItemFromPrintList(arg1:number,arg2:number):any;
+declare function clearRecord():any;
 export interface Item{
   name: string;
   rate:number;
@@ -15,6 +20,7 @@ export interface Item{
   styleUrls: ['./createtransaccomp.component.css']
 })
 export class CreatetransaccompComponent implements OnInit {
+
   customerID:string;
   name:string; 
   quantity:number;
@@ -30,7 +36,7 @@ export class CreatetransaccompComponent implements OnInit {
   options: Item[];
   filteredOptions: Observable<Item[]>;
 
-  constructor(private urlinfoservice: UrlinfoserviceService, private httpservice: HttpserviceService) { }
+  constructor(private urlinfoservice: UrlinfoserviceService, private httpservice: HttpserviceService, private sharedInfo:SharedInfoContainerService) { }
 
   callBackOnApi(items, isgetApiCallCallBack) {
     if(isgetApiCallCallBack) {
@@ -50,7 +56,7 @@ export class CreatetransaccompComponent implements OnInit {
   }
   ngOnInit() {
     this.httpservice.getApiCall(this.urlinfoservice.ITEM_GET_INFO_URL,this);
-    //document.getElementById("nameinput").focus();
+    document.getElementById("customerID").focus();
   }
   displayFn(item?: Item): string | undefined {
     return item ? item.name : undefined;
@@ -66,23 +72,29 @@ export class CreatetransaccompComponent implements OnInit {
       return;
     }
     this.name=this.myControl.value.name;
+    if((this.name == null)){
+      this.name = (<HTMLInputElement>document.getElementById("nameinput")).value;
+    }
     //this.rate=this.myControl.value.rate;
-    this.item={id:this.id+1,name:this.name,quantity:this.quantity,rate:this.rate,cost:this.cost,remove:'Remove'};
-    this.itemList.push(this.item);
     this.id = this.id +1;
+    this.item={id:this.id,name:this.name,quantity:this.quantity,rate:this.rate,cost:this.cost,remove:'Remove'};
+    this.itemList.push(this.item);
     this.totalSum = this.totalSum + this.cost;
+    printfunc({id:this.id,name:this.name,quantity:this.quantity,rate:this.rate,cost:this.cost}, this.customerID, this.totalSum);
     this.name=undefined;
     this.quantity=undefined;
     this.rate=undefined;
     this.cost=undefined;
     this.myControl.reset('');
     document.getElementById("nameinput").focus();
+    this.sharedInfo.putData(this.item);
   }
   removeItem(id){
     let tempItem=[];
     for(let el of this.itemList){
       if(el.id == id){
         this.totalSum = this.totalSum - el.cost;
+        removeItemFromPrintList(id,this.totalSum);
       }
       else {
         tempItem.push(el);
@@ -113,11 +125,15 @@ export class CreatetransaccompComponent implements OnInit {
     this.cost = this.rate * this.quantity;
   }
   printItem(){
-    document.getElementById("tfoot").style.display = '';
-    document.getElementById("tfoot").style.visibility = 'visible';
+    console.log("method get called");
     let transactionSummary = {customerId:this.customerID, shoppingSummary:this.totalSum};
     let response = this.httpservice.postApiCall(this.urlinfoservice.CUSTOMER_SHOPPING_SUMMARY_SAVE_URL, transactionSummary,this);
-    
+    this.itemList = [];
+    this.customerID = undefined;
+    this.totalSum = 0;
+    this.id = 0;
+    clearRecord();
+    document.getElementById("customerID").focus();
   }
   
 }

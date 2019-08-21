@@ -1,5 +1,20 @@
-<h1>
-    Welcome to {{ title }}!
-  </h1>
+<h3>
+    Welcome to Component Learning!
+</h3>
+<br/>
+<input  [(ngModel)]="name" placeholder="Enter news">
+<br/>
+<button (click)="onClick()">send news</button>>
+<br/>
+<div *ngIf="name">
+<h4>Message to be broadcast is:{{name}}</h4>
+<hr/>
+<button (click)="subscribeForNewMsg()">subscribe to get news</button>
+<!-- <h1 *ngFor="let data of sharedData">{{data}}</h1> -->
+<h1 *ngIf="receivedMsg">received message is{{receivedMsg}}</h1>
+<hr/>
+<h4>child component data></h4>
+<app-childcomp [parentmsg]="name"></app-childcomp>
+</div>
 
-<h2>Here are some links to help you start: </h2>
+

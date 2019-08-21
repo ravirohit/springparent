@@ -15,11 +15,12 @@ import { AppComponent } from './app.component';
 import { SidenavbarComponent } from './sidenavbar/sidenavbar.component';
 import { MaincontentComponent } from './maincontent/maincontent.component';
 import { PageheaderComponent } from './pageheader/pageheader.component';
-import { AdmincompComponent } from './admincomp/admincomp.component';
+import { TransactionhistoryComponent } from './admincomp/transactionhistory.component';
 import { CreatetransaccompComponent } from './createtransaccomp/createtransaccomp.component';
 import { NewitementryComponent } from './newitementry/newitementry.component';
 import {UrlinfoserviceService} from './service/urlinfoservice.service';
 import {HttpserviceService} from './service/httpservice.service';
+import { ChildcompComponent } from './maincontent/childcomp/childcomp.component';
 
 @NgModule({
   declarations: [
@@ -27,9 +28,10 @@ import {HttpserviceService} from './service/httpservice.service';
     SidenavbarComponent,
     MaincontentComponent,
     PageheaderComponent,
-    AdmincompComponent,
+    TransactionhistoryComponent,
     CreatetransaccompComponent,
-    NewitementryComponent
+    NewitementryComponent,
+    ChildcompComponent
   ],
   imports: [
     BrowserModule,
@@ -47,11 +49,14 @@ import {HttpserviceService} from './service/httpservice.service';
           component: CreatetransaccompComponent
         },{
           path: 'transactionhistory',
-          component: AdmincompComponent
+          component: TransactionhistoryComponent
        },{
           path: 'itementry',
           component: NewitementryComponent
-      }])
+      },{
+        path: 'learningcomp',
+        component: MaincontentComponent
+    }])
  ],
   providers: [UrlinfoserviceService,HttpserviceService],
   bootstrap: [AppComponent]

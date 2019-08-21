@@ -23,7 +23,7 @@
   </div>
 
   <div class="wrapper divpos" id ="cost">
-    <input class="input" placeholder="Items cost" type="text" id="cost" [(ngModel)]="cost" [disabled]="disableFlag"/>
+    <input class="input" placeholder="Items cost" type="text" id="cost" [(ngModel)]="cost" [disabled]="true"/>
     <span class="underline"></span>
   </div>
 
@@ -61,6 +61,10 @@
     </div>
     <div  class="printTotalCost" *ngIf="totalSum > 0">
       <!-- <button printSectionId="print-section" printTitle="Invoice Details"   ngxPrint id="printdiv" type="button" class="btn btn-primary" (click)="printItem()">Print</button> --> 
-      <button printSectionId="print-section" printTitle="Invoice Details"  id="printdiv" type="button" class="btn btn-primary" (click)="printItem()">New</button> 
+      <!--<button printSectionId="print-section" printTitle="Invoice Details"  id="printdiv" type="button" class="btn btn-primary" (click)="printItem()">New</button>  -->
+      <button class="btn btn-primary" id="printdiv" type="button" onclick="printJS({printable: itemToPrint
+    , properties: ['id','name', 'quantity', 'rate','cost'], type: 'json', header:customerId})" (click)="printItem()">
+        Print
+     </button>
     </div>
 </div>

@@ -13,10 +13,10 @@ export interface Item{
 
 @Component({
   selector: 'app-admincomp',
-  templateUrl: './admincomp.component.html',
-  styleUrls: ['./admincomp.component.css']
+  templateUrl: './transactionhistory.component.html',
+  styleUrls: ['./transactionhistory.component.css']
 })
-export class AdmincompComponent implements OnInit {
+export class TransactionhistoryComponent implements OnInit {
 
   name:string;
   rate:number;

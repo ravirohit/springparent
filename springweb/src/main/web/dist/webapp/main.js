@@ -23,38 +23,38 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 
 /***/ }),
 
-/***/ "./src/app/admincomp/admincomp.component.css":
-/*!***************************************************!*\
-  !*** ./src/app/admincomp/admincomp.component.css ***!
-  \***************************************************/
+/***/ "./src/app/admincomp/transactionhistory.component.css":
+/*!************************************************************!*\
+  !*** ./src/app/admincomp/transactionhistory.component.css ***!
+  \************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".example-form {\r\n    /* min-width: 150px;\r\n     max-width: 500px; */\r\n     width: 20%;\r\n   }\r\n   \r\n   .example-full-width {\r\n     width: 100%;\r\n     margin-top: 20px;\r\n     margin-left: 20px;\r\n   }\r\n   \r\n   .mat-form-field-flex {\r\n     width: 100%;\r\n }\r\n   \r\n   .divpos {\r\n     float:left;\r\n }\r\n   \r\n   .wrapper {\r\n     border-radius: 2px;\r\n     /* box-shadow: 0px 2px 1px 0px #DDD; */\r\n     box-sizing: border-box;\r\n     /* height: 300px; */\r\n     /* left: 50%; */\r\n     /* margin: -150px 0 0 -150px; */\r\n    /* position: absolute; */\r\n     /* top: 50%; */\r\n     width: 200px;\r\n    /* margin-top: 20px;\r\n     margin-left: 20px; */\r\n   }\r\n   \r\n   .input {\r\n     background-color: transparent;\r\n     border: none;\r\n     border-bottom: 1px solid grey;\r\n     color: #555;\r\n     box-sizing: border-box;\r\n     /*font-family: 'Arvo';*/\r\n     /*font-size: 18px;*/\r\n     /* height: 50px; */\r\n     left: 50%;\r\n     /*margin: -25px 0 0 -100px; */\r\n     /* padding: 10px 0px;*/\r\n     position: relative;\r\n     /*top: 50%;*/\r\n     width: 200px;\r\n     margin-top: 37px;\r\n    \r\n   }\r\n   \r\n   #newItemInput:focus {\r\n     outline: none;  \r\n     border-bottom: 2px solid BLUE;\r\n   }\r\n   \r\n   .underline {\r\n     background-color: dodgerblue;\r\n     display: inline-block;\r\n     height: 2px;\r\n     left: 50px;\r\n     margin-top: -4px;\r\n     position: absolute;\r\n     top: 185px;\r\n     transform: scale(0, 1);\r\n     transition: all 0.5s linear;\r\n     width: 202px;\r\n   }\r\n   \r\n   #addButton {\r\n    background:lightgray;\r\n    width:100px;\r\n    margin-top: 30px;\r\n    margin-left: 180px;\r\n}\r\n   \r\n   #tablecontent {\r\n    background: lightgray;\r\n}\r\n   \r\n   .my-custom-scrollbar {\r\n    max-height: 400px;\r\n    overflow-y: auto;\r\n    clear:both;\r\n}\r\n   \r\n   #totalSumDiv {\r\n    margin-left: 70%;\r\n    margin-top: 1%;\r\n}\r\n   \r\n   #totalSumDiv {\r\n    margin-left: 70%;\r\n    margin-top: 1%;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYWRtaW5jb21wL2FkbWluY29tcC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0k7eUJBQ3FCO0tBQ3BCLFdBQVc7SUFDWjs7R0FFRDtLQUNFLFlBQVk7S0FDWixpQkFBaUI7S0FDakIsa0JBQWtCO0lBQ25COztHQUNEO0tBQ0UsWUFBWTtFQUNmOztHQUNEO0tBQ0ksV0FBVztFQUNkOztHQUNEO0tBQ0ksbUJBQW1CO0tBQ25CLHVDQUF1QztLQUN2Qyx1QkFBdUI7S0FDdkIsb0JBQW9CO0tBQ3BCLGdCQUFnQjtLQUNoQixnQ0FBZ0M7SUFDakMseUJBQXlCO0tBQ3hCLGVBQWU7S0FDZixhQUFhO0lBQ2Q7MEJBQ3NCO0lBQ3RCOztHQUVEO0tBQ0UsOEJBQThCO0tBQzlCLGFBQWE7S0FDYiw4QkFBOEI7S0FDOUIsWUFBWTtLQUNaLHVCQUF1QjtLQUN2Qix3QkFBd0I7S0FDeEIsb0JBQW9CO0tBQ3BCLG1CQUFtQjtLQUNuQixVQUFVO0tBQ1YsOEJBQThCO0tBQzlCLHVCQUF1QjtLQUN2QixtQkFBbUI7S0FDbkIsYUFBYTtLQUNiLGFBQWE7S0FDYixpQkFBaUI7O0lBRWxCOztHQUNEO0tBQ0UsY0FBYztLQUNkLDhCQUE4QjtJQUMvQjs7R0FDSDtLQUNJLDZCQUE2QjtLQUM3QixzQkFBc0I7S0FDdEIsWUFBWTtLQUNaLFdBQVc7S0FDWCxpQkFBaUI7S0FDakIsbUJBQW1CO0tBQ25CLFdBQVc7S0FFWCx1QkFBdUI7S0FFdkIsNEJBQTRCO0tBQzVCLGFBQWE7SUFDZDs7R0FDRDtJQUNDLHFCQUFxQjtJQUNyQixZQUFZO0lBQ1osaUJBQWlCO0lBQ2pCLG1CQUFtQjtDQUN0Qjs7R0FDRDtJQUNJLHNCQUFzQjtDQUN6Qjs7R0FDRDtJQUNJLGtCQUFrQjtJQUNsQixpQkFBaUI7SUFDakIsV0FBVztDQUNkOztHQUNEO0lBQ0ksaUJBQWlCO0lBQ2pCLGVBQWU7Q0FDbEI7O0dBRUQ7SUFDSSxpQkFBaUI7SUFDakIsZUFBZTtDQUNsQiIsImZpbGUiOiJzcmMvYXBwL2FkbWluY29tcC9hZG1pbmNvbXAuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5leGFtcGxlLWZvcm0ge1xyXG4gICAgLyogbWluLXdpZHRoOiAxNTBweDtcclxuICAgICBtYXgtd2lkdGg6IDUwMHB4OyAqL1xyXG4gICAgIHdpZHRoOiAyMCU7XHJcbiAgIH1cclxuICAgXHJcbiAgIC5leGFtcGxlLWZ1bGwtd2lkdGgge1xyXG4gICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgIG1hcmdpbi10b3A6IDIwcHg7XHJcbiAgICAgbWFyZ2luLWxlZnQ6IDIwcHg7XHJcbiAgIH1cclxuICAgLm1hdC1mb3JtLWZpZWxkLWZsZXgge1xyXG4gICAgIHdpZHRoOiAxMDAlO1xyXG4gfVxyXG4gLmRpdnBvcyB7XHJcbiAgICAgZmxvYXQ6bGVmdDtcclxuIH1cclxuIC53cmFwcGVyIHtcclxuICAgICBib3JkZXItcmFkaXVzOiAycHg7XHJcbiAgICAgLyogYm94LXNoYWRvdzogMHB4IDJweCAxcHggMHB4ICNEREQ7ICovXHJcbiAgICAgYm94LXNpemluZzogYm9yZGVyLWJveDtcclxuICAgICAvKiBoZWlnaHQ6IDMwMHB4OyAqL1xyXG4gICAgIC8qIGxlZnQ6IDUwJTsgKi9cclxuICAgICAvKiBtYXJnaW46IC0xNTBweCAwIDAgLTE1MHB4OyAqL1xyXG4gICAgLyogcG9zaXRpb246IGFic29sdXRlOyAqL1xyXG4gICAgIC8qIHRvcDogNTAlOyAqL1xyXG4gICAgIHdpZHRoOiAyMDBweDtcclxuICAgIC8qIG1hcmdpbi10b3A6IDIwcHg7XHJcbiAgICAgbWFyZ2luLWxlZnQ6IDIwcHg7ICovXHJcbiAgIH1cclxuICAgXHJcbiAgIC5pbnB1dCB7XHJcbiAgICAgYmFja2dyb3VuZC1jb2xvcjogdHJhbnNwYXJlbnQ7XHJcbiAgICAgYm9yZGVyOiBub25lO1xyXG4gICAgIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCBncmV5O1xyXG4gICAgIGNvbG9yOiAjNTU1O1xyXG4gICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XHJcbiAgICAgLypmb250LWZhbWlseTogJ0Fydm8nOyovXHJcbiAgICAgLypmb250LXNpemU6IDE4cHg7Ki9cclxuICAgICAvKiBoZWlnaHQ6IDUwcHg7ICovXHJcbiAgICAgbGVmdDogNTAlO1xyXG4gICAgIC8qbWFyZ2luOiAtMjVweCAwIDAgLTEwMHB4OyAqL1xyXG4gICAgIC8qIHBhZGRpbmc6IDEwcHggMHB4OyovXHJcbiAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gICAgIC8qdG9wOiA1MCU7Ki9cclxuICAgICB3aWR0aDogMjAwcHg7XHJcbiAgICAgbWFyZ2luLXRvcDogMzdweDtcclxuICAgIFxyXG4gICB9ICBcclxuICAgI25ld0l0ZW1JbnB1dDpmb2N1cyB7XHJcbiAgICAgb3V0bGluZTogbm9uZTsgIFxyXG4gICAgIGJvcmRlci1ib3R0b206IDJweCBzb2xpZCBCTFVFO1xyXG4gICB9XHJcbiAudW5kZXJsaW5lIHtcclxuICAgICBiYWNrZ3JvdW5kLWNvbG9yOiBkb2RnZXJibHVlO1xyXG4gICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICAgICBoZWlnaHQ6IDJweDtcclxuICAgICBsZWZ0OiA1MHB4O1xyXG4gICAgIG1hcmdpbi10b3A6IC00cHg7XHJcbiAgICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgIHRvcDogMTg1cHg7XHJcbiAgICAgLXdlYmtpdC10cmFuc2Zvcm06IHNjYWxlKDAsIDEpO1xyXG4gICAgIHRyYW5zZm9ybTogc2NhbGUoMCwgMSk7XHJcbiAgICAgLXdlYmtpdC10cmFuc2l0aW9uOiBhbGwgMC41cyBsaW5lYXI7XHJcbiAgICAgdHJhbnNpdGlvbjogYWxsIDAuNXMgbGluZWFyO1xyXG4gICAgIHdpZHRoOiAyMDJweDtcclxuICAgfVxyXG4gICAjYWRkQnV0dG9uIHtcclxuICAgIGJhY2tncm91bmQ6bGlnaHRncmF5O1xyXG4gICAgd2lkdGg6MTAwcHg7XHJcbiAgICBtYXJnaW4tdG9wOiAzMHB4O1xyXG4gICAgbWFyZ2luLWxlZnQ6IDE4MHB4O1xyXG59XHJcbiN0YWJsZWNvbnRlbnQge1xyXG4gICAgYmFja2dyb3VuZDogbGlnaHRncmF5O1xyXG59XHJcbi5teS1jdXN0b20tc2Nyb2xsYmFyIHtcclxuICAgIG1heC1oZWlnaHQ6IDQwMHB4O1xyXG4gICAgb3ZlcmZsb3cteTogYXV0bztcclxuICAgIGNsZWFyOmJvdGg7XHJcbn1cclxuI3RvdGFsU3VtRGl2IHtcclxuICAgIG1hcmdpbi1sZWZ0OiA3MCU7XHJcbiAgICBtYXJnaW4tdG9wOiAxJTtcclxufVxyXG5cclxuI3RvdGFsU3VtRGl2IHtcclxuICAgIG1hcmdpbi1sZWZ0OiA3MCU7XHJcbiAgICBtYXJnaW4tdG9wOiAxJTtcclxufVxyXG4iXX0= */"
+module.exports = ".example-form {\r\n    /* min-width: 150px;\r\n     max-width: 500px; */\r\n     width: 20%;\r\n   }\r\n   \r\n   .example-full-width {\r\n     width: 100%;\r\n     margin-top: 20px;\r\n     margin-left: 20px;\r\n   }\r\n   \r\n   .mat-form-field-flex {\r\n     width: 100%;\r\n }\r\n   \r\n   .divpos {\r\n     float:left;\r\n }\r\n   \r\n   .wrapper {\r\n     border-radius: 2px;\r\n     /* box-shadow: 0px 2px 1px 0px #DDD; */\r\n     box-sizing: border-box;\r\n     /* height: 300px; */\r\n     /* left: 50%; */\r\n     /* margin: -150px 0 0 -150px; */\r\n    /* position: absolute; */\r\n     /* top: 50%; */\r\n     width: 200px;\r\n    /* margin-top: 20px;\r\n     margin-left: 20px; */\r\n   }\r\n   \r\n   .input {\r\n     background-color: transparent;\r\n     border: none;\r\n     border-bottom: 1px solid grey;\r\n     color: #555;\r\n     box-sizing: border-box;\r\n     /*font-family: 'Arvo';*/\r\n     /*font-size: 18px;*/\r\n     /* height: 50px; */\r\n     left: 50%;\r\n     /*margin: -25px 0 0 -100px; */\r\n     /* padding: 10px 0px;*/\r\n     position: relative;\r\n     /*top: 50%;*/\r\n     width: 200px;\r\n     margin-top: 37px;\r\n    \r\n   }\r\n   \r\n   #newItemInput:focus {\r\n     outline: none;  \r\n     border-bottom: 2px solid BLUE;\r\n   }\r\n   \r\n   .underline {\r\n     background-color: dodgerblue;\r\n     display: inline-block;\r\n     height: 2px;\r\n     left: 50px;\r\n     margin-top: -4px;\r\n     position: absolute;\r\n     top: 185px;\r\n     transform: scale(0, 1);\r\n     transition: all 0.5s linear;\r\n     width: 202px;\r\n   }\r\n   \r\n   #addButton {\r\n    background:lightgray;\r\n    width:100px;\r\n    margin-top: 30px;\r\n    margin-left: 180px;\r\n}\r\n   \r\n   #tablecontent {\r\n    background: lightgray;\r\n}\r\n   \r\n   .my-custom-scrollbar {\r\n    max-height: 400px;\r\n    overflow-y: auto;\r\n    clear:both;\r\n}\r\n   \r\n   #totalSumDiv {\r\n    margin-left: 70%;\r\n    margin-top: 1%;\r\n}\r\n   \r\n   #totalSumDiv {\r\n    margin-left: 70%;\r\n    margin-top: 1%;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYWRtaW5jb21wL3RyYW5zYWN0aW9uaGlzdG9yeS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0k7eUJBQ3FCO0tBQ3BCLFdBQVc7SUFDWjs7R0FFRDtLQUNFLFlBQVk7S0FDWixpQkFBaUI7S0FDakIsa0JBQWtCO0lBQ25COztHQUNEO0tBQ0UsWUFBWTtFQUNmOztHQUNEO0tBQ0ksV0FBVztFQUNkOztHQUNEO0tBQ0ksbUJBQW1CO0tBQ25CLHVDQUF1QztLQUN2Qyx1QkFBdUI7S0FDdkIsb0JBQW9CO0tBQ3BCLGdCQUFnQjtLQUNoQixnQ0FBZ0M7SUFDakMseUJBQXlCO0tBQ3hCLGVBQWU7S0FDZixhQUFhO0lBQ2Q7MEJBQ3NCO0lBQ3RCOztHQUVEO0tBQ0UsOEJBQThCO0tBQzlCLGFBQWE7S0FDYiw4QkFBOEI7S0FDOUIsWUFBWTtLQUNaLHVCQUF1QjtLQUN2Qix3QkFBd0I7S0FDeEIsb0JBQW9CO0tBQ3BCLG1CQUFtQjtLQUNuQixVQUFVO0tBQ1YsOEJBQThCO0tBQzlCLHVCQUF1QjtLQUN2QixtQkFBbUI7S0FDbkIsYUFBYTtLQUNiLGFBQWE7S0FDYixpQkFBaUI7O0lBRWxCOztHQUNEO0tBQ0UsY0FBYztLQUNkLDhCQUE4QjtJQUMvQjs7R0FDSDtLQUNJLDZCQUE2QjtLQUM3QixzQkFBc0I7S0FDdEIsWUFBWTtLQUNaLFdBQVc7S0FDWCxpQkFBaUI7S0FDakIsbUJBQW1CO0tBQ25CLFdBQVc7S0FFWCx1QkFBdUI7S0FFdkIsNEJBQTRCO0tBQzVCLGFBQWE7SUFDZDs7R0FDRDtJQUNDLHFCQUFxQjtJQUNyQixZQUFZO0lBQ1osaUJBQWlCO0lBQ2pCLG1CQUFtQjtDQUN0Qjs7R0FDRDtJQUNJLHNCQUFzQjtDQUN6Qjs7R0FDRDtJQUNJLGtCQUFrQjtJQUNsQixpQkFBaUI7SUFDakIsV0FBVztDQUNkOztHQUNEO0lBQ0ksaUJBQWlCO0lBQ2pCLGVBQWU7Q0FDbEI7O0dBRUQ7SUFDSSxpQkFBaUI7SUFDakIsZUFBZTtDQUNsQiIsImZpbGUiOiJzcmMvYXBwL2FkbWluY29tcC90cmFuc2FjdGlvbmhpc3RvcnkuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5leGFtcGxlLWZvcm0ge1xyXG4gICAgLyogbWluLXdpZHRoOiAxNTBweDtcclxuICAgICBtYXgtd2lkdGg6IDUwMHB4OyAqL1xyXG4gICAgIHdpZHRoOiAyMCU7XHJcbiAgIH1cclxuICAgXHJcbiAgIC5leGFtcGxlLWZ1bGwtd2lkdGgge1xyXG4gICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgIG1hcmdpbi10b3A6IDIwcHg7XHJcbiAgICAgbWFyZ2luLWxlZnQ6IDIwcHg7XHJcbiAgIH1cclxuICAgLm1hdC1mb3JtLWZpZWxkLWZsZXgge1xyXG4gICAgIHdpZHRoOiAxMDAlO1xyXG4gfVxyXG4gLmRpdnBvcyB7XHJcbiAgICAgZmxvYXQ6bGVmdDtcclxuIH1cclxuIC53cmFwcGVyIHtcclxuICAgICBib3JkZXItcmFkaXVzOiAycHg7XHJcbiAgICAgLyogYm94LXNoYWRvdzogMHB4IDJweCAxcHggMHB4ICNEREQ7ICovXHJcbiAgICAgYm94LXNpemluZzogYm9yZGVyLWJveDtcclxuICAgICAvKiBoZWlnaHQ6IDMwMHB4OyAqL1xyXG4gICAgIC8qIGxlZnQ6IDUwJTsgKi9cclxuICAgICAvKiBtYXJnaW46IC0xNTBweCAwIDAgLTE1MHB4OyAqL1xyXG4gICAgLyogcG9zaXRpb246IGFic29sdXRlOyAqL1xyXG4gICAgIC8qIHRvcDogNTAlOyAqL1xyXG4gICAgIHdpZHRoOiAyMDBweDtcclxuICAgIC8qIG1hcmdpbi10b3A6IDIwcHg7XHJcbiAgICAgbWFyZ2luLWxlZnQ6IDIwcHg7ICovXHJcbiAgIH1cclxuICAgXHJcbiAgIC5pbnB1dCB7XHJcbiAgICAgYmFja2dyb3VuZC1jb2xvcjogdHJhbnNwYXJlbnQ7XHJcbiAgICAgYm9yZGVyOiBub25lO1xyXG4gICAgIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCBncmV5O1xyXG4gICAgIGNvbG9yOiAjNTU1O1xyXG4gICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XHJcbiAgICAgLypmb250LWZhbWlseTogJ0Fydm8nOyovXHJcbiAgICAgLypmb250LXNpemU6IDE4cHg7Ki9cclxuICAgICAvKiBoZWlnaHQ6IDUwcHg7ICovXHJcbiAgICAgbGVmdDogNTAlO1xyXG4gICAgIC8qbWFyZ2luOiAtMjVweCAwIDAgLTEwMHB4OyAqL1xyXG4gICAgIC8qIHBhZGRpbmc6IDEwcHggMHB4OyovXHJcbiAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gICAgIC8qdG9wOiA1MCU7Ki9cclxuICAgICB3aWR0aDogMjAwcHg7XHJcbiAgICAgbWFyZ2luLXRvcDogMzdweDtcclxuICAgIFxyXG4gICB9ICBcclxuICAgI25ld0l0ZW1JbnB1dDpmb2N1cyB7XHJcbiAgICAgb3V0bGluZTogbm9uZTsgIFxyXG4gICAgIGJvcmRlci1ib3R0b206IDJweCBzb2xpZCBCTFVFO1xyXG4gICB9XHJcbiAudW5kZXJsaW5lIHtcclxuICAgICBiYWNrZ3JvdW5kLWNvbG9yOiBkb2RnZXJibHVlO1xyXG4gICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICAgICBoZWlnaHQ6IDJweDtcclxuICAgICBsZWZ0OiA1MHB4O1xyXG4gICAgIG1hcmdpbi10b3A6IC00cHg7XHJcbiAgICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgIHRvcDogMTg1cHg7XHJcbiAgICAgLXdlYmtpdC10cmFuc2Zvcm06IHNjYWxlKDAsIDEpO1xyXG4gICAgIHRyYW5zZm9ybTogc2NhbGUoMCwgMSk7XHJcbiAgICAgLXdlYmtpdC10cmFuc2l0aW9uOiBhbGwgMC41cyBsaW5lYXI7XHJcbiAgICAgdHJhbnNpdGlvbjogYWxsIDAuNXMgbGluZWFyO1xyXG4gICAgIHdpZHRoOiAyMDJweDtcclxuICAgfVxyXG4gICAjYWRkQnV0dG9uIHtcclxuICAgIGJhY2tncm91bmQ6bGlnaHRncmF5O1xyXG4gICAgd2lkdGg6MTAwcHg7XHJcbiAgICBtYXJnaW4tdG9wOiAzMHB4O1xyXG4gICAgbWFyZ2luLWxlZnQ6IDE4MHB4O1xyXG59XHJcbiN0YWJsZWNvbnRlbnQge1xyXG4gICAgYmFja2dyb3VuZDogbGlnaHRncmF5O1xyXG59XHJcbi5teS1jdXN0b20tc2Nyb2xsYmFyIHtcclxuICAgIG1heC1oZWlnaHQ6IDQwMHB4O1xyXG4gICAgb3ZlcmZsb3cteTogYXV0bztcclxuICAgIGNsZWFyOmJvdGg7XHJcbn1cclxuI3RvdGFsU3VtRGl2IHtcclxuICAgIG1hcmdpbi1sZWZ0OiA3MCU7XHJcbiAgICBtYXJnaW4tdG9wOiAxJTtcclxufVxyXG5cclxuI3RvdGFsU3VtRGl2IHtcclxuICAgIG1hcmdpbi1sZWZ0OiA3MCU7XHJcbiAgICBtYXJnaW4tdG9wOiAxJTtcclxufVxyXG4iXX0= */"
 
 /***/ }),
 
-/***/ "./src/app/admincomp/admincomp.component.html":
-/*!****************************************************!*\
-  !*** ./src/app/admincomp/admincomp.component.html ***!
-  \****************************************************/
+/***/ "./src/app/admincomp/transactionhistory.component.html":
+/*!*************************************************************!*\
+  !*** ./src/app/admincomp/transactionhistory.component.html ***!
+  \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div>\n  <form class=\"example-form divpos\">\n    <mat-form-field class=\"example-full-width\">\n      <input id=\"nameinput\"type=\"text\" placeholder=\"Enter item name\" aria-label=\"Assignee\"  matInput [formControl]=\"myControl\" [matAutocomplete]=\"auto\"/>\n      <mat-autocomplete #auto=\"matAutocomplete\" [displayWith]=\"displayFn\">\n        <mat-option *ngFor=\"let option of filteredOptions | async\" [value]=\"option\">\n          {{option.name}}\n        </mat-option>\n      </mat-autocomplete>\n    </mat-form-field>\n  </form>   \n  <div class=\"wrapper divpos\" id =\"rate\">\n    <input class=\"input\" placeholder=\"Enter rate\" type=\"text\" id=\"newItemInput\" [(ngModel)]=\"rate\">\n    <span class=\"underline\"></span>\n  </div>\n  \n  <button type=\"button\" class=\"btn btn-primary divpos\" id=\"addButton\" (click)=\"addItem()\">Add</button>  \n</div>\n<div class=\"table-wrapper-scroll-y my-custom-scrollbar\">\n  <table class=\"table table-bordered table-striped mb-0\" id=\"tablecontent\">\n    <thead>\n      <tr>\n        <th *ngFor=\"let head of headerList\" scope=\"col\">{{head}} </th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr  *ngFor=\"let item of itemList\">\n              <th scope=\"row\">{{item.id}}</th>\n              <td>{{item.name}}</td>\n              <td>{{item.rate}}</td>\n              <td (click)=\"removeItem(item.id)\">{{item.remove}}</td>\n      </tr>\n    </tbody>\n    \n  </table>\n</div>\n<div id=\"totalSumDiv\" *ngIf=\"id > 0\">\n  <button type=\"button\" class=\"btn btn-primary product-entry\" id=\"addButton\" (click)=\"saveItem()\">save</button> \n</div>\n"
+module.exports = "<div>\n  <form class=\"example-form divpos\">\n    <mat-form-field class=\"example-full-width\">\n      <input id=\"nameinput\"type=\"text\" placeholder=\"Enter item name\" aria-label=\"Assignee\"  matInput [formControl]=\"myControl\" [matAutocomplete]=\"auto\"/>\n      <mat-autocomplete #auto=\"matAutocomplete\" [displayWith]=\"displayFn\">\n        <mat-option *ngFor=\"let option of filteredOptions | async\" [value]=\"option\">\n          {{option.name}}\n        </mat-option>\n      </mat-autocomplete>\n    </mat-form-field>\n  </form>   \n  <div class=\"wrapper divpos\" id =\"rate\">\n    <input class=\"input\" placeholder=\"Enter rate\" type=\"text\" id=\"newItemInput\" [(ngModel)]=\"rate\">\n    <span class=\"underline\"></span>\n  </div>\n  \n  <button type=\"button\" class=\"btn btn-primary divpos\" id=\"addButton\" (click)=\"addItem()\">Add</button>  \n</div>\n<div class=\"table-wrapper-scroll-y my-custom-scrollbar\">\n  <table class=\"table table-bordered table-striped mb-0\" id=\"tablecontent\">\n    <thead>\n      <tr>\n        <th *ngFor=\"let head of headerList\" scope=\"col\">{{head}} </th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr  *ngFor=\"let item of itemList\">\n              <th scope=\"row\">{{item[0]}}</th>\n              <td>{{item[1]}}</td>\n              <td>{{item[2]}}</td>\n              <!--<td (click)=\"removeItem(item.id)\">{{item.remove}}</td> -->\n      </tr>\n    </tbody>\n    \n  </table>\n</div>\n<div id=\"totalSumDiv\" *ngIf=\"id > 0\">\n  <button type=\"button\" class=\"btn btn-primary product-entry\" id=\"addButton\" (click)=\"saveItem()\">save</button> \n</div>\n"
 
 /***/ }),
 
-/***/ "./src/app/admincomp/admincomp.component.ts":
-/*!**************************************************!*\
-  !*** ./src/app/admincomp/admincomp.component.ts ***!
-  \**************************************************/
-/*! exports provided: AdmincompComponent */
+/***/ "./src/app/admincomp/transactionhistory.component.ts":
+/*!***********************************************************!*\
+  !*** ./src/app/admincomp/transactionhistory.component.ts ***!
+  \***********************************************************/
+/*! exports provided: TransactionhistoryComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AdmincompComponent", function() { return AdmincompComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TransactionhistoryComponent", function() { return TransactionhistoryComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
@@ -65,22 +65,21 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var AdmincompComponent = /** @class */ (function () {
-    function AdmincompComponent(urlinfoservice, httpservice) {
+var TransactionhistoryComponent = /** @class */ (function () {
+    function TransactionhistoryComponent(urlinfoservice, httpservice) {
         this.urlinfoservice = urlinfoservice;
         this.httpservice = httpservice;
         this.id = 0;
         this.itemList = [];
-        this.headerList = ['Sr.', 'Item name', 'Rate', 'Delete'];
+        this.headerList = ['Sr.', 'CustomerId', 'Shopping Amount'];
         this.myControl = new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"]();
     }
-    AdmincompComponent.prototype.ngOnInit = function () {
+    TransactionhistoryComponent.prototype.ngOnInit = function () {
         this.httpservice.getApiCall(this.urlinfoservice.CUSTOMER_SHOPPING_SUMMARY_GET_URL, this);
         //    document.getElementById("nameinput").focus();
     };
-    AdmincompComponent.prototype.callBackOnApi = function (items) {
-        console.log("callback data");
-        console.log(items);
+    TransactionhistoryComponent.prototype.callBackOnApi = function (items) {
+        this.itemList = items;
         /* this.options = items;
         this.filteredOptions = this.myControl.valueChanges
           .pipe(
@@ -89,14 +88,14 @@ var AdmincompComponent = /** @class */ (function () {
             map(name => name ? this._filter(name) : this.options.slice())
           ); */
     };
-    AdmincompComponent.prototype._filter = function (name) {
+    TransactionhistoryComponent.prototype._filter = function (name) {
         var filterValue = name.toLowerCase();
         return this.options.filter(function (option) { return option.name.toLowerCase().indexOf(filterValue) === 0; });
     };
-    AdmincompComponent.prototype.displayFn = function (item) {
+    TransactionhistoryComponent.prototype.displayFn = function (item) {
         return item ? item.name : undefined;
     };
-    AdmincompComponent.prototype.addItem = function () {
+    TransactionhistoryComponent.prototype.addItem = function () {
         if ((this.name == undefined) && (this.rate == undefined)) {
             document.getElementById("nameinput").focus();
             return;
@@ -110,8 +109,7 @@ var AdmincompComponent = /** @class */ (function () {
         this.myControl.reset('');
         document.getElementById("nameinput").focus();
     };
-    AdmincompComponent.prototype.removeItem = function (id) {
-        console.log('item to be removed:' + id);
+    TransactionhistoryComponent.prototype.removeItem = function (id) {
         var tempItem = [];
         for (var _i = 0, _a = this.itemList; _i < _a.length; _i++) {
             var el = _a[_i];
@@ -126,21 +124,20 @@ var AdmincompComponent = /** @class */ (function () {
         this.id = this.id - 1;
         tempItem = [];
     };
-    AdmincompComponent.prototype.saveItem = function () {
-        console.log('Item saved to db');
+    TransactionhistoryComponent.prototype.saveItem = function () {
         this.itemList = [];
         this.id = 0;
         document.getElementById("nameinput").focus();
     };
-    AdmincompComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    TransactionhistoryComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: 'app-admincomp',
-            template: __webpack_require__(/*! ./admincomp.component.html */ "./src/app/admincomp/admincomp.component.html"),
-            styles: [__webpack_require__(/*! ./admincomp.component.css */ "./src/app/admincomp/admincomp.component.css")]
+            template: __webpack_require__(/*! ./transactionhistory.component.html */ "./src/app/admincomp/transactionhistory.component.html"),
+            styles: [__webpack_require__(/*! ./transactionhistory.component.css */ "./src/app/admincomp/transactionhistory.component.css")]
         }),
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_service_urlinfoservice_service__WEBPACK_IMPORTED_MODULE_3__["UrlinfoserviceService"], _service_httpservice_service__WEBPACK_IMPORTED_MODULE_4__["HttpserviceService"]])
-    ], AdmincompComponent);
-    return AdmincompComponent;
+    ], TransactionhistoryComponent);
+    return TransactionhistoryComponent;
 }());
 
 
@@ -224,16 +221,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _sidenavbar_sidenavbar_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./sidenavbar/sidenavbar.component */ "./src/app/sidenavbar/sidenavbar.component.ts");
 /* harmony import */ var _maincontent_maincontent_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./maincontent/maincontent.component */ "./src/app/maincontent/maincontent.component.ts");
 /* harmony import */ var _pageheader_pageheader_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./pageheader/pageheader.component */ "./src/app/pageheader/pageheader.component.ts");
-/* harmony import */ var _admincomp_admincomp_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./admincomp/admincomp.component */ "./src/app/admincomp/admincomp.component.ts");
+/* harmony import */ var _admincomp_transactionhistory_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./admincomp/transactionhistory.component */ "./src/app/admincomp/transactionhistory.component.ts");
 /* harmony import */ var _createtransaccomp_createtransaccomp_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./createtransaccomp/createtransaccomp.component */ "./src/app/createtransaccomp/createtransaccomp.component.ts");
 /* harmony import */ var _newitementry_newitementry_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./newitementry/newitementry.component */ "./src/app/newitementry/newitementry.component.ts");
 /* harmony import */ var _service_urlinfoservice_service__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./service/urlinfoservice.service */ "./src/app/service/urlinfoservice.service.ts");
 /* harmony import */ var _service_httpservice_service__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./service/httpservice.service */ "./src/app/service/httpservice.service.ts");
+/* harmony import */ var _maincontent_childcomp_childcomp_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./maincontent/childcomp/childcomp.component */ "./src/app/maincontent/childcomp/childcomp.component.ts");
 
 
 
 
  // used for [(ngModel)] two way binding
+
 
 
 
@@ -258,9 +257,10 @@ var AppModule = /** @class */ (function () {
                 _sidenavbar_sidenavbar_component__WEBPACK_IMPORTED_MODULE_10__["SidenavbarComponent"],
                 _maincontent_maincontent_component__WEBPACK_IMPORTED_MODULE_11__["MaincontentComponent"],
                 _pageheader_pageheader_component__WEBPACK_IMPORTED_MODULE_12__["PageheaderComponent"],
-                _admincomp_admincomp_component__WEBPACK_IMPORTED_MODULE_13__["AdmincompComponent"],
+                _admincomp_transactionhistory_component__WEBPACK_IMPORTED_MODULE_13__["TransactionhistoryComponent"],
                 _createtransaccomp_createtransaccomp_component__WEBPACK_IMPORTED_MODULE_14__["CreatetransaccompComponent"],
-                _newitementry_newitementry_component__WEBPACK_IMPORTED_MODULE_15__["NewitementryComponent"]
+                _newitementry_newitementry_component__WEBPACK_IMPORTED_MODULE_15__["NewitementryComponent"],
+                _maincontent_childcomp_childcomp_component__WEBPACK_IMPORTED_MODULE_18__["ChildcompComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -277,11 +277,14 @@ var AppModule = /** @class */ (function () {
                         path: 'createtransaction',
                         component: _createtransaccomp_createtransaccomp_component__WEBPACK_IMPORTED_MODULE_14__["CreatetransaccompComponent"]
                     }, {
-                        path: 'admin',
-                        component: _admincomp_admincomp_component__WEBPACK_IMPORTED_MODULE_13__["AdmincompComponent"]
+                        path: 'transactionhistory',
+                        component: _admincomp_transactionhistory_component__WEBPACK_IMPORTED_MODULE_13__["TransactionhistoryComponent"]
                     }, {
                         path: 'itementry',
                         component: _newitementry_newitementry_component__WEBPACK_IMPORTED_MODULE_15__["NewitementryComponent"]
+                    }, {
+                        path: 'learningcomp',
+                        component: _maincontent_maincontent_component__WEBPACK_IMPORTED_MODULE_11__["MaincontentComponent"]
                     }
                 ])
             ],
@@ -314,7 +317,7 @@ module.exports = "#customerIdDiv{\r\n  margin-left: -8%;\r\n  margin-top: -2%;\r
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"wrapper\" id =\"customerIdDiv\">\n  <input class=\"input\" placeholder=\"Enter Customer Id\" type=\"text\" id=\"customerID\" [(ngModel)]=\"customerID\"/>\n  <span class=\"underline\"></span>\n</div>\n<div id=\"itemInfoDiv\">\n    <form class=\"example-form divpos\">\n      <mat-form-field class=\"example-full-width\">\n        <input value='' id=\"nameinput\"type=\"text\" placeholder=\"Enter item name\" aria-label=\"Assignee\"  matInput [formControl]=\"myControl\" [matAutocomplete]=\"auto\" (ngModelChange)=\"onItemChange()\"/>\n        <mat-autocomplete #auto=\"matAutocomplete\" [displayWith]=\"displayFn\">\n          <mat-option *ngFor=\"let option of filteredOptions | async\" [value]=\"option\">\n            {{option.name}}\n          </mat-option>\n        </mat-autocomplete>\n      </mat-form-field>\n    </form>   \n  <div class=\"wrapper divpos\" id =\"quantity\">\n    <input class=\"input\" placeholder=\"Enter quantity\" type=\"text\" id=\"quantity\" [(ngModel)]=\"quantity\" (blur)=\"onQuantityChange()\"/>\n    <span class=\"underline\"></span>\n  </div>\n  <div class=\"wrapper divpos\" id =\"rate\">\n    <input class=\"input\" placeholder=\"Rate of Item\" type=\"text\" id=\"rate\" [(ngModel)]=\"rate\" [attr.disabled]=\"true\"/>\n    <span class=\"underline\"></span>\n  </div>\n\n  <div class=\"wrapper divpos\" id =\"cost\">\n    <input class=\"input\" placeholder=\"Items cost\" type=\"text\" id=\"cost\" [(ngModel)]=\"cost\" [attr.disabled]=\"true\"/>\n    <span class=\"underline\"></span>\n  </div>\n\n  <button type=\"button\" class=\"btn btn-primary divpos\" id=\"addButton\" (click)=\"addItem()\">Add</button>  \n</div>\n<div  id=\"print-section\">\n<div class=\"table-wrapper-scroll-y my-custom-scrollbar\">\n    <table class=\"table table-bordered table-striped mb-0\" id=\"tablecontent\">\n      <thead>\n        <tr>\n          <th *ngFor=\"let head of headerList\" scope=\"col\">{{head}} </th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr  *ngFor=\"let item of itemList\">\n                <th scope=\"row\">{{item.id}}</th>\n                <td>{{item.name}}</td>\n                <td>{{item.quantity}}</td>\n                <td>{{item.rate}}</td>\n                <td>{{item.cost}}</td>\n                <td (click)=\"removeItem(item.id)\">{{item.remove}}</td>\n        </tr>\n      </tbody>\n      <tfoot id=\"tfoot\"> \n                <tr> \n                    <td align=\"right\" colspan=\"5\">Total Cost: {{totalSum}}</td> \n                </tr> \n      </tfoot> \n    </table>\n</div>\n</div>\n<div id=\"printCostDiv\">\n    <div id=\"totalSumDiv\" class=\"printTotalCost\" *ngIf=\"totalSum > 0\">\n      <span class=\"badge\" id = \"totalSumLavel\">Total Cost: {{totalSum}}</span>\n    </div>\n    <div  class=\"printTotalCost\" *ngIf=\"totalSum > 0\">\n      <!-- <button printSectionId=\"print-section\" printTitle=\"Invoice Details\"   ngxPrint id=\"printdiv\" type=\"button\" class=\"btn btn-primary\" (click)=\"printItem()\">Print</button> --> \n      <button printSectionId=\"print-section\" printTitle=\"Invoice Details\"  id=\"printdiv\" type=\"button\" class=\"btn btn-primary\" (click)=\"printItem()\">New</button> \n    </div>\n</div>"
+module.exports = "<div class=\"wrapper\" id =\"customerIdDiv\">\n  <input class=\"input\" placeholder=\"Enter Customer Id\" type=\"text\" id=\"customerID\" [(ngModel)]=\"customerID\"/>\n  <span class=\"underline\"></span>\n</div>\n<div id=\"itemInfoDiv\">\n    <form class=\"example-form divpos\">\n      <mat-form-field class=\"example-full-width\">\n        <input value='' id=\"nameinput\"type=\"text\" placeholder=\"Enter item name\" aria-label=\"Assignee\"  matInput [formControl]=\"myControl\" [matAutocomplete]=\"auto\" (ngModelChange)=\"onItemChange()\"/>\n        <mat-autocomplete #auto=\"matAutocomplete\" [displayWith]=\"displayFn\">\n          <mat-option *ngFor=\"let option of filteredOptions | async\" [value]=\"option\">\n            {{option.name}}\n          </mat-option>\n        </mat-autocomplete>\n      </mat-form-field>\n    </form>   \n  <div class=\"wrapper divpos\" id =\"quantity\">\n    <input class=\"input\" placeholder=\"Enter quantity\" type=\"text\" id=\"quantity\" [(ngModel)]=\"quantity\" (blur)=\"onQuantityChange()\"/>\n    <span class=\"underline\"></span>\n  </div>\n  <div class=\"wrapper divpos\" id =\"rate\">\n    <input class=\"input\" placeholder=\"Rate of Item\" type=\"text\" id=\"rate\" [(ngModel)]=\"rate\" [disabled]=\"disableFlag\" (blur)=\"onEnterRate()\"/>\n    <span class=\"underline\"></span>\n  </div>\n\n  <div class=\"wrapper divpos\" id =\"cost\">\n    <input class=\"input\" placeholder=\"Items cost\" type=\"text\" id=\"cost\" [(ngModel)]=\"cost\" [disabled]=\"true\"/>\n    <span class=\"underline\"></span>\n  </div>\n\n  <button type=\"button\" class=\"btn btn-primary divpos\" id=\"addButton\" (click)=\"addItem()\">Add</button>  \n</div>\n<div  id=\"print-section\">\n<div class=\"table-wrapper-scroll-y my-custom-scrollbar\">\n    <table class=\"table table-bordered table-striped mb-0\" id=\"tablecontent\">\n      <thead>\n        <tr>\n          <th *ngFor=\"let head of headerList\" scope=\"col\">{{head}} </th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr  *ngFor=\"let item of itemList\">\n                <th scope=\"row\">{{item.id}}</th>\n                <td>{{item.name}}</td>\n                <td>{{item.quantity}}</td>\n                <td>{{item.rate}}</td>\n                <td>{{item.cost}}</td>\n                <td (click)=\"removeItem(item.id)\">{{item.remove}}</td>\n        </tr>\n      </tbody>\n      <tfoot id=\"tfoot\"> \n                <tr> \n                    <td align=\"right\" colspan=\"5\">Total Cost: {{totalSum}}</td> \n                </tr> \n      </tfoot> \n    </table>\n</div>\n</div>\n<div id=\"printCostDiv\">\n    <div id=\"totalSumDiv\" class=\"printTotalCost\" *ngIf=\"totalSum > 0\">\n      <span class=\"badge\" id = \"totalSumLavel\">Total Cost: {{totalSum}}</span>\n    </div>\n    <div  class=\"printTotalCost\" *ngIf=\"totalSum > 0\">\n      <!-- <button printSectionId=\"print-section\" printTitle=\"Invoice Details\"   ngxPrint id=\"printdiv\" type=\"button\" class=\"btn btn-primary\" (click)=\"printItem()\">Print</button> --> \n      <!--<button printSectionId=\"print-section\" printTitle=\"Invoice Details\"  id=\"printdiv\" type=\"button\" class=\"btn btn-primary\" (click)=\"printItem()\">New</button>  -->\n      <button class=\"btn btn-primary\" id=\"printdiv\" type=\"button\" onclick=\"printJS({printable: itemToPrint\n    , properties: ['name', 'quantity', 'rate','cost'], type: 'json', header:customerId})\" (click)=\"printItem()\">\n        Print\n     </button>\n    </div>\n</div>\n"
 
 /***/ }),
 
@@ -334,6 +337,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
 /* harmony import */ var _service_urlinfoservice_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../service/urlinfoservice.service */ "./src/app/service/urlinfoservice.service.ts");
 /* harmony import */ var _service_httpservice_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../service/httpservice.service */ "./src/app/service/httpservice.service.ts");
+/* harmony import */ var _service_shared_info_container_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../service/shared-info-container.service */ "./src/app/service/shared-info-container.service.ts");
+
 
 
 
@@ -341,9 +346,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var CreatetransaccompComponent = /** @class */ (function () {
-    function CreatetransaccompComponent(urlinfoservice, httpservice) {
+    function CreatetransaccompComponent(urlinfoservice, httpservice, sharedInfo) {
         this.urlinfoservice = urlinfoservice;
         this.httpservice = httpservice;
+        this.sharedInfo = sharedInfo;
+        this.disableFlag = true;
         this.id = 0;
         this.item = {};
         this.itemList = [];
@@ -367,7 +374,7 @@ var CreatetransaccompComponent = /** @class */ (function () {
     };
     CreatetransaccompComponent.prototype.ngOnInit = function () {
         this.httpservice.getApiCall(this.urlinfoservice.ITEM_GET_INFO_URL, this);
-        //document.getElementById("nameinput").focus();
+        document.getElementById("customerID").focus();
     };
     CreatetransaccompComponent.prototype.displayFn = function (item) {
         return item ? item.name : undefined;
@@ -377,26 +384,29 @@ var CreatetransaccompComponent = /** @class */ (function () {
         return this.options.filter(function (option) { return option.name.toLowerCase().indexOf(filterValue) === 0; });
     };
     CreatetransaccompComponent.prototype.addItem = function () {
-        console.log("========================");
         if ((this.name == undefined) && (this.quantity == undefined)) {
             document.getElementById("nameinput").focus();
             return;
         }
         this.name = this.myControl.value.name;
-        this.rate = this.myControl.value.rate;
+        if ((this.name == null)) {
+            this.name = document.getElementById("nameinput").value;
+        }
+        //this.rate=this.myControl.value.rate;
         this.item = { id: this.id + 1, name: this.name, quantity: this.quantity, rate: this.rate, cost: this.cost, remove: 'Remove' };
         this.itemList.push(this.item);
         this.id = this.id + 1;
         this.totalSum = this.totalSum + this.cost;
+        printfunc({ name: this.name, quantity: this.quantity, rate: this.rate, cost: this.cost }, this.customerID, this.totalSum);
         this.name = undefined;
         this.quantity = undefined;
         this.rate = undefined;
         this.cost = undefined;
         this.myControl.reset('');
         document.getElementById("nameinput").focus();
+        this.sharedInfo.putData(this.item);
     };
     CreatetransaccompComponent.prototype.removeItem = function (id) {
-        console.log('item to be removed:' + id);
         var tempItem = [];
         for (var _i = 0, _a = this.itemList; _i < _a.length; _i++) {
             var el = _a[_i];
@@ -419,16 +429,24 @@ var CreatetransaccompComponent = /** @class */ (function () {
         ;
         this.quantity = 1;
         this.cost = this.rate;
+        if (this.rate == null) {
+            this.disableFlag = false;
+        }
+        else {
+            this.disableFlag = true;
+        }
+    };
+    CreatetransaccompComponent.prototype.onEnterRate = function () {
+        this.cost = this.rate * this.quantity;
     };
     CreatetransaccompComponent.prototype.onQuantityChange = function () {
         this.cost = this.rate * this.quantity;
     };
     CreatetransaccompComponent.prototype.printItem = function () {
-        console.log("========================");
-        document.getElementById("tfoot").style.display = '';
-        document.getElementById("tfoot").style.visibility = 'visible';
-        var transactionSummary = { customerId: this.customerID, shoppingSummary: this.totalSum };
-        var response = this.httpservice.postApiCall(this.urlinfoservice.CUSTOMER_SHOPPING_SUMMARY_SAVE_URL, transactionSummary, this);
+        this.itemList = [];
+        this.customerID = undefined;
+        this.totalSum = undefined;
+        document.getElementById("customerID").focus();
     };
     CreatetransaccompComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
@@ -436,9 +454,77 @@ var CreatetransaccompComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./createtransaccomp.component.html */ "./src/app/createtransaccomp/createtransaccomp.component.html"),
             styles: [__webpack_require__(/*! ./createtransaccomp.component.css */ "./src/app/createtransaccomp/createtransaccomp.component.css")]
         }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_service_urlinfoservice_service__WEBPACK_IMPORTED_MODULE_4__["UrlinfoserviceService"], _service_httpservice_service__WEBPACK_IMPORTED_MODULE_5__["HttpserviceService"]])
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_service_urlinfoservice_service__WEBPACK_IMPORTED_MODULE_4__["UrlinfoserviceService"], _service_httpservice_service__WEBPACK_IMPORTED_MODULE_5__["HttpserviceService"], _service_shared_info_container_service__WEBPACK_IMPORTED_MODULE_6__["SharedInfoContainerService"]])
     ], CreatetransaccompComponent);
     return CreatetransaccompComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/maincontent/childcomp/childcomp.component.css":
+/*!***************************************************************!*\
+  !*** ./src/app/maincontent/childcomp/childcomp.component.css ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL21haW5jb250ZW50L2NoaWxkY29tcC9jaGlsZGNvbXAuY29tcG9uZW50LmNzcyJ9 */"
+
+/***/ }),
+
+/***/ "./src/app/maincontent/childcomp/childcomp.component.html":
+/*!****************************************************************!*\
+  !*** ./src/app/maincontent/childcomp/childcomp.component.html ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  childcomp works!\n  \n</p>\n"
+
+/***/ }),
+
+/***/ "./src/app/maincontent/childcomp/childcomp.component.ts":
+/*!**************************************************************!*\
+  !*** ./src/app/maincontent/childcomp/childcomp.component.ts ***!
+  \**************************************************************/
+/*! exports provided: ChildcompComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ChildcompComponent", function() { return ChildcompComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+
+
+
+var ChildcompComponent = /** @class */ (function () {
+    function ChildcompComponent() {
+    }
+    ChildcompComponent.prototype.ngOnChanges = function () {
+        console.log("ngOnChanges: data from parent comp:" + this.parentmsg);
+    };
+    ChildcompComponent.prototype.ngOnInit = function () {
+        console.log("ngOnInit: data from parent comp:" + this.parentmsg);
+    };
+    ChildcompComponent.prototype.ngDoCheck = function () {
+        console.log('ngDoCheck get called');
+    };
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", String)
+    ], ChildcompComponent.prototype, "parentmsg", void 0);
+    ChildcompComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-childcomp',
+            template: __webpack_require__(/*! ./childcomp.component.html */ "./src/app/maincontent/childcomp/childcomp.component.html"),
+            styles: [__webpack_require__(/*! ./childcomp.component.css */ "./src/app/maincontent/childcomp/childcomp.component.css")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+    ], ChildcompComponent);
+    return ChildcompComponent;
 }());
 
 
@@ -463,7 +549,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<h1>\n    Welcome to {{ title }}!\n  </h1>\n\n<h2>Here are some links to help you start: </h2>\n"
+module.exports = "<h3>\n    Welcome to Component Learning!\n</h3>\n<br/>\n<input  [(ngModel)]=\"name\" placeholder=\"Enter news\">\n<br/>\n<button (click)=\"onClick()\">send news</button>>\n<br/>\n<div *ngIf=\"name\">\n<h4>Message to be broadcast is:{{name}}</h4>\n<hr/>\n<button (click)=\"subscribeForNewMsg()\">subscribe to get news</button>\n<!-- <h1 *ngFor=\"let data of sharedData\">{{data}}</h1> -->\n<h1 *ngIf=\"receivedMsg\">received message is{{receivedMsg}}</h1>\n<hr/>\n<h4>child component data></h4>\n<app-childcomp [parentmsg]=\"name\"></app-childcomp>\n</div>\n\n\n"
 
 /***/ }),
 
@@ -479,12 +565,36 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MaincontentComponent", function() { return MaincontentComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _service_shared_info_container_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../service/shared-info-container.service */ "./src/app/service/shared-info-container.service.ts");
+
 
 
 var MaincontentComponent = /** @class */ (function () {
-    function MaincontentComponent() {
+    function MaincontentComponent(sharedInfo) {
+        this.sharedInfo = sharedInfo;
+        this.sharedData = [];
+        console.log("content page constructor get called");
     }
     MaincontentComponent.prototype.ngOnInit = function () {
+        console.log("content page ngOnInit get called");
+    };
+    MaincontentComponent.prototype.ngOnChanges = function () {
+        console.log("content page ngOnChanges get called");
+    };
+    MaincontentComponent.prototype.ngOnDestroy = function () {
+        console.log("content page ngOnDestroy get called");
+    };
+    MaincontentComponent.prototype.onClick = function () {
+        console.log("name entered in the input field");
+        //this.sharedData = this.sharedInfo.getData();  // get the data which is updated by different component whith old content tool
+        this.sharedInfo.sendMessage(this.name);
+        console.log("message sent");
+    };
+    MaincontentComponent.prototype.subscribeForNewMsg = function () {
+        var _this = this;
+        this.sharedInfo.getMessage().subscribe(function (msg) {
+            _this.receivedMsg = msg.message;
+        });
     };
     MaincontentComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
@@ -492,7 +602,7 @@ var MaincontentComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./maincontent.component.html */ "./src/app/maincontent/maincontent.component.html"),
             styles: [__webpack_require__(/*! ./maincontent.component.css */ "./src/app/maincontent/maincontent.component.css")]
         }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_service_shared_info_container_service__WEBPACK_IMPORTED_MODULE_2__["SharedInfoContainerService"]])
     ], MaincontentComponent);
     return MaincontentComponent;
 }());
@@ -553,8 +663,6 @@ var NewitementryComponent = /** @class */ (function () {
         this.headerList = ['Sr.', 'Item New Name', 'rate', 'Item Old Name', 'Delete'];
         this.id = 0;
         this.itemList = [];
-        console.log(urlinfoservice);
-        console.log(httpservice);
     }
     NewitementryComponent.prototype.ngOnInit = function () {
         this.httpservice.getApiCall(this.urlinfoservice.ITEM_GET_INFO_URL, this);
@@ -582,13 +690,14 @@ var NewitementryComponent = /** @class */ (function () {
         this.rate = this.myControl.value.rate;
     };
     NewitementryComponent.prototype.addItem = function () {
-        if ((this.oldName == undefined) && (this.newName == undefined)) {
+        console.log('testing ');
+        console.log(this.myControl.value);
+        if ((this.myControl.value == undefined) && (this.newName == undefined) && (this.rate == undefined)) {
             document.getElementById("olditeminput").focus();
             return;
         }
+        console.log('testing ----');
         this.oldName = this.myControl.value ? this.myControl.value.name : this.myControl.value;
-        console.log('this.myControl.value.name:', this.myControl.value);
-        console.log('this.oldName:' + this.oldName);
         this.id = this.id + 1;
         var item = { id: this.id, newName: this.newName, rate: this.rate, oldName: this.oldName, remove: 'Remove' };
         this.itemList.push(item);
@@ -615,17 +724,14 @@ var NewitementryComponent = /** @class */ (function () {
         tempItem = [];
     };
     NewitementryComponent.prototype.saveItem = function () {
-        console.log('Item saved to db');
         var itemListStr = JSON.stringify(this.itemList);
-        console.log(itemListStr);
         var itemListJson = JSON.parse(itemListStr);
+        console.log("=======" + itemListStr);
         itemListJson.map(function (el) {
             delete el.id;
             delete el.remove;
         });
         var response = this.httpservice.postApiCall(this.urlinfoservice.ITEM_ENTRY_UPDATE_URL, itemListJson, this);
-        console.log('---- response in comp -----');
-        console.log(response);
         this.itemList = [];
         this.id = 0;
         document.getElementById("newItemInput").focus();
@@ -788,6 +894,52 @@ var HttpserviceService = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/service/shared-info-container.service.ts":
+/*!**********************************************************!*\
+  !*** ./src/app/service/shared-info-container.service.ts ***!
+  \**********************************************************/
+/*! exports provided: SharedInfoContainerService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SharedInfoContainerService", function() { return SharedInfoContainerService; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
+
+
+
+var SharedInfoContainerService = /** @class */ (function () {
+    function SharedInfoContainerService() {
+        this.sharedInfo = [];
+        this.subject = new rxjs__WEBPACK_IMPORTED_MODULE_2__["Subject"]();
+    }
+    SharedInfoContainerService.prototype.putData = function (data) {
+        this.sharedInfo.push(data);
+    };
+    SharedInfoContainerService.prototype.getData = function () {
+        return this.sharedInfo;
+    };
+    SharedInfoContainerService.prototype.sendMessage = function (msg) {
+        this.subject.next({ message: msg });
+    };
+    SharedInfoContainerService.prototype.getMessage = function () {
+        return this.subject.asObservable();
+    };
+    SharedInfoContainerService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
+            providedIn: 'root'
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+    ], SharedInfoContainerService);
+    return SharedInfoContainerService;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/service/urlinfoservice.service.ts":
 /*!***************************************************!*\
   !*** ./src/app/service/urlinfoservice.service.ts ***!
@@ -840,7 +992,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"nav flex-column\">\n    <a class=\"nav-link\" href=\"#\" routerLink = \"createtransaction\">Create New Transaction</a>\n    <a class=\"nav-link active\" routerLink = \"admin\">Item Cost Update</a>\n    <a class=\"nav-link active\" routerLink = \"itementry\">Item Name Update</a>\n    <a class=\"nav-link\" href=\"#\">Link</a>\n    <a class=\"nav-link disabled\">Disabled</a>\n  </nav>\n"
+module.exports = "<nav class=\"nav flex-column\">\n    <a class=\"nav-link\" href=\"#\" routerLink = \"createtransaction\">Create New Transaction</a>\n    <a class=\"nav-link active\" routerLink = \"transactionhistory\">Today Transaction History</a>\n    <a class=\"nav-link active\" routerLink = \"itementry\">Item New Entry Or Update</a>\n    <a class=\"nav-link active\" routerLink = \"learningcomp\">LearnComponent</a>\n  </nav>\n\n"
 
 /***/ }),
 
