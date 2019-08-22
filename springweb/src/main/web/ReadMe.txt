@@ -91,3 +91,5 @@ Ans: [ngModel]="currentHero.name" is the syntax for one-way binding.
      [(ngModel)]="currentHero.name" is for two-way binding
      [ngModel]="currentHero.name" and (ngModelChange)="currentHero.name = $event": If you only need to pass model, use the first one. 
                 If your model needs to listen change events (e.g. when input field value changes), use the second one
+Q) How to disable print preview window in chrome?
+Ans: chrome shortcut -> properties -> edit target to: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-print-preview

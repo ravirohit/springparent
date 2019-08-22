@@ -19,7 +19,7 @@ export interface Item{
 export class NewitementryComponent implements OnInit {
 
   myControl = new FormControl();
-  headerList:string[]=['Sr.','Item New Name','rate','Item Old Name','Delete'];
+  headerList:string[]=['Sr.','New item name','Rate','Old item name','Action'];
   newName: string;
   rate: number;
   oldName: string;

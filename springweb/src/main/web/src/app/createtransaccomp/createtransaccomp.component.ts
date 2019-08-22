@@ -7,8 +7,8 @@ import {HttpserviceService} from '../service/httpservice.service';
 import {SharedInfoContainerService} from '../service/shared-info-container.service';
 
 
-declare function printfunc(arg1:Object, arg2:string, arg3:number): any;
-declare function removeItemFromPrintList(arg1:number,arg2:number):any;
+declare function printfunc(arg1:Object, arg2:string, arg3:Object[]): any;
+declare function removeItemFromPrintList(arg1:number,arg2:Object[]):any;
 declare function clearRecord():any;
 export interface Item{
   name: string;
@@ -31,7 +31,7 @@ export class CreatetransaccompComponent implements OnInit {
   item={};
   itemList = [];
   totalSum:number = 0;
-  headerList = ['Sr.','Name','Quantity','Rate', 'Cost','Delete'];
+  headerList = ['Sr.','Name','Quantity','Rate', 'Cost','Action'];
   myControl = new FormControl();
   options: Item[];
   filteredOptions: Observable<Item[]>;
@@ -80,7 +80,10 @@ export class CreatetransaccompComponent implements OnInit {
     this.item={id:this.id,name:this.name,quantity:this.quantity,rate:this.rate,cost:this.cost,remove:'Remove'};
     this.itemList.push(this.item);
     this.totalSum = this.totalSum + this.cost;
-    printfunc({id:this.id,name:this.name,quantity:this.quantity,rate:this.rate,cost:this.cost}, this.customerID, this.totalSum);
+
+    
+    //let docfooter = [{id:'-',name:'-',quantity:'-',rate:'-',cost:'-'},{id:'',name:'Total Cost',quantity:'',rate:'',cost:this.totalSum}];
+    printfunc({id:this.id,name:this.name,quantity:this.quantity,rate:this.rate,cost:this.cost}, this.getDocHeader(), this.getDocFooter());
     this.name=undefined;
     this.quantity=undefined;
     this.rate=undefined;
@@ -89,12 +92,25 @@ export class CreatetransaccompComponent implements OnInit {
     document.getElementById("nameinput").focus();
     this.sharedInfo.putData(this.item);
   }
+  getDocHeader(){
+    let docheading;
+    if(this.customerID != null){
+      docheading = "Invoice of Customer: " + this.customerID;
+    } else{
+      docheading = "Invoice of Customer";
+    }
+    return docheading;
+  }
+  getDocFooter(){
+    return [{id:'-',name:'-',quantity:'-',rate:'-',cost:'-'},{id:'',name:'Total Cost',quantity:'',rate:'',cost:this.totalSum}];
+  }
   removeItem(id){
     let tempItem=[];
     for(let el of this.itemList){
       if(el.id == id){
         this.totalSum = this.totalSum - el.cost;
-        removeItemFromPrintList(id,this.totalSum);
+        let docfooter = [{id:'-',name:'-',quantity:'-',rate:'-',cost:'-'},{id:'',name:'Total Cost',quantity:'',rate:'',cost:this.totalSum}];
+        removeItemFromPrintList(id,this.getDocFooter());
       }
       else {
         tempItem.push(el);

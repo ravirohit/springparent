@@ -1,3 +1,8 @@
+#tableLabelId{
+  margin-top:20px;
+  margin-left:35%;
+  margin-bottom: 20px;
+}
 .example-form {
     /* min-width: 150px;
      max-width: 500px; */
@@ -79,12 +84,23 @@
     overflow-y: auto;
     clear:both;
 }
-#totalSumDiv {
-    margin-left: 70%;
-    margin-top: 1%;
-}
+#printCostDiv{
+  margin-left: 65%;
+  margin-top: 1.5%;
 
-#totalSumDiv {
-    margin-left: 70%;
-    margin-top: 1%;
+}
+.printTotalCost{
+    float: left;
+}
+#totalSumLavel{
+  margin-top: 10px;
+  font-size: 100%;
+}
+#printdiv{
+  width: 100px;
+  margin-left: 8px;
+  background: lightgray;
+}
+#tfoot{
+  display:none;
 }

@@ -1,5 +1,5 @@
-<div>
-  <form class="example-form divpos">
+<div id = "tableLabelId">
+ <!-- <form class="example-form divpos">
     <mat-form-field class="example-full-width">
       <input id="nameinput"type="text" placeholder="Enter item name" aria-label="Assignee"  matInput [formControl]="myControl" [matAutocomplete]="auto"/>
       <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn">
@@ -13,8 +13,8 @@
     <input class="input" placeholder="Enter rate" type="text" id="newItemInput" [(ngModel)]="rate">
     <span class="underline"></span>
   </div>
-  
-  <button type="button" class="btn btn-primary divpos" id="addButton" (click)="addItem()">Add</button>  
+  <button type="button" class="btn btn-primary divpos" id="addButton" (click)="addItem()">Add</button> --> 
+  <h5>Transactions of the Day:</h5>
 </div>
 <div class="table-wrapper-scroll-y my-custom-scrollbar">
   <table class="table table-bordered table-striped mb-0" id="tablecontent">
@@ -25,15 +25,25 @@
     </thead>
     <tbody>
       <tr  *ngFor="let item of itemList">
-              <th scope="row">{{item[0]}}</th>
-              <td>{{item[1]}}</td>
-              <td>{{item[2]}}</td>
+              <th scope="row">{{item.id}}</th>
+              <td>{{item.customerId}}</td>
+              <td>{{item.shoppingAmount}}</td>
               <!--<td (click)="removeItem(item.id)">{{item.remove}}</td> -->
       </tr>
     </tbody>
     
   </table>
 </div>
-<div id="totalSumDiv" *ngIf="id > 0">
-  <button type="button" class="btn btn-primary product-entry" id="addButton" (click)="saveItem()">save</button> 
+<div id="printCostDiv">
+  <div id="totalSumDiv" class="printTotalCost" *ngIf="totalTransaction > 0">
+    <span class="badge" id = "totalSumLavel">Total Transaction: {{totalTransaction}}</span>
+  </div>
+  <div  class="printTotalCost" *ngIf="totalTransaction > 0">
+    <!-- <button printSectionId="print-section" printTitle="Invoice Details"   ngxPrint id="printdiv" type="button" class="btn btn-primary" (click)="printItem()">Print</button> --> 
+    <!--<button printSectionId="print-section" printTitle="Invoice Details"  id="printdiv" type="button" class="btn btn-primary" (click)="printItem()">New</button>  -->
+    <button class="btn btn-primary" id="printdiv" type="button" onclick="printJS({printable: itemToPrint
+  , properties: ['id','customerId', 'shoppingAmount'], type: 'json', header:docheading})" (click)="printItem()">
+      Print
+   </button>
+  </div>
 </div>

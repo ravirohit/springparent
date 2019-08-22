@@ -91,7 +91,7 @@ public class ProductRepository {
 	public List<CustomerShoppingSummary> getShoppingSummary(){
 		List<CustomerShoppingSummary> summaryList = null;
 		String date = DateUtil.getDateInStringFormat();
-		String str = "SELECT * FROM customershoppingsummary a where a.shoppingTime > '"+date+"'  order by shoppingTime";
+		String str = "SELECT * FROM customershoppingsummary a where a.shoppingTime > '"+date+"'  order by shoppingTime desc";
 		try{
 			Session session = sessionFactory.getCurrentSession();
 			Query query = session.createSQLQuery(str);

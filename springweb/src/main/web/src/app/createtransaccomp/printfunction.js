@@ -1,19 +1,14 @@
 var itemToPrint=[{},{}];
-var customerId="";
-function printfunc(item,customer,totalCost) {
+var docheading="";
+function printfunc(item,docheadstr,docfooter) {
     itemToPrint = itemToPrint.slice(0,itemToPrint.length - 2);
     console.log('++++++++++++++++++++++');
   itemToPrint.push(item);
-  if(customer != null ){
-      customerId = "Invoice of Customer: " + customer;
-  }
-  else {
-    customerId = "Invoice of Customer";
-  }
-  itemToPrint.push({id:'-',name:'-',quantity:'-',rate:'-',cost:'-'});
-  itemToPrint.push({id:'',name:'Total Cost',quantity:'',rate:'',cost:totalCost});
+  docheading = docheadstr;
+  itemToPrint.push(docfooter[0]);
+  itemToPrint.push(docfooter[1]);
 }
-function removeItemFromPrintList(id, totalCost){
+function removeItemFromPrintList(id, docfooter){
     console.log("id:"+id);
     itemToPrint = itemToPrint.slice(0,itemToPrint.length - 2);
     let tempItem=[];
@@ -30,11 +25,11 @@ function removeItemFromPrintList(id, totalCost){
     }
     itemToPrint = tempItem;
     tempItem=[];
-    itemToPrint.push({id:'-',name:'-',quantity:'-',rate:'-',cost:'-'});
-    itemToPrint.push({id:'',name:'Total Cost',quantity:'',rate:'',cost:totalCost});
+    itemToPrint.push(docfooter[0]);
+    itemToPrint.push(docfooter[1]);
 
 }
 function clearRecord(){
     itemToPrint=[{},{}];
-    customerId="";  
+    docheading="";  
 }

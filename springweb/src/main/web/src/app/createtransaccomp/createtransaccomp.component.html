@@ -63,7 +63,7 @@
       <!-- <button printSectionId="print-section" printTitle="Invoice Details"   ngxPrint id="printdiv" type="button" class="btn btn-primary" (click)="printItem()">Print</button> --> 
       <!--<button printSectionId="print-section" printTitle="Invoice Details"  id="printdiv" type="button" class="btn btn-primary" (click)="printItem()">New</button>  -->
       <button class="btn btn-primary" id="printdiv" type="button" onclick="printJS({printable: itemToPrint
-    , properties: ['id','name', 'quantity', 'rate','cost'], type: 'json', header:customerId})" (click)="printItem()">
+    , properties: ['id','name', 'quantity', 'rate','cost'], type: 'json', header:docheading})" (click)="printItem()">
         Print
      </button>
     </div>
