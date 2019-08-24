@@ -7,13 +7,13 @@ import java.util.Date;
 // "yyyy-MM-dd HH:mm:ss"   format the date in 24 hour date format
 public class DateUtil {
 	
-	public static String getDateInStringFormat(){
-		Date date = new Date(System.currentTimeMillis() - 24*60*60*1000);
+	public static String getDateInStringFormat(){   // used this date to fetch data from db as db support this string format.
+		Date date = new Date(System.currentTimeMillis() - 24*60*60*1000); // record of last 24 hours.
 		System.out.println("Date is:"+date);
 		SimpleDateFormat format= new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");  // this format is used by mysql db
 		String dateStr = format.format(date);
 		System.out.println("String date is: "+dateStr);
 		return dateStr;
 	}
-
+   
 }

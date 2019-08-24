@@ -88,13 +88,21 @@ public class ProductRepository {
 		}
 		return true;
 	}
-	public List<CustomerShoppingSummary> getShoppingSummary(){
+	public List<CustomerShoppingSummary> getShoppingSummary(String sdate, String edate){
+		StringBuffer str = new StringBuffer("SELECT * FROM customershoppingsummary a");
 		List<CustomerShoppingSummary> summaryList = null;
-		String date = DateUtil.getDateInStringFormat();
-		String str = "SELECT * FROM customershoppingsummary a where a.shoppingTime > '"+date+"'  order by shoppingTime desc";
+		//String date = DateUtil.getDateInStringFormat();
+		if(sdate != null){
+			str.append(" where a.shoppingTime > '"+sdate+"'");
+		}
+		if(edate != null){
+			str.append(" and a.shoppingTime < '"+edate+"'");
+		}
+		str.append("  order by shoppingTime desc");
+		String strQuery = str.toString();
 		try{
 			Session session = sessionFactory.getCurrentSession();
-			Query query = session.createSQLQuery(str);
+			Query query = session.createSQLQuery(strQuery);
 			summaryList = query.list();
 			System.out.println("record fetch:"+summaryList);
 		}catch(Exception e){

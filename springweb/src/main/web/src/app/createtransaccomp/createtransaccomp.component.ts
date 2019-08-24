@@ -55,6 +55,7 @@ export class CreatetransaccompComponent implements OnInit {
     }
   }
   ngOnInit() {
+    clearRecord();
     this.httpservice.getApiCall(this.urlinfoservice.ITEM_GET_INFO_URL,this);
     document.getElementById("customerID").focus();
   }

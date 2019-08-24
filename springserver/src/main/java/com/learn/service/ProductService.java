@@ -81,10 +81,10 @@ public class ProductService {
 		    return false;
 		}
 	}
-	public List<CustomerShoppingSummary> getShoppingSummary(){
+	public List<CustomerShoppingSummary> getShoppingSummary(String sdate, String edate){
 		List<CustomerShoppingSummary> summaryList = null;
 		try{
-			summaryList = productRepository.getShoppingSummary();
+			summaryList = productRepository.getShoppingSummary(sdate, edate);
 			return summaryList;
 		}catch(Exception e){
 		    return summaryList;

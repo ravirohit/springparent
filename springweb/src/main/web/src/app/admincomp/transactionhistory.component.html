@@ -13,8 +13,31 @@
     <input class="input" placeholder="Enter rate" type="text" id="newItemInput" [(ngModel)]="rate">
     <span class="underline"></span>
   </div>
-  <button type="button" class="btn btn-primary divpos" id="addButton" (click)="addItem()">Add</button> --> 
-  <h5>Transactions of the Day:</h5>
+  <button type="button" class="btn btn-primary divpos" id="addButton" (click)="addItem()">Add</button> -->  
+  <div>
+    <div class="datepickerdiv">
+      <h6>Start Date:</h6>
+    </div>
+    <div class="datepickerdiv">
+      <input [(ngModel)]="startDate" type="date" id="startdatepicker" width="276"/>
+    </div>
+    <div class="datepickerdiv">
+      <h6>End Date:</h6>
+    </div>
+    <div class="datepickerdiv">
+      <input [(ngModel)]="endDate"  type="date" id="enddatepicker" width="276"/>
+    </div>
+    <div  class="datepickerdiv" *ngIf="totalTransaction > 0">
+      <!-- <button printSectionId="print-section" printTitle="Invoice Details"   ngxPrint id="printdiv" type="button" class="btn btn-primary" (click)="printItem()">Print</button> --> 
+      <!--<button printSectionId="print-section" printTitle="Invoice Details"  id="printdiv" type="button" class="btn btn-primary" (click)="printItem()">New</button>  -->
+      <button class="btn btn-primary" id="printdiv" type="button" (click)="fetchTransactionHistory()">
+        Fetch
+      </button>
+    </div>
+  </div>
+  <div id="tableLabeldiv">
+    <h5>Transaction History</h5>
+  </div>
 </div>
 <div class="table-wrapper-scroll-y my-custom-scrollbar">
   <table class="table table-bordered table-striped mb-0" id="tablecontent">
@@ -27,6 +50,7 @@
       <tr  *ngFor="let item of itemList">
               <th scope="row">{{item.id}}</th>
               <td>{{item.customerId}}</td>
+              <td>{{item.dateTime}}</td>
               <td>{{item.shoppingAmount}}</td>
               <!--<td (click)="removeItem(item.id)">{{item.remove}}</td> -->
       </tr>
@@ -38,12 +62,10 @@
   <div id="totalSumDiv" class="printTotalCost" *ngIf="totalTransaction > 0">
     <span class="badge" id = "totalSumLavel">Total Transaction: {{totalTransaction}}</span>
   </div>
-  <div  class="printTotalCost" *ngIf="totalTransaction > 0">
-    <!-- <button printSectionId="print-section" printTitle="Invoice Details"   ngxPrint id="printdiv" type="button" class="btn btn-primary" (click)="printItem()">Print</button> --> 
-    <!--<button printSectionId="print-section" printTitle="Invoice Details"  id="printdiv" type="button" class="btn btn-primary" (click)="printItem()">New</button>  -->
+ <div  class="printTotalCost" *ngIf="totalTransaction > 0">
     <button class="btn btn-primary" id="printdiv" type="button" onclick="printJS({printable: itemToPrint
-  , properties: ['id','customerId', 'shoppingAmount'], type: 'json', header:docheading})" (click)="printItem()">
+  , properties: ['id','customerId', 'shoppingAmount','dateTime'], type: 'json', header:docheading})" (click)="printItem()">
       Print
    </button>
-  </div>
+  </div> 
 </div>

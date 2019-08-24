@@ -1,20 +1,32 @@
-<h3>
-    Welcome to Component Learning!
-</h3>
-<br/>
-<input  [(ngModel)]="name" placeholder="Enter news">
-<br/>
-<button (click)="onClick()">send news</button>>
-<br/>
-<div *ngIf="name">
-<h4>Message to be broadcast is:{{name}}</h4>
-<hr/>
-<button (click)="subscribeForNewMsg()">subscribe to get news</button>
-<!-- <h1 *ngFor="let data of sharedData">{{data}}</h1> -->
-<h1 *ngIf="receivedMsg">received message is{{receivedMsg}}</h1>
-<hr/>
-<h4>child component data></h4>
-<app-childcomp [parentmsg]="name"></app-childcomp>
+<h4>
+    Select the topic for demo!
+</h4>
+<mat-radio-group class = "tp-radio-group" [(ngModel)] = "topicSelected">
+    <mat-radio-button class = "tp-radio-button"
+       *ngFor = "let topic of learningTopics" [value] = "topic">
+       {{topic}}
+    </mat-radio-button>
+ </mat-radio-group>
+ <hr/>
+<div *ngIf="topicSelected == 'SubscribeEvent'">
+    <br/>
+    <input  [(ngModel)]="name" placeholder="Enter news">
+    <br/> <br/>
+    <button (click)="onClick()">send news</button>
+    <br/>
+    <div>
+        <hr/>
+        <h4>To get news msg, please click subscribe button</h4>
+        <button (click)="subscribeForNewMsg()">subscribe to get news</button>
+        <!-- <h1 *ngFor="let data of sharedData">{{data}}</h1> -->
+        <h5 *ngIf="receivedMsg">Received message is : {{receivedMsg}}</h5>
+    </div>
+</div>
+<div *ngIf="topicSelected == 'Pipe'">
+    <br/>
+    <input [(ngModel)]="name" placeholder="Name to change to caps">
+    <br/><br/>
+    <h5>Enter name in capital:{{name | myCustomPipe}}</h5>
 </div>
 
 

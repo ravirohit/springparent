@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -65,9 +66,11 @@ public class ProductController {
 		}
 	}
 	@GetMapping(path="getshoppingsummary")
-	public List<CustomerShoppingSummary> getShoppingSummary(){
+	public List<CustomerShoppingSummary> getShoppingSummary(@RequestParam(name="sdate",required=false) String sdate,
+			@RequestParam(name="edate",required=false) String edate){
+		System.out.println("sdate:"+sdate+"  edate:"+edate);
 		List<CustomerShoppingSummary> shoppingSummary = null;
-		shoppingSummary = productService.getShoppingSummary();
+		shoppingSummary = productService.getShoppingSummary(sdate, edate);
 		return shoppingSummary;	
 	}
 

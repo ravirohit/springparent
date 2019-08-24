@@ -7,6 +7,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import {MatAutocompleteModule,MatInputModule} from '@angular/material';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {NgxPrintModule} from 'ngx-print';
+import {MatRadioModule} from '@angular/material'
 //import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
@@ -21,6 +22,7 @@ import { NewitementryComponent } from './newitementry/newitementry.component';
 import {UrlinfoserviceService} from './service/urlinfoservice.service';
 import {HttpserviceService} from './service/httpservice.service';
 import { ChildcompComponent } from './maincontent/childcomp/childcomp.component';
+import { MyCustomPipePipe } from './maincontent/my-custom-pipe.pipe';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,8 @@ import { ChildcompComponent } from './maincontent/childcomp/childcomp.component'
     TransactionhistoryComponent,
     CreatetransaccompComponent,
     NewitementryComponent,
-    ChildcompComponent
+    ChildcompComponent,
+    MyCustomPipePipe
   ],
   imports: [
     BrowserModule,
@@ -42,6 +45,7 @@ import { ChildcompComponent } from './maincontent/childcomp/childcomp.component'
     MatInputModule,
     BrowserAnimationsModule,
     NgxPrintModule,
+    MatRadioModule,
    // AppRoutingModule
    RouterModule.forRoot([
         {

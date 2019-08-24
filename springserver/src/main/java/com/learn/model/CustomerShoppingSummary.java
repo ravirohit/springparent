@@ -7,6 +7,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+import com.learn.util.DateUtil;
+
 @Entity
 public class CustomerShoppingSummary {
 	@Id
@@ -16,6 +18,7 @@ public class CustomerShoppingSummary {
 	String customerId;
 	Float shoppingSummary;
 	Date shoppingTime;
+	
 	public int getId() {
 		return id;
 	}

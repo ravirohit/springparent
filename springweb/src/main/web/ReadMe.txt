@@ -8,15 +8,23 @@ command to create compoent: ng g component <comp_name>
                             ng generate directive highlight
 -------------- Reading Link ----------
 -> https://printjs.crabbly.com/
+-> https://www.dynamsoft.com/Products/barcode-recognition-javascript.aspx
+   https://stackoverflow.com/questions/10879808/how-hid-devices-work-when-programming
+
 ================== Node and Angular command =================
 
--> npm start: it will run whatever you have defined for the start command of the scripts object in your package.json file.
--> npm build: it will run whatever you have defined for the start command of the scripts object in your package.json file.
+-> npm install: By default, npm install will install all modules listed as dependencies in package.json in node_modules/.
+             -> it installs the current package context (ie, the current working directory) as a global package if we append -g in
+                the command.
+-> npm build: "npm run build" is an alias for npm build.
+             -> it will look for build tag in the package.json file which will generally be "ng build". it build the project and put
+                the generated file in the /dist folder
+             -> it does nothing unless you specify what "build" does in your package.json file.
+-> npm start: it will look for start tag in the package.json file which will generally be "ng serve". 
+              -> it will be like build followed by deploying the angular application.
 -> ng serve --open and ng build: 
               Both commands ng build and ng serve will clear the output folder before they build the project.
               
-
-
 ------------------- Note -----------------------------------
 -> Angular bootstrap proces consists of the two major stages:
   1. constructing components tree
@@ -64,6 +72,7 @@ command to create compoent: ng g component <comp_name>
 -> Observable: https://jasonwatmore.com/post/2019/02/07/angular-7-communicating-between-components-with-observable-subject
            -> The way to communicate between components is to use an Observable and a Subject (which is a type of observable).
            -> in a nutshell there are two methods that we're interested in: Subject.next(), this.subject.asObservable() and Observable.subscribe().
+
 -> (): used for event binding
    [()]: used for two way data binding.
    []: it is used in many cases:
@@ -93,3 +102,10 @@ Ans: [ngModel]="currentHero.name" is the syntax for one-way binding.
                 If your model needs to listen change events (e.g. when input field value changes), use the second one
 Q) How to disable print preview window in chrome?
 Ans: chrome shortcut -> properties -> edit target to: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-print-preview
+Q) How to include javascript file in angular ts file. or access js function in angular ts file.
+Ans: add js file in the angular.json file under "scripts". 
+
+
+Q) what is the use of questionmark in  below expression angular?
+      product?.price 
+Ans; above statement is equal to "product !== null ? product.price : null" ...

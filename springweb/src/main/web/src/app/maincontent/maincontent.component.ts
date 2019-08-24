@@ -12,6 +12,8 @@ export class MaincontentComponent implements OnInit {
   name:string;
   receivedMsg:string;
   sharedData:Object[]=[];
+  learningTopics:string[]=['SubscribeEvent','Pipe'];
+  topicSelected:string;
 
   constructor(private sharedInfo:SharedInfoContainerService) { 
     console.log("content page constructor get called");

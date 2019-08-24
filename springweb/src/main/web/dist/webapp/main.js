@@ -30,7 +30,7 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".example-form {\r\n    /* min-width: 150px;\r\n     max-width: 500px; */\r\n     width: 20%;\r\n   }\r\n   \r\n   .example-full-width {\r\n     width: 100%;\r\n     margin-top: 20px;\r\n     margin-left: 20px;\r\n   }\r\n   \r\n   .mat-form-field-flex {\r\n     width: 100%;\r\n }\r\n   \r\n   .divpos {\r\n     float:left;\r\n }\r\n   \r\n   .wrapper {\r\n     border-radius: 2px;\r\n     /* box-shadow: 0px 2px 1px 0px #DDD; */\r\n     box-sizing: border-box;\r\n     /* height: 300px; */\r\n     /* left: 50%; */\r\n     /* margin: -150px 0 0 -150px; */\r\n    /* position: absolute; */\r\n     /* top: 50%; */\r\n     width: 200px;\r\n    /* margin-top: 20px;\r\n     margin-left: 20px; */\r\n   }\r\n   \r\n   .input {\r\n     background-color: transparent;\r\n     border: none;\r\n     border-bottom: 1px solid grey;\r\n     color: #555;\r\n     box-sizing: border-box;\r\n     /*font-family: 'Arvo';*/\r\n     /*font-size: 18px;*/\r\n     /* height: 50px; */\r\n     left: 50%;\r\n     /*margin: -25px 0 0 -100px; */\r\n     /* padding: 10px 0px;*/\r\n     position: relative;\r\n     /*top: 50%;*/\r\n     width: 200px;\r\n     margin-top: 37px;\r\n    \r\n   }\r\n   \r\n   #newItemInput:focus {\r\n     outline: none;  \r\n     border-bottom: 2px solid BLUE;\r\n   }\r\n   \r\n   .underline {\r\n     background-color: dodgerblue;\r\n     display: inline-block;\r\n     height: 2px;\r\n     left: 50px;\r\n     margin-top: -4px;\r\n     position: absolute;\r\n     top: 185px;\r\n     transform: scale(0, 1);\r\n     transition: all 0.5s linear;\r\n     width: 202px;\r\n   }\r\n   \r\n   #addButton {\r\n    background:lightgray;\r\n    width:100px;\r\n    margin-top: 30px;\r\n    margin-left: 180px;\r\n}\r\n   \r\n   #tablecontent {\r\n    background: lightgray;\r\n}\r\n   \r\n   .my-custom-scrollbar {\r\n    max-height: 400px;\r\n    overflow-y: auto;\r\n    clear:both;\r\n}\r\n   \r\n   #totalSumDiv {\r\n    margin-left: 70%;\r\n    margin-top: 1%;\r\n}\r\n   \r\n   #totalSumDiv {\r\n    margin-left: 70%;\r\n    margin-top: 1%;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYWRtaW5jb21wL3RyYW5zYWN0aW9uaGlzdG9yeS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0k7eUJBQ3FCO0tBQ3BCLFdBQVc7SUFDWjs7R0FFRDtLQUNFLFlBQVk7S0FDWixpQkFBaUI7S0FDakIsa0JBQWtCO0lBQ25COztHQUNEO0tBQ0UsWUFBWTtFQUNmOztHQUNEO0tBQ0ksV0FBVztFQUNkOztHQUNEO0tBQ0ksbUJBQW1CO0tBQ25CLHVDQUF1QztLQUN2Qyx1QkFBdUI7S0FDdkIsb0JBQW9CO0tBQ3BCLGdCQUFnQjtLQUNoQixnQ0FBZ0M7SUFDakMseUJBQXlCO0tBQ3hCLGVBQWU7S0FDZixhQUFhO0lBQ2Q7MEJBQ3NCO0lBQ3RCOztHQUVEO0tBQ0UsOEJBQThCO0tBQzlCLGFBQWE7S0FDYiw4QkFBOEI7S0FDOUIsWUFBWTtLQUNaLHVCQUF1QjtLQUN2Qix3QkFBd0I7S0FDeEIsb0JBQW9CO0tBQ3BCLG1CQUFtQjtLQUNuQixVQUFVO0tBQ1YsOEJBQThCO0tBQzlCLHVCQUF1QjtLQUN2QixtQkFBbUI7S0FDbkIsYUFBYTtLQUNiLGFBQWE7S0FDYixpQkFBaUI7O0lBRWxCOztHQUNEO0tBQ0UsY0FBYztLQUNkLDhCQUE4QjtJQUMvQjs7R0FDSDtLQUNJLDZCQUE2QjtLQUM3QixzQkFBc0I7S0FDdEIsWUFBWTtLQUNaLFdBQVc7S0FDWCxpQkFBaUI7S0FDakIsbUJBQW1CO0tBQ25CLFdBQVc7S0FFWCx1QkFBdUI7S0FFdkIsNEJBQTRCO0tBQzVCLGFBQWE7SUFDZDs7R0FDRDtJQUNDLHFCQUFxQjtJQUNyQixZQUFZO0lBQ1osaUJBQWlCO0lBQ2pCLG1CQUFtQjtDQUN0Qjs7R0FDRDtJQUNJLHNCQUFzQjtDQUN6Qjs7R0FDRDtJQUNJLGtCQUFrQjtJQUNsQixpQkFBaUI7SUFDakIsV0FBVztDQUNkOztHQUNEO0lBQ0ksaUJBQWlCO0lBQ2pCLGVBQWU7Q0FDbEI7O0dBRUQ7SUFDSSxpQkFBaUI7SUFDakIsZUFBZTtDQUNsQiIsImZpbGUiOiJzcmMvYXBwL2FkbWluY29tcC90cmFuc2FjdGlvbmhpc3RvcnkuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5leGFtcGxlLWZvcm0ge1xyXG4gICAgLyogbWluLXdpZHRoOiAxNTBweDtcclxuICAgICBtYXgtd2lkdGg6IDUwMHB4OyAqL1xyXG4gICAgIHdpZHRoOiAyMCU7XHJcbiAgIH1cclxuICAgXHJcbiAgIC5leGFtcGxlLWZ1bGwtd2lkdGgge1xyXG4gICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgIG1hcmdpbi10b3A6IDIwcHg7XHJcbiAgICAgbWFyZ2luLWxlZnQ6IDIwcHg7XHJcbiAgIH1cclxuICAgLm1hdC1mb3JtLWZpZWxkLWZsZXgge1xyXG4gICAgIHdpZHRoOiAxMDAlO1xyXG4gfVxyXG4gLmRpdnBvcyB7XHJcbiAgICAgZmxvYXQ6bGVmdDtcclxuIH1cclxuIC53cmFwcGVyIHtcclxuICAgICBib3JkZXItcmFkaXVzOiAycHg7XHJcbiAgICAgLyogYm94LXNoYWRvdzogMHB4IDJweCAxcHggMHB4ICNEREQ7ICovXHJcbiAgICAgYm94LXNpemluZzogYm9yZGVyLWJveDtcclxuICAgICAvKiBoZWlnaHQ6IDMwMHB4OyAqL1xyXG4gICAgIC8qIGxlZnQ6IDUwJTsgKi9cclxuICAgICAvKiBtYXJnaW46IC0xNTBweCAwIDAgLTE1MHB4OyAqL1xyXG4gICAgLyogcG9zaXRpb246IGFic29sdXRlOyAqL1xyXG4gICAgIC8qIHRvcDogNTAlOyAqL1xyXG4gICAgIHdpZHRoOiAyMDBweDtcclxuICAgIC8qIG1hcmdpbi10b3A6IDIwcHg7XHJcbiAgICAgbWFyZ2luLWxlZnQ6IDIwcHg7ICovXHJcbiAgIH1cclxuICAgXHJcbiAgIC5pbnB1dCB7XHJcbiAgICAgYmFja2dyb3VuZC1jb2xvcjogdHJhbnNwYXJlbnQ7XHJcbiAgICAgYm9yZGVyOiBub25lO1xyXG4gICAgIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCBncmV5O1xyXG4gICAgIGNvbG9yOiAjNTU1O1xyXG4gICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XHJcbiAgICAgLypmb250LWZhbWlseTogJ0Fydm8nOyovXHJcbiAgICAgLypmb250LXNpemU6IDE4cHg7Ki9cclxuICAgICAvKiBoZWlnaHQ6IDUwcHg7ICovXHJcbiAgICAgbGVmdDogNTAlO1xyXG4gICAgIC8qbWFyZ2luOiAtMjVweCAwIDAgLTEwMHB4OyAqL1xyXG4gICAgIC8qIHBhZGRpbmc6IDEwcHggMHB4OyovXHJcbiAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gICAgIC8qdG9wOiA1MCU7Ki9cclxuICAgICB3aWR0aDogMjAwcHg7XHJcbiAgICAgbWFyZ2luLXRvcDogMzdweDtcclxuICAgIFxyXG4gICB9ICBcclxuICAgI25ld0l0ZW1JbnB1dDpmb2N1cyB7XHJcbiAgICAgb3V0bGluZTogbm9uZTsgIFxyXG4gICAgIGJvcmRlci1ib3R0b206IDJweCBzb2xpZCBCTFVFO1xyXG4gICB9XHJcbiAudW5kZXJsaW5lIHtcclxuICAgICBiYWNrZ3JvdW5kLWNvbG9yOiBkb2RnZXJibHVlO1xyXG4gICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICAgICBoZWlnaHQ6IDJweDtcclxuICAgICBsZWZ0OiA1MHB4O1xyXG4gICAgIG1hcmdpbi10b3A6IC00cHg7XHJcbiAgICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgIHRvcDogMTg1cHg7XHJcbiAgICAgLXdlYmtpdC10cmFuc2Zvcm06IHNjYWxlKDAsIDEpO1xyXG4gICAgIHRyYW5zZm9ybTogc2NhbGUoMCwgMSk7XHJcbiAgICAgLXdlYmtpdC10cmFuc2l0aW9uOiBhbGwgMC41cyBsaW5lYXI7XHJcbiAgICAgdHJhbnNpdGlvbjogYWxsIDAuNXMgbGluZWFyO1xyXG4gICAgIHdpZHRoOiAyMDJweDtcclxuICAgfVxyXG4gICAjYWRkQnV0dG9uIHtcclxuICAgIGJhY2tncm91bmQ6bGlnaHRncmF5O1xyXG4gICAgd2lkdGg6MTAwcHg7XHJcbiAgICBtYXJnaW4tdG9wOiAzMHB4O1xyXG4gICAgbWFyZ2luLWxlZnQ6IDE4MHB4O1xyXG59XHJcbiN0YWJsZWNvbnRlbnQge1xyXG4gICAgYmFja2dyb3VuZDogbGlnaHRncmF5O1xyXG59XHJcbi5teS1jdXN0b20tc2Nyb2xsYmFyIHtcclxuICAgIG1heC1oZWlnaHQ6IDQwMHB4O1xyXG4gICAgb3ZlcmZsb3cteTogYXV0bztcclxuICAgIGNsZWFyOmJvdGg7XHJcbn1cclxuI3RvdGFsU3VtRGl2IHtcclxuICAgIG1hcmdpbi1sZWZ0OiA3MCU7XHJcbiAgICBtYXJnaW4tdG9wOiAxJTtcclxufVxyXG5cclxuI3RvdGFsU3VtRGl2IHtcclxuICAgIG1hcmdpbi1sZWZ0OiA3MCU7XHJcbiAgICBtYXJnaW4tdG9wOiAxJTtcclxufVxyXG4iXX0= */"
+module.exports = "#tableLabelId{\r\n  margin-top:20px;\r\n  margin-left:35%;\r\n  margin-bottom: 20px;\r\n}\r\n.example-form {\r\n    /* min-width: 150px;\r\n     max-width: 500px; */\r\n     width: 20%;\r\n   }\r\n.example-full-width {\r\n     width: 100%;\r\n     margin-top: 20px;\r\n     margin-left: 20px;\r\n   }\r\n.mat-form-field-flex {\r\n     width: 100%;\r\n }\r\n.divpos {\r\n     float:left;\r\n }\r\n.wrapper {\r\n     border-radius: 2px;\r\n     /* box-shadow: 0px 2px 1px 0px #DDD; */\r\n     box-sizing: border-box;\r\n     /* height: 300px; */\r\n     /* left: 50%; */\r\n     /* margin: -150px 0 0 -150px; */\r\n    /* position: absolute; */\r\n     /* top: 50%; */\r\n     width: 200px;\r\n    /* margin-top: 20px;\r\n     margin-left: 20px; */\r\n   }\r\n.input {\r\n     background-color: transparent;\r\n     border: none;\r\n     border-bottom: 1px solid grey;\r\n     color: #555;\r\n     box-sizing: border-box;\r\n     /*font-family: 'Arvo';*/\r\n     /*font-size: 18px;*/\r\n     /* height: 50px; */\r\n     left: 50%;\r\n     /*margin: -25px 0 0 -100px; */\r\n     /* padding: 10px 0px;*/\r\n     position: relative;\r\n     /*top: 50%;*/\r\n     width: 200px;\r\n     margin-top: 37px;\r\n    \r\n   }\r\n#newItemInput:focus {\r\n     outline: none;  \r\n     border-bottom: 2px solid BLUE;\r\n   }\r\n.underline {\r\n     background-color: dodgerblue;\r\n     display: inline-block;\r\n     height: 2px;\r\n     left: 50px;\r\n     margin-top: -4px;\r\n     position: absolute;\r\n     top: 185px;\r\n     transform: scale(0, 1);\r\n     transition: all 0.5s linear;\r\n     width: 202px;\r\n   }\r\n#addButton {\r\n    background:lightgray;\r\n    width:100px;\r\n    margin-top: 30px;\r\n    margin-left: 180px;\r\n}\r\n#tablecontent {\r\n    background: lightgray;\r\n}\r\n.my-custom-scrollbar {\r\n    max-height: 400px;\r\n    overflow-y: auto;\r\n    clear:both;\r\n}\r\n#printCostDiv{\r\n  margin-left: 65%;\r\n  margin-top: 1.5%;\r\n\r\n}\r\n.printTotalCost{\r\n    float: left;\r\n}\r\n#totalSumLavel{\r\n  margin-top: 10px;\r\n  font-size: 100%;\r\n}\r\n#printdiv{\r\n  width: 100px;\r\n  margin-left: 8px;\r\n  background: lightgray;\r\n}\r\n#tfoot{\r\n  display:none;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYWRtaW5jb21wL3RyYW5zYWN0aW9uaGlzdG9yeS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsZ0JBQWdCO0VBQ2hCLGdCQUFnQjtFQUNoQixvQkFBb0I7Q0FDckI7QUFDRDtJQUNJO3lCQUNxQjtLQUNwQixXQUFXO0lBQ1o7QUFFRDtLQUNFLFlBQVk7S0FDWixpQkFBaUI7S0FDakIsa0JBQWtCO0lBQ25CO0FBQ0Q7S0FDRSxZQUFZO0VBQ2Y7QUFDRDtLQUNJLFdBQVc7RUFDZDtBQUNEO0tBQ0ksbUJBQW1CO0tBQ25CLHVDQUF1QztLQUN2Qyx1QkFBdUI7S0FDdkIsb0JBQW9CO0tBQ3BCLGdCQUFnQjtLQUNoQixnQ0FBZ0M7SUFDakMseUJBQXlCO0tBQ3hCLGVBQWU7S0FDZixhQUFhO0lBQ2Q7MEJBQ3NCO0lBQ3RCO0FBRUQ7S0FDRSw4QkFBOEI7S0FDOUIsYUFBYTtLQUNiLDhCQUE4QjtLQUM5QixZQUFZO0tBQ1osdUJBQXVCO0tBQ3ZCLHdCQUF3QjtLQUN4QixvQkFBb0I7S0FDcEIsbUJBQW1CO0tBQ25CLFVBQVU7S0FDViw4QkFBOEI7S0FDOUIsdUJBQXVCO0tBQ3ZCLG1CQUFtQjtLQUNuQixhQUFhO0tBQ2IsYUFBYTtLQUNiLGlCQUFpQjs7SUFFbEI7QUFDRDtLQUNFLGNBQWM7S0FDZCw4QkFBOEI7SUFDL0I7QUFDSDtLQUNJLDZCQUE2QjtLQUM3QixzQkFBc0I7S0FDdEIsWUFBWTtLQUNaLFdBQVc7S0FDWCxpQkFBaUI7S0FDakIsbUJBQW1CO0tBQ25CLFdBQVc7S0FFWCx1QkFBdUI7S0FFdkIsNEJBQTRCO0tBQzVCLGFBQWE7SUFDZDtBQUNEO0lBQ0MscUJBQXFCO0lBQ3JCLFlBQVk7SUFDWixpQkFBaUI7SUFDakIsbUJBQW1CO0NBQ3RCO0FBQ0Q7SUFDSSxzQkFBc0I7Q0FDekI7QUFDRDtJQUNJLGtCQUFrQjtJQUNsQixpQkFBaUI7SUFDakIsV0FBVztDQUNkO0FBQ0Q7RUFDRSxpQkFBaUI7RUFDakIsaUJBQWlCOztDQUVsQjtBQUNEO0lBQ0ksWUFBWTtDQUNmO0FBQ0Q7RUFDRSxpQkFBaUI7RUFDakIsZ0JBQWdCO0NBQ2pCO0FBQ0Q7RUFDRSxhQUFhO0VBQ2IsaUJBQWlCO0VBQ2pCLHNCQUFzQjtDQUN2QjtBQUNEO0VBQ0UsYUFBYTtDQUNkIiwiZmlsZSI6InNyYy9hcHAvYWRtaW5jb21wL3RyYW5zYWN0aW9uaGlzdG9yeS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiI3RhYmxlTGFiZWxJZHtcclxuICBtYXJnaW4tdG9wOjIwcHg7XHJcbiAgbWFyZ2luLWxlZnQ6MzUlO1xyXG4gIG1hcmdpbi1ib3R0b206IDIwcHg7XHJcbn1cclxuLmV4YW1wbGUtZm9ybSB7XHJcbiAgICAvKiBtaW4td2lkdGg6IDE1MHB4O1xyXG4gICAgIG1heC13aWR0aDogNTAwcHg7ICovXHJcbiAgICAgd2lkdGg6IDIwJTtcclxuICAgfVxyXG4gICBcclxuICAgLmV4YW1wbGUtZnVsbC13aWR0aCB7XHJcbiAgICAgd2lkdGg6IDEwMCU7XHJcbiAgICAgbWFyZ2luLXRvcDogMjBweDtcclxuICAgICBtYXJnaW4tbGVmdDogMjBweDtcclxuICAgfVxyXG4gICAubWF0LWZvcm0tZmllbGQtZmxleCB7XHJcbiAgICAgd2lkdGg6IDEwMCU7XHJcbiB9XHJcbiAuZGl2cG9zIHtcclxuICAgICBmbG9hdDpsZWZ0O1xyXG4gfVxyXG4gLndyYXBwZXIge1xyXG4gICAgIGJvcmRlci1yYWRpdXM6IDJweDtcclxuICAgICAvKiBib3gtc2hhZG93OiAwcHggMnB4IDFweCAwcHggI0RERDsgKi9cclxuICAgICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xyXG4gICAgIC8qIGhlaWdodDogMzAwcHg7ICovXHJcbiAgICAgLyogbGVmdDogNTAlOyAqL1xyXG4gICAgIC8qIG1hcmdpbjogLTE1MHB4IDAgMCAtMTUwcHg7ICovXHJcbiAgICAvKiBwb3NpdGlvbjogYWJzb2x1dGU7ICovXHJcbiAgICAgLyogdG9wOiA1MCU7ICovXHJcbiAgICAgd2lkdGg6IDIwMHB4O1xyXG4gICAgLyogbWFyZ2luLXRvcDogMjBweDtcclxuICAgICBtYXJnaW4tbGVmdDogMjBweDsgKi9cclxuICAgfVxyXG4gICBcclxuICAgLmlucHV0IHtcclxuICAgICBiYWNrZ3JvdW5kLWNvbG9yOiB0cmFuc3BhcmVudDtcclxuICAgICBib3JkZXI6IG5vbmU7XHJcbiAgICAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkIGdyZXk7XHJcbiAgICAgY29sb3I6ICM1NTU7XHJcbiAgICAgYm94LXNpemluZzogYm9yZGVyLWJveDtcclxuICAgICAvKmZvbnQtZmFtaWx5OiAnQXJ2byc7Ki9cclxuICAgICAvKmZvbnQtc2l6ZTogMThweDsqL1xyXG4gICAgIC8qIGhlaWdodDogNTBweDsgKi9cclxuICAgICBsZWZ0OiA1MCU7XHJcbiAgICAgLyptYXJnaW46IC0yNXB4IDAgMCAtMTAwcHg7ICovXHJcbiAgICAgLyogcGFkZGluZzogMTBweCAwcHg7Ki9cclxuICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgICAgLyp0b3A6IDUwJTsqL1xyXG4gICAgIHdpZHRoOiAyMDBweDtcclxuICAgICBtYXJnaW4tdG9wOiAzN3B4O1xyXG4gICAgXHJcbiAgIH0gIFxyXG4gICAjbmV3SXRlbUlucHV0OmZvY3VzIHtcclxuICAgICBvdXRsaW5lOiBub25lOyAgXHJcbiAgICAgYm9yZGVyLWJvdHRvbTogMnB4IHNvbGlkIEJMVUU7XHJcbiAgIH1cclxuIC51bmRlcmxpbmUge1xyXG4gICAgIGJhY2tncm91bmQtY29sb3I6IGRvZGdlcmJsdWU7XHJcbiAgICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gICAgIGhlaWdodDogMnB4O1xyXG4gICAgIGxlZnQ6IDUwcHg7XHJcbiAgICAgbWFyZ2luLXRvcDogLTRweDtcclxuICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICAgdG9wOiAxODVweDtcclxuICAgICAtd2Via2l0LXRyYW5zZm9ybTogc2NhbGUoMCwgMSk7XHJcbiAgICAgdHJhbnNmb3JtOiBzY2FsZSgwLCAxKTtcclxuICAgICAtd2Via2l0LXRyYW5zaXRpb246IGFsbCAwLjVzIGxpbmVhcjtcclxuICAgICB0cmFuc2l0aW9uOiBhbGwgMC41cyBsaW5lYXI7XHJcbiAgICAgd2lkdGg6IDIwMnB4O1xyXG4gICB9XHJcbiAgICNhZGRCdXR0b24ge1xyXG4gICAgYmFja2dyb3VuZDpsaWdodGdyYXk7XHJcbiAgICB3aWR0aDoxMDBweDtcclxuICAgIG1hcmdpbi10b3A6IDMwcHg7XHJcbiAgICBtYXJnaW4tbGVmdDogMTgwcHg7XHJcbn1cclxuI3RhYmxlY29udGVudCB7XHJcbiAgICBiYWNrZ3JvdW5kOiBsaWdodGdyYXk7XHJcbn1cclxuLm15LWN1c3RvbS1zY3JvbGxiYXIge1xyXG4gICAgbWF4LWhlaWdodDogNDAwcHg7XHJcbiAgICBvdmVyZmxvdy15OiBhdXRvO1xyXG4gICAgY2xlYXI6Ym90aDtcclxufVxyXG4jcHJpbnRDb3N0RGl2e1xyXG4gIG1hcmdpbi1sZWZ0OiA2NSU7XHJcbiAgbWFyZ2luLXRvcDogMS41JTtcclxuXHJcbn1cclxuLnByaW50VG90YWxDb3N0e1xyXG4gICAgZmxvYXQ6IGxlZnQ7XHJcbn1cclxuI3RvdGFsU3VtTGF2ZWx7XHJcbiAgbWFyZ2luLXRvcDogMTBweDtcclxuICBmb250LXNpemU6IDEwMCU7XHJcbn1cclxuI3ByaW50ZGl2e1xyXG4gIHdpZHRoOiAxMDBweDtcclxuICBtYXJnaW4tbGVmdDogOHB4O1xyXG4gIGJhY2tncm91bmQ6IGxpZ2h0Z3JheTtcclxufVxyXG4jdGZvb3R7XHJcbiAgZGlzcGxheTpub25lO1xyXG59XHJcbiJdfQ== */"
 
 /***/ }),
 
@@ -41,7 +41,7 @@ module.exports = ".example-form {\r\n    /* min-width: 150px;\r\n     max-width:
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div>\n  <form class=\"example-form divpos\">\n    <mat-form-field class=\"example-full-width\">\n      <input id=\"nameinput\"type=\"text\" placeholder=\"Enter item name\" aria-label=\"Assignee\"  matInput [formControl]=\"myControl\" [matAutocomplete]=\"auto\"/>\n      <mat-autocomplete #auto=\"matAutocomplete\" [displayWith]=\"displayFn\">\n        <mat-option *ngFor=\"let option of filteredOptions | async\" [value]=\"option\">\n          {{option.name}}\n        </mat-option>\n      </mat-autocomplete>\n    </mat-form-field>\n  </form>   \n  <div class=\"wrapper divpos\" id =\"rate\">\n    <input class=\"input\" placeholder=\"Enter rate\" type=\"text\" id=\"newItemInput\" [(ngModel)]=\"rate\">\n    <span class=\"underline\"></span>\n  </div>\n  \n  <button type=\"button\" class=\"btn btn-primary divpos\" id=\"addButton\" (click)=\"addItem()\">Add</button>  \n</div>\n<div class=\"table-wrapper-scroll-y my-custom-scrollbar\">\n  <table class=\"table table-bordered table-striped mb-0\" id=\"tablecontent\">\n    <thead>\n      <tr>\n        <th *ngFor=\"let head of headerList\" scope=\"col\">{{head}} </th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr  *ngFor=\"let item of itemList\">\n              <th scope=\"row\">{{item[0]}}</th>\n              <td>{{item[1]}}</td>\n              <td>{{item[2]}}</td>\n              <!--<td (click)=\"removeItem(item.id)\">{{item.remove}}</td> -->\n      </tr>\n    </tbody>\n    \n  </table>\n</div>\n<div id=\"totalSumDiv\" *ngIf=\"id > 0\">\n  <button type=\"button\" class=\"btn btn-primary product-entry\" id=\"addButton\" (click)=\"saveItem()\">save</button> \n</div>\n"
+module.exports = "<div id = \"tableLabelId\">\n <!-- <form class=\"example-form divpos\">\n    <mat-form-field class=\"example-full-width\">\n      <input id=\"nameinput\"type=\"text\" placeholder=\"Enter item name\" aria-label=\"Assignee\"  matInput [formControl]=\"myControl\" [matAutocomplete]=\"auto\"/>\n      <mat-autocomplete #auto=\"matAutocomplete\" [displayWith]=\"displayFn\">\n        <mat-option *ngFor=\"let option of filteredOptions | async\" [value]=\"option\">\n          {{option.name}}\n        </mat-option>\n      </mat-autocomplete>\n    </mat-form-field>\n  </form>   \n  <div class=\"wrapper divpos\" id =\"rate\">\n    <input class=\"input\" placeholder=\"Enter rate\" type=\"text\" id=\"newItemInput\" [(ngModel)]=\"rate\">\n    <span class=\"underline\"></span>\n  </div>\n  <button type=\"button\" class=\"btn btn-primary divpos\" id=\"addButton\" (click)=\"addItem()\">Add</button> --> \n  <h5>Transactions of the Day:</h5>\n</div>\n<div class=\"table-wrapper-scroll-y my-custom-scrollbar\">\n  <table class=\"table table-bordered table-striped mb-0\" id=\"tablecontent\">\n    <thead>\n      <tr>\n        <th *ngFor=\"let head of headerList\" scope=\"col\">{{head}} </th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr  *ngFor=\"let item of itemList\">\n              <th scope=\"row\">{{item.id}}</th>\n              <td>{{item.customerId}}</td>\n              <td>{{item.shoppingAmount}}</td>\n              <!--<td (click)=\"removeItem(item.id)\">{{item.remove}}</td> -->\n      </tr>\n    </tbody>\n    \n  </table>\n</div>\n<div id=\"printCostDiv\">\n  <div id=\"totalSumDiv\" class=\"printTotalCost\" *ngIf=\"totalTransaction > 0\">\n    <span class=\"badge\" id = \"totalSumLavel\">Total Transaction: {{totalTransaction}}</span>\n  </div>\n  <div  class=\"printTotalCost\" *ngIf=\"totalTransaction > 0\">\n    <!-- <button printSectionId=\"print-section\" printTitle=\"Invoice Details\"   ngxPrint id=\"printdiv\" type=\"button\" class=\"btn btn-primary\" (click)=\"printItem()\">Print</button> --> \n    <!--<button printSectionId=\"print-section\" printTitle=\"Invoice Details\"  id=\"printdiv\" type=\"button\" class=\"btn btn-primary\" (click)=\"printItem()\">New</button>  -->\n    <button class=\"btn btn-primary\" id=\"printdiv\" type=\"button\" onclick=\"printJS({printable: itemToPrint\n  , properties: ['id','customerId', 'shoppingAmount'], type: 'json', header:docheading})\" (click)=\"printItem()\">\n      Print\n   </button>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -57,10 +57,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TransactionhistoryComponent", function() { return TransactionhistoryComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
-/* harmony import */ var _service_urlinfoservice_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../service/urlinfoservice.service */ "./src/app/service/urlinfoservice.service.ts");
-/* harmony import */ var _service_httpservice_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../service/httpservice.service */ "./src/app/service/httpservice.service.ts");
-
+/* harmony import */ var _service_urlinfoservice_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../service/urlinfoservice.service */ "./src/app/service/urlinfoservice.service.ts");
+/* harmony import */ var _service_httpservice_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../service/httpservice.service */ "./src/app/service/httpservice.service.ts");
 
 
 
@@ -69,65 +67,37 @@ var TransactionhistoryComponent = /** @class */ (function () {
     function TransactionhistoryComponent(urlinfoservice, httpservice) {
         this.urlinfoservice = urlinfoservice;
         this.httpservice = httpservice;
-        this.id = 0;
         this.itemList = [];
         this.headerList = ['Sr.', 'CustomerId', 'Shopping Amount'];
-        this.myControl = new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"]();
+        this.totalTransaction = 0;
     }
     TransactionhistoryComponent.prototype.ngOnInit = function () {
         this.httpservice.getApiCall(this.urlinfoservice.CUSTOMER_SHOPPING_SUMMARY_GET_URL, this);
         //    document.getElementById("nameinput").focus();
     };
     TransactionhistoryComponent.prototype.callBackOnApi = function (items) {
-        this.itemList = items;
-        /* this.options = items;
-        this.filteredOptions = this.myControl.valueChanges
-          .pipe(
-            startWith(''),
-            map(value => typeof value === 'string' ? value : value.name),  // in case of value is json object
-            map(name => name ? this._filter(name) : this.options.slice())
-          ); */
+        var _this = this;
+        var id = 1;
+        //this.itemList = items;
+        items.forEach(function (item) {
+            _this.totalTransaction = _this.totalTransaction + item[2];
+            _this.itemList.push({ id: id, customerId: item[1], shoppingAmount: item[2] });
+            printfunc({ id: id, customerId: item[1], shoppingAmount: item[2] }, _this.getDocHeader(), _this.getDocFooter());
+            id = id + 1;
+        });
+        console.log("total transaction:" + this.totalTransaction);
     };
-    TransactionhistoryComponent.prototype._filter = function (name) {
-        var filterValue = name.toLowerCase();
-        return this.options.filter(function (option) { return option.name.toLowerCase().indexOf(filterValue) === 0; });
+    TransactionhistoryComponent.prototype.getDocHeader = function () {
+        return "Transaction Summary on Date: " + this.getDate();
     };
-    TransactionhistoryComponent.prototype.displayFn = function (item) {
-        return item ? item.name : undefined;
+    TransactionhistoryComponent.prototype.getDate = function () {
+        var date = new Date();
+        return date.getDate() + "-" + date.getMonth() + "-" + date.getFullYear();
     };
-    TransactionhistoryComponent.prototype.addItem = function () {
-        if ((this.name == undefined) && (this.rate == undefined)) {
-            document.getElementById("nameinput").focus();
-            return;
-        }
-        this.id = this.id + 1;
-        this.name = this.myControl.value.name;
-        var item = { id: this.id, name: this.name, rate: this.rate, remove: 'Remove' };
-        this.itemList.push(item);
-        this.name = undefined;
-        this.rate = undefined;
-        this.myControl.reset('');
-        document.getElementById("nameinput").focus();
+    TransactionhistoryComponent.prototype.getDocFooter = function () {
+        return [{ id: '-', customerId: '-', shoppingAmount: '-' }, { id: '', customerId: 'Total Cost', shoppingAmount: this.totalTransaction }];
     };
-    TransactionhistoryComponent.prototype.removeItem = function (id) {
-        var tempItem = [];
-        for (var _i = 0, _a = this.itemList; _i < _a.length; _i++) {
-            var el = _a[_i];
-            if (el.id != id) {
-                tempItem.push(el);
-            }
-            if (el.id > id) {
-                el.id = el.id - 1;
-            }
-        }
-        this.itemList = tempItem;
-        this.id = this.id - 1;
-        tempItem = [];
-    };
-    TransactionhistoryComponent.prototype.saveItem = function () {
-        this.itemList = [];
-        this.id = 0;
-        document.getElementById("nameinput").focus();
+    TransactionhistoryComponent.prototype.printItem = function () {
     };
     TransactionhistoryComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
@@ -135,7 +105,7 @@ var TransactionhistoryComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./transactionhistory.component.html */ "./src/app/admincomp/transactionhistory.component.html"),
             styles: [__webpack_require__(/*! ./transactionhistory.component.css */ "./src/app/admincomp/transactionhistory.component.css")]
         }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_service_urlinfoservice_service__WEBPACK_IMPORTED_MODULE_3__["UrlinfoserviceService"], _service_httpservice_service__WEBPACK_IMPORTED_MODULE_4__["HttpserviceService"]])
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_service_urlinfoservice_service__WEBPACK_IMPORTED_MODULE_2__["UrlinfoserviceService"], _service_httpservice_service__WEBPACK_IMPORTED_MODULE_3__["HttpserviceService"]])
     ], TransactionhistoryComponent);
     return TransactionhistoryComponent;
 }());
@@ -151,7 +121,7 @@ var TransactionhistoryComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".layout{\r\n\tfloat:left;\r\n}\r\n#t-side {\r\n  height:10vh;\r\n  background:lightgoldenrodyellow;\r\n}\r\n#l-side {\r\n\twidth:15%;\r\n\theight: 88vh;\r\n\tbackground: rgb(196, 233, 248);\r\n\t\r\n}\r\n#m-side {\r\n\twidth:65%;\r\n\theight: 88vh;\r\n\tbackground: rgb(245, 228, 243);\r\n}\r\n#r-side {\r\n\twidth:20%;\r\n\theight: 88vh;\r\n\tbackground: rgb(232, 247, 238);\t\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7Q0FDQyxXQUFXO0NBQ1g7QUFDRDtFQUNFLFlBQVk7RUFDWixnQ0FBZ0M7Q0FDakM7QUFDRDtDQUNDLFVBQVU7Q0FDVixhQUFhO0NBQ2IsK0JBQStCOztDQUUvQjtBQUNEO0NBQ0MsVUFBVTtDQUNWLGFBQWE7Q0FDYiwrQkFBK0I7Q0FDL0I7QUFDRDtDQUNDLFVBQVU7Q0FDVixhQUFhO0NBQ2IsK0JBQStCO0NBQy9CIiwiZmlsZSI6InNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIubGF5b3V0e1xyXG5cdGZsb2F0OmxlZnQ7XHJcbn1cclxuI3Qtc2lkZSB7XHJcbiAgaGVpZ2h0OjEwdmg7XHJcbiAgYmFja2dyb3VuZDpsaWdodGdvbGRlbnJvZHllbGxvdztcclxufVxyXG4jbC1zaWRlIHtcclxuXHR3aWR0aDoxNSU7XHJcblx0aGVpZ2h0OiA4OHZoO1xyXG5cdGJhY2tncm91bmQ6IHJnYigxOTYsIDIzMywgMjQ4KTtcclxuXHRcclxufVxyXG4jbS1zaWRlIHtcclxuXHR3aWR0aDo2NSU7XHJcblx0aGVpZ2h0OiA4OHZoO1xyXG5cdGJhY2tncm91bmQ6IHJnYigyNDUsIDIyOCwgMjQzKTtcclxufVxyXG4jci1zaWRlIHtcclxuXHR3aWR0aDoyMCU7XHJcblx0aGVpZ2h0OiA4OHZoO1xyXG5cdGJhY2tncm91bmQ6IHJnYigyMzIsIDI0NywgMjM4KTtcdFxyXG59Il19 */"
+module.exports = ".layout{\r\n\tfloat:left;\r\n}\r\n#t-side {\r\n  height:10vh;\r\n  background:lightgoldenrodyellow;\r\n}\r\n#l-side {\r\n\twidth:15%;\r\n\theight: 88vh;\r\n\tbackground: rgb(196, 233, 248);\r\n\t\r\n}\r\n#m-side {\r\n\twidth:64%;\r\n\theight: 88vh;\r\n\tbackground: rgb(245, 228, 243);\r\n}\r\n#r-side {\r\n\twidth:20%;\r\n\theight: 88vh;\r\n\tbackground: rgb(232, 247, 238);\t\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7Q0FDQyxXQUFXO0NBQ1g7QUFDRDtFQUNFLFlBQVk7RUFDWixnQ0FBZ0M7Q0FDakM7QUFDRDtDQUNDLFVBQVU7Q0FDVixhQUFhO0NBQ2IsK0JBQStCOztDQUUvQjtBQUNEO0NBQ0MsVUFBVTtDQUNWLGFBQWE7Q0FDYiwrQkFBK0I7Q0FDL0I7QUFDRDtDQUNDLFVBQVU7Q0FDVixhQUFhO0NBQ2IsK0JBQStCO0NBQy9CIiwiZmlsZSI6InNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIubGF5b3V0e1xyXG5cdGZsb2F0OmxlZnQ7XHJcbn1cclxuI3Qtc2lkZSB7XHJcbiAgaGVpZ2h0OjEwdmg7XHJcbiAgYmFja2dyb3VuZDpsaWdodGdvbGRlbnJvZHllbGxvdztcclxufVxyXG4jbC1zaWRlIHtcclxuXHR3aWR0aDoxNSU7XHJcblx0aGVpZ2h0OiA4OHZoO1xyXG5cdGJhY2tncm91bmQ6IHJnYigxOTYsIDIzMywgMjQ4KTtcclxuXHRcclxufVxyXG4jbS1zaWRlIHtcclxuXHR3aWR0aDo2NCU7XHJcblx0aGVpZ2h0OiA4OHZoO1xyXG5cdGJhY2tncm91bmQ6IHJnYigyNDUsIDIyOCwgMjQzKTtcclxufVxyXG4jci1zaWRlIHtcclxuXHR3aWR0aDoyMCU7XHJcblx0aGVpZ2h0OiA4OHZoO1xyXG5cdGJhY2tncm91bmQ6IHJnYigyMzIsIDI0NywgMjM4KTtcdFxyXG59Il19 */"
 
 /***/ }),
 
@@ -227,11 +197,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _service_urlinfoservice_service__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./service/urlinfoservice.service */ "./src/app/service/urlinfoservice.service.ts");
 /* harmony import */ var _service_httpservice_service__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./service/httpservice.service */ "./src/app/service/httpservice.service.ts");
 /* harmony import */ var _maincontent_childcomp_childcomp_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./maincontent/childcomp/childcomp.component */ "./src/app/maincontent/childcomp/childcomp.component.ts");
+/* harmony import */ var _maincontent_my_custom_pipe_pipe__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./maincontent/my-custom-pipe.pipe */ "./src/app/maincontent/my-custom-pipe.pipe.ts");
 
 
 
 
  // used for [(ngModel)] two way binding
+
+
 
 
 
@@ -260,7 +233,8 @@ var AppModule = /** @class */ (function () {
                 _admincomp_transactionhistory_component__WEBPACK_IMPORTED_MODULE_13__["TransactionhistoryComponent"],
                 _createtransaccomp_createtransaccomp_component__WEBPACK_IMPORTED_MODULE_14__["CreatetransaccompComponent"],
                 _newitementry_newitementry_component__WEBPACK_IMPORTED_MODULE_15__["NewitementryComponent"],
-                _maincontent_childcomp_childcomp_component__WEBPACK_IMPORTED_MODULE_18__["ChildcompComponent"]
+                _maincontent_childcomp_childcomp_component__WEBPACK_IMPORTED_MODULE_18__["ChildcompComponent"],
+                _maincontent_my_custom_pipe_pipe__WEBPACK_IMPORTED_MODULE_19__["MyCustomPipePipe"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -271,6 +245,7 @@ var AppModule = /** @class */ (function () {
                 _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatInputModule"],
                 _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_7__["BrowserAnimationsModule"],
                 ngx_print__WEBPACK_IMPORTED_MODULE_8__["NgxPrintModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatRadioModule"],
                 // AppRoutingModule
                 _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"].forRoot([
                     {
@@ -317,7 +292,7 @@ module.exports = "#customerIdDiv{\r\n  margin-left: -8%;\r\n  margin-top: -2%;\r
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"wrapper\" id =\"customerIdDiv\">\n  <input class=\"input\" placeholder=\"Enter Customer Id\" type=\"text\" id=\"customerID\" [(ngModel)]=\"customerID\"/>\n  <span class=\"underline\"></span>\n</div>\n<div id=\"itemInfoDiv\">\n    <form class=\"example-form divpos\">\n      <mat-form-field class=\"example-full-width\">\n        <input value='' id=\"nameinput\"type=\"text\" placeholder=\"Enter item name\" aria-label=\"Assignee\"  matInput [formControl]=\"myControl\" [matAutocomplete]=\"auto\" (ngModelChange)=\"onItemChange()\"/>\n        <mat-autocomplete #auto=\"matAutocomplete\" [displayWith]=\"displayFn\">\n          <mat-option *ngFor=\"let option of filteredOptions | async\" [value]=\"option\">\n            {{option.name}}\n          </mat-option>\n        </mat-autocomplete>\n      </mat-form-field>\n    </form>   \n  <div class=\"wrapper divpos\" id =\"quantity\">\n    <input class=\"input\" placeholder=\"Enter quantity\" type=\"text\" id=\"quantity\" [(ngModel)]=\"quantity\" (blur)=\"onQuantityChange()\"/>\n    <span class=\"underline\"></span>\n  </div>\n  <div class=\"wrapper divpos\" id =\"rate\">\n    <input class=\"input\" placeholder=\"Rate of Item\" type=\"text\" id=\"rate\" [(ngModel)]=\"rate\" [disabled]=\"disableFlag\" (blur)=\"onEnterRate()\"/>\n    <span class=\"underline\"></span>\n  </div>\n\n  <div class=\"wrapper divpos\" id =\"cost\">\n    <input class=\"input\" placeholder=\"Items cost\" type=\"text\" id=\"cost\" [(ngModel)]=\"cost\" [disabled]=\"true\"/>\n    <span class=\"underline\"></span>\n  </div>\n\n  <button type=\"button\" class=\"btn btn-primary divpos\" id=\"addButton\" (click)=\"addItem()\">Add</button>  \n</div>\n<div  id=\"print-section\">\n<div class=\"table-wrapper-scroll-y my-custom-scrollbar\">\n    <table class=\"table table-bordered table-striped mb-0\" id=\"tablecontent\">\n      <thead>\n        <tr>\n          <th *ngFor=\"let head of headerList\" scope=\"col\">{{head}} </th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr  *ngFor=\"let item of itemList\">\n                <th scope=\"row\">{{item.id}}</th>\n                <td>{{item.name}}</td>\n                <td>{{item.quantity}}</td>\n                <td>{{item.rate}}</td>\n                <td>{{item.cost}}</td>\n                <td (click)=\"removeItem(item.id)\">{{item.remove}}</td>\n        </tr>\n      </tbody>\n      <tfoot id=\"tfoot\"> \n                <tr> \n                    <td align=\"right\" colspan=\"5\">Total Cost: {{totalSum}}</td> \n                </tr> \n      </tfoot> \n    </table>\n</div>\n</div>\n<div id=\"printCostDiv\">\n    <div id=\"totalSumDiv\" class=\"printTotalCost\" *ngIf=\"totalSum > 0\">\n      <span class=\"badge\" id = \"totalSumLavel\">Total Cost: {{totalSum}}</span>\n    </div>\n    <div  class=\"printTotalCost\" *ngIf=\"totalSum > 0\">\n      <!-- <button printSectionId=\"print-section\" printTitle=\"Invoice Details\"   ngxPrint id=\"printdiv\" type=\"button\" class=\"btn btn-primary\" (click)=\"printItem()\">Print</button> --> \n      <!--<button printSectionId=\"print-section\" printTitle=\"Invoice Details\"  id=\"printdiv\" type=\"button\" class=\"btn btn-primary\" (click)=\"printItem()\">New</button>  -->\n      <button class=\"btn btn-primary\" id=\"printdiv\" type=\"button\" onclick=\"printJS({printable: itemToPrint\n    , properties: ['name', 'quantity', 'rate','cost'], type: 'json', header:customerId})\" (click)=\"printItem()\">\n        Print\n     </button>\n    </div>\n</div>\n"
+module.exports = "<div class=\"wrapper\" id =\"customerIdDiv\">\n  <input class=\"input\" placeholder=\"Enter Customer Id\" type=\"text\" id=\"customerID\" [(ngModel)]=\"customerID\"/>\n  <span class=\"underline\"></span>\n</div>\n<div id=\"itemInfoDiv\">\n    <form class=\"example-form divpos\">\n      <mat-form-field class=\"example-full-width\">\n        <input value='' id=\"nameinput\"type=\"text\" placeholder=\"Enter item name\" aria-label=\"Assignee\"  matInput [formControl]=\"myControl\" [matAutocomplete]=\"auto\" (ngModelChange)=\"onItemChange()\"/>\n        <mat-autocomplete #auto=\"matAutocomplete\" [displayWith]=\"displayFn\">\n          <mat-option *ngFor=\"let option of filteredOptions | async\" [value]=\"option\">\n            {{option.name}}\n          </mat-option>\n        </mat-autocomplete>\n      </mat-form-field>\n    </form>   \n  <div class=\"wrapper divpos\" id =\"quantity\">\n    <input class=\"input\" placeholder=\"Enter quantity\" type=\"text\" id=\"quantity\" [(ngModel)]=\"quantity\" (blur)=\"onQuantityChange()\"/>\n    <span class=\"underline\"></span>\n  </div>\n  <div class=\"wrapper divpos\" id =\"rate\">\n    <input class=\"input\" placeholder=\"Rate of Item\" type=\"text\" id=\"rate\" [(ngModel)]=\"rate\" [disabled]=\"disableFlag\" (blur)=\"onEnterRate()\"/>\n    <span class=\"underline\"></span>\n  </div>\n\n  <div class=\"wrapper divpos\" id =\"cost\">\n    <input class=\"input\" placeholder=\"Items cost\" type=\"text\" id=\"cost\" [(ngModel)]=\"cost\" [disabled]=\"true\"/>\n    <span class=\"underline\"></span>\n  </div>\n\n  <button type=\"button\" class=\"btn btn-primary divpos\" id=\"addButton\" (click)=\"addItem()\">Add</button>  \n</div>\n<div  id=\"print-section\">\n<div class=\"table-wrapper-scroll-y my-custom-scrollbar\">\n    <table class=\"table table-bordered table-striped mb-0\" id=\"tablecontent\">\n      <thead>\n        <tr>\n          <th *ngFor=\"let head of headerList\" scope=\"col\">{{head}} </th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr  *ngFor=\"let item of itemList\">\n                <th scope=\"row\">{{item.id}}</th>\n                <td>{{item.name}}</td>\n                <td>{{item.quantity}}</td>\n                <td>{{item.rate}}</td>\n                <td>{{item.cost}}</td>\n                <td (click)=\"removeItem(item.id)\">{{item.remove}}</td>\n        </tr>\n      </tbody>\n      <tfoot id=\"tfoot\"> \n                <tr> \n                    <td align=\"right\" colspan=\"5\">Total Cost: {{totalSum}}</td> \n                </tr> \n      </tfoot> \n    </table>\n</div>\n</div>\n<div id=\"printCostDiv\">\n    <div id=\"totalSumDiv\" class=\"printTotalCost\" *ngIf=\"totalSum > 0\">\n      <span class=\"badge\" id = \"totalSumLavel\">Total Cost: {{totalSum}}</span>\n    </div>\n    <div  class=\"printTotalCost\" *ngIf=\"totalSum > 0\">\n      <!-- <button printSectionId=\"print-section\" printTitle=\"Invoice Details\"   ngxPrint id=\"printdiv\" type=\"button\" class=\"btn btn-primary\" (click)=\"printItem()\">Print</button> --> \n      <!--<button printSectionId=\"print-section\" printTitle=\"Invoice Details\"  id=\"printdiv\" type=\"button\" class=\"btn btn-primary\" (click)=\"printItem()\">New</button>  -->\n      <button class=\"btn btn-primary\" id=\"printdiv\" type=\"button\" onclick=\"printJS({printable: itemToPrint\n    , properties: ['id','name', 'quantity', 'rate','cost'], type: 'json', header:docheading})\" (click)=\"printItem()\">\n        Print\n     </button>\n    </div>\n</div>\n"
 
 /***/ }),
 
@@ -355,7 +330,7 @@ var CreatetransaccompComponent = /** @class */ (function () {
         this.item = {};
         this.itemList = [];
         this.totalSum = 0;
-        this.headerList = ['Sr.', 'Name', 'Quantity', 'Rate', 'Cost', 'Delete'];
+        this.headerList = ['Sr.', 'Name', 'Quantity', 'Rate', 'Cost', 'Action'];
         this.myControl = new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"]();
     }
     CreatetransaccompComponent.prototype.callBackOnApi = function (items, isgetApiCallCallBack) {
@@ -393,11 +368,12 @@ var CreatetransaccompComponent = /** @class */ (function () {
             this.name = document.getElementById("nameinput").value;
         }
         //this.rate=this.myControl.value.rate;
-        this.item = { id: this.id + 1, name: this.name, quantity: this.quantity, rate: this.rate, cost: this.cost, remove: 'Remove' };
-        this.itemList.push(this.item);
         this.id = this.id + 1;
+        this.item = { id: this.id, name: this.name, quantity: this.quantity, rate: this.rate, cost: this.cost, remove: 'Remove' };
+        this.itemList.push(this.item);
         this.totalSum = this.totalSum + this.cost;
-        printfunc({ name: this.name, quantity: this.quantity, rate: this.rate, cost: this.cost }, this.customerID, this.totalSum);
+        //let docfooter = [{id:'-',name:'-',quantity:'-',rate:'-',cost:'-'},{id:'',name:'Total Cost',quantity:'',rate:'',cost:this.totalSum}];
+        printfunc({ id: this.id, name: this.name, quantity: this.quantity, rate: this.rate, cost: this.cost }, this.getDocHeader(), this.getDocFooter());
         this.name = undefined;
         this.quantity = undefined;
         this.rate = undefined;
@@ -406,12 +382,27 @@ var CreatetransaccompComponent = /** @class */ (function () {
         document.getElementById("nameinput").focus();
         this.sharedInfo.putData(this.item);
     };
+    CreatetransaccompComponent.prototype.getDocHeader = function () {
+        var docheading;
+        if (this.customerID != null) {
+            docheading = "Invoice of Customer: " + this.customerID;
+        }
+        else {
+            docheading = "Invoice of Customer";
+        }
+        return docheading;
+    };
+    CreatetransaccompComponent.prototype.getDocFooter = function () {
+        return [{ id: '-', name: '-', quantity: '-', rate: '-', cost: '-' }, { id: '', name: 'Total Cost', quantity: '', rate: '', cost: this.totalSum }];
+    };
     CreatetransaccompComponent.prototype.removeItem = function (id) {
         var tempItem = [];
         for (var _i = 0, _a = this.itemList; _i < _a.length; _i++) {
             var el = _a[_i];
             if (el.id == id) {
                 this.totalSum = this.totalSum - el.cost;
+                var docfooter = [{ id: '-', name: '-', quantity: '-', rate: '-', cost: '-' }, { id: '', name: 'Total Cost', quantity: '', rate: '', cost: this.totalSum }];
+                removeItemFromPrintList(id, this.getDocFooter());
             }
             else {
                 tempItem.push(el);
@@ -443,9 +434,14 @@ var CreatetransaccompComponent = /** @class */ (function () {
         this.cost = this.rate * this.quantity;
     };
     CreatetransaccompComponent.prototype.printItem = function () {
+        console.log("method get called");
+        var transactionSummary = { customerId: this.customerID, shoppingSummary: this.totalSum };
+        var response = this.httpservice.postApiCall(this.urlinfoservice.CUSTOMER_SHOPPING_SUMMARY_SAVE_URL, transactionSummary, this);
         this.itemList = [];
         this.customerID = undefined;
-        this.totalSum = undefined;
+        this.totalSum = 0;
+        this.id = 0;
+        clearRecord();
         document.getElementById("customerID").focus();
     };
     CreatetransaccompComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
@@ -549,7 +545,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<h3>\n    Welcome to Component Learning!\n</h3>\n<br/>\n<input  [(ngModel)]=\"name\" placeholder=\"Enter news\">\n<br/>\n<button (click)=\"onClick()\">send news</button>>\n<br/>\n<div *ngIf=\"name\">\n<h4>Message to be broadcast is:{{name}}</h4>\n<hr/>\n<button (click)=\"subscribeForNewMsg()\">subscribe to get news</button>\n<!-- <h1 *ngFor=\"let data of sharedData\">{{data}}</h1> -->\n<h1 *ngIf=\"receivedMsg\">received message is{{receivedMsg}}</h1>\n<hr/>\n<h4>child component data></h4>\n<app-childcomp [parentmsg]=\"name\"></app-childcomp>\n</div>\n\n\n"
+module.exports = "<h4>\n    Select the topic for demo!\n</h4>\n<mat-radio-group class = \"tp-radio-group\" [(ngModel)] = \"topicSelected\">\n    <mat-radio-button class = \"tp-radio-button\"\n       *ngFor = \"let topic of learningTopics\" [value] = \"topic\">\n       {{topic}}\n    </mat-radio-button>\n </mat-radio-group>\n <hr/>\n<div *ngIf=\"topicSelected == 'SubscribeEvent'\">\n    <br/>\n    <input  [(ngModel)]=\"name\" placeholder=\"Enter news\">\n    <br/> <br/>\n    <button (click)=\"onClick()\">send news</button>\n    <br/>\n    <div>\n        <hr/>\n        <h4>To get news msg, please click subscribe button</h4>\n        <button (click)=\"subscribeForNewMsg()\">subscribe to get news</button>\n        <!-- <h1 *ngFor=\"let data of sharedData\">{{data}}</h1> -->\n        <h5 *ngIf=\"receivedMsg\">Received message is : {{receivedMsg}}</h5>\n    </div>\n</div>\n<div *ngIf=\"topicSelected == 'Pipe'\">\n    <br/>\n    <input [(ngModel)]=\"name\" placeholder=\"Name to change to caps\">\n    <br/><br/>\n    <h5>Enter name in capital:{{name | myCustomPipe}}</h5>\n</div>\n\n\n"
 
 /***/ }),
 
@@ -573,6 +569,7 @@ var MaincontentComponent = /** @class */ (function () {
     function MaincontentComponent(sharedInfo) {
         this.sharedInfo = sharedInfo;
         this.sharedData = [];
+        this.learningTopics = ['SubscribeEvent', 'Pipe'];
         console.log("content page constructor get called");
     }
     MaincontentComponent.prototype.ngOnInit = function () {
@@ -605,6 +602,38 @@ var MaincontentComponent = /** @class */ (function () {
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_service_shared_info_container_service__WEBPACK_IMPORTED_MODULE_2__["SharedInfoContainerService"]])
     ], MaincontentComponent);
     return MaincontentComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/maincontent/my-custom-pipe.pipe.ts":
+/*!****************************************************!*\
+  !*** ./src/app/maincontent/my-custom-pipe.pipe.ts ***!
+  \****************************************************/
+/*! exports provided: MyCustomPipePipe */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MyCustomPipePipe", function() { return MyCustomPipePipe; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+
+
+var MyCustomPipePipe = /** @class */ (function () {
+    function MyCustomPipePipe() {
+    }
+    MyCustomPipePipe.prototype.transform = function (value, args) {
+        return value.toUpperCase();
+    };
+    MyCustomPipePipe = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Pipe"])({
+            name: 'myCustomPipe'
+        })
+    ], MyCustomPipePipe);
+    return MyCustomPipePipe;
 }());
 
 
@@ -660,7 +689,7 @@ var NewitementryComponent = /** @class */ (function () {
         this.urlinfoservice = urlinfoservice;
         this.httpservice = httpservice;
         this.myControl = new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"]();
-        this.headerList = ['Sr.', 'Item New Name', 'rate', 'Item Old Name', 'Delete'];
+        this.headerList = ['Sr.', 'New item name', 'Rate', 'Old item name', 'Action'];
         this.id = 0;
         this.itemList = [];
     }

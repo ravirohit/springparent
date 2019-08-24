@@ -1,17 +1,37 @@
 var itemToPrint=[{},{}];
-var customerId="";
-function printfunc(item,customer,totalCost) {
+var docheading="";
+function printfunc(item,docheadstr,docfooter) {
     itemToPrint = itemToPrint.slice(0,itemToPrint.length - 2);
     console.log('++++++++++++++++++++++');
   itemToPrint.push(item);
-  if(customer != null ){
-      customerId = "Invoice of Customer: " + customer;
-  }
-  else {
-    customerId = "Invoice of Customer";
-  }
-  itemToPrint.push({name:'-',quantity:'-',rate:'-',cost:'-'});
-  itemToPrint.push({name:'Total Cost',quantity:'',rate:'',cost:totalCost});
+  docheading = docheadstr;
+  itemToPrint.push(docfooter[0]);
+  itemToPrint.push(docfooter[1]);
+}
+function removeItemFromPrintList(id, docfooter){
+    console.log("id:"+id);
+    itemToPrint = itemToPrint.slice(0,itemToPrint.length - 2);
+    let tempItem=[];
+    for(let el of itemToPrint){
+      if(el.id == id){
+
+      }
+      else {
+        tempItem.push(el);
+      }
+      if(el.id > id){
+        el.id = el.id -1;
+      }
+    }
+    itemToPrint = tempItem;
+    tempItem=[];
+    itemToPrint.push(docfooter[0]);
+    itemToPrint.push(docfooter[1]);
+
+}
+function clearRecord(){
+    itemToPrint=[{},{}];
+    docheading="";  
 }
 
 ;
