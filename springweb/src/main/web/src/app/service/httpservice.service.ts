@@ -30,7 +30,7 @@ export class HttpserviceService {
     return this.http.get(endpoint, this.httpOptions).subscribe(
       data  => {
           console.log("Get Item info Request is successful ", data);
-          ref.callBackOnApi(data,true);
+          ref.callBackOnApi(data,false);
           
       },
       error  => {
@@ -62,7 +62,7 @@ export class HttpserviceService {
       .subscribe(
       data  => {
           console.log("POST Request is successful ", data);
-          ref.callBackOnApi(data,false);   // same callbackback function is getting called for two api.. to identify the api..boolean is used
+          ref.callBackOnApi(data,true);   // same callbackback function is getting called for two api.. to identify the api..boolean is used
       },
       error  => {
       console.log("Error", error);

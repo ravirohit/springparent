@@ -12,14 +12,19 @@ public class ItemEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 	int id;
 	
+	String barCode;
 	String name;
 	Float rate;
+	int inStock;
+	
 	public ItemEntity(){
 		
 	}
-	public ItemEntity(String name, Float rate){
+	public ItemEntity(String barCode, String name, Float rate, int inStock){
+		this.barCode = barCode;
 		this.name = name;
 		this.rate = rate;
+		this.inStock = inStock;
 	}
 	public int getId() {
 		return id;
@@ -40,6 +45,22 @@ public class ItemEntity {
 	public void setRate(Float rate) {
 		this.rate = rate;
 	}
+	
+	
+	public String getBarCode() {
+		return barCode;
+	}
+	public void setBarCode(String barCode) {
+		this.barCode = barCode;
+	}
+	public int getInStock() {
+		return inStock;
+	}
+	public void setInStock(int inStock) {
+		this.inStock = inStock;
+	}
+	
+	
 	
 	
 	

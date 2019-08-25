@@ -1,13 +1,19 @@
-<div class="wrapper divpos">
-  <input class="input" placeholder="Enter new item name" type="text" id="newItemInput" [(ngModel)]="newName">
+<div class="wrapper divpos" id ="barcodediv">
+  <input class="input" placeholder="Enter Bar Code" type="text" id="newItemInput" [(ngModel)]="barCode" (blur)="onBarCodeEnter()">
   <span class="underline"></span>
 </div>
-<div class="wrapper divpos" id ="ratediv">
-  <input class="input" placeholder="Enter rate" type="text" id="rate" [(ngModel)]="rate">
+<div class="wrapper divpos" id ="namediv">
+    <input class="input" placeholder="Enter Item Name" type="text" id="olditeminput" [(ngModel)]="name">
+  
   <span class="underline"></span>
 </div>
 
-<form class="example-form divpos">
+<div class="wrapper divpos" id ="ratediv">
+    <input class="input" placeholder="Enter rate" type="text" id="rate" [(ngModel)]="rate">  
+    <span class="underline"></span>
+  </div>
+
+<!-- <form class="example-form divpos">
     <mat-form-field class="example-full-width">
       <input id="olditeminput"type="text" placeholder="Enter old item name" aria-label="Assignee"  matInput [formControl]="myControl" [matAutocomplete]="auto" (ngModelChange)="onItemChange()"/>
       <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn">
@@ -16,7 +22,7 @@
         </mat-option>
       </mat-autocomplete>
     </mat-form-field>
-  </form>   
+  </form>   -->
 
 <button type="button" class="btn btn-primary product-entry divpos" id="addButton" (click)="addItem()">Add</button>  
 <div class="table-wrapper-scroll-y my-custom-scrollbar">
@@ -29,9 +35,9 @@
       <tbody>
         <tr  *ngFor="let item of itemList">
                 <th scope="row">{{item.id}}</th>
-                <td>{{item.newName}}</td>
+                <td>{{item.barCode}}</td>
+                <td>{{item.name}}</td>
                 <td>{{item.rate}}</td>
-                <td>{{item.oldName}}</td>
                 <td (click)="removeItem(item.id)">{{item.remove}}</td>
         </tr>
       </tbody>

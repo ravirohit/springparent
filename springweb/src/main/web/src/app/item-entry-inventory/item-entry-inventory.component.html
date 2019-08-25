@@ -1,0 +1,32 @@
+<div class="wrapper divpos">
+    <input class="input" placeholder="Enter item name" type="text" id="newItemInput" [(ngModel)]="itemBarKey" (blur)="onItemEntry()">
+    <span class="underline"></span>
+  </div>
+  <div class="wrapper divpos" id ="ratediv">
+    <input class="input" placeholder="Enter rate" type="text" id="rate" [(ngModel)]="rate">
+    <span class="underline"></span>
+  </div>
+  
+  <button type="button" class="btn btn-primary product-entry divpos" id="addButton" (click)="addItem()">Add</button>  
+  <div class="table-wrapper-scroll-y my-custom-scrollbar">
+      <table class="table table-bordered table-striped mb-0" id="tablecontent">
+        <thead>
+          <tr>
+            <th *ngFor="let head of headerList" scope="col">{{head}} </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr  *ngFor="let item of itemList">
+                  <th scope="row">{{item.id}}</th>
+                  <td>{{item.name}}</td>
+                  <td>{{item.inStock}}</td>
+                  <td>{{item.rate}}</td>
+                  <td (click)="removeItem(item.id)">{{item.remove}}</td>
+          </tr>
+        </tbody>
+        
+      </table>
+    </div>
+    <div id="totalSumDiv" *ngIf="id > 0">
+      <button type="button" class="btn btn-primary product-entry" id="saveButton" (click)="saveItem()">save</button> 
+    </div>

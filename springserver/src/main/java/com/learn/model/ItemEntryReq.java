@@ -2,27 +2,41 @@ package com.learn.model;
 
 public class ItemEntryReq {
 
-	String newName;
+	String barCode;
+	String name;
 	Float rate;
-	String oldName;
+	int inStock;
+	Boolean itemExistFlag;
 	
-	public String getOldName() {
-		return oldName;
+	public String getBarCode() {
+		return barCode;
 	}
-	public void setOldName(String oldName) {
-		this.oldName = oldName;
+	public void setBarCode(String barCode) {
+		this.barCode = barCode;
 	}
-	public String getNewName() {
-		return newName;
+	public String getName() {
+		return name;
 	}
-	public void setNewName(String newName) {
-		this.newName = newName;
+	public void setName(String name) {
+		this.name = name;
 	}
 	public Float getRate() {
 		return rate;
 	}
 	public void setRate(Float rate) {
 		this.rate = rate;
+	}
+	public Boolean getItemExistFlag() {
+		return itemExistFlag;
+	}
+	public void setItemExistFlag(Boolean itemExistFlag) {
+		this.itemExistFlag = itemExistFlag;
+	}
+	public int getInStock() {
+		return inStock;
+	}
+	public void setInStock(int inStock) {
+		this.inStock = inStock;
 	}
 	
 

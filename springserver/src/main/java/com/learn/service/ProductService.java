@@ -35,13 +35,13 @@ public class ProductService {
 	 				try{
 		 				String str1 = mapper.writeValueAsString(itemReq);
 		 				System.out.println("request payload\n:"+str1);
-						if((itemReq.getOldName() == null) || (itemReq.getOldName().equals("")))
+						if((itemReq.getItemExistFlag() == null )||(itemReq.getItemExistFlag())) // null when making entry in inventory, true when updating inventory
 						{
-							ItemEntity itemEntity = new ItemEntity(itemReq.getNewName(),itemReq.getRate());
-							newItemList.add(itemEntity);
+							oldItemList.add(itemReq);
 						}
 						else{
-							oldItemList.add(itemReq);
+							ItemEntity itemEntity = new ItemEntity(itemReq.getBarCode(),itemReq.getName(),itemReq.getRate(),0);
+							newItemList.add(itemEntity);
 						}
 	 				}catch(Exception e){
 	 					System.out.println("exception occur:"+e);

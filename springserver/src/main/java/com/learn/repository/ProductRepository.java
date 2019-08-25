@@ -42,12 +42,11 @@ public class ProductRepository {
 			batchSize = 0;
 			for(ItemEntryReq itemReq:oldItemList){
 				Criteria c2 = session.createCriteria(ItemEntity.class);
-				c2.add(Restrictions.eq("name", itemReq.getOldName()));
+				c2.add(Restrictions.eq("barCode", itemReq.getBarCode()));
 				ItemEntity itemEntity = (ItemEntity) c2.list().get(0);
-				if((itemReq.getNewName() != null) && (itemReq.getNewName() != "")){
-					itemEntity.setName(itemReq.getNewName());
-				}
+				itemEntity.setInStock(itemEntity.getInStock()+itemReq.getInStock());
 				itemEntity.setRate(itemReq.getRate());
+				itemEntity.setName(itemReq.getName());
 				batchSize++;
 				if(batchSize == 20){
 					batchSize = 0;

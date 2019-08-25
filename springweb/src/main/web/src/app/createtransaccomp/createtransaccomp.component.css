@@ -1,5 +1,5 @@
 #customerIdDiv{
-  margin-left: -8%;
+  /*margin-left: -8%; */
   margin-top: -2%;
 }
 #customerIdDiv > .input{
@@ -22,6 +22,7 @@
 }
 .divpos {
      float:left;
+     margin-bottom: 20px;
 }
 .wrapper {
   border-radius: 2px;
@@ -35,9 +36,9 @@
   border-bottom: 1px solid grey;
   color: #555;
   box-sizing: border-box;
-  left: 50%;
+  left: 20%;
   position: relative;
-  width: 120px;
+  width: 145px;
   margin-top: 37px;
 
 }  
@@ -59,11 +60,11 @@
   transition: all 0.5s linear;
   width: 202px;
 }
-#addButton {
+#newButton {
 background:lightgray;
 width:100px;
 margin-top: 30px;
-margin-left: 50px;
+margin-left: 25%;
 }
 #tablecontent {
     background: lightgray;

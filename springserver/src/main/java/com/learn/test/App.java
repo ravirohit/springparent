@@ -5,7 +5,7 @@ import java.util.Date;
 public class App {
 
 	public static void main(String[] args) {
-		Date date = new Date(1566636105041L);
+		Date date = new Date();
 
 	}
 

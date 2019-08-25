@@ -3,7 +3,7 @@
   <span class="underline"></span>
 </div>
 <div id="itemInfoDiv">
-    <form class="example-form divpos">
+    <!-- <form class="example-form divpos">
       <mat-form-field class="example-full-width">
         <input value='' id="nameinput"type="text" placeholder="Enter item name" aria-label="Assignee"  matInput [formControl]="myControl" [matAutocomplete]="auto" (ngModelChange)="onItemChange()"/>
         <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn">
@@ -12,22 +12,26 @@
           </mat-option>
         </mat-autocomplete>
       </mat-form-field>
-    </form>   
-  <div class="wrapper divpos" id ="quantity">
-    <input class="input" placeholder="Enter quantity" type="text" id="quantity" [(ngModel)]="quantity" (blur)="onQuantityChange()"/>
+    </form>  -->  
+  <div class="wrapper divpos" id ="itemdiv">
+    <input class="input" placeholder="Enter Item barcode" type="text" id="itemBarcode" [(ngModel)]="itemBarcode" (blur)="onEnterBarcode()"/>
+    <span class="underline"></span>
+  </div>
+  <div class="wrapper divpos" id ="quantitydiv">
+    <input class="input" placeholder="Enter quantity" type="number" id="quantity" [(ngModel)]="quantity" (blur)="onQuantityChange()"/>
     <span class="underline"></span>
   </div>
   <div class="wrapper divpos" id ="rate">
-    <input class="input" placeholder="Rate of Item" type="text" id="rate" [(ngModel)]="rate" [disabled]="disableFlag" (blur)="onEnterRate()"/>
+    <input class="input" placeholder="Rate of Item" type="number" id="rate" [(ngModel)]="rate" [disabled]="disableFlag" (blur)="onEnterRate()"/>
     <span class="underline"></span>
   </div>
 
-  <div class="wrapper divpos" id ="cost">
+  <!-- <div class="wrapper divpos" id ="cost">
     <input class="input" placeholder="Items cost" type="text" id="cost" [(ngModel)]="cost" [disabled]="true"/>
     <span class="underline"></span>
-  </div>
+  </div> -->
 
-  <button type="button" class="btn btn-primary divpos" id="addButton" (click)="addItem()">Add</button>  
+  <button type="button" class="btn btn-primary divpos" id="newButton" (click)="clearItem()">New</button>  
 </div>
 <div  id="print-section">
 <div class="table-wrapper-scroll-y my-custom-scrollbar">
