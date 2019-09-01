@@ -196,7 +196,7 @@ var AppModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "#customerIdDiv{\r\n  margin-left: -8%;\r\n  margin-top: -2%;\r\n}\r\n#customerIdDiv > .input{\r\n  width: 200px;\r\n}\r\n#itemInfoDiv {\r\n  margin-top: -1%;\r\n}\r\n.example-form {\r\n     width: 20%;\r\n   }\r\n.example-full-width {\r\n     width: 100%;\r\n     margin-top: 20px;\r\n     margin-left: 20px;\r\n}\r\n.mat-form-field-flex {\r\n     width: 100%;\r\n}\r\n.divpos {\r\n     float:left;\r\n}\r\n.wrapper {\r\n  border-radius: 2px;\r\n  box-sizing: border-box;\r\n  width: 200px;\r\n}\r\n.input {\r\n  background-color: transparent;\r\n  border: none;\r\n  border-bottom: 1px solid grey;\r\n  color: #555;\r\n  box-sizing: border-box;\r\n  left: 50%;\r\n  position: relative;\r\n  width: 120px;\r\n  margin-top: 37px;\r\n\r\n}\r\n.input:focus {\r\n  outline: none;  \r\n  border-bottom: 2px solid BLUE;\r\n}\r\n.underline {\r\n  background-color: dodgerblue;\r\n  display: inline-block;\r\n  height: 2px;\r\n  left: 50px;\r\n  margin-top: -4px;\r\n  position: absolute;\r\n  top: 185px;\r\n  transform: scale(0, 1);\r\n  transition: all 0.5s linear;\r\n  width: 202px;\r\n}\r\n#addButton {\r\nbackground:lightgray;\r\nwidth:100px;\r\nmargin-top: 30px;\r\nmargin-left: 50px;\r\n}\r\n#tablecontent {\r\n    background: lightgray;\r\n}\r\n.my-custom-scrollbar {\r\n    max-height: 400px;\r\n    overflow-y: auto;\r\n    clear:both;\r\n}\r\n#printCostDiv{\r\n  margin-left: 73%;\r\n  margin-top: 1.5%;\r\n\r\n}\r\n.printTotalCost{\r\n    float: left;\r\n}\r\n#totalSumLavel{\r\n  margin-top: 10px;\r\n  font-size: 100%;\r\n}\r\n#printdiv{\r\n  width: 100px;\r\n  margin-left: 8px;\r\n  background: lightgray;\r\n}\r\n#tfoot{\r\n  display:none;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY3JlYXRldHJhbnNhY2NvbXAvY3JlYXRldHJhbnNhY2NvbXAuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGlCQUFpQjtFQUNqQixnQkFBZ0I7Q0FDakI7QUFDRDtFQUNFLGFBQWE7Q0FDZDtBQUNEO0VBQ0UsZ0JBQWdCO0NBQ2pCO0FBQ0Q7S0FDSyxXQUFXO0lBQ1o7QUFFSjtLQUNLLFlBQVk7S0FDWixpQkFBaUI7S0FDakIsa0JBQWtCO0NBQ3RCO0FBQ0Q7S0FDSyxZQUFZO0NBQ2hCO0FBQ0Q7S0FDSyxXQUFXO0NBQ2Y7QUFDRDtFQUNFLG1CQUFtQjtFQUNuQix1QkFBdUI7RUFDdkIsYUFBYTtDQUNkO0FBRUQ7RUFDRSw4QkFBOEI7RUFDOUIsYUFBYTtFQUNiLDhCQUE4QjtFQUM5QixZQUFZO0VBQ1osdUJBQXVCO0VBQ3ZCLFVBQVU7RUFDVixtQkFBbUI7RUFDbkIsYUFBYTtFQUNiLGlCQUFpQjs7Q0FFbEI7QUFDRDtFQUNFLGNBQWM7RUFDZCw4QkFBOEI7Q0FDL0I7QUFDRDtFQUNFLDZCQUE2QjtFQUM3QixzQkFBc0I7RUFDdEIsWUFBWTtFQUNaLFdBQVc7RUFDWCxpQkFBaUI7RUFDakIsbUJBQW1CO0VBQ25CLFdBQVc7RUFFWCx1QkFBdUI7RUFFdkIsNEJBQTRCO0VBQzVCLGFBQWE7Q0FDZDtBQUNEO0FBQ0EscUJBQXFCO0FBQ3JCLFlBQVk7QUFDWixpQkFBaUI7QUFDakIsa0JBQWtCO0NBQ2pCO0FBQ0Q7SUFDSSxzQkFBc0I7Q0FDekI7QUFDRDtJQUNJLGtCQUFrQjtJQUNsQixpQkFBaUI7SUFDakIsV0FBVztDQUNkO0FBQ0Q7RUFDRSxpQkFBaUI7RUFDakIsaUJBQWlCOztDQUVsQjtBQUNEO0lBQ0ksWUFBWTtDQUNmO0FBQ0Q7RUFDRSxpQkFBaUI7RUFDakIsZ0JBQWdCO0NBQ2pCO0FBQ0Q7RUFDRSxhQUFhO0VBQ2IsaUJBQWlCO0VBQ2pCLHNCQUFzQjtDQUN2QjtBQUNEO0VBQ0UsYUFBYTtDQUNkIiwiZmlsZSI6InNyYy9hcHAvY3JlYXRldHJhbnNhY2NvbXAvY3JlYXRldHJhbnNhY2NvbXAuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIiNjdXN0b21lcklkRGl2e1xyXG4gIG1hcmdpbi1sZWZ0OiAtOCU7XHJcbiAgbWFyZ2luLXRvcDogLTIlO1xyXG59XHJcbiNjdXN0b21lcklkRGl2ID4gLmlucHV0e1xyXG4gIHdpZHRoOiAyMDBweDtcclxufVxyXG4jaXRlbUluZm9EaXYge1xyXG4gIG1hcmdpbi10b3A6IC0xJTtcclxufVxyXG4uZXhhbXBsZS1mb3JtIHtcclxuICAgICB3aWR0aDogMjAlO1xyXG4gICB9XHJcbiAgIFxyXG4uZXhhbXBsZS1mdWxsLXdpZHRoIHtcclxuICAgICB3aWR0aDogMTAwJTtcclxuICAgICBtYXJnaW4tdG9wOiAyMHB4O1xyXG4gICAgIG1hcmdpbi1sZWZ0OiAyMHB4O1xyXG59XHJcbi5tYXQtZm9ybS1maWVsZC1mbGV4IHtcclxuICAgICB3aWR0aDogMTAwJTtcclxufVxyXG4uZGl2cG9zIHtcclxuICAgICBmbG9hdDpsZWZ0O1xyXG59XHJcbi53cmFwcGVyIHtcclxuICBib3JkZXItcmFkaXVzOiAycHg7XHJcbiAgYm94LXNpemluZzogYm9yZGVyLWJveDtcclxuICB3aWR0aDogMjAwcHg7XHJcbn1cclxuICAgXHJcbi5pbnB1dCB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogdHJhbnNwYXJlbnQ7XHJcbiAgYm9yZGVyOiBub25lO1xyXG4gIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCBncmV5O1xyXG4gIGNvbG9yOiAjNTU1O1xyXG4gIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XHJcbiAgbGVmdDogNTAlO1xyXG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICB3aWR0aDogMTIwcHg7XHJcbiAgbWFyZ2luLXRvcDogMzdweDtcclxuXHJcbn0gIFxyXG4uaW5wdXQ6Zm9jdXMge1xyXG4gIG91dGxpbmU6IG5vbmU7ICBcclxuICBib3JkZXItYm90dG9tOiAycHggc29saWQgQkxVRTtcclxufVxyXG4udW5kZXJsaW5lIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiBkb2RnZXJibHVlO1xyXG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICBoZWlnaHQ6IDJweDtcclxuICBsZWZ0OiA1MHB4O1xyXG4gIG1hcmdpbi10b3A6IC00cHg7XHJcbiAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gIHRvcDogMTg1cHg7XHJcbiAgLXdlYmtpdC10cmFuc2Zvcm06IHNjYWxlKDAsIDEpO1xyXG4gIHRyYW5zZm9ybTogc2NhbGUoMCwgMSk7XHJcbiAgLXdlYmtpdC10cmFuc2l0aW9uOiBhbGwgMC41cyBsaW5lYXI7XHJcbiAgdHJhbnNpdGlvbjogYWxsIDAuNXMgbGluZWFyO1xyXG4gIHdpZHRoOiAyMDJweDtcclxufVxyXG4jYWRkQnV0dG9uIHtcclxuYmFja2dyb3VuZDpsaWdodGdyYXk7XHJcbndpZHRoOjEwMHB4O1xyXG5tYXJnaW4tdG9wOiAzMHB4O1xyXG5tYXJnaW4tbGVmdDogNTBweDtcclxufVxyXG4jdGFibGVjb250ZW50IHtcclxuICAgIGJhY2tncm91bmQ6IGxpZ2h0Z3JheTtcclxufVxyXG4ubXktY3VzdG9tLXNjcm9sbGJhciB7XHJcbiAgICBtYXgtaGVpZ2h0OiA0MDBweDtcclxuICAgIG92ZXJmbG93LXk6IGF1dG87XHJcbiAgICBjbGVhcjpib3RoO1xyXG59XHJcbiNwcmludENvc3REaXZ7XHJcbiAgbWFyZ2luLWxlZnQ6IDczJTtcclxuICBtYXJnaW4tdG9wOiAxLjUlO1xyXG5cclxufVxyXG4ucHJpbnRUb3RhbENvc3R7XHJcbiAgICBmbG9hdDogbGVmdDtcclxufVxyXG4jdG90YWxTdW1MYXZlbHtcclxuICBtYXJnaW4tdG9wOiAxMHB4O1xyXG4gIGZvbnQtc2l6ZTogMTAwJTtcclxufVxyXG4jcHJpbnRkaXZ7XHJcbiAgd2lkdGg6IDEwMHB4O1xyXG4gIG1hcmdpbi1sZWZ0OiA4cHg7XHJcbiAgYmFja2dyb3VuZDogbGlnaHRncmF5O1xyXG59XHJcbiN0Zm9vdHtcclxuICBkaXNwbGF5Om5vbmU7XHJcbn1cclxuIl19 */"
+module.exports = "#customerIdDiv{\r\n  /*margin-left: -8%; */\r\n  margin-top: -2%;\r\n}\r\n#customerIdDiv > .input{\r\n  width: 200px;\r\n}\r\n#itemInfoDiv {\r\n  margin-top: -1%;\r\n}\r\n.example-form {\r\n     width: 20%;\r\n   }\r\n.example-full-width {\r\n     width: 100%;\r\n     margin-top: 20px;\r\n     margin-left: 20px;\r\n}\r\n.mat-form-field-flex {\r\n     width: 100%;\r\n}\r\n.divpos {\r\n     float:left;\r\n     margin-bottom: 20px;\r\n}\r\n.wrapper {\r\n  border-radius: 2px;\r\n  box-sizing: border-box;\r\n  width: 200px;\r\n}\r\n.input {\r\n  background-color: transparent;\r\n  border: none;\r\n  border-bottom: 1px solid grey;\r\n  color: #555;\r\n  box-sizing: border-box;\r\n  left: 20%;\r\n  position: relative;\r\n  width: 145px;\r\n  margin-top: 37px;\r\n\r\n}\r\n.input:focus {\r\n  outline: none;  \r\n  border-bottom: 2px solid BLUE;\r\n}\r\n.underline {\r\n  background-color: dodgerblue;\r\n  display: inline-block;\r\n  height: 2px;\r\n  left: 50px;\r\n  margin-top: -4px;\r\n  position: absolute;\r\n  top: 185px;\r\n  transform: scale(0, 1);\r\n  transition: all 0.5s linear;\r\n  width: 202px;\r\n}\r\n#newButton {\r\nbackground:lightgray;\r\nwidth:100px;\r\nmargin-top: 30px;\r\nmargin-left: 25%;\r\n}\r\n#tablecontent {\r\n    background: lightgray;\r\n}\r\n.my-custom-scrollbar {\r\n    max-height: 400px;\r\n    overflow-y: auto;\r\n    clear:both;\r\n}\r\n#printCostDiv{\r\n  margin-left: 73%;\r\n  margin-top: 1.5%;\r\n\r\n}\r\n.printTotalCost{\r\n    float: left;\r\n}\r\n#totalSumLavel{\r\n  margin-top: 10px;\r\n  font-size: 100%;\r\n}\r\n#printdiv{\r\n  width: 100px;\r\n  margin-left: 8px;\r\n  background: lightgray;\r\n}\r\n#tfoot{\r\n  display:none;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY3JlYXRldHJhbnNhY2NvbXAvY3JlYXRldHJhbnNhY2NvbXAuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLHNCQUFzQjtFQUN0QixnQkFBZ0I7Q0FDakI7QUFDRDtFQUNFLGFBQWE7Q0FDZDtBQUNEO0VBQ0UsZ0JBQWdCO0NBQ2pCO0FBQ0Q7S0FDSyxXQUFXO0lBQ1o7QUFFSjtLQUNLLFlBQVk7S0FDWixpQkFBaUI7S0FDakIsa0JBQWtCO0NBQ3RCO0FBQ0Q7S0FDSyxZQUFZO0NBQ2hCO0FBQ0Q7S0FDSyxXQUFXO0tBQ1gsb0JBQW9CO0NBQ3hCO0FBQ0Q7RUFDRSxtQkFBbUI7RUFDbkIsdUJBQXVCO0VBQ3ZCLGFBQWE7Q0FDZDtBQUVEO0VBQ0UsOEJBQThCO0VBQzlCLGFBQWE7RUFDYiw4QkFBOEI7RUFDOUIsWUFBWTtFQUNaLHVCQUF1QjtFQUN2QixVQUFVO0VBQ1YsbUJBQW1CO0VBQ25CLGFBQWE7RUFDYixpQkFBaUI7O0NBRWxCO0FBQ0Q7RUFDRSxjQUFjO0VBQ2QsOEJBQThCO0NBQy9CO0FBQ0Q7RUFDRSw2QkFBNkI7RUFDN0Isc0JBQXNCO0VBQ3RCLFlBQVk7RUFDWixXQUFXO0VBQ1gsaUJBQWlCO0VBQ2pCLG1CQUFtQjtFQUNuQixXQUFXO0VBRVgsdUJBQXVCO0VBRXZCLDRCQUE0QjtFQUM1QixhQUFhO0NBQ2Q7QUFDRDtBQUNBLHFCQUFxQjtBQUNyQixZQUFZO0FBQ1osaUJBQWlCO0FBQ2pCLGlCQUFpQjtDQUNoQjtBQUNEO0lBQ0ksc0JBQXNCO0NBQ3pCO0FBQ0Q7SUFDSSxrQkFBa0I7SUFDbEIsaUJBQWlCO0lBQ2pCLFdBQVc7Q0FDZDtBQUNEO0VBQ0UsaUJBQWlCO0VBQ2pCLGlCQUFpQjs7Q0FFbEI7QUFDRDtJQUNJLFlBQVk7Q0FDZjtBQUNEO0VBQ0UsaUJBQWlCO0VBQ2pCLGdCQUFnQjtDQUNqQjtBQUNEO0VBQ0UsYUFBYTtFQUNiLGlCQUFpQjtFQUNqQixzQkFBc0I7Q0FDdkI7QUFDRDtFQUNFLGFBQWE7Q0FDZCIsImZpbGUiOiJzcmMvYXBwL2NyZWF0ZXRyYW5zYWNjb21wL2NyZWF0ZXRyYW5zYWNjb21wLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIjY3VzdG9tZXJJZERpdntcclxuICAvKm1hcmdpbi1sZWZ0OiAtOCU7ICovXHJcbiAgbWFyZ2luLXRvcDogLTIlO1xyXG59XHJcbiNjdXN0b21lcklkRGl2ID4gLmlucHV0e1xyXG4gIHdpZHRoOiAyMDBweDtcclxufVxyXG4jaXRlbUluZm9EaXYge1xyXG4gIG1hcmdpbi10b3A6IC0xJTtcclxufVxyXG4uZXhhbXBsZS1mb3JtIHtcclxuICAgICB3aWR0aDogMjAlO1xyXG4gICB9XHJcbiAgIFxyXG4uZXhhbXBsZS1mdWxsLXdpZHRoIHtcclxuICAgICB3aWR0aDogMTAwJTtcclxuICAgICBtYXJnaW4tdG9wOiAyMHB4O1xyXG4gICAgIG1hcmdpbi1sZWZ0OiAyMHB4O1xyXG59XHJcbi5tYXQtZm9ybS1maWVsZC1mbGV4IHtcclxuICAgICB3aWR0aDogMTAwJTtcclxufVxyXG4uZGl2cG9zIHtcclxuICAgICBmbG9hdDpsZWZ0O1xyXG4gICAgIG1hcmdpbi1ib3R0b206IDIwcHg7XHJcbn1cclxuLndyYXBwZXIge1xyXG4gIGJvcmRlci1yYWRpdXM6IDJweDtcclxuICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xyXG4gIHdpZHRoOiAyMDBweDtcclxufVxyXG4gICBcclxuLmlucHV0IHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiB0cmFuc3BhcmVudDtcclxuICBib3JkZXI6IG5vbmU7XHJcbiAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkIGdyZXk7XHJcbiAgY29sb3I6ICM1NTU7XHJcbiAgYm94LXNpemluZzogYm9yZGVyLWJveDtcclxuICBsZWZ0OiAyMCU7XHJcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gIHdpZHRoOiAxNDVweDtcclxuICBtYXJnaW4tdG9wOiAzN3B4O1xyXG5cclxufSAgXHJcbi5pbnB1dDpmb2N1cyB7XHJcbiAgb3V0bGluZTogbm9uZTsgIFxyXG4gIGJvcmRlci1ib3R0b206IDJweCBzb2xpZCBCTFVFO1xyXG59XHJcbi51bmRlcmxpbmUge1xyXG4gIGJhY2tncm91bmQtY29sb3I6IGRvZGdlcmJsdWU7XHJcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gIGhlaWdodDogMnB4O1xyXG4gIGxlZnQ6IDUwcHg7XHJcbiAgbWFyZ2luLXRvcDogLTRweDtcclxuICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgdG9wOiAxODVweDtcclxuICAtd2Via2l0LXRyYW5zZm9ybTogc2NhbGUoMCwgMSk7XHJcbiAgdHJhbnNmb3JtOiBzY2FsZSgwLCAxKTtcclxuICAtd2Via2l0LXRyYW5zaXRpb246IGFsbCAwLjVzIGxpbmVhcjtcclxuICB0cmFuc2l0aW9uOiBhbGwgMC41cyBsaW5lYXI7XHJcbiAgd2lkdGg6IDIwMnB4O1xyXG59XHJcbiNuZXdCdXR0b24ge1xyXG5iYWNrZ3JvdW5kOmxpZ2h0Z3JheTtcclxud2lkdGg6MTAwcHg7XHJcbm1hcmdpbi10b3A6IDMwcHg7XHJcbm1hcmdpbi1sZWZ0OiAyNSU7XHJcbn1cclxuI3RhYmxlY29udGVudCB7XHJcbiAgICBiYWNrZ3JvdW5kOiBsaWdodGdyYXk7XHJcbn1cclxuLm15LWN1c3RvbS1zY3JvbGxiYXIge1xyXG4gICAgbWF4LWhlaWdodDogNDAwcHg7XHJcbiAgICBvdmVyZmxvdy15OiBhdXRvO1xyXG4gICAgY2xlYXI6Ym90aDtcclxufVxyXG4jcHJpbnRDb3N0RGl2e1xyXG4gIG1hcmdpbi1sZWZ0OiA3MyU7XHJcbiAgbWFyZ2luLXRvcDogMS41JTtcclxuXHJcbn1cclxuLnByaW50VG90YWxDb3N0e1xyXG4gICAgZmxvYXQ6IGxlZnQ7XHJcbn1cclxuI3RvdGFsU3VtTGF2ZWx7XHJcbiAgbWFyZ2luLXRvcDogMTBweDtcclxuICBmb250LXNpemU6IDEwMCU7XHJcbn1cclxuI3ByaW50ZGl2e1xyXG4gIHdpZHRoOiAxMDBweDtcclxuICBtYXJnaW4tbGVmdDogOHB4O1xyXG4gIGJhY2tncm91bmQ6IGxpZ2h0Z3JheTtcclxufVxyXG4jdGZvb3R7XHJcbiAgZGlzcGxheTpub25lO1xyXG59XHJcbiJdfQ== */"
 
 /***/ }),
 
@@ -207,7 +207,7 @@ module.exports = "#customerIdDiv{\r\n  margin-left: -8%;\r\n  margin-top: -2%;\r
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"wrapper\" id =\"customerIdDiv\">\n  <input class=\"input\" placeholder=\"Enter Customer Id\" type=\"text\" id=\"customerID\" [(ngModel)]=\"customerID\"/>\n  <span class=\"underline\"></span>\n</div>\n<div id=\"itemInfoDiv\">\n    <form class=\"example-form divpos\">\n      <mat-form-field class=\"example-full-width\">\n        <input value='' id=\"nameinput\"type=\"text\" placeholder=\"Enter item name\" aria-label=\"Assignee\"  matInput [formControl]=\"myControl\" [matAutocomplete]=\"auto\" (ngModelChange)=\"onItemChange()\"/>\n        <mat-autocomplete #auto=\"matAutocomplete\" [displayWith]=\"displayFn\">\n          <mat-option *ngFor=\"let option of filteredOptions | async\" [value]=\"option\">\n            {{option.name}}\n          </mat-option>\n        </mat-autocomplete>\n      </mat-form-field>\n    </form>   \n  <div class=\"wrapper divpos\" id =\"quantity\">\n    <input class=\"input\" placeholder=\"Enter quantity\" type=\"text\" id=\"quantity\" [(ngModel)]=\"quantity\" (blur)=\"onQuantityChange()\"/>\n    <span class=\"underline\"></span>\n  </div>\n  <div class=\"wrapper divpos\" id =\"rate\">\n    <input class=\"input\" placeholder=\"Rate of Item\" type=\"text\" id=\"rate\" [(ngModel)]=\"rate\" [disabled]=\"disableFlag\" (blur)=\"onEnterRate()\"/>\n    <span class=\"underline\"></span>\n  </div>\n\n  <div class=\"wrapper divpos\" id =\"cost\">\n    <input class=\"input\" placeholder=\"Items cost\" type=\"text\" id=\"cost\" [(ngModel)]=\"cost\" [disabled]=\"true\"/>\n    <span class=\"underline\"></span>\n  </div>\n\n  <button type=\"button\" class=\"btn btn-primary divpos\" id=\"addButton\" (click)=\"addItem()\">Add</button>  \n</div>\n<div  id=\"print-section\">\n<div class=\"table-wrapper-scroll-y my-custom-scrollbar\">\n    <table class=\"table table-bordered table-striped mb-0\" id=\"tablecontent\">\n      <thead>\n        <tr>\n          <th *ngFor=\"let head of headerList\" scope=\"col\">{{head}} </th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr  *ngFor=\"let item of itemList\">\n                <th scope=\"row\">{{item.id}}</th>\n                <td>{{item.name}}</td>\n                <td>{{item.quantity}}</td>\n                <td>{{item.rate}}</td>\n                <td>{{item.cost}}</td>\n                <td (click)=\"removeItem(item.id)\">{{item.remove}}</td>\n        </tr>\n      </tbody>\n      <tfoot id=\"tfoot\"> \n                <tr> \n                    <td align=\"right\" colspan=\"5\">Total Cost: {{totalSum}}</td> \n                </tr> \n      </tfoot> \n    </table>\n</div>\n</div>\n<div id=\"printCostDiv\">\n    <div id=\"totalSumDiv\" class=\"printTotalCost\" *ngIf=\"totalSum > 0\">\n      <span class=\"badge\" id = \"totalSumLavel\">Total Cost: {{totalSum}}</span>\n    </div>\n    <div  class=\"printTotalCost\" *ngIf=\"totalSum > 0\">\n      <!-- <button printSectionId=\"print-section\" printTitle=\"Invoice Details\"   ngxPrint id=\"printdiv\" type=\"button\" class=\"btn btn-primary\" (click)=\"printItem()\">Print</button> --> \n      <!--<button printSectionId=\"print-section\" printTitle=\"Invoice Details\"  id=\"printdiv\" type=\"button\" class=\"btn btn-primary\" (click)=\"printItem()\">New</button>  -->\n      <button class=\"btn btn-primary\" id=\"printdiv\" type=\"button\" onclick=\"printJS({printable: itemToPrint\n    , properties: ['id','name', 'quantity', 'rate','cost'], type: 'json', header:docheading})\" (click)=\"printItem()\">\n        Print\n     </button>\n    </div>\n</div>\n"
+module.exports = "<div class=\"wrapper\" id =\"customerIdDiv\">\n  <input class=\"input\" placeholder=\"Enter Customer Id\" type=\"text\" id=\"customerID\" [(ngModel)]=\"customerID\"/>\n  <span class=\"underline\"></span>\n</div>\n<div id=\"itemInfoDiv\">\n    <!-- <form class=\"example-form divpos\">\n      <mat-form-field class=\"example-full-width\">\n        <input value='' id=\"nameinput\"type=\"text\" placeholder=\"Enter item name\" aria-label=\"Assignee\"  matInput [formControl]=\"myControl\" [matAutocomplete]=\"auto\" (ngModelChange)=\"onItemChange()\"/>\n        <mat-autocomplete #auto=\"matAutocomplete\" [displayWith]=\"displayFn\">\n          <mat-option *ngFor=\"let option of filteredOptions | async\" [value]=\"option\">\n            {{option.name}}\n          </mat-option>\n        </mat-autocomplete>\n      </mat-form-field>\n    </form>  -->  \n  <div class=\"wrapper divpos\" id =\"itemdiv\">\n    <input class=\"input\" placeholder=\"Enter Item barcode\" type=\"text\" id=\"barcode\" [(ngModel)]=\"barcode\"  (keydown)=\"onEnterBarcode($event)\" />\n    <span class=\"underline\"></span>\n  </div>\n  <div class=\"wrapper divpos\" id =\"quantitydiv\">\n    <input class=\"input\" placeholder=\"Enter quantity\" type=\"number\" id=\"quantity\" [(ngModel)]=\"quantity\"  [disabled]=\"disableFlag\" (blur)=\"onQuantityChange()\"/>\n    <span class=\"underline\"></span>\n  </div>\n  <div class=\"wrapper divpos\" id =\"rate\">\n    <input class=\"input\" placeholder=\"Rate of Item\" type=\"number\" id=\"rate\" [(ngModel)]=\"rate\" [disabled]=\"disableFlag\" (blur)=\"onEnterRate()\"/>\n    <span class=\"underline\"></span>\n  </div>\n\n  <!-- <div class=\"wrapper divpos\" id =\"cost\">\n    <input class=\"input\" placeholder=\"Items cost\" type=\"text\" id=\"cost\" [(ngModel)]=\"cost\" [disabled]=\"true\"/>\n    <span class=\"underline\"></span>\n  </div> -->\n\n  <button type=\"button\" class=\"btn btn-primary divpos\" id=\"newButton\" (click)=\"clearItem()\">New</button>  \n</div>\n<div  id=\"print-section\">\n<div class=\"table-wrapper-scroll-y my-custom-scrollbar\">\n    <table class=\"table table-bordered table-striped mb-0\" id=\"tablecontent\">\n      <thead>\n        <tr>\n          <th *ngFor=\"let head of headerList\" scope=\"col\">{{head}} </th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr  *ngFor=\"let item of itemList\">\n                <th scope=\"row\">{{item.id}}</th>\n                <td>{{item.name}}</td>\n                <td>{{item.quantity}}</td>\n                <td>{{item.rate}}</td>\n                <td>{{item.cost}}</td>\n                <td (click)=\"removeItem(item.id)\">{{item.remove}}</td>\n        </tr>\n      </tbody>\n      <tfoot id=\"tfoot\"> \n                <tr> \n                    <td align=\"right\" colspan=\"5\">Total Cost: {{totalSum}}</td> \n                </tr> \n      </tfoot> \n    </table>\n</div>\n</div>\n<div id=\"printCostDiv\">\n    <div id=\"totalSumDiv\" class=\"printTotalCost\" *ngIf=\"totalSum > 0\">\n      <span class=\"badge\" id = \"totalSumLavel\">Total Cost: {{totalSum}}</span>\n    </div>\n    <div  class=\"printTotalCost\" *ngIf=\"totalSum > 0\">\n      <!-- <button printSectionId=\"print-section\" printTitle=\"Invoice Details\"   ngxPrint id=\"printdiv\" type=\"button\" class=\"btn btn-primary\" (click)=\"printItem()\">Print</button> --> \n      <!--<button printSectionId=\"print-section\" printTitle=\"Invoice Details\"  id=\"printdiv\" type=\"button\" class=\"btn btn-primary\" (click)=\"printItem()\">New</button>  -->\n      <button class=\"btn btn-primary\" id=\"printdiv\" type=\"button\" onclick=\"printJS({printable: itemToPrint\n    , properties: ['id','name', 'quantity', 'rate','cost'], type: 'json', header:docheading})\" (click)=\"printItem()\">\n        Print\n     </button>\n    </div>\n</div>\n"
 
 /***/ }),
 
@@ -223,12 +223,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CreatetransaccompComponent", function() { return CreatetransaccompComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
-/* harmony import */ var _service_urlinfoservice_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../service/urlinfoservice.service */ "./src/app/service/urlinfoservice.service.ts");
-/* harmony import */ var _service_httpservice_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../service/httpservice.service */ "./src/app/service/httpservice.service.ts");
-/* harmony import */ var _service_shared_info_container_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../service/shared-info-container.service */ "./src/app/service/shared-info-container.service.ts");
-
+/* harmony import */ var _service_urlinfoservice_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../service/urlinfoservice.service */ "./src/app/service/urlinfoservice.service.ts");
+/* harmony import */ var _service_httpservice_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../service/httpservice.service */ "./src/app/service/httpservice.service.ts");
+/* harmony import */ var _service_shared_info_container_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../service/shared-info-container.service */ "./src/app/service/shared-info-container.service.ts");
+/* harmony import */ var _service_common_data_container_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../service/common-data-container.service */ "./src/app/service/common-data-container.service.ts");
 
 
 
@@ -236,67 +234,113 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var CreatetransaccompComponent = /** @class */ (function () {
-    function CreatetransaccompComponent(urlinfoservice, httpservice, sharedInfo) {
+    function CreatetransaccompComponent(urlinfoservice, httpservice, sharedInfo, dataContainer) {
         this.urlinfoservice = urlinfoservice;
         this.httpservice = httpservice;
         this.sharedInfo = sharedInfo;
+        this.dataContainer = dataContainer;
+        this.itemBarKeyMapItem = new Map(); // to keep track of added item in table
         this.disableFlag = true;
+        this.alreadyPrintDone = false;
         this.id = 0;
-        this.item = {};
         this.itemList = [];
         this.totalSum = 0;
         this.headerList = ['Sr.', 'Name', 'Quantity', 'Rate', 'Cost', 'Action'];
-        this.myControl = new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"]();
     }
-    CreatetransaccompComponent.prototype.callBackOnApi = function (items, isgetApiCallCallBack) {
-        var _this = this;
-        if (isgetApiCallCallBack) {
-            this.options = items;
-            this.filteredOptions = this.myControl.valueChanges
-                .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["startWith"])(''), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (value) { return typeof value === 'string' ? value : value.name; }), // in case of value is json object
-            Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (name) { return name ? _this._filter(name) : _this.options.slice(); }));
-        }
-        else {
-            // for pring post api call 
-            this.itemList = [];
-            this.totalSum = 0;
-        }
-    };
-    CreatetransaccompComponent.prototype.ngOnInit = function () {
-        clearRecord();
-        this.httpservice.getApiCall(this.urlinfoservice.ITEM_GET_INFO_URL, this);
+    CreatetransaccompComponent.prototype.ngAfterViewInit = function () {
         document.getElementById("customerID").focus();
     };
-    CreatetransaccompComponent.prototype.displayFn = function (item) {
-        return item ? item.name : undefined;
-    };
-    CreatetransaccompComponent.prototype._filter = function (name) {
-        var filterValue = name.toLowerCase();
-        return this.options.filter(function (option) { return option.name.toLowerCase().indexOf(filterValue) === 0; });
-    };
-    CreatetransaccompComponent.prototype.addItem = function () {
-        if ((this.name == undefined) && (this.quantity == undefined)) {
-            document.getElementById("nameinput").focus();
+    CreatetransaccompComponent.prototype.ngOnInit = function () {
+        console.log("ngoneint get called");
+        clearRecord();
+        if (this.dataContainer.getMappedObjectIdToItem()) {
+            console.log("itemList already fetched from backend");
             return;
         }
-        this.name = this.myControl.value.name;
-        if ((this.name == null)) {
-            this.name = document.getElementById("nameinput").value;
+        this.httpservice.getApiCall(this.urlinfoservice.ITEM_GET_INFO_URL, this);
+    };
+    CreatetransaccompComponent.prototype.callBackOnApi = function (items, isPostApiCall) {
+        if (isPostApiCall) {
+            console.log("call back method after post api call");
+            return;
         }
-        //this.rate=this.myControl.value.rate;
+        else {
+            console.log("items stored in the inventory:", items);
+            var itemMapToId_1 = new Map();
+            items.forEach(function (el) {
+                itemMapToId_1.set(el.barcode, el);
+            });
+            this.dataContainer.setMappedObjectIdToItem(itemMapToId_1);
+        }
+    };
+    CreatetransaccompComponent.prototype.onEnterBarcode = function (event) {
+        if (event.key === "Enter") {
+            if ((this.barcode == undefined) && (this.quantity == undefined)) {
+                //document.getElementById("barcode").focus();
+                return;
+            }
+            this.quantity = 1;
+            var item = this.dataContainer.getItem(this.barcode);
+            if (item == null) {
+                this.disableFlag = false;
+                document.getElementById("quantity").focus();
+                return;
+            }
+            else {
+                this.disableFlag = true;
+            }
+            var addedItem = this.itemBarKeyMapItem.get(this.barcode);
+            if (addedItem) {
+                addedItem.quantity += this.quantity; // how many item of same kind getting entered
+                addedItem.cost = addedItem.quantity * addedItem.rate;
+                this.totalSum += this.quantity * addedItem.rate; // only raise with amount getting added in this call;
+                updateRecord(addedItem.id, addedItem.quantity, addedItem.cost, this.totalSum);
+                this.barcode = undefined;
+                document.getElementById("barcode").focus();
+            }
+            else {
+                this.id = this.id + 1;
+                var cost = this.quantity * item.rate;
+                var itemTemp = { id: this.id, name: item.name, quantity: this.quantity, rate: item.rate, cost: cost, remove: 'Remove', barcode: this.barcode };
+                this.itemList.push(itemTemp);
+                this.itemBarKeyMapItem.set(this.barcode, itemTemp);
+                this.totalSum = this.totalSum + cost;
+                printfunc({ id: this.id, name: item.name, quantity: this.quantity, rate: item.rate, cost: cost }, this.getDocHeader(), this.getDocFooter());
+                this.barcode = undefined;
+                this.quantity = undefined;
+                this.rate = undefined;
+                document.getElementById("barcode").focus();
+            }
+        }
+    };
+    CreatetransaccompComponent.prototype.onQuantityChange = function () {
+        document.getElementById("rate").focus();
+    };
+    CreatetransaccompComponent.prototype.onEnterRate = function () {
+        if (this.rate == undefined) {
+            return;
+        }
         this.id = this.id + 1;
-        this.item = { id: this.id, name: this.name, quantity: this.quantity, rate: this.rate, cost: this.cost, remove: 'Remove' };
-        this.itemList.push(this.item);
-        this.totalSum = this.totalSum + this.cost;
-        //let docfooter = [{id:'-',name:'-',quantity:'-',rate:'-',cost:'-'},{id:'',name:'Total Cost',quantity:'',rate:'',cost:this.totalSum}];
-        printfunc({ id: this.id, name: this.name, quantity: this.quantity, rate: this.rate, cost: this.cost }, this.getDocHeader(), this.getDocFooter());
-        this.name = undefined;
+        var cost = this.quantity * this.rate;
+        var itemTemp = { id: this.id, name: this.barcode, quantity: this.quantity, rate: this.rate, cost: cost, remove: 'Remove' };
+        this.itemList.push(itemTemp);
+        this.totalSum = this.totalSum + cost;
+        printfunc({ id: this.id, name: this.barcode, quantity: this.quantity, rate: this.rate, cost: cost }, this.getDocHeader(), this.getDocFooter());
+        this.barcode = undefined;
         this.quantity = undefined;
         this.rate = undefined;
-        this.cost = undefined;
-        this.myControl.reset('');
-        document.getElementById("nameinput").focus();
-        this.sharedInfo.putData(this.item);
+        this.disableFlag = true;
+        document.getElementById("barcode").focus();
+    };
+    CreatetransaccompComponent.prototype.clearItem = function () {
+        this.itemList = [];
+        this.customerID = undefined;
+        this.totalSum = 0;
+        this.id = 0;
+        this.itemBarKeyMapItem.clear();
+        clearRecord();
+        this.alreadyPrintDone = false; // as starting new transaction so making print function not done. must click new to start new transaction
+        document.getElementById("customerID").focus();
     };
     CreatetransaccompComponent.prototype.getDocHeader = function () {
         var docheading;
@@ -319,6 +363,7 @@ var CreatetransaccompComponent = /** @class */ (function () {
                 this.totalSum = this.totalSum - el.cost;
                 var docfooter = [{ id: '-', name: '-', quantity: '-', rate: '-', cost: '-' }, { id: '', name: 'Total Cost', quantity: '', rate: '', cost: this.totalSum }];
                 removeItemFromPrintList(id, this.getDocFooter());
+                this.itemBarKeyMapItem.delete(el.barcode);
             }
             else {
                 tempItem.push(el);
@@ -330,35 +375,30 @@ var CreatetransaccompComponent = /** @class */ (function () {
         this.itemList = tempItem;
         this.id = this.id - 1;
         tempItem = [];
-    };
-    CreatetransaccompComponent.prototype.onItemChange = function () {
-        this.rate = this.myControl.value.rate;
-        ;
-        this.quantity = 1;
-        this.cost = this.rate;
-        if (this.rate == null) {
-            this.disableFlag = false;
-        }
-        else {
-            this.disableFlag = true;
-        }
-    };
-    CreatetransaccompComponent.prototype.onEnterRate = function () {
-        this.cost = this.rate * this.quantity;
-    };
-    CreatetransaccompComponent.prototype.onQuantityChange = function () {
-        this.cost = this.rate * this.quantity;
+        document.getElementById("barcode").focus();
     };
     CreatetransaccompComponent.prototype.printItem = function () {
-        console.log("method get called");
-        var transactionSummary = { customerId: this.customerID, shoppingSummary: this.totalSum };
+        if (this.alreadyPrintDone) {
+            console.log("already this transaction has been saved so not saving it.");
+            return;
+        }
+        var itemList = this.getPayload();
+        var transactionSummary = { customerId: this.customerID, customerShoppingList: itemList, totalShoppingAmount: this.totalSum };
+        console.log("request payload:");
+        console.log(transactionSummary);
         var response = this.httpservice.postApiCall(this.urlinfoservice.CUSTOMER_SHOPPING_SUMMARY_SAVE_URL, transactionSummary, this);
-        this.itemList = [];
-        this.customerID = undefined;
-        this.totalSum = 0;
-        this.id = 0;
-        clearRecord();
+        this.alreadyPrintDone = true; // as because this transaction saved. now any more print click will not save again and again.
         document.getElementById("customerID").focus();
+    };
+    CreatetransaccompComponent.prototype.getPayload = function () {
+        var itemListStr = JSON.stringify(this.itemList);
+        var itemList = JSON.parse(itemListStr);
+        console.log("itemList after converting to str:", itemList);
+        itemList.forEach(function (item) {
+            delete item.id;
+            delete item.remove;
+        });
+        return itemList;
     };
     CreatetransaccompComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
@@ -366,7 +406,8 @@ var CreatetransaccompComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./createtransaccomp.component.html */ "./src/app/createtransaccomp/createtransaccomp.component.html"),
             styles: [__webpack_require__(/*! ./createtransaccomp.component.css */ "./src/app/createtransaccomp/createtransaccomp.component.css")]
         }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_service_urlinfoservice_service__WEBPACK_IMPORTED_MODULE_4__["UrlinfoserviceService"], _service_httpservice_service__WEBPACK_IMPORTED_MODULE_5__["HttpserviceService"], _service_shared_info_container_service__WEBPACK_IMPORTED_MODULE_6__["SharedInfoContainerService"]])
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_service_urlinfoservice_service__WEBPACK_IMPORTED_MODULE_2__["UrlinfoserviceService"], _service_httpservice_service__WEBPACK_IMPORTED_MODULE_3__["HttpserviceService"],
+            _service_shared_info_container_service__WEBPACK_IMPORTED_MODULE_4__["SharedInfoContainerService"], _service_common_data_container_service__WEBPACK_IMPORTED_MODULE_5__["CommonDataContainerService"]])
     ], CreatetransaccompComponent);
     return CreatetransaccompComponent;
 }());
@@ -382,7 +423,7 @@ var CreatetransaccompComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".example-form {\r\n     width: 20%;\r\n   }\r\n   \r\n.example-full-width {\r\n    width: 100%;\r\n    margin-top: 20px;\r\n    margin-left: 150px;\r\n}\r\n   \r\n.mat-form-field-flex {\r\n    width: 100%;\r\n }\r\n   \r\n.divpos {\r\n     float:left;\r\n }\r\n   \r\n#rate{\r\n   left:100px;\r\n }\r\n   \r\n.wrapper {\r\n     border-radius: 2px;\r\n     box-sizing: border-box;\r\n     width: 200px;\r\n   }\r\n   \r\n.input {\r\n    background-color: transparent;\r\n    border: none;\r\n    border-bottom: 1px solid grey;\r\n    color: #555;\r\n    box-sizing: border-box;\r\n    left: 30%;\r\n    position: relative;\r\n    width: 200px;\r\n    margin-top: 37px;\r\n\r\n}\r\n   \r\n#newItemInput:focus {\r\n    outline: none;  \r\n    border-bottom: 2px solid BLUE;\r\n}\r\n   \r\n.underline {\r\n     background-color: dodgerblue;\r\n     display: inline-block;\r\n     height: 2px;\r\n     left: 50px;\r\n     margin-top: -4px;\r\n     position: absolute;\r\n     top: 185px;\r\n     transform: scale(0, 1);\r\n     transition: all 0.5s linear;\r\n     width: 202px;\r\n   }\r\n   \r\n#addButton {\r\n     background:lightgray;\r\n     width:100px;\r\n     margin-top: 30px;\r\n     margin-left: 180px;\r\n }\r\n   \r\n#tablecontent {\r\n     background: lightgray;\r\n }\r\n   \r\n.my-custom-scrollbar {\r\n     max-height: 400px;\r\n     overflow-y: auto;\r\n     clear:both;\r\n }\r\n   \r\n#totalSumDiv {\r\n   margin-left: 78.5%;\r\n   margin-top: 15px;\r\n }\r\n   \r\n#saveButton{\r\n   width:100px;\r\n   background:lightgray;\r\n }\r\n \r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaXRlbS1lbnRyeS1pbnZlbnRvcnkvaXRlbS1lbnRyeS1pbnZlbnRvcnkuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtLQUNLLFdBQVc7SUFDWjs7QUFFSjtJQUNJLFlBQVk7SUFDWixpQkFBaUI7SUFDakIsbUJBQW1CO0NBQ3RCOztBQUNEO0lBQ0ksWUFBWTtFQUNkOztBQUNEO0tBQ0ksV0FBVztFQUNkOztBQUNEO0dBQ0UsV0FBVztFQUNaOztBQUNEO0tBQ0ksbUJBQW1CO0tBQ25CLHVCQUF1QjtLQUN2QixhQUFhO0lBQ2Q7O0FBRUo7SUFDSSw4QkFBOEI7SUFDOUIsYUFBYTtJQUNiLDhCQUE4QjtJQUM5QixZQUFZO0lBQ1osdUJBQXVCO0lBQ3ZCLFVBQVU7SUFDVixtQkFBbUI7SUFDbkIsYUFBYTtJQUNiLGlCQUFpQjs7Q0FFcEI7O0FBQ0Q7SUFDSSxjQUFjO0lBQ2QsOEJBQThCO0NBQ2pDOztBQUNBO0tBQ0ksNkJBQTZCO0tBQzdCLHNCQUFzQjtLQUN0QixZQUFZO0tBQ1osV0FBVztLQUNYLGlCQUFpQjtLQUNqQixtQkFBbUI7S0FDbkIsV0FBVztLQUVYLHVCQUF1QjtLQUV2Qiw0QkFBNEI7S0FDNUIsYUFBYTtJQUNkOztBQUVIO0tBQ0kscUJBQXFCO0tBQ3JCLFlBQVk7S0FDWixpQkFBaUI7S0FDakIsbUJBQW1CO0VBQ3RCOztBQUNEO0tBQ0ksc0JBQXNCO0VBQ3pCOztBQUNEO0tBQ0ksa0JBQWtCO0tBQ2xCLGlCQUFpQjtLQUNqQixXQUFXO0VBQ2Q7O0FBQ0Q7R0FDRSxtQkFBbUI7R0FDbkIsaUJBQWlCO0VBQ2xCOztBQUNEO0dBQ0UsWUFBWTtHQUNaLHFCQUFxQjtFQUN0QiIsImZpbGUiOiJzcmMvYXBwL2l0ZW0tZW50cnktaW52ZW50b3J5L2l0ZW0tZW50cnktaW52ZW50b3J5LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuZXhhbXBsZS1mb3JtIHtcclxuICAgICB3aWR0aDogMjAlO1xyXG4gICB9XHJcbiAgIFxyXG4uZXhhbXBsZS1mdWxsLXdpZHRoIHtcclxuICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgbWFyZ2luLXRvcDogMjBweDtcclxuICAgIG1hcmdpbi1sZWZ0OiAxNTBweDtcclxufVxyXG4ubWF0LWZvcm0tZmllbGQtZmxleCB7XHJcbiAgICB3aWR0aDogMTAwJTtcclxuIH1cclxuIC5kaXZwb3Mge1xyXG4gICAgIGZsb2F0OmxlZnQ7XHJcbiB9XHJcbiAjcmF0ZXtcclxuICAgbGVmdDoxMDBweDtcclxuIH1cclxuIC53cmFwcGVyIHtcclxuICAgICBib3JkZXItcmFkaXVzOiAycHg7XHJcbiAgICAgYm94LXNpemluZzogYm9yZGVyLWJveDtcclxuICAgICB3aWR0aDogMjAwcHg7XHJcbiAgIH1cclxuICAgXHJcbi5pbnB1dCB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB0cmFuc3BhcmVudDtcclxuICAgIGJvcmRlcjogbm9uZTtcclxuICAgIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCBncmV5O1xyXG4gICAgY29sb3I6ICM1NTU7XHJcbiAgICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xyXG4gICAgbGVmdDogMzAlO1xyXG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gICAgd2lkdGg6IDIwMHB4O1xyXG4gICAgbWFyZ2luLXRvcDogMzdweDtcclxuXHJcbn0gIFxyXG4jbmV3SXRlbUlucHV0OmZvY3VzIHtcclxuICAgIG91dGxpbmU6IG5vbmU7ICBcclxuICAgIGJvcmRlci1ib3R0b206IDJweCBzb2xpZCBCTFVFO1xyXG59XHJcbiAudW5kZXJsaW5lIHtcclxuICAgICBiYWNrZ3JvdW5kLWNvbG9yOiBkb2RnZXJibHVlO1xyXG4gICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICAgICBoZWlnaHQ6IDJweDtcclxuICAgICBsZWZ0OiA1MHB4O1xyXG4gICAgIG1hcmdpbi10b3A6IC00cHg7XHJcbiAgICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgIHRvcDogMTg1cHg7XHJcbiAgICAgLXdlYmtpdC10cmFuc2Zvcm06IHNjYWxlKDAsIDEpO1xyXG4gICAgIHRyYW5zZm9ybTogc2NhbGUoMCwgMSk7XHJcbiAgICAgLXdlYmtpdC10cmFuc2l0aW9uOiBhbGwgMC41cyBsaW5lYXI7XHJcbiAgICAgdHJhbnNpdGlvbjogYWxsIDAuNXMgbGluZWFyO1xyXG4gICAgIHdpZHRoOiAyMDJweDtcclxuICAgfVxyXG4gXHJcbiAjYWRkQnV0dG9uIHtcclxuICAgICBiYWNrZ3JvdW5kOmxpZ2h0Z3JheTtcclxuICAgICB3aWR0aDoxMDBweDtcclxuICAgICBtYXJnaW4tdG9wOiAzMHB4O1xyXG4gICAgIG1hcmdpbi1sZWZ0OiAxODBweDtcclxuIH1cclxuICN0YWJsZWNvbnRlbnQge1xyXG4gICAgIGJhY2tncm91bmQ6IGxpZ2h0Z3JheTtcclxuIH1cclxuIC5teS1jdXN0b20tc2Nyb2xsYmFyIHtcclxuICAgICBtYXgtaGVpZ2h0OiA0MDBweDtcclxuICAgICBvdmVyZmxvdy15OiBhdXRvO1xyXG4gICAgIGNsZWFyOmJvdGg7XHJcbiB9XHJcbiAjdG90YWxTdW1EaXYge1xyXG4gICBtYXJnaW4tbGVmdDogNzguNSU7XHJcbiAgIG1hcmdpbi10b3A6IDE1cHg7XHJcbiB9XHJcbiAjc2F2ZUJ1dHRvbntcclxuICAgd2lkdGg6MTAwcHg7XHJcbiAgIGJhY2tncm91bmQ6bGlnaHRncmF5O1xyXG4gfVxyXG4gIl19 */"
+module.exports = ".example-form {\r\n     width: 20%;\r\n   }\r\n   \r\n.example-full-width {\r\n    width: 100%;\r\n    margin-top: 20px;\r\n    margin-left: 150px;\r\n}\r\n   \r\n.mat-form-field-flex {\r\n    width: 100%;\r\n }\r\n   \r\n.divpos {\r\n     float:left;\r\n     margin-bottom: 20px;\r\n }\r\n   \r\n#rate{\r\n   left:100px;\r\n }\r\n   \r\n.wrapper {\r\n     border-radius: 2px;\r\n     box-sizing: border-box;\r\n     width: 200px;\r\n   }\r\n   \r\n.input {\r\n    background-color: transparent;\r\n    border: none;\r\n    border-bottom: 1px solid grey;\r\n    color: #555;\r\n    box-sizing: border-box;\r\n    left: 30%;\r\n    position: relative;\r\n    width: 200px;\r\n    margin-top: 37px;\r\n\r\n}\r\n   \r\n#itembarcode:focus {\r\n    outline: none;  \r\n    border-bottom: 2px solid BLUE;\r\n}\r\n   \r\n.underline {\r\n     background-color: dodgerblue;\r\n     display: inline-block;\r\n     height: 2px;\r\n     left: 50px;\r\n     margin-top: -4px;\r\n     position: absolute;\r\n     top: 185px;\r\n     transform: scale(0, 1);\r\n     transition: all 0.5s linear;\r\n     width: 202px;\r\n   }\r\n   \r\n#addButton {\r\n     background:lightgray;\r\n     width:100px;\r\n     margin-top: 30px;\r\n     margin-left: 180px;\r\n }\r\n   \r\n#tablecontent {\r\n     background: lightgray;\r\n }\r\n   \r\n.my-custom-scrollbar {\r\n     max-height: 400px;\r\n     overflow-y: auto;\r\n     clear:both;\r\n }\r\n   \r\n#totalSumDiv {\r\n   margin-left: 78.5%;\r\n   margin-top: 15px;\r\n }\r\n   \r\n#saveButton{\r\n   width:100px;\r\n   background:lightgray;\r\n }\r\n \r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaXRlbS1lbnRyeS1pbnZlbnRvcnkvaXRlbS1lbnRyeS1pbnZlbnRvcnkuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtLQUNLLFdBQVc7SUFDWjs7QUFFSjtJQUNJLFlBQVk7SUFDWixpQkFBaUI7SUFDakIsbUJBQW1CO0NBQ3RCOztBQUNEO0lBQ0ksWUFBWTtFQUNkOztBQUNEO0tBQ0ksV0FBVztLQUNYLG9CQUFvQjtFQUN2Qjs7QUFDRDtHQUNFLFdBQVc7RUFDWjs7QUFDRDtLQUNJLG1CQUFtQjtLQUNuQix1QkFBdUI7S0FDdkIsYUFBYTtJQUNkOztBQUVKO0lBQ0ksOEJBQThCO0lBQzlCLGFBQWE7SUFDYiw4QkFBOEI7SUFDOUIsWUFBWTtJQUNaLHVCQUF1QjtJQUN2QixVQUFVO0lBQ1YsbUJBQW1CO0lBQ25CLGFBQWE7SUFDYixpQkFBaUI7O0NBRXBCOztBQUNEO0lBQ0ksY0FBYztJQUNkLDhCQUE4QjtDQUNqQzs7QUFDQTtLQUNJLDZCQUE2QjtLQUM3QixzQkFBc0I7S0FDdEIsWUFBWTtLQUNaLFdBQVc7S0FDWCxpQkFBaUI7S0FDakIsbUJBQW1CO0tBQ25CLFdBQVc7S0FFWCx1QkFBdUI7S0FFdkIsNEJBQTRCO0tBQzVCLGFBQWE7SUFDZDs7QUFFSDtLQUNJLHFCQUFxQjtLQUNyQixZQUFZO0tBQ1osaUJBQWlCO0tBQ2pCLG1CQUFtQjtFQUN0Qjs7QUFDRDtLQUNJLHNCQUFzQjtFQUN6Qjs7QUFDRDtLQUNJLGtCQUFrQjtLQUNsQixpQkFBaUI7S0FDakIsV0FBVztFQUNkOztBQUNEO0dBQ0UsbUJBQW1CO0dBQ25CLGlCQUFpQjtFQUNsQjs7QUFDRDtHQUNFLFlBQVk7R0FDWixxQkFBcUI7RUFDdEIiLCJmaWxlIjoic3JjL2FwcC9pdGVtLWVudHJ5LWludmVudG9yeS9pdGVtLWVudHJ5LWludmVudG9yeS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmV4YW1wbGUtZm9ybSB7XHJcbiAgICAgd2lkdGg6IDIwJTtcclxuICAgfVxyXG4gICBcclxuLmV4YW1wbGUtZnVsbC13aWR0aCB7XHJcbiAgICB3aWR0aDogMTAwJTtcclxuICAgIG1hcmdpbi10b3A6IDIwcHg7XHJcbiAgICBtYXJnaW4tbGVmdDogMTUwcHg7XHJcbn1cclxuLm1hdC1mb3JtLWZpZWxkLWZsZXgge1xyXG4gICAgd2lkdGg6IDEwMCU7XHJcbiB9XHJcbiAuZGl2cG9zIHtcclxuICAgICBmbG9hdDpsZWZ0O1xyXG4gICAgIG1hcmdpbi1ib3R0b206IDIwcHg7XHJcbiB9XHJcbiAjcmF0ZXtcclxuICAgbGVmdDoxMDBweDtcclxuIH1cclxuIC53cmFwcGVyIHtcclxuICAgICBib3JkZXItcmFkaXVzOiAycHg7XHJcbiAgICAgYm94LXNpemluZzogYm9yZGVyLWJveDtcclxuICAgICB3aWR0aDogMjAwcHg7XHJcbiAgIH1cclxuICAgXHJcbi5pbnB1dCB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB0cmFuc3BhcmVudDtcclxuICAgIGJvcmRlcjogbm9uZTtcclxuICAgIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCBncmV5O1xyXG4gICAgY29sb3I6ICM1NTU7XHJcbiAgICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xyXG4gICAgbGVmdDogMzAlO1xyXG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gICAgd2lkdGg6IDIwMHB4O1xyXG4gICAgbWFyZ2luLXRvcDogMzdweDtcclxuXHJcbn0gIFxyXG4jaXRlbWJhcmNvZGU6Zm9jdXMge1xyXG4gICAgb3V0bGluZTogbm9uZTsgIFxyXG4gICAgYm9yZGVyLWJvdHRvbTogMnB4IHNvbGlkIEJMVUU7XHJcbn1cclxuIC51bmRlcmxpbmUge1xyXG4gICAgIGJhY2tncm91bmQtY29sb3I6IGRvZGdlcmJsdWU7XHJcbiAgICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gICAgIGhlaWdodDogMnB4O1xyXG4gICAgIGxlZnQ6IDUwcHg7XHJcbiAgICAgbWFyZ2luLXRvcDogLTRweDtcclxuICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICAgdG9wOiAxODVweDtcclxuICAgICAtd2Via2l0LXRyYW5zZm9ybTogc2NhbGUoMCwgMSk7XHJcbiAgICAgdHJhbnNmb3JtOiBzY2FsZSgwLCAxKTtcclxuICAgICAtd2Via2l0LXRyYW5zaXRpb246IGFsbCAwLjVzIGxpbmVhcjtcclxuICAgICB0cmFuc2l0aW9uOiBhbGwgMC41cyBsaW5lYXI7XHJcbiAgICAgd2lkdGg6IDIwMnB4O1xyXG4gICB9XHJcbiBcclxuICNhZGRCdXR0b24ge1xyXG4gICAgIGJhY2tncm91bmQ6bGlnaHRncmF5O1xyXG4gICAgIHdpZHRoOjEwMHB4O1xyXG4gICAgIG1hcmdpbi10b3A6IDMwcHg7XHJcbiAgICAgbWFyZ2luLWxlZnQ6IDE4MHB4O1xyXG4gfVxyXG4gI3RhYmxlY29udGVudCB7XHJcbiAgICAgYmFja2dyb3VuZDogbGlnaHRncmF5O1xyXG4gfVxyXG4gLm15LWN1c3RvbS1zY3JvbGxiYXIge1xyXG4gICAgIG1heC1oZWlnaHQ6IDQwMHB4O1xyXG4gICAgIG92ZXJmbG93LXk6IGF1dG87XHJcbiAgICAgY2xlYXI6Ym90aDtcclxuIH1cclxuICN0b3RhbFN1bURpdiB7XHJcbiAgIG1hcmdpbi1sZWZ0OiA3OC41JTtcclxuICAgbWFyZ2luLXRvcDogMTVweDtcclxuIH1cclxuICNzYXZlQnV0dG9ue1xyXG4gICB3aWR0aDoxMDBweDtcclxuICAgYmFja2dyb3VuZDpsaWdodGdyYXk7XHJcbiB9XHJcbiAiXX0= */"
 
 /***/ }),
 
@@ -393,7 +434,7 @@ module.exports = ".example-form {\r\n     width: 20%;\r\n   }\r\n   \r\n.example
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"wrapper divpos\">\n    <input class=\"input\" placeholder=\"Enter new item name\" type=\"text\" id=\"newItemInput\" [(ngModel)]=\"itemBarKey\" (blur)=\"onItemEntry()\">\n    <span class=\"underline\"></span>\n  </div>\n  <div class=\"wrapper divpos\" id =\"ratediv\">\n    <input class=\"input\" placeholder=\"Enter rate\" type=\"text\" id=\"rate\" [(ngModel)]=\"rate\">\n    <span class=\"underline\"></span>\n  </div>\n  \n  <button type=\"button\" class=\"btn btn-primary product-entry divpos\" id=\"addButton\" (click)=\"addItem()\">Add</button>  \n  <div class=\"table-wrapper-scroll-y my-custom-scrollbar\">\n      <table class=\"table table-bordered table-striped mb-0\" id=\"tablecontent\">\n        <thead>\n          <tr>\n            <th *ngFor=\"let head of headerList\" scope=\"col\">{{head}} </th>\n          </tr>\n        </thead>\n        <tbody>\n          <tr  *ngFor=\"let item of itemList\">\n                  <th scope=\"row\">{{item.id}}</th>\n                  <td>{{item.name}}</td>\n                  <td>{{item.inStock}}</td>\n                  <td>{{item.rate}}</td>\n                  <td (click)=\"removeItem(item.id)\">{{item.remove}}</td>\n          </tr>\n        </tbody>\n        \n      </table>\n    </div>\n    <div id=\"totalSumDiv\" *ngIf=\"id > 0\">\n      <button type=\"button\" class=\"btn btn-primary product-entry\" id=\"saveButton\" (click)=\"saveItem()\">save</button> \n    </div>"
+module.exports = "<div class=\"wrapper divpos\">\n    <input class=\"input\" placeholder=\"Enter item name\" type=\"text\" id=\"itembarcode\" [(ngModel)]=\"itembarcode\" (keydown)=\"onItemEntry($event)\">\n    <span class=\"underline\"></span>\n  </div>\n  <div class=\"wrapper divpos\" id =\"ratediv\">\n    <input class=\"input\" placeholder=\"Enter rate\" type=\"text\" id=\"rate\" [(ngModel)]=\"rate\">\n    <span class=\"underline\"></span>\n  </div>\n  \n  <button type=\"button\" class=\"btn btn-primary product-entry divpos\" id=\"addButton\" (click)=\"addItem()\">Add</button>  \n  <div class=\"table-wrapper-scroll-y my-custom-scrollbar\">\n      <table class=\"table table-bordered table-striped mb-0\" id=\"tablecontent\">\n        <thead>\n          <tr>\n            <th *ngFor=\"let head of headerList\" scope=\"col\">{{head}} </th>\n          </tr>\n        </thead>\n        <tbody>\n          <tr  *ngFor=\"let item of itemList\">\n                  <th scope=\"row\">{{item.id}}</th>\n                  <td>{{item.name}}</td>\n                  <td>{{item.quantity}}</td>\n                  <td>{{item.rate}}</td>\n                  <td (click)=\"removeItem(item.id)\">{{item.remove}}</td>\n          </tr>\n        </tbody>\n        \n      </table>\n    </div>\n    <div id=\"totalSumDiv\" *ngIf=\"id > 0\">\n      <button type=\"button\" class=\"btn btn-primary product-entry\" id=\"saveButton\" (click)=\"saveItem()\">save</button> \n    </div>"
 
 /***/ }),
 
@@ -426,10 +467,13 @@ var ItemEntryInventoryComponent = /** @class */ (function () {
         this.dataContainer = dataContainer;
         this.myControl = new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"]();
         this.headerList = ['Sr.', 'Item name', 'Count', 'Rate', 'Action'];
-        this.itemBarKeyMapItem = new Map(); // to keep track of added item
+        this.itemBarKeyMapItem = new Map(); // to keep track of added item in table
         this.id = 0;
         this.itemList = [];
     }
+    ItemEntryInventoryComponent.prototype.ngAfterViewInit = function () {
+        document.getElementById("itembarcode").focus();
+    };
     ItemEntryInventoryComponent.prototype.ngOnInit = function () {
         if (this.dataContainer.getMappedObjectIdToItem()) {
             console.log("itemList already fetched from backend");
@@ -446,31 +490,35 @@ var ItemEntryInventoryComponent = /** @class */ (function () {
             console.log("items stored in the inventory:", items);
             var itemMapToId_1 = new Map();
             items.forEach(function (el) {
-                itemMapToId_1.set(el.barCode, el);
+                itemMapToId_1.set(el.barcode, el);
             });
             this.dataContainer.setMappedObjectIdToItem(itemMapToId_1);
         }
     };
-    ItemEntryInventoryComponent.prototype.onItemEntry = function () {
-        var item = this.dataContainer.getItem(this.itemBarKey);
-        if (item == null) {
-            return;
-        }
-        var addedItem = this.itemBarKeyMapItem.get(this.itemBarKey);
-        if (addedItem) {
-            addedItem.inStock += 1; // how many item of same kind getting entered
-            this.itemBarKey = undefined;
-            document.getElementById("newItemInput").focus();
-        }
-        else {
-            this.id = this.id + 1;
-            item.id = this.id; // used for sr number in the table;
-            item.inStock = 1; // how many item of same kind getting entered
-            item.remove = 'remove';
-            this.itemList.push(item);
-            this.itemBarKeyMapItem.set(this.itemBarKey, item);
-            this.itemBarKey = undefined;
-            document.getElementById("newItemInput").focus();
+    ItemEntryInventoryComponent.prototype.onItemEntry = function (event) {
+        if (event.key === "Enter") {
+            console.log(event);
+            var item = this.dataContainer.getItem(this.itembarcode);
+            if (item == null) {
+                return;
+            }
+            var addedItem = this.itemBarKeyMapItem.get(this.itembarcode);
+            console.log("added item:", addedItem);
+            if (addedItem) {
+                addedItem.quantity += 1; // how many item of same kind getting entered
+                this.itembarcode = undefined;
+                document.getElementById("itembarcode").focus();
+            }
+            else {
+                this.id = this.id + 1;
+                item.id = this.id; // used for sr number in the table;
+                item.quantity = 1; // how many item of same kind getting entered
+                item.remove = 'remove';
+                this.itemList.push(item);
+                this.itemBarKeyMapItem.set(this.itembarcode, item);
+                this.itembarcode = undefined;
+                document.getElementById("itembarcode").focus();
+            }
         }
     };
     ItemEntryInventoryComponent.prototype.removeItem = function (id) {
@@ -478,7 +526,9 @@ var ItemEntryInventoryComponent = /** @class */ (function () {
         for (var _i = 0, _a = this.itemList; _i < _a.length; _i++) {
             var el = _a[_i];
             if (el.id == id) {
-                this.itemBarKeyMapItem.delete(el.barCode);
+                console.log("deleting item from :", this.itemBarKeyMapItem);
+                this.itemBarKeyMapItem.delete(el.barcode);
+                console.log("deleting after :", this.itemBarKeyMapItem);
             }
             else {
                 tempItem.push(el);
@@ -490,6 +540,7 @@ var ItemEntryInventoryComponent = /** @class */ (function () {
         this.itemList = tempItem;
         this.id = this.id - 1;
         tempItem = [];
+        document.getElementById("itembarcode").focus();
     };
     ItemEntryInventoryComponent.prototype.saveItem = function () {
         var itemListStr = JSON.stringify(this.itemList);
@@ -502,7 +553,8 @@ var ItemEntryInventoryComponent = /** @class */ (function () {
         var response = this.httpservice.postApiCall(this.urlinfoservice.ITEM_ENTRY_UPDATE_URL, itemListJson, this);
         this.itemList = [];
         this.id = 0;
-        document.getElementById("newItemInput").focus();
+        this.itemBarKeyMapItem.clear();
+        document.getElementById("itembarcode").focus();
     };
     ItemEntryInventoryComponent.prototype.getItemInfolist = function () {
     };
@@ -710,7 +762,7 @@ var MyCustomPipePipe = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".example-form {\r\n  width: 20%;\r\n}\r\n\r\n.example-full-width {\r\n  width: 100%;\r\n  margin-top: 20px;\r\n  margin-left: 150px;\r\n}\r\n\r\n.mat-form-field-flex {\r\n  width: 100%;\r\n}\r\n\r\n.divpos {\r\n    float:left;\r\n    margin-bottom: 20px;\r\n}\r\n\r\n#namediv{\r\n  margin-left:4%;\r\n}\r\n\r\n#rate{\r\n  left:100px;\r\n}\r\n\r\n.wrapper {\r\n    border-radius: 2px;\r\n    box-sizing: border-box;\r\n    width: 200px;\r\n  }\r\n\r\n.input {\r\n    background-color: transparent;\r\n    border: none;\r\n    border-bottom: 1px solid grey;\r\n    color: #555;\r\n    box-sizing: border-box;\r\n    left: 30%;\r\n    position: relative;\r\n    width: 200px;\r\n    margin-top: 37px;\r\n   \r\n  }\r\n\r\n#newItemInput:focus {\r\n    outline: none;  \r\n    border-bottom: 2px solid BLUE;\r\n  }\r\n\r\n.underline {\r\n    background-color: dodgerblue;\r\n    display: inline-block;\r\n    height: 2px;\r\n    left: 50px;\r\n    margin-top: -4px;\r\n    position: absolute;\r\n    top: 185px;\r\n    transform: scale(0, 1);\r\n    transition: all 0.5s linear;\r\n    width: 202px;\r\n  }\r\n\r\n#addButton {\r\n    background:lightgray;\r\n    width:100px;\r\n    margin-top: 30px;\r\n    margin-left: 180px;\r\n}\r\n\r\n#tablecontent {\r\n    background: lightgray;\r\n}\r\n\r\n.my-custom-scrollbar {\r\n    max-height: 400px;\r\n    overflow-y: auto;\r\n    clear:both;\r\n}\r\n\r\n#totalSumDiv {\r\n  margin-left: 83.5%;\r\n  margin-top: 15px;\r\n}\r\n\r\n#saveButton{\r\n  width:100px;\r\n  background:lightgray;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbmV3aW52ZW50b3J5ZW50cnkvbmV3aW52ZW50b3J5ZW50cnkuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLFdBQVc7Q0FDWjs7QUFFRDtFQUNFLFlBQVk7RUFDWixpQkFBaUI7RUFDakIsbUJBQW1CO0NBQ3BCOztBQUNEO0VBQ0UsWUFBWTtDQUNiOztBQUNEO0lBQ0ksV0FBVztJQUNYLG9CQUFvQjtDQUN2Qjs7QUFDRDtFQUNFLGVBQWU7Q0FDaEI7O0FBQ0Q7RUFDRSxXQUFXO0NBQ1o7O0FBQ0Q7SUFDSSxtQkFBbUI7SUFDbkIsdUJBQXVCO0lBQ3ZCLGFBQWE7R0FDZDs7QUFFRDtJQUNFLDhCQUE4QjtJQUM5QixhQUFhO0lBQ2IsOEJBQThCO0lBQzlCLFlBQVk7SUFDWix1QkFBdUI7SUFDdkIsVUFBVTtJQUNWLG1CQUFtQjtJQUNuQixhQUFhO0lBQ2IsaUJBQWlCOztHQUVsQjs7QUFDRDtJQUNFLGNBQWM7SUFDZCw4QkFBOEI7R0FDL0I7O0FBQ0g7SUFDSSw2QkFBNkI7SUFDN0Isc0JBQXNCO0lBQ3RCLFlBQVk7SUFDWixXQUFXO0lBQ1gsaUJBQWlCO0lBQ2pCLG1CQUFtQjtJQUNuQixXQUFXO0lBRVgsdUJBQXVCO0lBRXZCLDRCQUE0QjtJQUM1QixhQUFhO0dBQ2Q7O0FBRUg7SUFDSSxxQkFBcUI7SUFDckIsWUFBWTtJQUNaLGlCQUFpQjtJQUNqQixtQkFBbUI7Q0FDdEI7O0FBQ0Q7SUFDSSxzQkFBc0I7Q0FDekI7O0FBQ0Q7SUFDSSxrQkFBa0I7SUFDbEIsaUJBQWlCO0lBQ2pCLFdBQVc7Q0FDZDs7QUFDRDtFQUNFLG1CQUFtQjtFQUNuQixpQkFBaUI7Q0FDbEI7O0FBQ0Q7RUFDRSxZQUFZO0VBQ1oscUJBQXFCO0NBQ3RCIiwiZmlsZSI6InNyYy9hcHAvbmV3aW52ZW50b3J5ZW50cnkvbmV3aW52ZW50b3J5ZW50cnkuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5leGFtcGxlLWZvcm0ge1xyXG4gIHdpZHRoOiAyMCU7XHJcbn1cclxuXHJcbi5leGFtcGxlLWZ1bGwtd2lkdGgge1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIG1hcmdpbi10b3A6IDIwcHg7XHJcbiAgbWFyZ2luLWxlZnQ6IDE1MHB4O1xyXG59XHJcbi5tYXQtZm9ybS1maWVsZC1mbGV4IHtcclxuICB3aWR0aDogMTAwJTtcclxufVxyXG4uZGl2cG9zIHtcclxuICAgIGZsb2F0OmxlZnQ7XHJcbiAgICBtYXJnaW4tYm90dG9tOiAyMHB4O1xyXG59XHJcbiNuYW1lZGl2e1xyXG4gIG1hcmdpbi1sZWZ0OjQlO1xyXG59XHJcbiNyYXRle1xyXG4gIGxlZnQ6MTAwcHg7XHJcbn1cclxuLndyYXBwZXIge1xyXG4gICAgYm9yZGVyLXJhZGl1czogMnB4O1xyXG4gICAgYm94LXNpemluZzogYm9yZGVyLWJveDtcclxuICAgIHdpZHRoOiAyMDBweDtcclxuICB9XHJcbiAgXHJcbiAgLmlucHV0IHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHRyYW5zcGFyZW50O1xyXG4gICAgYm9yZGVyOiBub25lO1xyXG4gICAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkIGdyZXk7XHJcbiAgICBjb2xvcjogIzU1NTtcclxuICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XHJcbiAgICBsZWZ0OiAzMCU7XHJcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgICB3aWR0aDogMjAwcHg7XHJcbiAgICBtYXJnaW4tdG9wOiAzN3B4O1xyXG4gICBcclxuICB9ICBcclxuICAjbmV3SXRlbUlucHV0OmZvY3VzIHtcclxuICAgIG91dGxpbmU6IG5vbmU7ICBcclxuICAgIGJvcmRlci1ib3R0b206IDJweCBzb2xpZCBCTFVFO1xyXG4gIH1cclxuLnVuZGVybGluZSB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiBkb2RnZXJibHVlO1xyXG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gICAgaGVpZ2h0OiAycHg7XHJcbiAgICBsZWZ0OiA1MHB4O1xyXG4gICAgbWFyZ2luLXRvcDogLTRweDtcclxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgIHRvcDogMTg1cHg7XHJcbiAgICAtd2Via2l0LXRyYW5zZm9ybTogc2NhbGUoMCwgMSk7XHJcbiAgICB0cmFuc2Zvcm06IHNjYWxlKDAsIDEpO1xyXG4gICAgLXdlYmtpdC10cmFuc2l0aW9uOiBhbGwgMC41cyBsaW5lYXI7XHJcbiAgICB0cmFuc2l0aW9uOiBhbGwgMC41cyBsaW5lYXI7XHJcbiAgICB3aWR0aDogMjAycHg7XHJcbiAgfVxyXG5cclxuI2FkZEJ1dHRvbiB7XHJcbiAgICBiYWNrZ3JvdW5kOmxpZ2h0Z3JheTtcclxuICAgIHdpZHRoOjEwMHB4O1xyXG4gICAgbWFyZ2luLXRvcDogMzBweDtcclxuICAgIG1hcmdpbi1sZWZ0OiAxODBweDtcclxufVxyXG4jdGFibGVjb250ZW50IHtcclxuICAgIGJhY2tncm91bmQ6IGxpZ2h0Z3JheTtcclxufVxyXG4ubXktY3VzdG9tLXNjcm9sbGJhciB7XHJcbiAgICBtYXgtaGVpZ2h0OiA0MDBweDtcclxuICAgIG92ZXJmbG93LXk6IGF1dG87XHJcbiAgICBjbGVhcjpib3RoO1xyXG59XHJcbiN0b3RhbFN1bURpdiB7XHJcbiAgbWFyZ2luLWxlZnQ6IDgzLjUlO1xyXG4gIG1hcmdpbi10b3A6IDE1cHg7XHJcbn1cclxuI3NhdmVCdXR0b257XHJcbiAgd2lkdGg6MTAwcHg7XHJcbiAgYmFja2dyb3VuZDpsaWdodGdyYXk7XHJcbn1cclxuIl19 */"
+module.exports = ".example-form {\r\n  width: 20%;\r\n}\r\n\r\n.example-full-width {\r\n  width: 100%;\r\n  margin-top: 20px;\r\n  margin-left: 150px;\r\n}\r\n\r\n.mat-form-field-flex {\r\n  width: 100%;\r\n}\r\n\r\n.divpos {\r\n    float:left;\r\n    margin-bottom: 20px;\r\n}\r\n\r\n#namediv{\r\n  margin-left:4%;\r\n}\r\n\r\n#rate{\r\n  left:100px;\r\n}\r\n\r\n.wrapper {\r\n    border-radius: 2px;\r\n    box-sizing: border-box;\r\n    width: 200px;\r\n  }\r\n\r\n.input {\r\n    background-color: transparent;\r\n    border: none;\r\n    border-bottom: 1px solid grey;\r\n    color: #555;\r\n    box-sizing: border-box;\r\n    left: 30%;\r\n    position: relative;\r\n    width: 200px;\r\n    margin-top: 37px;\r\n   \r\n  }\r\n\r\n#itembarcode:focus {\r\n    outline: none;  \r\n    border-bottom: 2px solid BLUE;\r\n  }\r\n\r\n.underline {\r\n    background-color: dodgerblue;\r\n    display: inline-block;\r\n    height: 2px;\r\n    left: 50px;\r\n    margin-top: -4px;\r\n    position: absolute;\r\n    top: 185px;\r\n    transform: scale(0, 1);\r\n    transition: all 0.5s linear;\r\n    width: 202px;\r\n  }\r\n\r\n#addButton {\r\n    background:lightgray;\r\n    width:100px;\r\n    margin-top: 30px;\r\n    margin-left: 180px;\r\n}\r\n\r\n#tablecontent {\r\n    background: lightgray;\r\n}\r\n\r\n.my-custom-scrollbar {\r\n    max-height: 400px;\r\n    overflow-y: auto;\r\n    clear:both;\r\n}\r\n\r\n#totalSumDiv {\r\n  margin-left: 83.5%;\r\n  margin-top: 15px;\r\n}\r\n\r\n#saveButton{\r\n  width:100px;\r\n  background:lightgray;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbmV3aW52ZW50b3J5ZW50cnkvbmV3aW52ZW50b3J5ZW50cnkuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLFdBQVc7Q0FDWjs7QUFFRDtFQUNFLFlBQVk7RUFDWixpQkFBaUI7RUFDakIsbUJBQW1CO0NBQ3BCOztBQUNEO0VBQ0UsWUFBWTtDQUNiOztBQUNEO0lBQ0ksV0FBVztJQUNYLG9CQUFvQjtDQUN2Qjs7QUFDRDtFQUNFLGVBQWU7Q0FDaEI7O0FBQ0Q7RUFDRSxXQUFXO0NBQ1o7O0FBQ0Q7SUFDSSxtQkFBbUI7SUFDbkIsdUJBQXVCO0lBQ3ZCLGFBQWE7R0FDZDs7QUFFRDtJQUNFLDhCQUE4QjtJQUM5QixhQUFhO0lBQ2IsOEJBQThCO0lBQzlCLFlBQVk7SUFDWix1QkFBdUI7SUFDdkIsVUFBVTtJQUNWLG1CQUFtQjtJQUNuQixhQUFhO0lBQ2IsaUJBQWlCOztHQUVsQjs7QUFDRDtJQUNFLGNBQWM7SUFDZCw4QkFBOEI7R0FDL0I7O0FBQ0g7SUFDSSw2QkFBNkI7SUFDN0Isc0JBQXNCO0lBQ3RCLFlBQVk7SUFDWixXQUFXO0lBQ1gsaUJBQWlCO0lBQ2pCLG1CQUFtQjtJQUNuQixXQUFXO0lBRVgsdUJBQXVCO0lBRXZCLDRCQUE0QjtJQUM1QixhQUFhO0dBQ2Q7O0FBRUg7SUFDSSxxQkFBcUI7SUFDckIsWUFBWTtJQUNaLGlCQUFpQjtJQUNqQixtQkFBbUI7Q0FDdEI7O0FBQ0Q7SUFDSSxzQkFBc0I7Q0FDekI7O0FBQ0Q7SUFDSSxrQkFBa0I7SUFDbEIsaUJBQWlCO0lBQ2pCLFdBQVc7Q0FDZDs7QUFDRDtFQUNFLG1CQUFtQjtFQUNuQixpQkFBaUI7Q0FDbEI7O0FBQ0Q7RUFDRSxZQUFZO0VBQ1oscUJBQXFCO0NBQ3RCIiwiZmlsZSI6InNyYy9hcHAvbmV3aW52ZW50b3J5ZW50cnkvbmV3aW52ZW50b3J5ZW50cnkuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5leGFtcGxlLWZvcm0ge1xyXG4gIHdpZHRoOiAyMCU7XHJcbn1cclxuXHJcbi5leGFtcGxlLWZ1bGwtd2lkdGgge1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIG1hcmdpbi10b3A6IDIwcHg7XHJcbiAgbWFyZ2luLWxlZnQ6IDE1MHB4O1xyXG59XHJcbi5tYXQtZm9ybS1maWVsZC1mbGV4IHtcclxuICB3aWR0aDogMTAwJTtcclxufVxyXG4uZGl2cG9zIHtcclxuICAgIGZsb2F0OmxlZnQ7XHJcbiAgICBtYXJnaW4tYm90dG9tOiAyMHB4O1xyXG59XHJcbiNuYW1lZGl2e1xyXG4gIG1hcmdpbi1sZWZ0OjQlO1xyXG59XHJcbiNyYXRle1xyXG4gIGxlZnQ6MTAwcHg7XHJcbn1cclxuLndyYXBwZXIge1xyXG4gICAgYm9yZGVyLXJhZGl1czogMnB4O1xyXG4gICAgYm94LXNpemluZzogYm9yZGVyLWJveDtcclxuICAgIHdpZHRoOiAyMDBweDtcclxuICB9XHJcbiAgXHJcbiAgLmlucHV0IHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHRyYW5zcGFyZW50O1xyXG4gICAgYm9yZGVyOiBub25lO1xyXG4gICAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkIGdyZXk7XHJcbiAgICBjb2xvcjogIzU1NTtcclxuICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XHJcbiAgICBsZWZ0OiAzMCU7XHJcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgICB3aWR0aDogMjAwcHg7XHJcbiAgICBtYXJnaW4tdG9wOiAzN3B4O1xyXG4gICBcclxuICB9ICBcclxuICAjaXRlbWJhcmNvZGU6Zm9jdXMge1xyXG4gICAgb3V0bGluZTogbm9uZTsgIFxyXG4gICAgYm9yZGVyLWJvdHRvbTogMnB4IHNvbGlkIEJMVUU7XHJcbiAgfVxyXG4udW5kZXJsaW5lIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IGRvZGdlcmJsdWU7XHJcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgICBoZWlnaHQ6IDJweDtcclxuICAgIGxlZnQ6IDUwcHg7XHJcbiAgICBtYXJnaW4tdG9wOiAtNHB4O1xyXG4gICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgdG9wOiAxODVweDtcclxuICAgIC13ZWJraXQtdHJhbnNmb3JtOiBzY2FsZSgwLCAxKTtcclxuICAgIHRyYW5zZm9ybTogc2NhbGUoMCwgMSk7XHJcbiAgICAtd2Via2l0LXRyYW5zaXRpb246IGFsbCAwLjVzIGxpbmVhcjtcclxuICAgIHRyYW5zaXRpb246IGFsbCAwLjVzIGxpbmVhcjtcclxuICAgIHdpZHRoOiAyMDJweDtcclxuICB9XHJcblxyXG4jYWRkQnV0dG9uIHtcclxuICAgIGJhY2tncm91bmQ6bGlnaHRncmF5O1xyXG4gICAgd2lkdGg6MTAwcHg7XHJcbiAgICBtYXJnaW4tdG9wOiAzMHB4O1xyXG4gICAgbWFyZ2luLWxlZnQ6IDE4MHB4O1xyXG59XHJcbiN0YWJsZWNvbnRlbnQge1xyXG4gICAgYmFja2dyb3VuZDogbGlnaHRncmF5O1xyXG59XHJcbi5teS1jdXN0b20tc2Nyb2xsYmFyIHtcclxuICAgIG1heC1oZWlnaHQ6IDQwMHB4O1xyXG4gICAgb3ZlcmZsb3cteTogYXV0bztcclxuICAgIGNsZWFyOmJvdGg7XHJcbn1cclxuI3RvdGFsU3VtRGl2IHtcclxuICBtYXJnaW4tbGVmdDogODMuNSU7XHJcbiAgbWFyZ2luLXRvcDogMTVweDtcclxufVxyXG4jc2F2ZUJ1dHRvbntcclxuICB3aWR0aDoxMDBweDtcclxuICBiYWNrZ3JvdW5kOmxpZ2h0Z3JheTtcclxufVxyXG4iXX0= */"
 
 /***/ }),
 
@@ -721,7 +773,7 @@ module.exports = ".example-form {\r\n  width: 20%;\r\n}\r\n\r\n.example-full-wid
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"wrapper divpos\" id =\"barcodediv\">\r\n  <input class=\"input\" placeholder=\"Enter Bar Code\" type=\"text\" id=\"newItemInput\" [(ngModel)]=\"barCode\" (blur)=\"onBarCodeEnter()\">\r\n  <span class=\"underline\"></span>\r\n</div>\r\n<div class=\"wrapper divpos\" id =\"namediv\">\r\n    <input class=\"input\" placeholder=\"Enter Item Name\" type=\"text\" id=\"olditeminput\" [(ngModel)]=\"name\">\r\n  \r\n  <span class=\"underline\"></span>\r\n</div>\r\n\r\n<div class=\"wrapper divpos\" id =\"ratediv\">\r\n    <input class=\"input\" placeholder=\"Enter rate\" type=\"text\" id=\"rate\" [(ngModel)]=\"rate\">  \r\n    <span class=\"underline\"></span>\r\n  </div>\r\n\r\n<!-- <form class=\"example-form divpos\">\r\n    <mat-form-field class=\"example-full-width\">\r\n      <input id=\"olditeminput\"type=\"text\" placeholder=\"Enter old item name\" aria-label=\"Assignee\"  matInput [formControl]=\"myControl\" [matAutocomplete]=\"auto\" (ngModelChange)=\"onItemChange()\"/>\r\n      <mat-autocomplete #auto=\"matAutocomplete\" [displayWith]=\"displayFn\">\r\n        <mat-option *ngFor=\"let option of filteredOptions | async\" [value]=\"option\">\r\n          {{option.name}}\r\n        </mat-option>\r\n      </mat-autocomplete>\r\n    </mat-form-field>\r\n  </form>   -->\r\n\r\n<button type=\"button\" class=\"btn btn-primary product-entry divpos\" id=\"addButton\" (click)=\"addItem()\">Add</button>  \r\n<div class=\"table-wrapper-scroll-y my-custom-scrollbar\">\r\n    <table class=\"table table-bordered table-striped mb-0\" id=\"tablecontent\">\r\n      <thead>\r\n        <tr>\r\n          <th *ngFor=\"let head of headerList\" scope=\"col\">{{head}} </th>\r\n        </tr>\r\n      </thead>\r\n      <tbody>\r\n        <tr  *ngFor=\"let item of itemList\">\r\n                <th scope=\"row\">{{item.id}}</th>\r\n                <td>{{item.barCode}}</td>\r\n                <td>{{item.name}}</td>\r\n                <td>{{item.rate}}</td>\r\n                <td (click)=\"removeItem(item.id)\">{{item.remove}}</td>\r\n        </tr>\r\n      </tbody>\r\n      \r\n    </table>\r\n  </div>\r\n  <div id=\"totalSumDiv\" *ngIf=\"id > 0\">\r\n    <button type=\"button\" class=\"btn btn-primary product-entry\" id=\"saveButton\" (click)=\"saveItem()\">save</button> \r\n  </div>"
+module.exports = "<div class=\"wrapper divpos\" id =\"barcodediv\">\r\n  <input class=\"input\" placeholder=\"Enter Bar Code\" type=\"text\" id=\"itembarcode\" [(ngModel)]=\"barcode\" (keydown)=\"onBarCodeEnter($event)\">\r\n  <span class=\"underline\"></span>\r\n</div>\r\n<div class=\"wrapper divpos\" id =\"namediv\">\r\n    <input class=\"input\" placeholder=\"Enter Item Name\" type=\"text\" id=\"itemName\" [(ngModel)]=\"name\">\r\n  <span class=\"underline\"></span>\r\n</div>\r\n\r\n<div class=\"wrapper divpos\" id =\"ratediv\">\r\n    <input class=\"input\" placeholder=\"Enter rate\" type=\"text\" id=\"rate\" [(ngModel)]=\"rate\">  \r\n    <span class=\"underline\"></span>\r\n  </div>\r\n\r\n<!-- <form class=\"example-form divpos\">\r\n    <mat-form-field class=\"example-full-width\">\r\n      <input id=\"olditeminput\"type=\"text\" placeholder=\"Enter old item name\" aria-label=\"Assignee\"  matInput [formControl]=\"myControl\" [matAutocomplete]=\"auto\" (ngModelChange)=\"onItemChange()\"/>\r\n      <mat-autocomplete #auto=\"matAutocomplete\" [displayWith]=\"displayFn\">\r\n        <mat-option *ngFor=\"let option of filteredOptions | async\" [value]=\"option\">\r\n          {{option.name}}\r\n        </mat-option>\r\n      </mat-autocomplete>\r\n    </mat-form-field>\r\n  </form>   -->\r\n\r\n<button type=\"button\" class=\"btn btn-primary product-entry divpos\" id=\"addButton\" (click)=\"addItem()\">Add</button>  \r\n<div class=\"table-wrapper-scroll-y my-custom-scrollbar\">\r\n    <table class=\"table table-bordered table-striped mb-0\" id=\"tablecontent\">\r\n      <thead>\r\n        <tr>\r\n          <th *ngFor=\"let head of headerList\" scope=\"col\">{{head}} </th>\r\n        </tr>\r\n      </thead>\r\n      <tbody>\r\n        <tr  *ngFor=\"let item of itemList\">\r\n                <th scope=\"row\">{{item.id}}</th>\r\n                <td>{{item.barcode}}</td>\r\n                <td>{{item.name}}</td>\r\n                <td>{{item.rate}}</td>\r\n                <td (click)=\"removeItem(item.id)\">{{item.remove}}</td>\r\n        </tr>\r\n      </tbody>\r\n      \r\n    </table>\r\n  </div>\r\n  <div id=\"totalSumDiv\" *ngIf=\"id > 0\">\r\n    <button type=\"button\" class=\"btn btn-primary product-entry\" id=\"saveButton\" (click)=\"saveItem()\">save</button> \r\n  </div>"
 
 /***/ }),
 
@@ -759,6 +811,9 @@ var NewInventoryEntryComponent = /** @class */ (function () {
         this.isItemExist = false;
         this.itemList = [];
     }
+    NewInventoryEntryComponent.prototype.ngAfterViewInit = function () {
+        document.getElementById("itembarcode").focus();
+    };
     NewInventoryEntryComponent.prototype.ngOnInit = function () {
         if (this.dataContainer.getMappedObjectIdToItem()) {
             console.log("itemList already fetched from backend");
@@ -776,40 +831,48 @@ var NewInventoryEntryComponent = /** @class */ (function () {
             console.log("items stored in the inventory:", items);
             var itemMapToId_1 = new Map();
             items.forEach(function (el) {
-                itemMapToId_1.set(el.barCode, el);
+                itemMapToId_1.set(el.barcode, el);
             });
             this.dataContainer.setMappedObjectIdToItem(itemMapToId_1);
         }
     };
-    NewInventoryEntryComponent.prototype.onBarCodeEnter = function () {
-        var item = this.dataContainer.getItem(this.barCode);
-        if (item) {
-            this.name = item.name;
-            this.rate = item.rate;
-            this.isItemExist = true;
-        }
-        else {
-            this.isItemExist = false;
+    NewInventoryEntryComponent.prototype.onBarCodeEnter = function (event) {
+        if (event.key === "Enter") {
+            var item = this.dataContainer.getItem(this.barcode);
+            if (item) { // in case we want to update the rate/name of added item, we need to call this.
+                this.name = item.name;
+                this.rate = item.rate;
+                this.isItemExist = true;
+            }
+            else {
+                this.isItemExist = false;
+            }
+            document.getElementById("itemName").focus();
         }
     };
     NewInventoryEntryComponent.prototype.addItem = function () {
-        if ((this.barCode == undefined)) {
-            document.getElementById("newItemInput").focus();
+        if ((this.barcode == undefined)) {
+            document.getElementById("itembarcode").focus();
             return;
         }
-        var addedItem = this.itemBarKeyMapItem.get(this.barCode);
-        if (addedItem) {
-            return; //as this item is already added it the table.. so ignore it
+        var addedItem = this.itemBarKeyMapItem.get(this.barcode);
+        if (addedItem) { //as this item is already added it the table.. so ignore it
+            this.barcode = undefined;
+            this.name = undefined;
+            this.rate = undefined;
+            this.isItemExist = false;
+            document.getElementById("itembarcode").focus();
+            return;
         }
         this.id = this.id + 1;
-        var item = { id: this.id, barCode: this.barCode, name: this.name, rate: this.rate, remove: 'Remove', itemExistFlag: this.isItemExist };
-        this.itemBarKeyMapItem.set(this.barCode, item);
+        var item = { id: this.id, barcode: this.barcode, name: this.name, rate: this.rate, remove: 'Remove', itemExistFlag: this.isItemExist };
+        this.itemBarKeyMapItem.set(this.barcode, item);
         this.itemList.push(item);
-        this.barCode = undefined;
+        this.barcode = undefined;
         this.name = undefined;
         this.rate = undefined;
         this.isItemExist = false;
-        document.getElementById("newItemInput").focus();
+        document.getElementById("itembarcode").focus();
         //document.getElementById("nameinput").focus();
     };
     NewInventoryEntryComponent.prototype.removeItem = function (id) {
@@ -817,7 +880,7 @@ var NewInventoryEntryComponent = /** @class */ (function () {
         for (var _i = 0, _a = this.itemList; _i < _a.length; _i++) {
             var el = _a[_i];
             if (el.id == id) {
-                this.itemBarKeyMapItem.delete(el.barCode);
+                this.itemBarKeyMapItem.delete(el.barcode);
             }
             else {
                 tempItem.push(el);
@@ -829,6 +892,7 @@ var NewInventoryEntryComponent = /** @class */ (function () {
         this.itemList = tempItem;
         this.id = this.id - 1;
         tempItem = [];
+        document.getElementById("itembarcode").focus();
     };
     NewInventoryEntryComponent.prototype.saveItem = function () {
         var itemListStr = JSON.stringify(this.itemList);
@@ -841,7 +905,7 @@ var NewInventoryEntryComponent = /** @class */ (function () {
         var response = this.httpservice.postApiCall(this.urlinfoservice.ITEM_ENTRY_UPDATE_URL, itemListJson, this);
         this.itemList = [];
         this.id = 0;
-        document.getElementById("newItemInput").focus();
+        document.getElementById("itembarcode").focus();
     };
     NewInventoryEntryComponent.prototype.getItemInfolist = function () {
     };
@@ -1260,7 +1324,7 @@ module.exports = "#tableLabelId{\r\n  margin-top:20px;\r\n  margin-bottom: 20px;
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div id = \"tableLabelId\">\n <!-- <form class=\"example-form divpos\">\n    <mat-form-field class=\"example-full-width\">\n      <input id=\"nameinput\"type=\"text\" placeholder=\"Enter item name\" aria-label=\"Assignee\"  matInput [formControl]=\"myControl\" [matAutocomplete]=\"auto\"/>\n      <mat-autocomplete #auto=\"matAutocomplete\" [displayWith]=\"displayFn\">\n        <mat-option *ngFor=\"let option of filteredOptions | async\" [value]=\"option\">\n          {{option.name}}\n        </mat-option>\n      </mat-autocomplete>\n    </mat-form-field>\n  </form>   \n  <div class=\"wrapper divpos\" id =\"rate\">\n    <input class=\"input\" placeholder=\"Enter rate\" type=\"text\" id=\"newItemInput\" [(ngModel)]=\"rate\">\n    <span class=\"underline\"></span>\n  </div>\n  <button type=\"button\" class=\"btn btn-primary divpos\" id=\"addButton\" (click)=\"addItem()\">Add</button> -->  \n  <div>\n    <div class=\"datepickerdiv\">\n      <h6>Start Date:</h6>\n    </div>\n    <div class=\"datepickerdiv\">\n      <input [(ngModel)]=\"startDate\" type=\"date\" id=\"startdatepicker\" width=\"276\"/>\n    </div>\n    <div class=\"datepickerdiv\">\n      <h6>End Date:</h6>\n    </div>\n    <div class=\"datepickerdiv\">\n      <input [(ngModel)]=\"endDate\"  type=\"date\" id=\"enddatepicker\" width=\"276\"/>\n    </div>\n    <div  class=\"datepickerdiv\" *ngIf=\"totalTransaction > 0\">\n      <!-- <button printSectionId=\"print-section\" printTitle=\"Invoice Details\"   ngxPrint id=\"printdiv\" type=\"button\" class=\"btn btn-primary\" (click)=\"printItem()\">Print</button> --> \n      <!--<button printSectionId=\"print-section\" printTitle=\"Invoice Details\"  id=\"printdiv\" type=\"button\" class=\"btn btn-primary\" (click)=\"printItem()\">New</button>  -->\n      <button class=\"btn btn-primary\" id=\"printdiv\" type=\"button\" (click)=\"fetchTransactionHistory()\">\n        Fetch\n      </button>\n    </div>\n  </div>\n  <div id=\"tableLabeldiv\">\n    <h5>Transaction History</h5>\n  </div>\n</div>\n<div class=\"table-wrapper-scroll-y my-custom-scrollbar\">\n  <table class=\"table table-bordered table-striped mb-0\" id=\"tablecontent\">\n    <thead>\n      <tr>\n        <th *ngFor=\"let head of headerList\" scope=\"col\">{{head}} </th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr  *ngFor=\"let item of itemList\">\n              <th scope=\"row\">{{item.id}}</th>\n              <td>{{item.customerId}}</td>\n              <td>{{item.dateTime}}</td>\n              <td>{{item.shoppingAmount}}</td>\n              <!--<td (click)=\"removeItem(item.id)\">{{item.remove}}</td> -->\n      </tr>\n    </tbody>\n    \n  </table>\n</div>\n<div id=\"printCostDiv\">\n  <div id=\"totalSumDiv\" class=\"printTotalCost\" *ngIf=\"totalTransaction > 0\">\n    <span class=\"badge\" id = \"totalSumLavel\">Total Transaction: {{totalTransaction}}</span>\n  </div>\n <div  class=\"printTotalCost\" *ngIf=\"totalTransaction > 0\">\n    <button class=\"btn btn-primary\" id=\"printdiv\" type=\"button\" onclick=\"printJS({printable: itemToPrint\n  , properties: ['id','customerId', 'shoppingAmount','dateTime'], type: 'json', header:docheading})\" (click)=\"printItem()\">\n      Print\n   </button>\n  </div> \n</div>\n"
+module.exports = "<div id = \"tableLabelId\">\n <!-- <form class=\"example-form divpos\">\n    <mat-form-field class=\"example-full-width\">\n      <input id=\"nameinput\"type=\"text\" placeholder=\"Enter item name\" aria-label=\"Assignee\"  matInput [formControl]=\"myControl\" [matAutocomplete]=\"auto\"/>\n      <mat-autocomplete #auto=\"matAutocomplete\" [displayWith]=\"displayFn\">\n        <mat-option *ngFor=\"let option of filteredOptions | async\" [value]=\"option\">\n          {{option.name}}\n        </mat-option>\n      </mat-autocomplete>\n    </mat-form-field>\n  </form>   \n  <div class=\"wrapper divpos\" id =\"rate\">\n    <input class=\"input\" placeholder=\"Enter rate\" type=\"text\" id=\"newItemInput\" [(ngModel)]=\"rate\">\n    <span class=\"underline\"></span>\n  </div>\n  <button type=\"button\" class=\"btn btn-primary divpos\" id=\"addButton\" (click)=\"addItem()\">Add</button> -->  \n  <div>\n    <div class=\"datepickerdiv\">\n      <h6>Start Date:</h6>\n    </div>\n    <div class=\"datepickerdiv\">\n      <input [(ngModel)]=\"startDate\" type=\"date\" id=\"startdatepicker\" width=\"276\"/>\n    </div>\n    <div class=\"datepickerdiv\">\n      <h6>End Date:</h6>\n    </div>\n    <div class=\"datepickerdiv\">\n      <input [(ngModel)]=\"endDate\"  type=\"date\" id=\"enddatepicker\" width=\"276\"/>\n    </div>\n    <div  class=\"datepickerdiv\" *ngIf=\"totalTransaction > 0\">\n      <!-- <button printSectionId=\"print-section\" printTitle=\"Invoice Details\"   ngxPrint id=\"printdiv\" type=\"button\" class=\"btn btn-primary\" (click)=\"printItem()\">Print</button> --> \n      <!--<button printSectionId=\"print-section\" printTitle=\"Invoice Details\"  id=\"printdiv\" type=\"button\" class=\"btn btn-primary\" (click)=\"printItem()\">New</button>  -->\n      <button class=\"btn btn-primary\" id=\"printdiv\" type=\"button\" (click)=\"fetchTransactionHistory()\">\n        Fetch\n      </button>\n    </div>\n  </div>\n  <div id=\"tableLabeldiv\">\n    <h5>Transaction History</h5>\n  </div>\n</div>\n<div class=\"table-wrapper-scroll-y my-custom-scrollbar\">\n  <table class=\"table table-bordered table-striped mb-0\" id=\"tablecontent\" *ngIf=\"!isDetailTransactionInfo\">\n    <thead>\n      <tr>\n        <th *ngFor=\"let head of headerList\" scope=\"col\">{{head}} </th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr  *ngFor=\"let item of itemList\" (click)=\"onTableRowClick(item)\" >\n              <th scope=\"row\">{{item.srNum}}</th>\n              <td>{{item.customerId}}</td>\n              <td>{{item.dateToDisplay}}</td>\n              <td>{{item.totalShoppingAmount}}</td>\n              <!--<td (click)=\"removeItem(item.id)\">{{item.remove}}</td> -->\n      </tr>\n    </tbody>\n    \n  </table>\n  <table class=\"table table-bordered table-striped mb-0\" id=\"tablecontent\" *ngIf=\"isDetailTransactionInfo\">\n    <thead>\n      <tr (click)=\"onDetailTableHeaderClick()\">\n        <th *ngFor=\"let head of headerList\" scope=\"col\">{{head}} </th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr  *ngFor=\"let item of itemList\">\n        <th scope=\"row\">{{item.srNum}}</th>\n        <td>{{item.itemName}}</td>\n        <td>{{item.quantity}}</td>\n        <td>{{item.rate}}</td>\n        <td>{{item.cost}}</td>\n        <!--<td (click)=\"removeItem(item.id)\">{{item.remove}}</td> -->\n     </tr>\n\n    </tbody>\n    \n  </table>\n</div>\n<div id=\"printCostDiv\">\n  <div id=\"totalSumDiv\" class=\"printTotalCost\" *ngIf=\"totalTransaction > 0\">\n    <span class=\"badge\" id = \"totalSumLavel\">Total Transaction: {{totalTransaction}}</span>\n  </div>\n <div  class=\"printTotalCost\" *ngIf=\"totalTransaction > 0\">\n    <button class=\"btn btn-primary\" id=\"printdiv\" type=\"button\" onclick=\"printJS({printable: itemToPrint\n  , properties: ['id','customerId', 'shoppingAmount','dateTime'], type: 'json', header:docheading})\" (click)=\"printItem()\">\n      Print\n   </button>\n  </div> \n</div>\n"
 
 /***/ }),
 
@@ -1290,8 +1354,10 @@ var TransactionhistoryComponent = /** @class */ (function () {
         this.httpservice = httpservice;
         this.util = util;
         this.itemList = [];
-        this.headerList = ['Sr.', 'CustomerId', 'Date and Time', 'Shopping Amount'];
+        this.headerList = [];
         this.totalTransaction = 0;
+        this.isDetailTransactionInfo = false;
+        this.transactionSummary = [];
     }
     TransactionhistoryComponent.prototype.ngOnInit = function () {
         clearRecord();
@@ -1302,16 +1368,24 @@ var TransactionhistoryComponent = /** @class */ (function () {
     };
     TransactionhistoryComponent.prototype.callBackOnApi = function (items) {
         var _this = this;
-        var id = 1;
+        var srNum = 1;
         this.itemList = [];
         clearRecord();
         items.forEach(function (item) {
-            _this.totalTransaction = _this.totalTransaction + item[2];
-            var dateToDisplay = _this.util.getDateInStringForView(item[3]);
-            _this.itemList.push({ id: id, customerId: item[1], shoppingAmount: item[2], dateTime: dateToDisplay });
-            printfunc({ id: id, customerId: item[1], shoppingAmount: item[2], dateTime: dateToDisplay }, _this.getDocHeader(), _this.getDocFooter());
-            id = id + 1;
+            _this.totalTransaction = _this.totalTransaction + item.totalShoppingAmount;
+            var dateToDisplay = _this.util.getDateInStringForView(item.shoppingTime);
+            item.srNum = srNum;
+            item.dateToDisplay = dateToDisplay;
+            srNum = srNum + 1;
         });
+        this.headerList = ['Sr.', 'CustomerId', 'Date and Time', 'Shopping Amount'];
+        this.transactionSummary = items;
+        this.itemList = this.transactionSummary;
+    };
+    TransactionhistoryComponent.prototype.onDetailTableHeaderClick = function () {
+        this.isDetailTransactionInfo = false;
+        this.headerList = ['Sr.', 'CustomerId', 'Date and Time', 'Shopping Amount'];
+        this.itemList = this.transactionSummary;
     };
     TransactionhistoryComponent.prototype.getDocHeader = function () {
         return "Transaction summary report time: " + this.util.getDateInStringForView(new Date());
@@ -1342,10 +1416,28 @@ var TransactionhistoryComponent = /** @class */ (function () {
         }
         queryParam += "&edate=" + edate;
         url = this.urlinfoservice.CUSTOMER_SHOPPING_SUMMARY_GET_URL + queryParam;
-        console.log("url:" + url);
         this.httpservice.getApiCall(url, this);
     };
-    TransactionhistoryComponent.prototype.printItem = function () {
+    TransactionhistoryComponent.prototype.onTableRowClick = function (item) {
+        console.log("on row click:", item);
+        this.isDetailTransactionInfo = true;
+        this.headerList = ['Sr.', 'Item Name', 'Quantity', 'Rate', 'cost'];
+        var itemDetailInfo = item.customerShoppingList;
+        var itemDetailInfoList = [];
+        var srNum = 1;
+        this.itemList = [];
+        this.totalTransaction = 0;
+        clearRecord();
+        itemDetailInfo.forEach(function (detailItem) {
+            // this.totalTransaction = this.totalTransaction + item.totalShoppingAmount;
+            // let dateToDisplay = this.util.getDateInStringForView(item.shoppingTime);
+            item.srNum = srNum;
+            // item.dateToDisplay = dateToDisplay;
+            //printfunc({srNum:srNum,itemName:detailItem.name,quantity:detailItem.quantity,rate:detailItem.rate,cost:detailItem.cost}, this.getDocHeader(), this.getDocFooter());
+            itemDetailInfoList.push({ srNum: srNum, itemName: detailItem.name, quantity: detailItem.quantity, rate: detailItem.rate, cost: detailItem.cost });
+            srNum = srNum + 1;
+        });
+        this.itemList = itemDetailInfoList;
     };
     TransactionhistoryComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({

@@ -21,8 +21,10 @@ export class TransactionhistoryComponent implements OnInit {
   startDate;
   endDate;
   itemList=[];
-  headerList=['Sr.','CustomerId', 'Date and Time','Shopping Amount'];
+  headerList= [];
   totalTransaction:number=0;
+  isDetailTransactionInfo=false;
+  transactionSummary=[];
 
   constructor(private urlinfoservice: UrlinfoserviceService, private httpservice: HttpserviceService, private util:CommonutilService) { }
   ngOnInit() {
@@ -33,17 +35,26 @@ export class TransactionhistoryComponent implements OnInit {
     this.httpservice.getApiCall(url,this);
   }
   callBackOnApi(items) {
-    let id = 1;
+    let srNum = 1;
     this.itemList = [];
     clearRecord();
     items.forEach(item => {
-      this.totalTransaction = this.totalTransaction + item[2];
-      let dateToDisplay = this.util.getDateInStringForView(item[3]);
-      this.itemList.push({id:id,customerId:item[1],shoppingAmount:item[2],dateTime:dateToDisplay});
-      printfunc({id:id,customerId:item[1],shoppingAmount:item[2],dateTime:dateToDisplay}, this.getDocHeader(), this.getDocFooter());
-      id = id + 1;
+      this.totalTransaction = this.totalTransaction + item.totalShoppingAmount;
+      let dateToDisplay = this.util.getDateInStringForView(item.shoppingTime);
+      item.srNum = srNum;
+      item.dateToDisplay = dateToDisplay;
+      srNum = srNum + 1;
       
     });
+    this.headerList = ['Sr.','CustomerId', 'Date and Time','Shopping Amount'];
+    this.transactionSummary = items;
+    this.itemList = this.transactionSummary;
+    
+  }
+  onDetailTableHeaderClick(){
+    this.isDetailTransactionInfo = false;
+    this.headerList = ['Sr.','CustomerId', 'Date and Time','Shopping Amount'];
+    this.itemList = this.transactionSummary;
   }
   getDocHeader(){
     return"Transaction summary report time: "+this.util.getDateInStringForView(new Date());
@@ -73,13 +84,32 @@ export class TransactionhistoryComponent implements OnInit {
     } 
     queryParam += "&edate="+edate;
     url = this.urlinfoservice.CUSTOMER_SHOPPING_SUMMARY_GET_URL + queryParam;
-    console.log("url:"+url);
     this.httpservice.getApiCall(url,this);
   }
-  printItem(){
-  
+  onTableRowClick(item){
+    console.log("on row click:", item);
+    this.isDetailTransactionInfo  = true;
+    this.headerList = ['Sr.','Item Name', 'Quantity','Rate','cost']
+    let itemDetailInfo = item.customerShoppingList;
+    let itemDetailInfoList = [];
+    let srNum = 1;
+    this.itemList = [];
+    this.totalTransaction = 0;
+    clearRecord();
+    itemDetailInfo.forEach(detailItem => {
+     // this.totalTransaction = this.totalTransaction + item.totalShoppingAmount;
+      // let dateToDisplay = this.util.getDateInStringForView(item.shoppingTime);
+      item.srNum = srNum;
+      // item.dateToDisplay = dateToDisplay;
+      //printfunc({srNum:srNum,itemName:detailItem.name,quantity:detailItem.quantity,rate:detailItem.rate,cost:detailItem.cost}, this.getDocHeader(), this.getDocFooter());
+      itemDetailInfoList.push({srNum:srNum,itemName:detailItem.name,quantity:detailItem.quantity,rate:detailItem.rate,cost:detailItem.cost});
+      srNum = srNum + 1;
+      
+    });
+    this.itemList = itemDetailInfoList;
   }
   
 }
+
 
 

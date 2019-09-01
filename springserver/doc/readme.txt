@@ -13,10 +13,11 @@ way 2: on maven build itself it will embedd GUI in springserver war file using p
 	  
 ---------------------
 <script type="text/javascript" src="springserver/runtime.js"></script>
-	<script type="text/javascript" src="springserver/polyfills.js"></script>
-	<script type="text/javascript" src="springserver/styles.js"></script>
-	<script type="text/javascript" src="springserver/vendor.js"></script>
-	<script type="text/javascript" src="springserver/main.js"></script>
+<script type="text/javascript" src="springserver/polyfills.js"></script>
+<script type="text/javascript" src="springserver/styles.js"></script>
+<script type="text/javascript" src="springserver/scripts.js"></script>
+<script type="text/javascript" src="springserver/vendor.js"></script>
+<script type="text/javascript" src="springserver/main.js"></script>
 	
 	
 ======== bootstrap ============

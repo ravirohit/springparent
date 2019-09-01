@@ -1,3 +1,7 @@
+#pageHeading{
+  margin-left:40%;
+  margin-top:2%;
+}
 .example-form {
      width: 20%;
    }
@@ -14,9 +18,7 @@
      float:left;
      margin-bottom: 20px;
  }
- #rate{
-   left:100px;
- }
+ 
  .wrapper {
      border-radius: 2px;
      box-sizing: border-box;
@@ -32,10 +34,8 @@
     left: 30%;
     position: relative;
     width: 200px;
-    margin-top: 37px;
-
 }  
-#newItemInput:focus {
+#itembarcode:focus {
     outline: none;  
     border-bottom: 2px solid BLUE;
 }
@@ -54,12 +54,6 @@
      width: 202px;
    }
  
- #addButton {
-     background:lightgray;
-     width:100px;
-     margin-top: 30px;
-     margin-left: 180px;
- }
  #tablecontent {
      background: lightgray;
  }

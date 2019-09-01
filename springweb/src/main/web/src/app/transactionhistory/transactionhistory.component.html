@@ -1,3 +1,6 @@
+<div id="pageHeading">
+  <h5>Transaction History</h5>
+</div>
 <div id = "tableLabelId">
  <!-- <form class="example-form divpos">
     <mat-form-field class="example-full-width">
@@ -27,7 +30,7 @@
     <div class="datepickerdiv">
       <input [(ngModel)]="endDate"  type="date" id="enddatepicker" width="276"/>
     </div>
-    <div  class="datepickerdiv" *ngIf="totalTransaction > 0">
+    <div  class="datepickerdiv">
       <!-- <button printSectionId="print-section" printTitle="Invoice Details"   ngxPrint id="printdiv" type="button" class="btn btn-primary" (click)="printItem()">Print</button> --> 
       <!--<button printSectionId="print-section" printTitle="Invoice Details"  id="printdiv" type="button" class="btn btn-primary" (click)="printItem()">New</button>  -->
       <button class="btn btn-primary" id="printdiv" type="button" (click)="fetchTransactionHistory()">
@@ -35,25 +38,41 @@
       </button>
     </div>
   </div>
-  <div id="tableLabeldiv">
-    <h5>Transaction History</h5>
-  </div>
 </div>
 <div class="table-wrapper-scroll-y my-custom-scrollbar">
-  <table class="table table-bordered table-striped mb-0" id="tablecontent">
+  <table class="table table-bordered table-striped mb-0" id="tablecontent" *ngIf="!isDetailTransactionInfo">
     <thead>
       <tr>
         <th *ngFor="let head of headerList" scope="col">{{head}} </th>
       </tr>
     </thead>
     <tbody>
-      <tr  *ngFor="let item of itemList">
-              <th scope="row">{{item.id}}</th>
+      <tr  *ngFor="let item of itemList" (click)="onTableRowClick(item)" >
+              <th scope="row">{{item.srNum}}</th>
               <td>{{item.customerId}}</td>
-              <td>{{item.dateTime}}</td>
-              <td>{{item.shoppingAmount}}</td>
+              <td>{{item.dateToDisplay}}</td>
+              <td>{{item.totalShoppingAmount}}</td>
               <!--<td (click)="removeItem(item.id)">{{item.remove}}</td> -->
       </tr>
+    </tbody>
+    
+  </table>
+  <table class="table table-bordered table-striped mb-0" id="tablecontent" *ngIf="isDetailTransactionInfo">
+    <thead>
+      <tr (click)="onDetailTableHeaderClick()">
+        <th *ngFor="let head of headerList" scope="col">{{head}} </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr  *ngFor="let item of itemList">
+        <th scope="row">{{item.srNum}}</th>
+        <td>{{item.itemName}}</td>
+        <td>{{item.quantity}}</td>
+        <td>{{item.rate}}</td>
+        <td>{{item.cost}}</td>
+        <!--<td (click)="removeItem(item.id)">{{item.remove}}</td> -->
+     </tr>
+
     </tbody>
     
   </table>

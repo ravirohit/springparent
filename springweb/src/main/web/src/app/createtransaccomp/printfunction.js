@@ -7,13 +7,15 @@ function printfunc(item,docheadstr,docfooter) {
   itemToPrint.push(docfooter[0]);
   itemToPrint.push(docfooter[1]);
 }
-function updateRecord(id, quantity, cost){
+function updateRecord(id, quantity, cost, totalSum){
   itemToPrint.forEach(item => {
     if(item.id == id){
       item.quantity = quantity;
       item.cost = cost;
     }
   });
+  item = itemToPrint[itemToPrint.length - 1];
+  item.cost = totalSum;  // updating the total sum cost;
 }
 function removeItemFromPrintList(id, docfooter){
     itemToPrint = itemToPrint.slice(0,itemToPrint.length - 2);

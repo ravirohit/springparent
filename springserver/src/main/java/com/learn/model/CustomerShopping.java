@@ -4,10 +4,10 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 
 @Entity
-public class ItemEntity {
-	
+public class CustomerShopping {
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 	int id;
@@ -15,18 +15,10 @@ public class ItemEntity {
 	String barcode;
 	String name;
 	int quantity;
-	Float rate;
+	float rate;
+	float cost;
 	
 	
-	public ItemEntity(){
-		
-	}
-	public ItemEntity(String barcode, String name, Float rate, int quantity){
-		this.barcode = barcode;
-		this.name = name;
-		this.rate = rate;
-		this.quantity = quantity;
-	}
 	public int getId() {
 		return id;
 	}
@@ -40,26 +32,31 @@ public class ItemEntity {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public Float getRate() {
-		return rate;
-	}
-	public void setRate(Float rate) {
-		this.rate = rate;
-	}
-	
-	
-	public String getBarcode() {
-		return barcode;
-	}
-	public void setBarcode(String barcode) {
-		this.barcode = barcode;
-	}
 	public int getQuantity() {
 		return quantity;
 	}
 	public void setQuantity(int quantity) {
 		this.quantity = quantity;
 	}
+	public float getRate() {
+		return rate;
+	}
+	public void setRate(float rate) {
+		this.rate = rate;
+	}
+	public float getCost() {
+		return cost;
+	}
+	public void setCost(float cost) {
+		this.cost = cost;
+	}
+	public String getBarcode() {
+		return barcode;
+	}
+	public void setBarCode(String barcode) {
+		this.barcode = barcode;
+	}
+	
 	
 	
 

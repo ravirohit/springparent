@@ -2,17 +2,18 @@ package com.learn.model;
 
 public class ItemEntryReq {
 
-	String barCode;
+	String barcode;
 	String name;
 	Float rate;
-	int inStock;
-	Boolean itemExistFlag;
+	int quantity;
+	Boolean itemExistFlag;  // if this item is entered using barcode or directly.
 	
-	public String getBarCode() {
-		return barCode;
+	
+	public String getBarcode() {
+		return barcode;
 	}
-	public void setBarCode(String barCode) {
-		this.barCode = barCode;
+	public void setBarcode(String barcode) {
+		this.barcode = barcode;
 	}
 	public String getName() {
 		return name;
@@ -32,11 +33,11 @@ public class ItemEntryReq {
 	public void setItemExistFlag(Boolean itemExistFlag) {
 		this.itemExistFlag = itemExistFlag;
 	}
-	public int getInStock() {
-		return inStock;
+	public int getQuantity() {
+		return quantity;
 	}
-	public void setInStock(int inStock) {
-		this.inStock = inStock;
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
 	}
 	
 

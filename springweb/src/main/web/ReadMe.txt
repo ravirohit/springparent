@@ -1,6 +1,6 @@
 command to install any plugin: npm install -g @angular/cli, npm install @angular/http
 create a angular app: ng new my-first-app
-build app: npm run build 
+build app: npm run run build 
 start the angular: npm start
 url to access: http://localhost:4200/   
 command to create compoent: ng g component <comp_name>
@@ -24,6 +24,7 @@ command to create compoent: ng g component <comp_name>
               -> it will be like build followed by deploying the angular application.
 -> ng serve --open and ng build: 
               Both commands ng build and ng serve will clear the output folder before they build the project.
+            -> ng serve --port 4401    
               
 ------------------- Note -----------------------------------
 -> Angular bootstrap proces consists of the two major stages:
@@ -87,7 +88,7 @@ Ans:  Please insert below code into your style.css which is located in your src 
        @import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
 Q) While accessing backend api, it was throwing error 403 because of CORS prblm.
 Ans: add below annotation on the resource api which need be access by other domain than where backend is deployed.
-     @CrossOrigin(origins = "*", allowedHeaders = "*")
+     @CrossOrigin(origins = "*", allowedHeaders = "*") // provided by spring mvc
 Q) code changes to implement autocomplete functionality.
 Ans: https://www.tutorialspoint.com/angular_material7/angular_material7_autocomplete
 Q) Difference between Constructor and ngOnInit
@@ -109,3 +110,10 @@ Ans: add js file in the angular.json file under "scripts".
 Q) what is the use of questionmark in  below expression angular?
       product?.price 
 Ans; above statement is equal to "product !== null ? product.price : null" ...
+
+Q) How to load data before rendering the component?                      VVI
+Ans: https://www.callibrity.com/blog/angular-2-route-resolves
+     https://www.techiediaries.com/angular-router-resolve/
+
+
+     difference between template driven form and reactive forms in angular 7

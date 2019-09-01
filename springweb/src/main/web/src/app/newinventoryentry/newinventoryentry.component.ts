@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit, AfterViewInit} from '@angular/core';
 import {FormControl} from '@angular/forms';
 import {Observable} from 'rxjs';
 import {map, startWith} from 'rxjs/operators';
@@ -17,11 +17,11 @@ export interface Item{
   templateUrl: './newinventoryentry.component.html',
   styleUrls: ['./newinventoryentry.component.css']
 })
-export class NewInventoryEntryComponent implements OnInit {
+export class NewInventoryEntryComponent implements OnInit, AfterViewInit  {
 
   myControl = new FormControl();
   
-  barCode: string;
+  barcode: string;
   rate: number;
   name: string;
   headerList:string[]=['Sr.','Item Bar Code','Item Name','Rate','Action'];
@@ -34,6 +34,9 @@ export class NewInventoryEntryComponent implements OnInit {
 
   constructor(private urlinfoservice: UrlinfoserviceService, private httpservice: HttpserviceService,
               private dataContainer:CommonDataContainerService){
+  }
+  ngAfterViewInit() {
+    document.getElementById("itembarcode").focus();
   }
   ngOnInit() {
     if(this.dataContainer.getMappedObjectIdToItem()){
@@ -52,44 +55,52 @@ export class NewInventoryEntryComponent implements OnInit {
       console.log("items stored in the inventory:",items);
       let itemMapToId= new Map();
       items.forEach(el => {
-        itemMapToId.set(el.barCode,el);
+        itemMapToId.set(el.barcode,el);
       });
       this.dataContainer.setMappedObjectIdToItem(itemMapToId);
     }
     
   }
-  onBarCodeEnter(){
-    let item = this.dataContainer.getItem(this.barCode);
-    if(item) {
-      this.name = item.name;
-      this.rate = item.rate;
-      this.isItemExist = true;
-    }
-    else{
-      this.isItemExist = false;
+  onBarCodeEnter(event){
+    if (event.key === "Enter") {
+      let item = this.dataContainer.getItem(this.barcode);
+      if(item) {   // in case we want to update the rate/name of added item, we need to call this.
+        this.name = item.name;
+        this.rate = item.rate;
+        this.isItemExist = true;
+      }
+      else{
+        this.isItemExist = false;
+      }
+      document.getElementById("itemName").focus();
     }
   }
   
   addItem(){
 
-    if((this.barCode == undefined)){
-      document.getElementById("newItemInput").focus();
+    if((this.barcode == undefined)){
+      document.getElementById("itembarcode").focus();
       return;
     }
-    let addedItem = this.itemBarKeyMapItem.get(this.barCode);
-    if(addedItem) {
-        return;   //as this item is already added it the table.. so ignore it
+    let addedItem = this.itemBarKeyMapItem.get(this.barcode);
+    if(addedItem) {  //as this item is already added it the table.. so ignore it
+      this.barcode=undefined;
+      this.name=undefined;
+      this.rate=undefined;
+      this.isItemExist = false;
+      document.getElementById("itembarcode").focus();
+        return;   
     }
     this.id = this.id + 1;
 
-    let item = {id:this.id,barCode:this.barCode,name:this.name,rate:this.rate,remove:'Remove',itemExistFlag:this.isItemExist};
-    this.itemBarKeyMapItem.set(this.barCode,item);
+    let item = {id:this.id,barcode:this.barcode,name:this.name,rate:this.rate,remove:'Remove',itemExistFlag:this.isItemExist};
+    this.itemBarKeyMapItem.set(this.barcode,item);
     this.itemList.push(item);
-    this.barCode=undefined;
+    this.barcode=undefined;
     this.name=undefined;
     this.rate=undefined;
     this.isItemExist = false;
-    document.getElementById("newItemInput").focus();
+    document.getElementById("itembarcode").focus();
     //document.getElementById("nameinput").focus();
 
   }
@@ -97,7 +108,7 @@ export class NewInventoryEntryComponent implements OnInit {
     let tempItem=[];
     for(let el of this.itemList){
       if(el.id == id){
-        this.itemBarKeyMapItem.delete(el.barCode);
+        this.itemBarKeyMapItem.delete(el.barcode);
       }else {
         tempItem.push(el);
       }
@@ -108,6 +119,7 @@ export class NewInventoryEntryComponent implements OnInit {
     this.itemList = tempItem;
     this.id = this.id - 1;
     tempItem = [];
+    document.getElementById("itembarcode").focus();
   }
   saveItem(){
     let itemListStr = JSON.stringify(this.itemList);
@@ -120,7 +132,7 @@ export class NewInventoryEntryComponent implements OnInit {
     let response = this.httpservice.postApiCall(this.urlinfoservice.ITEM_ENTRY_UPDATE_URL, itemListJson,this); 
     this.itemList = [];
     this.id = 0;
-    document.getElementById("newItemInput").focus();
+    document.getElementById("itembarcode").focus();
   }
   getItemInfolist(){
 

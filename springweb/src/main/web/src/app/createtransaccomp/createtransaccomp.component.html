@@ -14,11 +14,11 @@
       </mat-form-field>
     </form>  -->  
   <div class="wrapper divpos" id ="itemdiv">
-    <input class="input" placeholder="Enter Item barcode" type="text" id="itemBarcode" [(ngModel)]="itemBarcode" (blur)="onEnterBarcode()"/>
+    <input class="input" placeholder="Enter Item barcode" type="text" id="barcode" [(ngModel)]="barcode"  (keydown)="onEnterBarcode($event)" />
     <span class="underline"></span>
   </div>
   <div class="wrapper divpos" id ="quantitydiv">
-    <input class="input" placeholder="Enter quantity" type="number" id="quantity" [(ngModel)]="quantity" (blur)="onQuantityChange()"/>
+    <input class="input" placeholder="Enter quantity" type="number" id="quantity" [(ngModel)]="quantity"  [disabled]="disableFlag" (blur)="onQuantityChange()"/>
     <span class="underline"></span>
   </div>
   <div class="wrapper divpos" id ="rate">

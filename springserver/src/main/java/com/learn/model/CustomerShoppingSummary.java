@@ -1,13 +1,16 @@
 package com.learn.model;
 
 import java.util.Date;
+import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-
-import com.learn.util.DateUtil;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToMany;
 
 @Entity
 public class CustomerShoppingSummary {
@@ -16,7 +19,10 @@ public class CustomerShoppingSummary {
 	int id;
 	
 	String customerId;
-	Float shoppingSummary;
+	@OneToMany(cascade=CascadeType.ALL, fetch=FetchType.EAGER)
+	@JoinColumn(name= "customerShoppingSummary")
+	List<CustomerShopping> customerShoppingList;
+	Float totalShoppingAmount;
 	Date shoppingTime;
 	
 	public int getId() {
@@ -31,20 +37,22 @@ public class CustomerShoppingSummary {
 	public void setCustomerId(String customerId) {
 		this.customerId = customerId;
 	}
-	public Float getShoppingSummary() {
-		return shoppingSummary;
-	}
-	public void setShoppingSummary(Float shoppingSummary) {
-		this.shoppingSummary = shoppingSummary;
-	}
 	public Date getShoppingTime() {
 		return shoppingTime;
 	}
 	public void setShoppingTime(Date shoppingTime) {
 		this.shoppingTime = shoppingTime;
 	}
-	
-	
-	
-	
+	public Float getTotalShoppingAmount() {
+		return totalShoppingAmount;
+	}
+	public void setTotalShoppingAmount(Float totalShoppingAmount) {
+		this.totalShoppingAmount = totalShoppingAmount;
+	}
+	public List<CustomerShopping> getCustomerShoppingList() {
+		return customerShoppingList;
+	}
+	public void setCustomerShoppingList(List<CustomerShopping> customerShoppingList) {
+		this.customerShoppingList = customerShoppingList;
+	}
 }
