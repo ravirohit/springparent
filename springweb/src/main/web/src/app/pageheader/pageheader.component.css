@@ -1,0 +1,10 @@
+.divpos{
+    float: left;
+    margin-left: 15%;
+    padding-top: 1%;
+}
+#logout{
+    margin-left: 520%;
+    width: 100px;
+    background-color: lightblue;
+}

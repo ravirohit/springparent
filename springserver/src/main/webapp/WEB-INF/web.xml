@@ -5,7 +5,7 @@
  
 http://java.sun.com/xml/ns/j2ee/web-app_3_0.xsd">  <display-name>Archetype Created Web Application</display-name>
   <welcome-file-list>  
-   <welcome-file>userhomepage.html</welcome-file>
+   <welcome-file>index.html</welcome-file>
   </welcome-file-list>  
   <servlet>
     <servlet-name>uihomepage</servlet-name>

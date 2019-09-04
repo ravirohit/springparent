@@ -1,0 +1,14 @@
+.commonNav{
+    height: 40px;
+    border: 1px solid lightslategray;
+   /* background-color: lightslategray; */
+    display: table;
+}
+a{
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 17px;
+    display: table-cell;
+    vertical-align: middle;
+}

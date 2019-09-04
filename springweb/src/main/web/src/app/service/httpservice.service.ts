@@ -1,7 +1,8 @@
-import { Injectable } from '@angular/core';
+import { Injectable, Inject } from '@angular/core';
 import { HttpClient, HttpHeaders, HttpErrorResponse } from '@angular/common/http';
 import { Observable, of } from 'rxjs';
 import { map} from 'rxjs/operators';
+import { DOCUMENT } from '@angular/common';
 
 
 @Injectable({
@@ -11,7 +12,9 @@ export class HttpserviceService {
   endpoint = 'http://localhost:3000/api/v1/';
   httpOptions = {};
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient, @Inject(DOCUMENT) private document: Document) { 
+    console.log("document obj: ",document);
+  }
 
   /* getApiCall(url:string){
     this.http.get(url)
@@ -34,7 +37,10 @@ export class HttpserviceService {
           
       },
       error  => {
-      console.log("Error", error);
+      console.log("Error", error); // TODO ... not to implement in error code.. but somewhere else...
+      if((error.status == 200)&&(error.url != null)&&(error.url.indexOf("customLogin.html") != -1)) {
+        this.document.location.href = error.url;
+      }
       });
   }
   private extractData(res: Response) {

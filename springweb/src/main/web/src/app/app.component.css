@@ -1,23 +1,32 @@
+body{
+    background-color: #2a3d55;
+}
 .layout{
 	float:left;
 }
 #t-side {
-  height:10vh;
+  height:8.5vh;
   background:lightgoldenrodyellow;
 }
 #l-side {
 	width:15%;
-	height: 88vh;
-	background: rgb(196, 233, 248);
+	height: 89vh;
+	background-color: #2a3d55;
 	
 }
 #m-side {
 	width:64%;
-	height: 88vh;
-	background: rgb(245, 228, 243);
+	height: 89vh;
+	/*background: rgb(245, 228, 243); */
+	border: 2px solid lightslategray;
+    background-color: lightslategray;
+    border-radius: 25px;
 }
 #r-side {
-	width:20%;
-	height: 88vh;
-	background: rgb(232, 247, 238);	
+	width: 14%;
+	height: 89vh;
+	border: 2px solid lightslategray;
+    background-color: #001d38;
+	border-radius: 25px;
+	padding-top: 2%;
 }

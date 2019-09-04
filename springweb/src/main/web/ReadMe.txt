@@ -7,6 +7,7 @@ command to create compoent: ng g component <comp_name>
                             ng g service sharedInfoContainer
                             ng generate directive highlight
 -------------- Reading Link ----------
+-> https://angular.io/guide/singleton-services      VVI
 -> https://printjs.crabbly.com/
 -> https://www.dynamsoft.com/Products/barcode-recognition-javascript.aspx
    https://stackoverflow.com/questions/10879808/how-hid-devices-work-when-programming
@@ -114,6 +115,32 @@ Ans; above statement is equal to "product !== null ? product.price : null" ...
 Q) How to load data before rendering the component?                      VVI
 Ans: https://www.callibrity.com/blog/angular-2-route-resolves
      https://www.techiediaries.com/angular-router-resolve/
+Q) How to redirect to an external URL in Angular2?
+Ans: this.document.location.href = url;  // redirect the page to the URL which is not part of the angular single page app.
+   ... if we will try to redirect the page from backend.. then http response will be executed in the error code block in the angular
+   .. and from here we can redirect the page whereever we want.
+Q) How to create Single serverice in Angular?
+Ans: A singleton service is a service for which only one instance exists in an app.
+   There are two ways to make a service a singleton in Angular:
+  1. Declare root for the value of the @Injectable() providedIn property.
+     @Injectable({
+        providedIn: 'root',
+      })
+  2. Include the service in the AppModule or in a module that is only imported by the AppModule.
+    @NgModule({
+      ...
+      providers: [UserService],
+      ...
+    })
+    NOTE: If this NgModule were the root AppModule, the UserService would be a singleton and available throughout the app. 
+Q) How to create http interceptor?
+Ans: https://medium.com/better-programming/angular-http-interceptors-what-are-they-and-how-to-use-them-52e060321088
+
+Q) What is use of @NgModule decorator? can we have this decorator multiple times in one app?
+Ans: 
+
+
+
 
 
      difference between template driven form and reactive forms in angular 7

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit } from '@angular/core';
 import {FormControl} from '@angular/forms';
 import {Observable} from 'rxjs';
 import {map, startWith} from 'rxjs/operators';
@@ -16,7 +16,7 @@ declare function clearRecord():any;
   templateUrl: './transactionhistory.component.html',
   styleUrls: ['./transactionhistory.component.css']
 })
-export class TransactionhistoryComponent implements OnInit {
+export class TransactionhistoryComponent implements OnInit, AfterViewInit  {
 
   startDate;
   endDate;
@@ -26,13 +26,19 @@ export class TransactionhistoryComponent implements OnInit {
   isDetailTransactionInfo=false;
   transactionSummary=[];
 
-  constructor(private urlinfoservice: UrlinfoserviceService, private httpservice: HttpserviceService, private util:CommonutilService) { }
-  ngOnInit() {
+  constructor(private urlinfoservice: UrlinfoserviceService, private httpservice: HttpserviceService, 
+              private util:CommonutilService) { 
+            
+  }
+  ngAfterViewInit() {
     clearRecord();
     let url = this.urlinfoservice.CUSTOMER_SHOPPING_SUMMARY_GET_URL;
     let sdate= this.util.getDateStringToSendBackEnd(null); // today date;
     url += "?sdate="+sdate;
     this.httpservice.getApiCall(url,this);
+  }
+  ngOnInit() {
+    
   }
   callBackOnApi(items) {
     let srNum = 1;

@@ -1,12 +1,14 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div id="t-side">
-  <app-pageheader></app-pageheader>
-</div>
-<div id="l-side" class="layout"></div>
-<div id="m-side" class="layout">
-    <router-outlet></router-outlet>
-    <!-- <app-maincontent></app-maincontent> -->
-</div>
-<div id="r-side" class="layout">
-  <app-sidenavbar></app-sidenavbar>
+<div id="container">
+  <div id="t-side">
+    <app-pageheader></app-pageheader>
+  </div>
+  <div id="l-side" class="layout"></div>
+  <div id="m-side" class="layout">
+      <router-outlet></router-outlet>
+      <!-- <app-maincontent></app-maincontent> -->
+  </div>
+  <div id="r-side" class="layout">
+    <app-sidenavbar></app-sidenavbar>
+  </div>
 </div>

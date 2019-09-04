@@ -1,34 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
+ <link rel="stylesheet" type="text/css" href="customLogin.css">
+ 
 <meta charset="ISO-8859-1">
 <title>Login Page</title>
 </head>
 <body>
-<h4> ------------- Register User ----------------</h4>
-  <form action="api/register" method="post">   <!-- for submit form data in case of GET method.. all data will go as query param-->
- 	 <input type="text" id="username" name="uname" placeholder="Enter username"/><br/><br/>
-	 <input type="password" id="password" name="pwd" placeholder="Enter password"><br/><br/>
-	 <select name="role">
-		  <option value="ROLE_USER">User</option>
-		  <option value="ROLE_DBA">Dba</option>
-		  <option value="ROLE_ADMIN">Admin</option>
-	  </select>
-	 
-	 <!-- <input type="hidden" name="_csrf"
-			value="0f8a587e-7930-46ad-bfd5-fda13c0b98d1" /> -->
-	 <button type="submit" class="btn">Register User</button> 
-  </form>
- <br/><br/>
-<h3>------------- Login User -----------------</h3>
-<form action="api/login" method="post">      <!-- for submit form data in case of POST method.. all data will go as request payload-->
-	<input type="text" id="username" name="uname" placeholder="Enter username"/><br/><br/>
-	<input type="password" id="password" name="pwd" placeholder="Enter password"><br/><br/>
-	 <!-- <input type="hidden" name="_csrf"
-			value="0f8a587e-7930-46ad-bfd5-fda13c0b98d1" /> -->
-	 <button type="submit" class="btn">Log in</button> 
-</form>
-
-
+<div id="divBlock">
+  <div id="divContent">
+	<h3>---------- User Login ----------</h3>
+	<form action="api/login" method="post">      <!-- for submit form data in case of POST method.. all data will go as request payload-->
+		<input class="inputalign" type="text" id="username" name="uname" placeholder="Enter username"/><br/><br/>
+		<input class="inputalign" type="password" id="password" name="pwd" placeholder="Enter password"><br/><br/>
+		 <!-- <input type="hidden" name="_csrf"
+				value="0f8a587e-7930-46ad-bfd5-fda13c0b98d1" /> -->
+		 <button class="inputalign btn" type="submit">Log in</button> 
+	</form>
+	<br/>
+	<h3>---------- Register User ----------</h3>
+	  <form action="api/register" method="post">   <!-- for submit form data in case of GET method.. all data will go as query param-->
+	 	 <input class="inputalign" type="text" id="username" name="uname" placeholder="Enter username"/><br/><br/>
+		 <input class="inputalign" type="password" id="password" name="pwd" placeholder="Enter password"><br/><br/>
+		 <select class="inputalign"  name="role">
+			  <option value="ROLE_USER">User</option>
+			  <option value="ROLE_DBA">Dba</option>
+			  <option value="ROLE_ADMIN">Admin</option>
+		  </select><br/><br/>
+		 
+		 <!-- <input type="hidden" name="_csrf"
+				value="0f8a587e-7930-46ad-bfd5-fda13c0b98d1" /> -->
+		 <button class="inputalign btn" type="submit">Register User</button> 
+	  </form>
+	</div>
+</div>
 </body>
 </html>

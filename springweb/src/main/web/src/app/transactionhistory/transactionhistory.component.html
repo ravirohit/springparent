@@ -1,39 +1,22 @@
 <div id="pageHeading">
-  <h5>Transaction History</h5>
+  <h5 id="pageHeader">Transaction History</h5>
 </div>
-<div id = "tableLabelId">
- <!-- <form class="example-form divpos">
-    <mat-form-field class="example-full-width">
-      <input id="nameinput"type="text" placeholder="Enter item name" aria-label="Assignee"  matInput [formControl]="myControl" [matAutocomplete]="auto"/>
-      <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn">
-        <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
-          {{option.name}}
-        </mat-option>
-      </mat-autocomplete>
-    </mat-form-field>
-  </form>   
-  <div class="wrapper divpos" id ="rate">
-    <input class="input" placeholder="Enter rate" type="text" id="newItemInput" [(ngModel)]="rate">
-    <span class="underline"></span>
-  </div>
-  <button type="button" class="btn btn-primary divpos" id="addButton" (click)="addItem()">Add</button> -->  
+<div id = "tableLabelId">  
   <div>
-    <div class="datepickerdiv">
+    <div class="datepickerdiv" id="startDateLabel">
       <h6>Start Date:</h6>
     </div>
-    <div class="datepickerdiv">
-      <input [(ngModel)]="startDate" type="date" id="startdatepicker" width="276"/>
+    <div class="datepickerdiv" id="startDateDiv">
+      <input [(ngModel)]="startDate" type="date" id="startdatepicker"/>
     </div>
-    <div class="datepickerdiv">
+    <div class="datepickerdiv" id="endDateLabel">
       <h6>End Date:</h6>
     </div>
-    <div class="datepickerdiv">
-      <input [(ngModel)]="endDate"  type="date" id="enddatepicker" width="276"/>
+    <div class="datepickerdiv" id="endDateDiv">
+      <input [(ngModel)]="endDate"  type="date" id="enddatepicker"/>
     </div>
-    <div  class="datepickerdiv">
-      <!-- <button printSectionId="print-section" printTitle="Invoice Details"   ngxPrint id="printdiv" type="button" class="btn btn-primary" (click)="printItem()">Print</button> --> 
-      <!--<button printSectionId="print-section" printTitle="Invoice Details"  id="printdiv" type="button" class="btn btn-primary" (click)="printItem()">New</button>  -->
-      <button class="btn btn-primary" id="printdiv" type="button" (click)="fetchTransactionHistory()">
+    <div  class="datepickerdiv" id="fetchBtnDiv">
+      <button class="btn btn-primary" id="fetchButton" type="button" (click)="fetchTransactionHistory()">
         Fetch
       </button>
     </div>
@@ -52,7 +35,6 @@
               <td>{{item.customerId}}</td>
               <td>{{item.dateToDisplay}}</td>
               <td>{{item.totalShoppingAmount}}</td>
-              <!--<td (click)="removeItem(item.id)">{{item.remove}}</td> -->
       </tr>
     </tbody>
     
@@ -70,7 +52,6 @@
         <td>{{item.quantity}}</td>
         <td>{{item.rate}}</td>
         <td>{{item.cost}}</td>
-        <!--<td (click)="removeItem(item.id)">{{item.remove}}</td> -->
      </tr>
 
     </tbody>

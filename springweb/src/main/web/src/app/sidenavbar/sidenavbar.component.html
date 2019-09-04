@@ -1,8 +1,18 @@
 <nav class="nav flex-column">
-    <a class="nav-link" href="#" routerLink = "createtransaction">Sell Product</a>
-    <a class="nav-link active" routerLink = "transactionhistory">Transaction Record(Sell)</a>
-    <a class="nav-link active" routerLink = "itementryininventory">Item Entry in Inventory</a>
-    <a class="nav-link active" routerLink = "createinventory">Create Inventory</a>
-    <a class="nav-link active" routerLink = "learningcomp">LearnComponent</a>
+  <div class="commonNav" id="createNav">
+    <a class="navtab" id="createLink" routerLink = "createtransaction" (click)="onNavBarClick($event)">Sell Product</a>
+  </div>
+  <div class="commonNav" id="transactionNav">
+    <a class="navtab" id="transactionLink" routerLink = "transactionhistory" (click)="onNavBarClick($event)">Transaction Record(Sell)</a>
+  </div>
+  <div class="commonNav" id="itemEntryNav">
+    <a class="navtab" id="itemEntryLink" routerLink = "itementryininventory" (click)="onNavBarClick($event)">Item Entry in Inventory</a>
+  </div>
+  <div class="commonNav" id="createInventoryNav">
+    <a class="navtab" id="createInventory" routerLink = "createinventory" (click)="onNavBarClick($event)">Create Inventory</a>
+  </div>
+  <div class="commonNav" id="learningNav">
+    <a class="navtab" id="learnCompLink" routerLink = "learningcomp" (click)="onNavBarClick($event)">LearnComponent</a>
+  </div>
   </nav>
 
