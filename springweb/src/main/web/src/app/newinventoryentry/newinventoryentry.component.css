@@ -20,48 +20,35 @@
 #rate{
   left:100px;
 }
-.wrapper {
-    border-radius: 2px;
-    box-sizing: border-box;
-    width: 200px;
-  }
-  
-  .input {
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid grey;
-    color: #555;
-    box-sizing: border-box;
-    left: 30%;
-    position: relative;
-    width: 200px;
-    margin-top: 37px;
-   
-  }  
-  #itembarcode:focus {
-    outline: none;  
-    border-bottom: 2px solid BLUE;
-  }
-.underline {
-    background-color: dodgerblue;
-    display: inline-block;
-    height: 2px;
-    left: 50px;
-    margin-top: -4px;
-    position: absolute;
-    top: 185px;
-    -webkit-transform: scale(0, 1);
-    transform: scale(0, 1);
-    -webkit-transition: all 0.5s linear;
-    transition: all 0.5s linear;
-    width: 202px;
-  }
-
+.input {
+  box-sizing: border-box;
+  left: 30%;
+  position: relative;
+  width: 200px;
+  margin-top: 37px; 
+  background: white;
+  border: 1.5px solid #db7f7f;
+  border-radius: 5px;
+  height: 40px;
+  padding-left: 5px;
+}  
+#itembarcode:focus {
+  outline: none;  
+  background: lightgoldenrodyellow;
+}
+#itemName:focus {
+  outline: none;  
+  background: lightgoldenrodyellow;
+}
+#rate:focus {
+  outline: none;  
+  background: lightgoldenrodyellow;
+}
 #addButton {
     background:lightgray;
     width:100px;
-    margin-top: 30px;
     margin-left: 180px;
+    margin-top: 38px;
 }
 #tablecontent {
     background: lightgray;

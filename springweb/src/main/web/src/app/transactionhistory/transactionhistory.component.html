@@ -62,9 +62,15 @@
   <div id="totalSumDiv" class="printTotalCost" *ngIf="totalTransaction > 0">
     <span class="badge" id = "totalSumLavel">Total Transaction: {{totalTransaction}}</span>
   </div>
- <div  class="printTotalCost" *ngIf="totalTransaction > 0">
+ <div  class="printTotalCost" *ngIf="(totalTransaction > 0) && (!isDetailTransactionInfo)">
     <button class="btn btn-primary" id="printdiv" type="button" onclick="printJS({printable: itemToPrint
-  , properties: ['id','customerId', 'shoppingAmount','dateTime'], type: 'json', header:docheading})" (click)="printItem()">
+  , properties: ['srNum','customerId', 'dateToDisplay','totalShoppingAmount'], type: 'json', header:docheading})" (click)="printItem()">
+      Print
+   </button>
+  </div> 
+  <div  class="printTotalCost" *ngIf="(totalTransaction > 0) && (isDetailTransactionInfo)">
+    <button class="btn btn-primary" id="printdiv" type="button" onclick="printJS({printable: itemToPrint
+  , properties: ['srNum','itemName', 'quantity','rate','cost'], type: 'json', header:docheading})" (click)="printItem()">
       Print
    </button>
   </div> 

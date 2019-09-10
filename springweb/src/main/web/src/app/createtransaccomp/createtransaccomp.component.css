@@ -4,7 +4,10 @@
   width: 35%;
   
 }
-
+#customerID:focus {
+  outline: none;  
+  background: lightgoldenrodyellow;
+}
 #itemInfoDiv {
   margin-top: -1%;
 }
@@ -12,13 +15,25 @@
   margin-left: 16%;
   width: 100%;
 }
+#barcode:focus {
+  outline: none;  
+  background: lightgoldenrodyellow;
+}
 #quantity{
   margin-left: 70%;
   width: 110px;
 }
+#quantity:focus {
+  outline: none;  
+  background: lightgoldenrodyellow;
+}
 #rate{
   margin-left: 12%;
   width: 100px;
+}
+#rate:focus {
+  outline: none;  
+  background: lightgoldenrodyellow;
 }
 
 .divpos {
@@ -28,9 +43,6 @@
    
 input {
   background-color: transparent;
-  border: none;
-  border-bottom: 1px solid grey;
-  color: #555;
   box-sizing: border-box;
   position: relative;
   margin-top: 11px;

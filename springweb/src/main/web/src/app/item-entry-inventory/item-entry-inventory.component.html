@@ -2,16 +2,9 @@
 <div id="pageHeading">
   <h5>New purchased Item entry</h5>
 </div>
-<div class="wrapper divpos">
-  <input class="input" placeholder="Enter item name" type="text" id="itembarcode" [(ngModel)]="itembarcode" (keydown)="onItemEntry($event)">
-  <span class="underline"></span>
+<div class="divpos">
+  <input class="input" placeholder="Item Barcode" type="text" id="itembarcode" [(ngModel)]="itembarcode" (keydown)="onItemEntry($event)">
 </div>
-  <!-- <div class="wrapper divpos" id ="ratediv">
-    <input class="input" placeholder="Enter rate" type="text" id="rate" [(ngModel)]="rate">
-    <span class="underline"></span>
-  </div> --> 
-  <!-- <button type="button" class="btn btn-primary product-entry divpos" id="addButton" (click)="addItem()">Add</button>  -->
-
   <div class="table-wrapper-scroll-y my-custom-scrollbar">
       <table class="table table-bordered table-striped mb-0" id="tablecontent">
         <thead>

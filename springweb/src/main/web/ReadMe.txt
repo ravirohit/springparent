@@ -137,7 +137,7 @@ Q) How to create http interceptor?
 Ans: https://medium.com/better-programming/angular-http-interceptors-what-are-they-and-how-to-use-them-52e060321088
 
 Q) What is use of @NgModule decorator? can we have this decorator multiple times in one app?
-Ans: 
+Ans: https://www.sitepoint.com/angular-ngmodules/
 
 
 

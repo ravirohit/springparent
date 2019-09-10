@@ -15,6 +15,11 @@
   margin-top: -0.5%;
   
 }
+#startdatepicker:focus {
+  outline: none;  
+  background: lightgoldenrodyellow;
+}
+
 #endDateLabel{
   margin-left: 3%;
   color: white;
@@ -23,6 +28,10 @@
   margin-left: 3%;
   margin-top: -0.5%;
 
+}
+#enddatepicker:focus {
+  outline: none;  
+  background: lightgoldenrodyellow;
 }
 #fetchButton{
   width: 100px;

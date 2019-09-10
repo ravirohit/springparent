@@ -1,27 +1,13 @@
-<div class="wrapper divpos" id ="barcodediv">
+<div class="divpos" id ="barcodediv">
   <input class="input" placeholder="Enter Bar Code" type="text" id="itembarcode" [(ngModel)]="barcode" (keydown)="onBarCodeEnter($event)">
-  <span class="underline"></span>
 </div>
-<div class="wrapper divpos" id ="namediv">
+<div class="divpos" id ="namediv">
     <input class="input" placeholder="Enter Item Name" type="text" id="itemName" [(ngModel)]="name">
-  <span class="underline"></span>
 </div>
 
-<div class="wrapper divpos" id ="ratediv">
+<div class="divpos" id ="ratediv">
     <input class="input" placeholder="Enter rate" type="text" id="rate" [(ngModel)]="rate">  
-    <span class="underline"></span>
-  </div>
-
-<!-- <form class="example-form divpos">
-    <mat-form-field class="example-full-width">
-      <input id="olditeminput"type="text" placeholder="Enter old item name" aria-label="Assignee"  matInput [formControl]="myControl" [matAutocomplete]="auto" (ngModelChange)="onItemChange()"/>
-      <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn">
-        <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
-          {{option.name}}
-        </mat-option>
-      </mat-autocomplete>
-    </mat-form-field>
-  </form>   -->
+</div>
 
 <button type="button" class="btn btn-primary product-entry divpos" id="addButton" (click)="addItem()">Add</button>  
 <div class="table-wrapper-scroll-y my-custom-scrollbar">

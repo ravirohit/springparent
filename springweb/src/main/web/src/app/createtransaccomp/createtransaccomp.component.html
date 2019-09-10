@@ -2,21 +2,11 @@
   <input class="input" placeholder="Customer Id" type="text" id="customerID" [(ngModel)]="customerID"/>
 </div>
 <div id="itemInfoDiv">
-    <!-- <form class="example-form divpos">
-      <mat-form-field class="example-full-width">
-        <input value='' id="nameinput"type="text" placeholder="Enter item name" aria-label="Assignee"  matInput [formControl]="myControl" [matAutocomplete]="auto" (ngModelChange)="onItemChange()"/>
-        <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn">
-          <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
-            {{option.name}}
-          </mat-option>
-        </mat-autocomplete>
-      </mat-form-field>
-    </form>  -->  
   <div class="divpos" id ="itemdiv">
-    <input class="input" placeholder="Item barcode" type="text" id="barcode" [(ngModel)]="barcode"  (keydown)="onEnterBarcode($event)" />
+    <input class="input" placeholder="Item Barcode" type="text" id="barcode" [(ngModel)]="barcode"  (keydown)="onEnterBarcode($event)" />
   </div>
   <div class="divpos" id ="quantitydiv">
-    <input class="input" placeholder="Quantity" type="number" id="quantity" [(ngModel)]="quantity"  [disabled]="disableFlag" (blur)="onQuantityChange()"/>
+    <input class="input" placeholder="Quantity" type="number" id="quantity" [(ngModel)]="quantity"  [disabled]="disableFlag" (blur)="onQuantityChange()" />
   </div>
   <div class="divpos" id ="rate">
     <input class="input" placeholder="Rate" type="number" id="rate" [(ngModel)]="rate" [disabled]="disableFlag" (blur)="onEnterRate()"/>

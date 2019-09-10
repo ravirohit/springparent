@@ -77,7 +77,7 @@ export class CreatetransaccompComponent implements OnInit, AfterViewInit {
       let item = this.dataContainer.getItem(this.barcode);
       if(item == null){
         this.disableFlag = false;
-        document.getElementById("quantity").focus();
+        setTimeout(function(){ document.getElementById("quantity").focus(); }, 50);  // to change the focus after re-render
         return;
       }else{
         this.disableFlag = true;
